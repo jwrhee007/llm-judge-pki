@@ -1,0 +1,273 @@
+================================================================================
+Q: A ewer is a large?
+Gold: Jug
+A: weak-knows (2/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (O):
+    A ewer is a large, typically ornamental pitcher or jug that is used for holding and pouring liquids, often water or wine. Ewers are commonly characterized by a spout and a handle, and they have been used throughout history in various cultures for both practical and decorative purposes.
+
+  [A] Trial 1 (O):
+    A ewer is a large, typically ornamental pitcher or jug, often used for holding and pouring liquids like water or wine. Historically, ewers were commonly used in dining settings and were often made of materials such as ceramic, glass, or metal. They can be quite decorative and are sometimes used in formal table settings or as decorative pieces in homes.
+
+  [A] Trial 2 (X):
+    A ewer is a large, often ornate container used for holding and pouring liquids, typically water or wine. It usually has a handle and a spout, making it easy to serve beverages. Ewers are often made of materials like metal, ceramic, or glass and can be decorative as well as functional. They have been used throughout history in various cultures for both practical and ceremonial purposes.
+
+
+  [B] Trial 0 (X):
+    A ewer is a large, typically decorative vessel used for holding and pouring liquids, often water or wine. It usually has a handle and a spout, making it easy to serve drinks. Ewers are commonly found in historical contexts and are often made of materials like ceramic, metal, or glass.
+
+  [B] Trial 1 (X):
+    A ewer is a large vase or pitcher, typically used for holding water or other liquids. It often has a spout and a handle, making it suitable for pouring. Ewers are commonly used in dining settings or as decorative pieces.
+
+  [B] Trial 2 (O):
+    A ewer is a large, typically ornamental pitcher or jug used for holding and pouring liquids, often water or wine. It usually features a handle and a spout, making it suitable for serving at the table.
+
+
+================================================================================
+Q: What used to be bought at Spitalfields market apart from fruit and vegetables
+Gold: Flowers
+A: strong-knows (3/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    Spitalfields Market, located in East London, has a rich history dating back to the 17th century. Originally, it was primarily known for selling fresh produce, but over the years, it evolved to include a variety of other goods. Apart from fruits and vegetables, Spitalfields Market has historically been a place where one could buy:
+
+1. **Meat and Fish**: Vendors sold fresh meat, poultry, and fish, catering to the local population and traders.
+
+2. **Textiles and Clothing**: In the 19th and early 20th centuries, the market became known for its textiles, including fabric and clothing items, reflecting the area's history in the garment trade.
+
+3. **Flowers and Plants**: Floral vendors often sold fresh flowers and plants, adding to the market's vibrant atmosphere.
+
+4. **Household Goods**: Various household items, such as kitchenware, furniture, and home decor, were commonly found at the market.
+
+5. **Crafts and Artisanal Products**: In more recent times, Spitalfields Market has become known for handmade crafts, artisanal foods, and unique goods from local vendors.
+
+6. **Antiques and Vintage Items**: The market has also hosted stalls selling antiques, vintage clothing,
+
+  [A] Trial 1 (O):
+    Spitalfields Market, located in East London, has a rich history that dates back to the 17th century. While it is well-known for its fruit and vegetable stalls, the market has also been a hub for various other goods over the years. Apart from fresh produce, visitors to Spitalfields Market could historically find:
+
+1. **Fish and Meat**: Fresh fish, poultry, and other meats were commonly sold, catering to the local population's needs.
+
+2. **Flowers and Plants**: Florists often set up stalls at the market, offering a variety of flowers, plants, and gardening supplies.
+
+3. **Textiles and Fabrics**: The market has been known for selling textiles, including fabrics for clothing and household items.
+
+4. **Clothing and Fashion**: Over time, particularly in the 20th century, Spitalfields became a place for vendors selling clothing, accessories, and later, vintage and designer items.
+
+5. **Crafts and Handmade Goods**: Artisans and craftspeople have showcased handmade items, including pottery, jewelry, and crafts.
+
+6. **Household Goods**: Items such as kitchenware, furniture, and home decor have also been part of the market's offerings.
+
+7. **Antiques and Collect
+
+  [A] Trial 2 (O):
+    Spitalfields Market, located in East London, has a rich history dating back to the 17th century. Apart from fruit and vegetables, the market has traditionally been known for a variety of goods including:
+
+1. **Meat and Fish**: Fresh meat and seafood were commonly sold at the market, catering to local butchers and restaurants.
+   
+2. **Textiles and Clothing**: In the past, Spitalfields was a center for the silk industry, and the market often featured textiles and garments, particularly silk products.
+
+3. **Household Goods**: Various household items, including kitchenware, furniture, and other domestic goods, were also available.
+
+4. **Flowers and Plants**: Floral vendors often set up stalls, selling fresh flowers and plants.
+
+5. **Baked Goods**: Bakeries would sell bread, pastries, and other baked items.
+
+6. **Crafts and Handmade Goods**: Over the years, the market has evolved to include artisans selling handmade crafts, jewelry, and artworks.
+
+7. **Antiques and Vintage Items**: As the market has transitioned, it has also become a place for antiques and vintage goods.
+
+Today, Spitalfields Market is known for its food stalls, independent boutiques, and artisan vendors, reflecting
+
+
+  [B] Trial 0 (X):
+    Apart from fruit and vegetables, Spitalfields Market historically sold a variety of goods including clothing, textiles, and household items. It was known for its vibrant atmosphere and diverse offerings, catering to the needs of local residents and traders. Over time, it also became a hub for antiques, crafts, and artisanal products, reflecting the changing trends and tastes of the area.
+
+  [B] Trial 1 (X):
+    Apart from fruit and vegetables, Spitalfields Market historically offered a variety of goods including clothing, textiles, and household items. In its earlier days, it was also a hub for wholesale goods and later became known for antiques, crafts, and artisan products. Over time, it evolved into a popular destination for food, fashion, and unique artisanal offerings.
+
+  [B] Trial 2 (X):
+    Apart from fruit and vegetables, Spitalfields Market used to sell a variety of goods including textiles, clothing, and household items. Historically, it was known for its vibrant trading environment where merchants offered everything from fish and meat to antiques and crafts, reflecting the diverse needs of the local community. Over time, it has evolved into a venue for food, fashion, and arts, attracting a wide range of vendors and shoppers.
+
+
+================================================================================
+Q: What nationality was Aristotle Onassis originally
+Gold: Turkish
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which is now İzmir, Turkey. His family was of Greek descent, and he later became a prominent shipping magnate and businessman.
+
+  [A] Trial 1 (O):
+    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which is now İzmir in Turkey. After the Greco-Turkish War and the subsequent population exchange, his family moved to Greece, where he later became a prominent shipping magnate.
+
+  [A] Trial 2 (X):
+    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which was then part of the Ottoman Empire and is now Izmir, Turkey. Onassis later emigrated to Argentina, where he became a successful shipping magnate.
+
+
+  [B] Trial 0 (X):
+    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which is now part of Turkey but was then a part of the Ottoman Empire and had a significant Greek population.
+
+  [B] Trial 1 (X):
+    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which was then part of the Ottoman Empire and is now Izmir, Turkey. He later moved to Argentina, where he became a prominent shipping magnate.
+
+  [B] Trial 2 (X):
+    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which was then part of the Ottoman Empire and is now İzmir, Turkey. He later emigrated to Argentina, where he became a prominent shipping magnate.
+
+
+================================================================================
+Q: How many US Presidents have been impeached?
+Gold: Two
+A: strong-knows (3/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (O):
+    As of October 2023, three U.S. Presidents have been impeached by the House of Representatives: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump, who was impeached twice, first in 2019 and again in 2021. However, none of these impeachments resulted in removal from office, as all were acquitted by the Senate.
+
+  [A] Trial 1 (O):
+    As of October 2023, three U.S. Presidents have been impeached by the House of Representatives:
+
+1. **Andrew Johnson** in 1868
+2. **Bill Clinton** in 1998
+3. **Donald Trump**, who was impeached twice, first in 2019 and then again in 2021.
+
+None of these presidents were removed from office as a result of impeachment; they were either acquitted by the Senate or did not face a Senate trial.
+
+  [A] Trial 2 (O):
+    As of October 2023, three U.S. Presidents have been impeached: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump, who was impeached twice, first in 2019 and again in 2021. However, none of these impeachments resulted in removal from office.
+
+
+  [B] Trial 0 (O):
+    Three U.S. Presidents have been impeached: Andrew Johnson, Bill Clinton, and Donald Trump. Andrew Johnson was impeached in 1868, Bill Clinton in 1998, and Donald Trump was impeached twice, first in 2019 and again in 2021.
+
+  [B] Trial 1 (X):
+    Three U.S. Presidents have been impeached: Andrew Johnson, Bill Clinton, and Donald Trump.
+
+  [B] Trial 2 (X):
+    Three U.S. Presidents have been impeached: Andrew Johnson, Bill Clinton, and Donald Trump.
+
+
+================================================================================
+Q: When free school milk was given out what size were the bottles?
+Gold: Third of a pint
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    In the UK, free school milk was typically provided in small glass bottles that contained about a third of a pint, which is approximately 189 milliliters. This practice was part of a government initiative to provide children with nutritious milk during school hours, particularly in the post-war period. The scheme was phased out in the 1970s, but the iconic small bottles are often remembered fondly by those who experienced it.
+
+  [A] Trial 1 (O):
+    Free school milk in the UK was typically provided in 1/3 pint bottles, which is approximately 190 milliliters. This program was introduced in the 1940s and continued until it was phased out in the 1970s, though it remained available in some areas and for certain age groups for a longer period.
+
+  [A] Trial 2 (O):
+    Free school milk in the UK was typically provided in 1/3 pint bottles, which is approximately 190 milliliters. This initiative was introduced in the 1940s and continued for several decades before it was phased out in the 1970s.
+
+
+  [B] Trial 0 (X):
+    Free school milk was typically provided in pint-sized bottles, which is equivalent to approximately 568 milliliters.
+
+  [B] Trial 1 (O):
+    Free school milk was typically provided in one-third pint (approximately 189 milliliters) bottles. This size was standard in the UK during the time when the program was in place.
+
+  [B] Trial 2 (O):
+    Free school milk was typically provided in 1/3 pint bottles, which is approximately 190 milliliters. This size was standard in many countries, including the UK, during the time when free school milk programs were in place.
+
+
+================================================================================
+Q: In a standard deck of cards, how many Kings have a moustache?
+Gold: Three
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    In a standard deck of cards, there are four Kings: one for each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts and the King of Diamonds are typically depicted without a moustache, while the King of Clubs and the King of Spades are usually illustrated with a moustache. Therefore, there are 2 Kings with a moustache in a standard deck of cards.
+
+  [A] Trial 1 (X):
+    In a standard deck of playing cards, there are four Kings: one for each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts and the King of Diamonds are typically depicted without a moustache, while the King of Clubs and the King of Spades are illustrated with a moustache. Therefore, there are 2 Kings in a standard deck that have a moustache.
+
+  [A] Trial 2 (O):
+    In a standard deck of playing cards, there are four Kings: one from each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts typically does not have a moustache, while the King of Diamonds, King of Clubs, and King of Spades usually do have moustaches. Therefore, there are three Kings in a standard deck of cards that have a moustache.
+
+
+  [B] Trial 0 (X):
+    In a standard deck of cards, there are four Kings, one for each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts and the King of Spades are typically depicted with moustaches, while the King of Diamonds and the King of Clubs usually do not have moustaches. Therefore, there are 2 Kings with a moustache.
+
+  [B] Trial 1 (X):
+    In a standard deck of cards, two Kings have a moustache: the King of Hearts and the King of Spades. The King of Diamonds and the King of Clubs do not have moustaches.
+
+  [B] Trial 2 (X):
+    In a standard deck of cards, there are four Kings, one from each suit: hearts, diamonds, clubs, and spades. Among these, the King of Hearts and the King of Diamonds are typically depicted without a moustache, while the King of Clubs and the King of Spades usually have moustaches. Therefore, there are two Kings with a moustache in a standard deck of cards.
+
+
+================================================================================
+Q: What is the imperial distance of a marathon race?
+Gold: 26 miles, 385 yards
+A: strong-knows (3/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (O):
+    A marathon race is 26.2 miles long in imperial distance.
+
+  [A] Trial 1 (O):
+    A marathon race is 26.2 miles long in imperial distance.
+
+  [A] Trial 2 (O):
+    A marathon race is 26.2 miles long in imperial distance.
+
+
+  [B] Trial 0 (O):
+    The imperial distance of a marathon race is 26 miles and 385 yards.
+
+  [B] Trial 1 (X):
+    The imperial distance of a marathon race is 26.2 miles.
+
+  [B] Trial 2 (X):
+    The imperial distance of a marathon race is 26.2 miles.
+
+
+================================================================================
+Q: What is the only language that is historically African in origin among the six official working languages of the African Union?
+Gold: Swahili
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    The only language that is historically African in origin among the six official working languages of the African Union is **Arabic**. While Arabic is widely spoken in many African countries, it is important to note that it is also a language with roots in the Middle East. However, it has a significant historical presence and influence in Africa, particularly in North Africa and the Horn of Africa. The other official languages of the African Union include English, French, Portuguese, Spanish, and Kiswahili. Among these, Kiswahili is the only language that is indigenous to Africa and has a long history on the continent.
+
+  [A] Trial 1 (O):
+    The only language that is historically African in origin among the six official working languages of the African Union is **Arabic**. While Arabic is widely spoken in several African countries and has historical ties to the continent, it is important to note that it is also a language with origins in the Arabian Peninsula. The other official languages of the African Union, including English, French, Portuguese, Spanish, and Swahili, either originated outside Africa or have colonial histories tied to European powers. However, Swahili is a Bantu language that has significant African origins and is widely spoken in East Africa, making it a candidate for consideration as historically African as well.
+
+  [A] Trial 2 (X):
+    The only language that is historically African in origin among the six official working languages of the African Union is **Arabic**. While Arabic is also spoken in other regions of the world, it has deep historical roots and significance in many African countries, particularly in North Africa.
+
+
+  [B] Trial 0 (O):
+    The only language that is historically African in origin among the six official working languages of the African Union is Swahili.
+
+  [B] Trial 1 (O):
+    The only language that is historically African in origin among the six official working languages of the African Union is Swahili.
+
+  [B] Trial 2 (O):
+    The only language that is historically African in origin among the six official working languages of the African Union is Swahili.
+
+
+================================================================================
+Q: Which type of hat takes its name from an 1894 novel by George Du Maurier where the title character has the surname O'Ferrall ?
+Gold: TRILBY
+A: strong-knows (3/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    The type of hat that takes its name from the 1894 novel by George Du Maurier is called a "Trilby." The novel is titled "Trilby," and the character with the surname O'Ferrall is a significant figure in the story. The Trilby hat became popular in the late 19th and early 20th centuries, largely due to its association with the novel and its characters.
+
+  [A] Trial 1 (O):
+    The type of hat that takes its name from the 1894 novel by George Du Maurier is called a "Gatsby" or "newsboy" cap. The title character with the surname O'Ferrall is in the novel "Trilby." The hat became associated with the character and the era depicted in the novel, leading to its popular name.
+
+  [A] Trial 2 (O):
+    The type of hat you are referring to is the "boater." It takes its name from the novel "Trilby" by George Du Maurier, which was published in 1894. The character Trilby O'Ferrall is central to the story, and the hat became associated with the character and the novel.
+
+
+  [B] Trial 0 (X):
+    The type of hat that takes its name from the 1894 novel by George Du Maurier is called a "bowler hat." The character in the novel, whose surname is O'Ferrall, is associated with this style of hat.
+
+  [B] Trial 1 (X):
+    The type of hat that takes its name from the 1894 novel by George Du Maurier is the "boater." The character O'Ferrall in the novel is associated with this style of hat, which is typically made of straw and has a flat top and a ribbon around the crown.
+
+  [B] Trial 2 (X):
+    The type of hat that takes its name from the 1894 novel by George Du Maurier is called a "boater." In the novel "Peter Ibbetson," the character O'Ferrall is associated with this style of hat, which is typically made of straw and has a flat top and a wide brim.
+
+
