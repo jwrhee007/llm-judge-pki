@@ -1,0 +1,345 @@
+[2026-03-25 12:46:40] INFO prepare_data: ============================================================
+[2026-03-25 12:46:40] INFO prepare_data: Step 0: TriviaQA rc Data Preparation
+[2026-03-25 12:46:40] INFO prepare_data: ============================================================
+[2026-03-25 12:46:40] INFO src.data.triviaqa_loader: Loading TriviaQA rc (validation)...
+[2026-03-25 12:46:44] INFO src.data.triviaqa_loader: Raw dataset size: 17944
+[2026-03-25 12:47:02] INFO src.data.triviaqa_loader: Processed: 12316 items (skipped: 56 no context, 5572 no evidence)
+[2026-03-25 12:47:02] INFO src.data.triviaqa_loader: Saved 12316 items to data/processed/triviaqa_rc_evidence_present.jsonl
+[2026-03-25 12:47:02] INFO prepare_data: Done! 12316 evidence-present items saved to data/processed/triviaqa_rc_evidence_present.jsonl
+[2026-03-25 12:55:23] INFO ner_tagging: ============================================================
+[2026-03-25 12:55:23] INFO ner_tagging: Step 1: NER Tagging + Stratified Sampling
+[2026-03-25 12:55:23] INFO ner_tagging: ============================================================
+[2026-03-25 12:55:23] INFO src.data.triviaqa_loader: Loaded 12316 items from data/processed/triviaqa_rc_evidence_present.jsonl
+[2026-03-25 12:55:23] INFO ner_tagging: NER model: gpt-4o-2024-08-06
+[2026-03-25 12:55:23] INFO ner_tagging: Using synchronous API for NER tagging
+[2026-03-25 13:35:01] WARNING src.api.openai_client: Retry 1 after error: Error code: 400 - {'error': {'message': "We could not parse the JSON body of your request. (HINT: This likely means you aren't using your HTTP library correctly. The OpenAI API expects a JSON payload, but what was sent was not valid JSON. If you have trouble figuring out how to fix this, please contact us through our help center at help.openai.com.)", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[2026-03-25 13:44:29] WARNING src.api.openai_client: Retry 1 after error: Error code: 400 - {'error': {'message': "We could not parse the JSON body of your request. (HINT: This likely means you aren't using your HTTP library correctly. The OpenAI API expects a JSON payload, but what was sent was not valid JSON. If you have trouble figuring out how to fix this, please contact us through our help center at help.openai.com.)", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[2026-03-25 14:30:16] WARNING src.api.openai_client: Retry 1 after error: Error code: 400 - {'error': {'message': "We could not parse the JSON body of your request. (HINT: This likely means you aren't using your HTTP library correctly. The OpenAI API expects a JSON payload, but what was sent was not valid JSON. If you have trouble figuring out how to fix this, please contact us through our help center at help.openai.com.)", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[2026-03-25 14:40:56] WARNING src.api.openai_client: Retry 1 after error: Error code: 400 - {'error': {'message': "We could not parse the JSON body of your request. (HINT: This likely means you aren't using your HTTP library correctly. The OpenAI API expects a JSON payload, but what was sent was not valid JSON. If you have trouble figuring out how to fix this, please contact us through our help center at help.openai.com.)", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[2026-03-25 14:50:41] INFO ner_tagging: NER-tagged data saved to data/processed/triviaqa_rc_ner_tagged.jsonl
+[2026-03-25 14:50:41] INFO ner_tagging: NER tag distribution (full dataset):
+[2026-03-25 14:50:41] INFO ner_tagging:   PERSON: 3285
+[2026-03-25 14:50:41] INFO ner_tagging:   NAN: 2388
+[2026-03-25 14:50:41] INFO ner_tagging:   GPE: 2140
+[2026-03-25 14:50:41] INFO ner_tagging:   WORK_OF_ART: 1134
+[2026-03-25 14:50:41] INFO ner_tagging:   PRODUCT: 838
+[2026-03-25 14:50:41] INFO ner_tagging:   ORG: 765
+[2026-03-25 14:50:41] INFO ner_tagging:   LOC: 560
+[2026-03-25 14:50:41] INFO ner_tagging:   CARDINAL: 332
+[2026-03-25 14:50:41] INFO ner_tagging:   DATE: 267
+[2026-03-25 14:50:41] INFO ner_tagging:   FAC: 194
+[2026-03-25 14:50:41] INFO ner_tagging:   EVENT: 190
+[2026-03-25 14:50:41] INFO ner_tagging:   NORP: 131
+[2026-03-25 14:50:41] INFO ner_tagging:   LANGUAGE: 36
+[2026-03-25 14:50:41] INFO ner_tagging:   LAW: 18
+[2026-03-25 14:50:41] INFO ner_tagging:   QUANTITY: 17
+[2026-03-25 14:50:41] INFO ner_tagging:   ORDINAL: 11
+[2026-03-25 14:50:41] INFO ner_tagging:   MONEY: 8
+[2026-03-25 14:50:41] INFO ner_tagging:   PERCENT: 2
+[2026-03-25 14:50:41] INFO src.data.sampler: NER tag distribution (before sampling):
+[2026-03-25 14:50:41] INFO src.data.sampler:   PERSON: 3285
+[2026-03-25 14:50:41] INFO src.data.sampler:   GPE: 2140
+[2026-03-25 14:50:41] INFO src.data.sampler:   WORK_OF_ART: 1134
+[2026-03-25 14:50:41] INFO src.data.sampler:   PRODUCT: 838
+[2026-03-25 14:50:41] INFO src.data.sampler:   ORG: 765
+[2026-03-25 14:50:41] INFO src.data.sampler:   LOC: 560
+[2026-03-25 14:50:41] INFO src.data.sampler:   CARDINAL: 332
+[2026-03-25 14:50:41] INFO src.data.sampler:   DATE: 267
+[2026-03-25 14:50:41] INFO src.data.sampler:   FAC: 194
+[2026-03-25 14:50:41] INFO src.data.sampler:   EVENT: 190
+[2026-03-25 14:50:41] INFO src.data.sampler:   NORP: 131
+[2026-03-25 14:50:41] INFO src.data.sampler:   LANGUAGE: 36
+[2026-03-25 14:50:41] INFO src.data.sampler:   QUANTITY: 17
+[2026-03-25 14:50:41] INFO src.data.sampler:   ORDINAL: 11
+[2026-03-25 14:50:41] INFO src.data.sampler: Sampled 268 items across 14 NER tags:
+[2026-03-25 14:50:41] INFO src.data.sampler:   CARDINAL: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   DATE: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   EVENT: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   FAC: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   GPE: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   LANGUAGE: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   LOC: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   NORP: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   ORG: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   PERSON: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   PRODUCT: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   WORK_OF_ART: 20
+[2026-03-25 14:50:41] INFO src.data.sampler:   QUANTITY: 17
+[2026-03-25 14:50:41] INFO src.data.sampler:   ORDINAL: 11
+[2026-03-25 14:50:41] INFO src.data.sampler: Saved 268 sampled items to data/processed/triviaqa_rc_sampled.jsonl
+[2026-03-25 14:50:41] INFO ner_tagging: Done! 268 sampled items saved to data/processed/triviaqa_rc_sampled.jsonl
+[2026-03-25 15:01:21] INFO knowledge_probe: ============================================================
+[2026-03-25 15:01:21] INFO knowledge_probe: Exp. 2-0: Knowledge Probe
+[2026-03-25 15:01:21] INFO knowledge_probe: ============================================================
+[2026-03-25 15:01:21] INFO src.data.sampler: Loaded 268 sampled items from data/processed/triviaqa_rc_sampled.jsonl
+[2026-03-25 15:01:21] INFO knowledge_probe: Smoke test mode: using 5 items
+[2026-03-25 15:01:21] INFO knowledge_probe: Judge model: gpt-4o-mini-2024-07-18
+[2026-03-25 15:01:21] INFO knowledge_probe: Methods: ['A', 'B']
+[2026-03-25 15:01:21] INFO knowledge_probe: Trials per method: 3
+[2026-03-25 15:01:21] INFO knowledge_probe: Temperature: 0.6
+[2026-03-25 15:01:21] INFO knowledge_probe: Total items: 5
+[2026-03-25 15:01:21] INFO knowledge_probe: Expected API calls (probe): 30
+[2026-03-25 15:01:21] INFO knowledge_probe: 
+--- Running Probe (method=A, sync) ---
+[2026-03-25 15:01:21] INFO knowledge_probe: Model: gpt-4o-mini-2024-07-18, Trials: 3, Temperature: 0.6, Items: 5
+[2026-03-25 15:02:19] INFO src.probes.knowledge_probe: Saved 5 probe results to results/probe/probe_method_A.jsonl
+[2026-03-25 15:02:19] INFO knowledge_probe: 
+==================================================
+[2026-03-25 15:02:19] INFO knowledge_probe: Knowledge Probe Summary — Method A
+[2026-03-25 15:02:19] INFO knowledge_probe: ==================================================
+[2026-03-25 15:02:19] INFO knowledge_probe: Total items: 5
+[2026-03-25 15:02:19] INFO knowledge_probe:   strong-knows   :    4  ( 80.0%)
+[2026-03-25 15:02:19] INFO knowledge_probe:   weak-knows     :    0  (  0.0%)
+[2026-03-25 15:02:19] INFO knowledge_probe:   guess          :    1  ( 20.0%)
+[2026-03-25 15:02:19] INFO knowledge_probe:   doesn't-know   :    0  (  0.0%)
+[2026-03-25 15:02:19] INFO knowledge_probe: 
+By NER tag:
+[2026-03-25 15:02:19] INFO knowledge_probe:   CARDINAL       :   5  (st=4, we=0, gu=1, do=0)
+[2026-03-25 15:02:19] INFO knowledge_probe: Summary saved to results/probe/probe_method_A_summary.json
+[2026-03-25 15:02:19] INFO knowledge_probe: 
+--- Running Probe (method=B, sync) ---
+[2026-03-25 15:02:19] INFO knowledge_probe: Model: gpt-4o-mini-2024-07-18, Trials: 3, Temperature: 0.6, Items: 5
+[2026-03-25 15:02:52] INFO src.probes.knowledge_probe: Saved 5 probe results to results/probe/probe_method_B.jsonl
+[2026-03-25 15:02:52] INFO knowledge_probe: 
+==================================================
+[2026-03-25 15:02:52] INFO knowledge_probe: Knowledge Probe Summary — Method B
+[2026-03-25 15:02:52] INFO knowledge_probe: ==================================================
+[2026-03-25 15:02:52] INFO knowledge_probe: Total items: 5
+[2026-03-25 15:02:52] INFO knowledge_probe:   strong-knows   :    4  ( 80.0%)
+[2026-03-25 15:02:52] INFO knowledge_probe:   weak-knows     :    0  (  0.0%)
+[2026-03-25 15:02:52] INFO knowledge_probe:   guess          :    0  (  0.0%)
+[2026-03-25 15:02:52] INFO knowledge_probe:   doesn't-know   :    1  ( 20.0%)
+[2026-03-25 15:02:52] INFO knowledge_probe: 
+By NER tag:
+[2026-03-25 15:02:52] INFO knowledge_probe:   CARDINAL       :   5  (st=4, we=0, gu=0, do=1)
+[2026-03-25 15:02:52] INFO knowledge_probe: Summary saved to results/probe/probe_method_B_summary.json
+[2026-03-25 15:02:52] INFO knowledge_probe: 
+Done!
+[2026-03-25 15:04:09] INFO knowledge_probe: ============================================================
+[2026-03-25 15:04:09] INFO knowledge_probe: Exp. 2-0: Knowledge Probe
+[2026-03-25 15:04:09] INFO knowledge_probe: ============================================================
+[2026-03-25 15:04:09] INFO src.data.sampler: Loaded 268 sampled items from data/processed/triviaqa_rc_sampled.jsonl
+[2026-03-25 15:04:09] INFO knowledge_probe: Judge model: gpt-4o-mini-2024-07-18
+[2026-03-25 15:04:09] INFO knowledge_probe: Methods: ['A', 'B']
+[2026-03-25 15:04:09] INFO knowledge_probe: Trials per method: 3
+[2026-03-25 15:04:09] INFO knowledge_probe: Temperature: 0.6
+[2026-03-25 15:04:09] INFO knowledge_probe: Total items: 268
+[2026-03-25 15:04:09] INFO knowledge_probe: Expected API calls (probe): 1608
+[2026-03-25 15:04:09] INFO knowledge_probe: 
+--- Preparing Batch (method=A) ---
+[2026-03-25 15:04:09] INFO src.probes.knowledge_probe: Prepared 804 batch requests (method=A, 268 items × 3 trials)
+[2026-03-25 15:04:09] INFO src.api.openai_client: Batch file written: data/batch_outputs/probe_A_input.jsonl (804 requests)
+[2026-03-25 15:04:11] INFO src.api.openai_client: Batch submitted: batch_69c37adb74d8819087075d14cc90b402 (file: file-YFd6cYQuHCH9ugSsNsMY78)
+[2026-03-25 15:04:11] INFO knowledge_probe: Method A: batch_id = batch_69c37adb74d8819087075d14cc90b402
+[2026-03-25 15:04:11] INFO knowledge_probe: 
+--- Preparing Batch (method=B) ---
+[2026-03-25 15:04:11] INFO src.probes.knowledge_probe: Prepared 804 batch requests (method=B, 268 items × 3 trials)
+[2026-03-25 15:04:11] INFO src.api.openai_client: Batch file written: data/batch_outputs/probe_B_input.jsonl (804 requests)
+[2026-03-25 15:04:13] INFO src.api.openai_client: Batch submitted: batch_69c37add1a7c81909f6a308d78696233 (file: file-YJrGaKZNMyivLpkMZ8ufWs)
+[2026-03-25 15:04:13] INFO knowledge_probe: Method B: batch_id = batch_69c37add1a7c81909f6a308d78696233
+[2026-03-25 15:04:13] INFO knowledge_probe: Batch IDs saved to data/batch_outputs/probe_batch_ids.json
+[2026-03-25 15:04:13] INFO knowledge_probe: 
+--- Collecting Batch (method=A, id=batch_69c37adb74d8819087075d14cc90b402) ---
+[2026-03-25 15:04:13] INFO src.api.openai_client: Batch batch_69c37adb74d8819087075d14cc90b402: validating (completed: 0/0)
+[2026-03-25 15:04:44] INFO src.api.openai_client: Batch batch_69c37adb74d8819087075d14cc90b402: validating (completed: 0/0)
+[2026-03-25 15:05:14] INFO src.api.openai_client: Batch batch_69c37adb74d8819087075d14cc90b402: failed (completed: 0/0)
+[2026-03-25 15:05:14] ERROR knowledge_probe: Batch batch_69c37adb74d8819087075d14cc90b402 status: failed
+[2026-03-25 15:05:14] INFO knowledge_probe: 
+--- Collecting Batch (method=B, id=batch_69c37add1a7c81909f6a308d78696233) ---
+[2026-03-25 15:05:14] INFO src.api.openai_client: Batch batch_69c37add1a7c81909f6a308d78696233: failed (completed: 0/0)
+[2026-03-25 15:05:14] ERROR knowledge_probe: Batch batch_69c37add1a7c81909f6a308d78696233 status: failed
+[2026-03-25 15:05:14] INFO knowledge_probe: 
+Done!
+[2026-03-25 15:11:04] INFO knowledge_probe: ============================================================
+[2026-03-25 15:11:04] INFO knowledge_probe: Exp. 2-0: Knowledge Probe
+[2026-03-25 15:11:04] INFO knowledge_probe: ============================================================
+[2026-03-25 15:11:04] INFO src.data.sampler: Loaded 268 sampled items from data/processed/triviaqa_rc_sampled.jsonl
+[2026-03-25 15:11:04] INFO knowledge_probe: Judge model: gpt-4o-mini-2024-07-18
+[2026-03-25 15:11:04] INFO knowledge_probe: Methods: ['A', 'B']
+[2026-03-25 15:11:04] INFO knowledge_probe: Trials per method: 3
+[2026-03-25 15:11:04] INFO knowledge_probe: Temperature: 0.6
+[2026-03-25 15:11:04] INFO knowledge_probe: Total items: 268
+[2026-03-25 15:11:04] INFO knowledge_probe: Expected API calls (probe): 1608
+[2026-03-25 15:11:04] INFO knowledge_probe: 
+--- Preparing Batch (method=A) ---
+[2026-03-25 15:11:04] INFO src.probes.knowledge_probe: Prepared 804 batch requests (method=A, 268 items × 3 trials)
+[2026-03-25 15:11:04] INFO src.api.openai_client: Batch file written: data/batch_outputs/probe_A_input.jsonl (804 requests)
+[2026-03-25 15:11:05] INFO src.api.openai_client: Batch submitted: batch_69c37c796fd88190bfa82243e2708c08 (file: file-KPpeRU3AR5m3PhAN9gMhCD)
+[2026-03-25 15:11:05] INFO knowledge_probe: Method A: batch_id = batch_69c37c796fd88190bfa82243e2708c08
+[2026-03-25 15:11:05] INFO knowledge_probe: 
+--- Preparing Batch (method=B) ---
+[2026-03-25 15:11:05] INFO src.probes.knowledge_probe: Prepared 804 batch requests (method=B, 268 items × 3 trials)
+[2026-03-25 15:11:05] INFO src.api.openai_client: Batch file written: data/batch_outputs/probe_B_input.jsonl (804 requests)
+[2026-03-25 15:11:06] INFO src.api.openai_client: Batch submitted: batch_69c37c7ac4248190940e4f4148d20b81 (file: file-2XYrxW43L311MpiTWx8rED)
+[2026-03-25 15:11:06] INFO knowledge_probe: Method B: batch_id = batch_69c37c7ac4248190940e4f4148d20b81
+[2026-03-25 15:11:06] INFO knowledge_probe: Batch IDs saved to data/batch_outputs/probe_batch_ids.json
+[2026-03-25 15:11:06] INFO knowledge_probe: 
+--- Collecting Batch (method=A, id=batch_69c37c796fd88190bfa82243e2708c08) ---
+[2026-03-25 15:11:07] INFO src.api.openai_client: Batch batch_69c37c796fd88190bfa82243e2708c08: validating (completed: 0/0)
+[2026-03-25 15:11:37] INFO src.api.openai_client: Batch batch_69c37c796fd88190bfa82243e2708c08: validating (completed: 0/0)
+[2026-03-25 15:12:07] INFO src.api.openai_client: Batch batch_69c37c796fd88190bfa82243e2708c08: failed (completed: 0/0)
+[2026-03-25 15:12:07] ERROR knowledge_probe: Batch batch_69c37c796fd88190bfa82243e2708c08 status: failed
+[2026-03-25 15:12:07] INFO knowledge_probe: 
+--- Collecting Batch (method=B, id=batch_69c37c7ac4248190940e4f4148d20b81) ---
+[2026-03-25 15:12:07] INFO src.api.openai_client: Batch batch_69c37c7ac4248190940e4f4148d20b81: failed (completed: 0/0)
+[2026-03-25 15:12:07] ERROR knowledge_probe: Batch batch_69c37c7ac4248190940e4f4148d20b81 status: failed
+[2026-03-25 15:12:07] INFO knowledge_probe: 
+Done!
+[2026-03-25 15:13:20] INFO knowledge_probe: ============================================================
+[2026-03-25 15:13:20] INFO knowledge_probe: Exp. 2-0: Knowledge Probe
+[2026-03-25 15:13:20] INFO knowledge_probe: ============================================================
+[2026-03-25 15:13:20] INFO src.data.sampler: Loaded 268 sampled items from data/processed/triviaqa_rc_sampled.jsonl
+[2026-03-25 15:13:20] INFO knowledge_probe: Judge model: gpt-4o-mini-2024-07-18
+[2026-03-25 15:13:20] INFO knowledge_probe: Methods: ['A', 'B']
+[2026-03-25 15:13:20] INFO knowledge_probe: Trials per method: 3
+[2026-03-25 15:13:20] INFO knowledge_probe: Temperature: 0.6
+[2026-03-25 15:13:20] INFO knowledge_probe: Total items: 268
+[2026-03-25 15:13:20] INFO knowledge_probe: Expected API calls (probe): 1608
+[2026-03-25 15:13:20] INFO knowledge_probe: 
+--- Preparing Batch (method=A) ---
+[2026-03-25 15:13:20] INFO src.probes.knowledge_probe: Prepared 804 batch requests (method=A, 268 items × 3 trials)
+[2026-03-25 15:13:20] INFO src.api.openai_client: Batch file written: data/batch_outputs/probe_A_input.jsonl (804 requests)
+[2026-03-25 15:13:21] INFO src.api.openai_client: Batch submitted: batch_69c37d01884c8190b712d31f20397216 (file: file-2SafNGVPJoTBAkvtq8spL5)
+[2026-03-25 15:13:21] INFO knowledge_probe: Method A: batch_id = batch_69c37d01884c8190b712d31f20397216
+[2026-03-25 15:13:21] INFO knowledge_probe: 
+--- Preparing Batch (method=B) ---
+[2026-03-25 15:13:21] INFO src.probes.knowledge_probe: Prepared 804 batch requests (method=B, 268 items × 3 trials)
+[2026-03-25 15:13:21] INFO src.api.openai_client: Batch file written: data/batch_outputs/probe_B_input.jsonl (804 requests)
+[2026-03-25 15:13:22] INFO src.api.openai_client: Batch submitted: batch_69c37d027f54819098634b76f48d82b1 (file: file-RkuJapm8mWrwUJNir59RwW)
+[2026-03-25 15:13:22] INFO knowledge_probe: Method B: batch_id = batch_69c37d027f54819098634b76f48d82b1
+[2026-03-25 15:13:22] INFO knowledge_probe: Batch IDs saved to data/batch_outputs/probe_batch_ids.json
+[2026-03-25 15:13:22] INFO knowledge_probe: 
+--- Collecting Batch (method=A, id=batch_69c37d01884c8190b712d31f20397216) ---
+[2026-03-25 15:13:22] INFO src.api.openai_client: Batch batch_69c37d01884c8190b712d31f20397216: failed (completed: 0/0)
+[2026-03-25 15:13:22] ERROR knowledge_probe: Batch batch_69c37d01884c8190b712d31f20397216 status: failed
+[2026-03-25 15:13:22] INFO knowledge_probe: 
+--- Collecting Batch (method=B, id=batch_69c37d027f54819098634b76f48d82b1) ---
+[2026-03-25 15:13:22] INFO src.api.openai_client: Batch batch_69c37d027f54819098634b76f48d82b1: validating (completed: 0/0)
+[2026-03-25 15:13:53] INFO src.api.openai_client: Batch batch_69c37d027f54819098634b76f48d82b1: failed (completed: 0/0)
+[2026-03-25 15:13:53] ERROR knowledge_probe: Batch batch_69c37d027f54819098634b76f48d82b1 status: failed
+[2026-03-25 15:13:53] INFO knowledge_probe: 
+Done!
+[2026-03-25 15:16:42] INFO knowledge_probe: ============================================================
+[2026-03-25 15:16:42] INFO knowledge_probe: Exp. 2-0: Knowledge Probe
+[2026-03-25 15:16:42] INFO knowledge_probe: ============================================================
+[2026-03-25 15:16:42] INFO src.data.sampler: Loaded 268 sampled items from data/processed/triviaqa_rc_sampled.jsonl
+[2026-03-25 15:16:42] INFO knowledge_probe: Judge model: gpt-4o-mini-2024-07-18
+[2026-03-25 15:16:42] INFO knowledge_probe: Methods: ['A', 'B']
+[2026-03-25 15:16:42] INFO knowledge_probe: Trials per method: 3
+[2026-03-25 15:16:42] INFO knowledge_probe: Temperature: 0.6
+[2026-03-25 15:16:42] INFO knowledge_probe: Total items: 268
+[2026-03-25 15:16:42] INFO knowledge_probe: Expected API calls (probe): 1608
+[2026-03-25 15:16:42] INFO knowledge_probe: 
+--- Preparing Batch (method=A) ---
+[2026-03-25 15:16:42] INFO src.probes.knowledge_probe: Prepared 804 batch requests (method=A, 268 items × 3 trials)
+[2026-03-25 15:16:43] INFO src.api.openai_client: Batch file written: data/batch_outputs/probe_A_input.jsonl (804 requests)
+[2026-03-25 15:16:44] INFO src.api.openai_client: Batch submitted: batch_69c37dcc18d0819090b51768f582b87c (file: file-Kjrz9WdV8X9j69upPSdQs8)
+[2026-03-25 15:16:44] INFO knowledge_probe: Method A: batch_id = batch_69c37dcc18d0819090b51768f582b87c
+[2026-03-25 15:16:44] INFO knowledge_probe: 
+--- Preparing Batch (method=B) ---
+[2026-03-25 15:16:44] INFO src.probes.knowledge_probe: Prepared 804 batch requests (method=B, 268 items × 3 trials)
+[2026-03-25 15:16:44] INFO src.api.openai_client: Batch file written: data/batch_outputs/probe_B_input.jsonl (804 requests)
+[2026-03-25 15:16:45] INFO src.api.openai_client: Batch submitted: batch_69c37dcd01a88190a10f8553215223ab (file: file-Pj2amJVd7JYChnEEgEyuKG)
+[2026-03-25 15:16:45] INFO knowledge_probe: Method B: batch_id = batch_69c37dcd01a88190a10f8553215223ab
+[2026-03-25 15:16:45] INFO knowledge_probe: Batch IDs saved to data/batch_outputs/probe_batch_ids.json
+[2026-03-25 15:16:45] INFO knowledge_probe: 
+--- Collecting Batch (method=A, id=batch_69c37dcc18d0819090b51768f582b87c) ---
+[2026-03-25 15:16:45] INFO src.api.openai_client: Batch batch_69c37dcc18d0819090b51768f582b87c: validating (completed: 0/0)
+[2026-03-25 15:17:15] INFO src.api.openai_client: Batch batch_69c37dcc18d0819090b51768f582b87c: in_progress (completed: 0/804)
+[2026-03-25 15:17:45] INFO src.api.openai_client: Batch batch_69c37dcc18d0819090b51768f582b87c: in_progress (completed: 5/804)
+[2026-03-25 15:18:16] INFO src.api.openai_client: Batch batch_69c37dcc18d0819090b51768f582b87c: in_progress (completed: 532/804)
+[2026-03-25 15:18:46] INFO src.api.openai_client: Batch batch_69c37dcc18d0819090b51768f582b87c: finalizing (completed: 804/804)
+[2026-03-25 15:19:16] INFO src.api.openai_client: Batch batch_69c37dcc18d0819090b51768f582b87c: finalizing (completed: 804/804)
+[2026-03-25 15:19:46] INFO src.api.openai_client: Batch batch_69c37dcc18d0819090b51768f582b87c: finalizing (completed: 804/804)
+[2026-03-25 15:20:16] INFO src.api.openai_client: Batch batch_69c37dcc18d0819090b51768f582b87c: completed (completed: 804/804)
+[2026-03-25 15:20:18] INFO src.api.openai_client: Downloaded 804 results to data/batch_outputs/probe_A_output.jsonl
+[2026-03-25 15:20:18] INFO src.probes.knowledge_probe: Parsed 268 question groups from batch results
+[2026-03-25 15:21:47] INFO src.probes.knowledge_probe: Saved 268 probe results to results/probe/probe_method_A.jsonl
+[2026-03-25 15:21:47] INFO knowledge_probe: 
+==================================================
+[2026-03-25 15:21:47] INFO knowledge_probe: Knowledge Probe Summary — Method A
+[2026-03-25 15:21:47] INFO knowledge_probe: ==================================================
+[2026-03-25 15:21:47] INFO knowledge_probe: Total items: 268
+[2026-03-25 15:21:47] INFO knowledge_probe:   strong-knows   :  238  ( 88.8%)
+[2026-03-25 15:21:47] INFO knowledge_probe:   weak-knows     :    3  (  1.1%)
+[2026-03-25 15:21:47] INFO knowledge_probe:   guess          :    2  (  0.7%)
+[2026-03-25 15:21:47] INFO knowledge_probe:   doesn't-know   :   25  (  9.3%)
+[2026-03-25 15:21:47] INFO knowledge_probe: 
+By NER tag:
+[2026-03-25 15:21:47] INFO knowledge_probe:   CARDINAL       :  20  (st=19, we=0, gu=1, do=0)
+[2026-03-25 15:21:47] INFO knowledge_probe:   DATE           :  20  (st=17, we=0, gu=0, do=3)
+[2026-03-25 15:21:47] INFO knowledge_probe:   EVENT          :  20  (st=20, we=0, gu=0, do=0)
+[2026-03-25 15:21:47] INFO knowledge_probe:   FAC            :  20  (st=17, we=0, gu=0, do=3)
+[2026-03-25 15:21:47] INFO knowledge_probe:   GPE            :  20  (st=18, we=0, gu=0, do=2)
+[2026-03-25 15:21:47] INFO knowledge_probe:   LANGUAGE       :  20  (st=17, we=1, gu=0, do=2)
+[2026-03-25 15:21:47] INFO knowledge_probe:   LOC            :  20  (st=19, we=0, gu=0, do=1)
+[2026-03-25 15:21:47] INFO knowledge_probe:   NORP           :  20  (st=16, we=1, gu=1, do=2)
+[2026-03-25 15:21:47] INFO knowledge_probe:   ORDINAL        :  11  (st=11, we=0, gu=0, do=0)
+[2026-03-25 15:21:47] INFO knowledge_probe:   ORG            :  20  (st=19, we=0, gu=0, do=1)
+[2026-03-25 15:21:47] INFO knowledge_probe:   PERSON         :  20  (st=18, we=0, gu=0, do=2)
+[2026-03-25 15:21:47] INFO knowledge_probe:   PRODUCT        :  20  (st=18, we=1, gu=0, do=1)
+[2026-03-25 15:21:47] INFO knowledge_probe:   QUANTITY       :  17  (st=12, we=0, gu=0, do=5)
+[2026-03-25 15:21:47] INFO knowledge_probe:   WORK_OF_ART    :  20  (st=17, we=0, gu=0, do=3)
+[2026-03-25 15:21:47] INFO knowledge_probe: Summary saved to results/probe/probe_method_A_summary.json
+[2026-03-25 15:21:47] INFO knowledge_probe: 
+--- Collecting Batch (method=B, id=batch_69c37dcd01a88190a10f8553215223ab) ---
+[2026-03-25 15:21:48] INFO src.api.openai_client: Batch batch_69c37dcd01a88190a10f8553215223ab: completed (completed: 804/804)
+[2026-03-25 15:21:49] INFO src.api.openai_client: Downloaded 804 results to data/batch_outputs/probe_B_output.jsonl
+[2026-03-25 15:21:49] INFO src.probes.knowledge_probe: Parsed 268 question groups from batch results
+[2026-03-25 15:23:06] INFO src.probes.knowledge_probe: Saved 268 probe results to results/probe/probe_method_B.jsonl
+[2026-03-25 15:23:06] INFO knowledge_probe: 
+==================================================
+[2026-03-25 15:23:06] INFO knowledge_probe: Knowledge Probe Summary — Method B
+[2026-03-25 15:23:06] INFO knowledge_probe: ==================================================
+[2026-03-25 15:23:06] INFO knowledge_probe: Total items: 268
+[2026-03-25 15:23:06] INFO knowledge_probe:   strong-knows   :  232  ( 86.6%)
+[2026-03-25 15:23:06] INFO knowledge_probe:   weak-knows     :    3  (  1.1%)
+[2026-03-25 15:23:06] INFO knowledge_probe:   guess          :    4  (  1.5%)
+[2026-03-25 15:23:06] INFO knowledge_probe:   doesn't-know   :   29  ( 10.8%)
+[2026-03-25 15:23:06] INFO knowledge_probe: 
+By NER tag:
+[2026-03-25 15:23:06] INFO knowledge_probe:   CARDINAL       :  20  (st=18, we=0, gu=1, do=1)
+[2026-03-25 15:23:07] INFO knowledge_probe:   DATE           :  20  (st=17, we=0, gu=0, do=3)
+[2026-03-25 15:23:07] INFO knowledge_probe:   EVENT          :  20  (st=20, we=0, gu=0, do=0)
+[2026-03-25 15:23:07] INFO knowledge_probe:   FAC            :  20  (st=17, we=0, gu=0, do=3)
+[2026-03-25 15:23:07] INFO knowledge_probe:   GPE            :  20  (st=18, we=0, gu=0, do=2)
+[2026-03-25 15:23:07] INFO knowledge_probe:   LANGUAGE       :  20  (st=17, we=0, gu=1, do=2)
+[2026-03-25 15:23:07] INFO knowledge_probe:   LOC            :  20  (st=19, we=0, gu=0, do=1)
+[2026-03-25 15:23:07] INFO knowledge_probe:   NORP           :  20  (st=16, we=1, gu=0, do=3)
+[2026-03-25 15:23:07] INFO knowledge_probe:   ORDINAL        :  11  (st=11, we=0, gu=0, do=0)
+[2026-03-25 15:23:07] INFO knowledge_probe:   ORG            :  20  (st=19, we=0, gu=0, do=1)
+[2026-03-25 15:23:07] INFO knowledge_probe:   PERSON         :  20  (st=18, we=0, gu=0, do=2)
+[2026-03-25 15:23:07] INFO knowledge_probe:   PRODUCT        :  20  (st=16, we=0, gu=1, do=3)
+[2026-03-25 15:23:07] INFO knowledge_probe:   QUANTITY       :  17  (st=9, we=2, gu=1, do=5)
+[2026-03-25 15:23:07] INFO knowledge_probe:   WORK_OF_ART    :  20  (st=17, we=0, gu=0, do=3)
+[2026-03-25 15:23:07] INFO knowledge_probe: Summary saved to results/probe/probe_method_B_summary.json
+[2026-03-25 15:23:07] INFO knowledge_probe: 
+Done!
+[2026-03-25 15:25:48] INFO analyze_probe: ============================================================
+[2026-03-25 15:25:48] INFO analyze_probe: Step 3: Knowledge Probe Analysis
+[2026-03-25 15:25:48] INFO analyze_probe: ============================================================
+[2026-03-25 15:25:48] INFO src.probes.knowledge_probe: Loaded 268 probe results from results/probe/probe_method_A.jsonl
+[2026-03-25 15:25:48] INFO src.probes.knowledge_probe: Loaded 268 probe results from results/probe/probe_method_B.jsonl
+[2026-03-25 15:25:48] INFO analyze_probe: Comparison DataFrame: 250 rows
+[2026-03-25 15:25:48] INFO analyze_probe: Comparison CSV saved to results/probe/probe_comparison.csv
+[2026-03-25 15:26:46] INFO analyze_probe: ============================================================
+[2026-03-25 15:26:46] INFO analyze_probe: Step 3: Knowledge Probe Analysis
+[2026-03-25 15:26:46] INFO analyze_probe: ============================================================
+[2026-03-25 15:26:46] INFO src.probes.knowledge_probe: Loaded 268 probe results from results/probe/probe_method_A.jsonl
+[2026-03-25 15:26:46] INFO src.probes.knowledge_probe: Loaded 268 probe results from results/probe/probe_method_B.jsonl
+[2026-03-25 15:26:46] INFO analyze_probe: Comparison DataFrame: 250 rows
+[2026-03-25 15:26:46] INFO analyze_probe: Comparison CSV saved to results/probe/probe_comparison.csv
+[2026-03-25 15:26:46] INFO analyze_probe: Report saved to results/probe/probe_analysis_report.md
+[2026-03-25 15:26:47] INFO analyze_probe: Saved: results/probe/probe_overall_comparison.png
+[2026-03-25 15:26:47] INFO analyze_probe: Saved: results/probe/probe_confusion_matrix.png
+[2026-03-25 15:26:47] INFO analyze_probe: Saved: results/probe/probe_ner_breakdown.png
+[2026-03-25 15:26:47] INFO analyze_probe: 
+==================================================
+[2026-03-25 15:26:47] INFO analyze_probe: Key Metrics:
+[2026-03-25 15:26:47] INFO analyze_probe:   Exact agreement rate: 96.4%
+[2026-03-25 15:26:47] INFO analyze_probe:   Cohen's Kappa:        0.828
+[2026-03-25 15:26:47] INFO analyze_probe:   Method A knows rate: 89.9%
+[2026-03-25 15:26:47] INFO analyze_probe:   Method B knows rate: 87.7%
+[2026-03-25 15:26:47] INFO analyze_probe: 
+All outputs saved to: results/probe
+[2026-03-25 15:26:47] INFO analyze_probe: Done!

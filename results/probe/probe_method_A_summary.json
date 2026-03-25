@@ -1,0 +1,69 @@
+{
+  "overall": {
+    "strong-knows": 238,
+    "guess": 2,
+    "doesn't-know": 25,
+    "weak-knows": 3
+  },
+  "by_ner_tag": {
+    "CARDINAL": {
+      "strong-knows": 19,
+      "guess": 1
+    },
+    "DATE": {
+      "strong-knows": 17,
+      "doesn't-know": 3
+    },
+    "EVENT": {
+      "strong-knows": 20
+    },
+    "FAC": {
+      "strong-knows": 17,
+      "doesn't-know": 3
+    },
+    "GPE": {
+      "strong-knows": 18,
+      "doesn't-know": 2
+    },
+    "LANGUAGE": {
+      "strong-knows": 17,
+      "weak-knows": 1,
+      "doesn't-know": 2
+    },
+    "LOC": {
+      "strong-knows": 19,
+      "doesn't-know": 1
+    },
+    "NORP": {
+      "weak-knows": 1,
+      "strong-knows": 16,
+      "doesn't-know": 2,
+      "guess": 1
+    },
+    "ORDINAL": {
+      "strong-knows": 11
+    },
+    "ORG": {
+      "strong-knows": 19,
+      "doesn't-know": 1
+    },
+    "PERSON": {
+      "strong-knows": 18,
+      "doesn't-know": 2
+    },
+    "PRODUCT": {
+      "weak-knows": 1,
+      "strong-knows": 18,
+      "doesn't-know": 1
+    },
+    "QUANTITY": {
+      "strong-knows": 12,
+      "doesn't-know": 5
+    },
+    "WORK_OF_ART": {
+      "strong-knows": 17,
+      "doesn't-know": 3
+    }
+  },
+  "total": 268
+}
