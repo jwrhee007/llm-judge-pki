@@ -23,10 +23,14 @@ data:
 
 # --- Sampling Settings ---
 sampling:
-  max_per_ner_tag: 20                    # NER 태그별 최대 문항 수
-  target_total: 288                      # 목표 총 문항 수
+  strategy: "random"                     # "random" (Lee et al. 방식) or "stratified"
+  target_total: 1000                     # 목표 총 문항 수 (Lee et al. 동일)
   random_seed: 42
-  # 대상 NER 태그 (설계문서 기준)
+  # 층화 추출 전용 설정 (strategy: stratified일 때만 사용)
+  max_per_ner_tag: 20                    # NER 태그별 최대 문항 수
+  # 사후 층화 분석 설정 (strategy: random일 때 사용)
+  min_per_ner_tag_for_analysis: 15       # 이 이상인 태그만 개별 분석, 미만은 OTHER로 묶음
+  # 대상 NER 태그
   target_ner_tags:
     - PERSON
     - ORG

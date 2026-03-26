@@ -1,71 +1,77 @@
 {
   "overall": {
-    "strong-knows": 232,
-    "doesn't-know": 29,
-    "guess": 4,
-    "weak-knows": 3
+    "strong-knows": 882,
+    "weak-knows": 21,
+    "doesn't-know": 79,
+    "guess": 18
   },
   "by_ner_tag": {
-    "CARDINAL": {
-      "strong-knows": 18,
-      "doesn't-know": 1,
-      "guess": 1
+    "PERSON": {
+      "strong-knows": 276,
+      "weak-knows": 10,
+      "doesn't-know": 25,
+      "guess": 7
     },
-    "DATE": {
-      "strong-knows": 17,
-      "doesn't-know": 3
-    },
-    "EVENT": {
-      "strong-knows": 20
-    },
-    "FAC": {
-      "strong-knows": 17,
-      "doesn't-know": 3
+    "WORK_OF_ART": {
+      "doesn't-know": 11,
+      "strong-knows": 103,
+      "weak-knows": 2,
+      "guess": 2
     },
     "GPE": {
-      "strong-knows": 18,
-      "doesn't-know": 2
+      "strong-knows": 200,
+      "doesn't-know": 18,
+      "weak-knows": 6
     },
-    "LANGUAGE": {
-      "strong-knows": 17,
-      "guess": 1,
-      "doesn't-know": 2
-    },
-    "LOC": {
-      "strong-knows": 19,
-      "doesn't-know": 1
-    },
-    "NORP": {
-      "weak-knows": 1,
-      "strong-knows": 16,
-      "doesn't-know": 3
-    },
-    "ORDINAL": {
-      "strong-knows": 11
-    },
-    "ORG": {
-      "strong-knows": 19,
-      "doesn't-know": 1
-    },
-    "PERSON": {
-      "strong-knows": 18,
+    "DATE": {
+      "strong-knows": 30,
       "doesn't-know": 2
     },
     "PRODUCT": {
+      "strong-knows": 69,
+      "doesn't-know": 7,
+      "guess": 2
+    },
+    "LOC": {
+      "strong-knows": 46,
       "guess": 1,
-      "strong-knows": 16,
-      "doesn't-know": 3
+      "weak-knows": 2,
+      "doesn't-know": 2
+    },
+    "FAC": {
+      "guess": 2,
+      "strong-knows": 20
+    },
+    "CARDINAL": {
+      "strong-knows": 30,
+      "doesn't-know": 2,
+      "guess": 2
+    },
+    "EVENT": {
+      "strong-knows": 23
+    },
+    "ORG": {
+      "strong-knows": 70,
+      "doesn't-know": 10,
+      "weak-knows": 1,
+      "guess": 2
     },
     "QUANTITY": {
-      "strong-knows": 9,
-      "doesn't-know": 5,
-      "weak-knows": 2,
-      "guess": 1
+      "doesn't-know": 1
     },
-    "WORK_OF_ART": {
-      "strong-knows": 17,
-      "doesn't-know": 3
+    "NORP": {
+      "strong-knows": 8,
+      "doesn't-know": 1
+    },
+    "LANGUAGE": {
+      "strong-knows": 5
+    },
+    "MONEY": {
+      "strong-knows": 1
+    },
+    "ORDINAL": {
+      "strong-knows": 1
     }
   },
-  "total": 268
+  "total": 1000
 }

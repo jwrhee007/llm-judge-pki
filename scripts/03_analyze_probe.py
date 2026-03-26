@@ -408,6 +408,62 @@ def generate_report(
     logger.info(f"Report saved to {output_path}")
 
 
+def generate_disagreement_analysis(
+    results_a: list[dict],
+    results_b: list[dict],
+    df: pd.DataFrame,
+    output_path: str,
+) -> None:
+    """
+    A/B 불일치 문항의 상세 응답을 텍스트 파일로 저장한다.
+    """
+    disagree = df[~df["agreement"]]
+    if len(disagree) == 0:
+        logger.info("No disagreements found. Skipping disagreement analysis.")
+        return
+
+    # question_id → result 매핑
+    a_map = {r["question_id"]: r for r in results_a}
+    b_map = {r["question_id"]: r for r in results_b}
+
+    disagree_ids = set(disagree["question_id"].tolist())
+
+    with open(output_path, "w", encoding="utf-8") as out:
+        out.write(f"Disagreement Analysis: {len(disagree_ids)} items\n")
+        out.write(f"Generated at: {pd.Timestamp.now().isoformat()}\n")
+        out.write("=" * 80 + "\n\n")
+
+        for qid in sorted(disagree_ids):
+            a = a_map.get(qid)
+            b = b_map.get(qid)
+            if not a or not b:
+                continue
+
+            out.write("=" * 80 + "\n")
+            out.write(f"Q: {a['question']}\n")
+            out.write(f"Gold: {a['gold_answer']}\n")
+            out.write(f"NER: {a.get('ner_tag', 'UNKNOWN')}\n")
+            out.write(
+                f"A: {a['knowledge_level']} ({a['n_correct']}/3)  |  "
+                f"B: {b['knowledge_level']} ({b['n_correct']}/3)\n\n"
+            )
+
+            for label, item in [("A", a), ("B", b)]:
+                for t in item["trials"]:
+                    correct_mark = "O" if t["is_correct"] else "X"
+                    resp = t["response"] if t["response"] else "None"
+                    out.write(
+                        f"  [{label}] Trial {t['trial_idx']} ({correct_mark}):\n"
+                        f"    {resp}\n\n"
+                    )
+                out.write("\n")
+
+    logger.info(
+        f"Disagreement analysis saved to {output_path} "
+        f"({len(disagree_ids)} items)"
+    )
+
+
 # =====================================================================
 # Main
 # =====================================================================
@@ -489,6 +545,10 @@ def main():
     # Generate report
     report_path = output_dir / "probe_analysis_report.md"
     generate_report(df, summary_a, summary_b, str(report_path))
+
+    # Generate disagreement analysis
+    disagree_path = output_dir / "disagreement_analysis.txt"
+    generate_disagreement_analysis(results_a, results_b, df, str(disagree_path))
 
     # Generate visualizations
     generate_visualizations(df, summary_a, summary_b, str(output_dir))

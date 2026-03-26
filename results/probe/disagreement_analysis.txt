@@ -1,273 +1,1609 @@
+Disagreement Analysis: 58 items
+Generated at: 2026-03-26T21:24:57.073088
 ================================================================================
-Q: A ewer is a large?
-Gold: Jug
-A: weak-knows (2/3)  |  B: guess (1/3)
 
-  [A] Trial 0 (O):
-    A ewer is a large, typically ornamental pitcher or jug that is used for holding and pouring liquids, often water or wine. Ewers are commonly characterized by a spout and a handle, and they have been used throughout history in various cultures for both practical and decorative purposes.
+================================================================================
+Q: Planchet was the servant of which of the Three Musketeers, by Alexandre Dumas?
+Gold: D'Artagnan
+NER: PERSON
+A: doesn't-know (0/3)  |  B: weak-knows (2/3)
 
-  [A] Trial 1 (O):
-    A ewer is a large, typically ornamental pitcher or jug, often used for holding and pouring liquids like water or wine. Historically, ewers were commonly used in dining settings and were often made of materials such as ceramic, glass, or metal. They can be quite decorative and are sometimes used in formal table settings or as decorative pieces in homes.
+  [A] Trial 0 (X):
+    Planchet was the servant of Aramis, one of the Three Musketeers in Alexandre Dumas's novel "The Three Musketeers."
+
+  [A] Trial 1 (X):
+    Planchet was the servant of Aramis, one of the Three Musketeers in Alexandre Dumas' novel.
 
   [A] Trial 2 (X):
-    A ewer is a large, often ornate container used for holding and pouring liquids, typically water or wine. It usually has a handle and a spout, making it easy to serve beverages. Ewers are often made of materials like metal, ceramic, or glass and can be decorative as well as functional. They have been used throughout history in various cultures for both practical and ceremonial purposes.
+    Planchet was the servant of Aramis, one of the Three Musketeers in Alexandre Dumas' novel "The Three Musketeers."
 
 
   [B] Trial 0 (X):
-    A ewer is a large, typically decorative vessel used for holding and pouring liquids, often water or wine. It usually has a handle and a spout, making it easy to serve drinks. Ewers are commonly found in historical contexts and are often made of materials like ceramic, metal, or glass.
+    Planchet was the servant of Aramis, one of the Three Musketeers in Alexandre Dumas' novel.
 
-  [B] Trial 1 (X):
-    A ewer is a large vase or pitcher, typically used for holding water or other liquids. It often has a spout and a handle, making it suitable for pouring. Ewers are commonly used in dining settings or as decorative pieces.
+  [B] Trial 1 (O):
+    Planchet was the servant of d'Artagnan, one of the Three Musketeers in Alexandre Dumas' novel.
 
   [B] Trial 2 (O):
-    A ewer is a large, typically ornamental pitcher or jug used for holding and pouring liquids, often water or wine. It usually features a handle and a spout, making it suitable for serving at the table.
+    Planchet was the servant of d'Artagnan, one of the Three Musketeers in Alexandre Dumas' novel.
 
 
 ================================================================================
-Q: What used to be bought at Spitalfields market apart from fruit and vegetables
-Gold: Flowers
+Q: At which English racecourse did two horses collapse and die in the parade ring due to electrocution, in February 2011?
+Gold: Newbury
+NER: FAC
+A: weak-knows (2/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (X):
+    In February 2011, two horses collapsed and died in the parade ring at the Hereford Racecourse in England due to electrocution.
+
+  [A] Trial 1 (O):
+    In February 2011, two horses collapsed and died in the parade ring at the **Newbury Racecourse** in England due to electrocution.
+
+  [A] Trial 2 (O):
+    In February 2011, two horses collapsed and died in the parade ring at the **Newbury Racecourse** in England due to electrocution.
+
+
+  [B] Trial 0 (X):
+    The incident you are referring to occurred at the Warwick Racecourse in February 2011, where two horses collapsed and died in the parade ring due to electrocution.
+
+  [B] Trial 1 (O):
+    The incident you are referring to occurred at the "Newbury Racecourse" in England in February 2011, where two horses collapsed and died due to electrocution in the parade ring.
+
+  [B] Trial 2 (X):
+    The incident occurred at the Warwick racecourse in February 2011, where two horses collapsed and died in the parade ring due to electrocution.
+
+
+================================================================================
+Q: Which boxer broke Muhammed Ali's jaw
+Gold: Ken Norton
+NER: PERSON
 A: strong-knows (3/3)  |  B: doesn't-know (0/3)
 
   [A] Trial 0 (O):
-    Spitalfields Market, located in East London, has a rich history dating back to the 17th century. Originally, it was primarily known for selling fresh produce, but over the years, it evolved to include a variety of other goods. Apart from fruits and vegetables, Spitalfields Market has historically been a place where one could buy:
-
-1. **Meat and Fish**: Vendors sold fresh meat, poultry, and fish, catering to the local population and traders.
-
-2. **Textiles and Clothing**: In the 19th and early 20th centuries, the market became known for its textiles, including fabric and clothing items, reflecting the area's history in the garment trade.
-
-3. **Flowers and Plants**: Floral vendors often sold fresh flowers and plants, adding to the market's vibrant atmosphere.
-
-4. **Household Goods**: Various household items, such as kitchenware, furniture, and home decor, were commonly found at the market.
-
-5. **Crafts and Artisanal Products**: In more recent times, Spitalfields Market has become known for handmade crafts, artisanal foods, and unique goods from local vendors.
-
-6. **Antiques and Vintage Items**: The market has also hosted stalls selling antiques, vintage clothing,
+    Muhammad Ali had his jaw broken by Ken Norton during their fight on March 31, 1973. Norton won the match by split decision, and the injury was significant enough to impact Ali's performance in the ring. This fight is notable in boxing history for Norton's victory and the physical toll it took on Ali.
 
   [A] Trial 1 (O):
-    Spitalfields Market, located in East London, has a rich history that dates back to the 17th century. While it is well-known for its fruit and vegetable stalls, the market has also been a hub for various other goods over the years. Apart from fresh produce, visitors to Spitalfields Market could historically find:
-
-1. **Fish and Meat**: Fresh fish, poultry, and other meats were commonly sold, catering to the local population's needs.
-
-2. **Flowers and Plants**: Florists often set up stalls at the market, offering a variety of flowers, plants, and gardening supplies.
-
-3. **Textiles and Fabrics**: The market has been known for selling textiles, including fabrics for clothing and household items.
-
-4. **Clothing and Fashion**: Over time, particularly in the 20th century, Spitalfields became a place for vendors selling clothing, accessories, and later, vintage and designer items.
-
-5. **Crafts and Handmade Goods**: Artisans and craftspeople have showcased handmade items, including pottery, jewelry, and crafts.
-
-6. **Household Goods**: Items such as kitchenware, furniture, and home decor have also been part of the market's offerings.
-
-7. **Antiques and Collect
+    Muhammad Ali had his jaw broken by Ken Norton during their fight on March 31, 1973. Norton won the match by a split decision, and the injury was significant enough to affect Ali's performance in the ring. The fight is remembered as a key moment in boxing history, showcasing Norton's unique style and ability to counter Ali's speed and agility.
 
   [A] Trial 2 (O):
-    Spitalfields Market, located in East London, has a rich history dating back to the 17th century. Apart from fruit and vegetables, the market has traditionally been known for a variety of goods including:
-
-1. **Meat and Fish**: Fresh meat and seafood were commonly sold at the market, catering to local butchers and restaurants.
-   
-2. **Textiles and Clothing**: In the past, Spitalfields was a center for the silk industry, and the market often featured textiles and garments, particularly silk products.
-
-3. **Household Goods**: Various household items, including kitchenware, furniture, and other domestic goods, were also available.
-
-4. **Flowers and Plants**: Floral vendors often set up stalls, selling fresh flowers and plants.
-
-5. **Baked Goods**: Bakeries would sell bread, pastries, and other baked items.
-
-6. **Crafts and Handmade Goods**: Over the years, the market has evolved to include artisans selling handmade crafts, jewelry, and artworks.
-
-7. **Antiques and Vintage Items**: As the market has transitioned, it has also become a place for antiques and vintage goods.
-
-Today, Spitalfields Market is known for its food stalls, independent boutiques, and artisan vendors, reflecting
+    Muhammad Ali's jaw was famously broken by Ken Norton during their bout on March 31, 1973. Norton won the fight by a split decision, and the injury was significant enough to impact Ali's performance in the ring. The fight was notable not only for the injury but also for the competitive nature of the match, leading to a famous rivalry between the two fighters.
 
 
   [B] Trial 0 (X):
-    Apart from fruit and vegetables, Spitalfields Market historically sold a variety of goods including clothing, textiles, and household items. It was known for its vibrant atmosphere and diverse offerings, catering to the needs of local residents and traders. Over time, it also became a hub for antiques, crafts, and artisanal products, reflecting the changing trends and tastes of the area.
+    Joe Frazier broke Muhammad Ali's jaw during their first fight on March 8, 1971, which is famously known as the "Fight of the Century."
 
   [B] Trial 1 (X):
-    Apart from fruit and vegetables, Spitalfields Market historically offered a variety of goods including clothing, textiles, and household items. In its earlier days, it was also a hub for wholesale goods and later became known for antiques, crafts, and artisan products. Over time, it evolved into a popular destination for food, fashion, and unique artisanal offerings.
+    Joe Frazier broke Muhammad Ali's jaw during their fight on March 8, 1971, in New York City, which was the first of their three legendary bouts. This fight is often referred to as the "Fight of the Century."
 
   [B] Trial 2 (X):
-    Apart from fruit and vegetables, Spitalfields Market used to sell a variety of goods including textiles, clothing, and household items. Historically, it was known for its vibrant trading environment where merchants offered everything from fish and meat to antiques and crafts, reflecting the diverse needs of the local community. Over time, it has evolved into a venue for food, fashion, and arts, attracting a wide range of vendors and shoppers.
+    Joe Frazier broke Muhammad Ali's jaw during their first fight on March 8, 1971, in what was famously known as the "Fight of the Century." This match was significant as it was the first time the two heavyweight champions faced each other.
 
 
 ================================================================================
-Q: What nationality was Aristotle Onassis originally
-Gold: Turkish
-A: guess (1/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (X):
-    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which is now İzmir, Turkey. His family was of Greek descent, and he later became a prominent shipping magnate and businessman.
-
-  [A] Trial 1 (O):
-    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which is now İzmir in Turkey. After the Greco-Turkish War and the subsequent population exchange, his family moved to Greece, where he later became a prominent shipping magnate.
-
-  [A] Trial 2 (X):
-    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which was then part of the Ottoman Empire and is now Izmir, Turkey. Onassis later emigrated to Argentina, where he became a successful shipping magnate.
-
-
-  [B] Trial 0 (X):
-    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which is now part of Turkey but was then a part of the Ottoman Empire and had a significant Greek population.
-
-  [B] Trial 1 (X):
-    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which was then part of the Ottoman Empire and is now Izmir, Turkey. He later moved to Argentina, where he became a prominent shipping magnate.
-
-  [B] Trial 2 (X):
-    Aristotle Onassis was originally Greek. He was born on January 15, 1906, in Smyrna, which was then part of the Ottoman Empire and is now İzmir, Turkey. He later emigrated to Argentina, where he became a prominent shipping magnate.
-
-
-================================================================================
-Q: How many US Presidents have been impeached?
-Gold: Two
-A: strong-knows (3/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (O):
-    As of October 2023, three U.S. Presidents have been impeached by the House of Representatives: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump, who was impeached twice, first in 2019 and again in 2021. However, none of these impeachments resulted in removal from office, as all were acquitted by the Senate.
-
-  [A] Trial 1 (O):
-    As of October 2023, three U.S. Presidents have been impeached by the House of Representatives:
-
-1. **Andrew Johnson** in 1868
-2. **Bill Clinton** in 1998
-3. **Donald Trump**, who was impeached twice, first in 2019 and then again in 2021.
-
-None of these presidents were removed from office as a result of impeachment; they were either acquitted by the Senate or did not face a Senate trial.
-
-  [A] Trial 2 (O):
-    As of October 2023, three U.S. Presidents have been impeached: Andrew Johnson in 1868, Bill Clinton in 1998, and Donald Trump, who was impeached twice, first in 2019 and again in 2021. However, none of these impeachments resulted in removal from office.
-
-
-  [B] Trial 0 (O):
-    Three U.S. Presidents have been impeached: Andrew Johnson, Bill Clinton, and Donald Trump. Andrew Johnson was impeached in 1868, Bill Clinton in 1998, and Donald Trump was impeached twice, first in 2019 and again in 2021.
-
-  [B] Trial 1 (X):
-    Three U.S. Presidents have been impeached: Andrew Johnson, Bill Clinton, and Donald Trump.
-
-  [B] Trial 2 (X):
-    Three U.S. Presidents have been impeached: Andrew Johnson, Bill Clinton, and Donald Trump.
-
-
-================================================================================
-Q: When free school milk was given out what size were the bottles?
-Gold: Third of a pint
+Q: Harvey was one of Dr. Crippen’s first names. What was the other?
+Gold: HAWLEY
+NER: PERSON
 A: strong-knows (3/3)  |  B: weak-knows (2/3)
 
   [A] Trial 0 (O):
-    In the UK, free school milk was typically provided in small glass bottles that contained about a third of a pint, which is approximately 189 milliliters. This practice was part of a government initiative to provide children with nutritious milk during school hours, particularly in the post-war period. The scheme was phased out in the 1970s, but the iconic small bottles are often remembered fondly by those who experienced it.
+    Dr. Hawley Harvey Crippen was the full name of the infamous American homeopath and murderer. His first name is "Hawley," and "Harvey" is often used as a shorthand or middle name.
 
   [A] Trial 1 (O):
-    Free school milk in the UK was typically provided in 1/3 pint bottles, which is approximately 190 milliliters. This program was introduced in the 1940s and continued until it was phased out in the 1970s, though it remained available in some areas and for certain age groups for a longer period.
+    Dr. Crippen's full name was Hawley Harvey Crippen. His first name is "Hawley," and "Harvey" is his middle name.
 
   [A] Trial 2 (O):
-    Free school milk in the UK was typically provided in 1/3 pint bottles, which is approximately 190 milliliters. This initiative was introduced in the 1940s and continued for several decades before it was phased out in the 1970s.
+    Dr. Hawley Harvey Crippen is the full name of the individual you are referring to. His first name was Hawley, and he is infamously known for being convicted of the murder of his wife, Cora, in the early 20th century.
 
 
   [B] Trial 0 (X):
-    Free school milk was typically provided in pint-sized bottles, which is equivalent to approximately 568 milliliters.
+    Harvey was one of Dr. Crippen's first names; the other was Frederick. His full name was Frederick Henry Crippen.
 
   [B] Trial 1 (O):
-    Free school milk was typically provided in one-third pint (approximately 189 milliliters) bottles. This size was standard in the UK during the time when the program was in place.
+    Dr. Hawley Harvey Crippen was the full name of Dr. Crippen.
 
   [B] Trial 2 (O):
-    Free school milk was typically provided in 1/3 pint bottles, which is approximately 190 milliliters. This size was standard in many countries, including the UK, during the time when free school milk programs were in place.
+    The other first name of Dr. Crippen was Hawley. His full name was Hawley Harvey Crippen.
+
+
+================================================================================
+Q: Who played Nurse Gladys Emmanuel, Arkwright’s love interest in Open All Hours?
+Gold: Lynda Baron
+NER: PERSON
+A: doesn't-know (0/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (X):
+    Nurse Gladys Emmanuel, Arkwright's love interest in the television series "Open All Hours," was played by actress Patricia Routledge.
+
+  [A] Trial 1 (X):
+    Nurse Gladys Emmanuel, Arkwright's love interest in the British sitcom "Open All Hours," was played by actress Patricia Routledge.
+
+  [A] Trial 2 (X):
+    Nurse Gladys Emmanuel, Arkwright’s love interest in the British sitcom "Open All Hours," was played by actress Patricia Rutledge.
+
+
+  [B] Trial 0 (X):
+    Nurse Gladys Emmanuel, Arkwright’s love interest in "Open All Hours," was played by actress Patricia Routledge.
+
+  [B] Trial 1 (O):
+    Nurse Gladys Emmanuel, Arkwright’s love interest in "Open All Hours," was played by actress Lynda Baron.
+
+  [B] Trial 2 (X):
+    Nurse Gladys Emmanuel, Arkwright’s love interest in "Open All Hours," was played by actress Lynda Bellingham.
+
+
+================================================================================
+Q: What is nicknamed 'The Cathedral of the Railways'?
+Gold: St PANCRAS
+NER: FAC
+A: doesn't-know (0/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (X):
+    The structure nicknamed 'The Cathedral of the Railways' is the **Chhatrapati Shivaji Maharaj Terminus** (formerly known as Victoria Terminus) in Mumbai, India. This historic railway station is renowned for its stunning Victorian Gothic architecture and is a UNESCO World Heritage Site. It serves as a major hub for train services in Mumbai and is an iconic landmark in the city.
+
+  [A] Trial 1 (X):
+    The structure nicknamed 'The Cathedral of the Railways' is the **Chhatrapati Shivaji Maharaj Terminus (CST)** in Mumbai, India. This historic railway station, which was formerly known as Victoria Terminus, is renowned for its stunning Victorian Gothic architecture and is a UNESCO World Heritage Site. The station serves as a central hub for train services in Mumbai and is celebrated for its intricate design and grandeur, which have earned it the affectionate nickname.
+
+  [A] Trial 2 (X):
+    The structure nicknamed "The Cathedral of the Railways" is the **Kolkata Howrah Junction** (Howrah Station) in India. It is one of the busiest railway stations in the country and is known for its impressive architecture and historical significance. The nickname reflects its grand design and importance in the railway network, similar to how cathedrals are often seen as central and significant landmarks in a city.
+
+
+  [B] Trial 0 (O):
+    The nickname 'The Cathedral of the Railways' refers to the **Basilica of Saint-Savin** in France, which is known for its impressive architecture and historical significance. However, it is also commonly associated with the **Palacio de Cibeles** in Madrid, Spain, which serves as the headquarters of the postal service and is a prominent example of early 20th-century architecture. Another notable mention is the **St. Pancras International Station** in London, celebrated for its stunning Gothic architecture. The term can apply to various railway stations or structures, often highlighting their grandeur and importance in the railway network.
+
+  [B] Trial 1 (X):
+    The nickname 'The Cathedral of the Railways' refers to the Gare de Lyon, a major railway station in Paris, France. This station is known for its impressive architecture and grand design, reminiscent of a cathedral, making it a notable landmark in the city.
+
+  [B] Trial 2 (X):
+    The nickname 'The Cathedral of the Railways' refers to the Gare de Lyon, a major railway station in Paris, France. It is renowned for its impressive architecture and grand design, resembling a cathedral in its scale and aesthetic appeal.
+
+
+================================================================================
+Q: What was the title of Fun Lovin’ Criminals’ 1996 song that nearly made the Top 20?
+Gold: SCOOBY SNACKS
+NER: WORK_OF_ART
+A: guess (1/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The title of Fun Lovin’ Criminals' 1996 song that nearly made the Top 20 is "Scooby Snacks."
+
+  [A] Trial 1 (X):
+    The title of Fun Lovin’ Criminals' 1996 song that nearly made the Top 20 is "King of New York."
+
+  [A] Trial 2 (X):
+    The title of Fun Lovin' Criminals' 1996 song that nearly made the Top 20 is "King of New York."
+
+
+  [B] Trial 0 (X):
+    The title of Fun Lovin’ Criminals’ 1996 song that nearly made the Top 20 is "King of New York."
+
+  [B] Trial 1 (O):
+    The title of Fun Lovin’ Criminals’ 1996 song that nearly made the Top 20 is "Scooby Snacks."
+
+  [B] Trial 2 (O):
+    The title of Fun Lovin' Criminals' 1996 song that nearly made the Top 20 is "Scooby Snacks."
+
+
+================================================================================
+Q: Which band featured Siobhan Fahey and Marcella Detroit?
+Gold: Shakespeare’s Sister
+NER: ORG
+A: strong-knows (3/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (O):
+    Siobhan Fahey and Marcella Detroit were both members of the band Shakespear's Sister. The duo is known for their hit songs in the early 1990s, including "Stay," which became a major success.
+
+  [A] Trial 1 (O):
+    Siobhan Fahey and Marcella Detroit were both members of the band Shakespear's Sister. The group is known for its blend of pop and rock music and achieved significant success in the early 1990s.
+
+  [A] Trial 2 (O):
+    Siobhan Fahey and Marcella Detroit were members of the band Shakespear's Sister. The group is known for its hit songs in the early 1990s, including "Stay," which achieved significant commercial success.
+
+
+  [B] Trial 0 (O):
+    The band that featured Siobhan Fahey and Marcella Detroit is Shakespear's Sister.
+
+  [B] Trial 1 (X):
+    The band that featured Siobhan Fahey and Marcella Detroit is Bananarama.
+
+  [B] Trial 2 (X):
+    The band that featured Siobhan Fahey and Marcella Detroit is Bananarama.
+
+
+================================================================================
+Q: ‘When Will You Marry?’ became the world’s most expensive work of art when it was sold
+Gold: Paul GAUGUIN
+NER: PERSON
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    "When Will You Marry?" is a painting by the artist Paul Gauguin, created in 1892. It gained significant attention and became one of the most expensive works of art when it was sold at auction in 2015 for approximately $300 million. This sale marked a record for the highest price ever paid for a painting at auction at that time. The artwork is notable not only for its price but also for its vibrant colors and the themes of Polynesian culture that Gauguin explored in his work.
+
+  [A] Trial 1 (O):
+    "When Will You Marry?" is a painting by the artist Paul Gauguin, which was sold at auction for a record-breaking price. In 2015, it was sold for approximately $300 million, making it one of the most expensive works of art ever sold at that time. The painting depicts a young Tahitian girl and is notable for its vibrant colors and symbolism. Gauguin's work has continued to be highly sought after by collectors and institutions, reflecting both his artistic significance and the market's interest in high-value artworks. If you have any specific questions or need more information about this painting or Gauguin's work, feel free to ask!
+
+  [A] Trial 2 (O):
+    "When Will You Marry?" is a painting by the artist Paul Gauguin that was sold at auction for a record-breaking price. In 2015, it was sold for approximately $300 million, making it one of the most expensive paintings ever sold. This sale sparked significant interest and discussion in the art world regarding the valuation of art and the growing market for high-priced artworks. If you have more specific questions about the painting or its sale, feel free to ask!
+
+
+  [B] Trial 0 (O):
+    ‘When Will You Marry?’ by the artist Paul Gauguin became the world’s most expensive work of art when it was sold at auction in 2015 for approximately $300 million. This painting is notable for its vibrant colors and complex themes, and its sale marked a significant moment in the art market.
+
+  [B] Trial 1 (O):
+    ‘When Will You Marry?’ by Paul Gauguin became the world’s most expensive work of art when it was sold at auction in 2015 for approximately $300 million. This sale set a record for the highest price ever paid for a painting at that time.
+
+  [B] Trial 2 (X):
+    ‘When Will You Marry?’ became the world’s most expensive work of art when it was sold for $450.3 million at auction in November 2017. The artwork, created by Leonardo da Vinci, is a painting of Christ and was sold at Christie’s in New York.
+
+
+================================================================================
+Q: Who is the Secretary of State for Business, Innovation and Skills?
+Gold: VINCE CABLE
+NER: PERSON
+A: doesn't-know (0/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (X):
+    As of my last knowledge update in October 2023, the Secretary of State for Business, Innovation and Skills in the UK was not a current position, as the department was split in 2016. The responsibilities were divided between the Department for Business, Energy & Industrial Strategy (BEIS) and the Department for International Trade. If you are looking for the current Secretary of State for BEIS or any other related department, I recommend checking the latest information from official UK government sources or news updates.
+
+  [A] Trial 1 (X):
+    As of my last knowledge update in October 2023, the position of Secretary of State for Business, Innovation and Skills no longer exists as it was replaced by the Department for Business, Energy & Industrial Strategy (BEIS) in 2016. However, if you are looking for the current Secretary of State overseeing business and related matters, it would be advisable to check the latest updates from official government sources or news outlets, as cabinet positions can change frequently.
+
+  [A] Trial 2 (X):
+    As of my last knowledge update in October 2023, the Secretary of State for Business, Innovation and Skills in the UK is not a current position, as the department was dissolved in 2016. Its responsibilities were split between the Department for Business, Energy and Industrial Strategy (BEIS) and the Department for Education. If you are looking for the current Secretary of State for Business, Energy and Industrial Strategy, please check the latest sources for the most accurate information.
+
+
+  [B] Trial 0 (X):
+    The position of Secretary of State for Business, Innovation and Skills in the UK was last held by Sajid Javid until the department was dissolved in 2016. After that, its responsibilities were split between the Department for Business, Energy and Industrial Strategy (BEIS) and the Department for International Trade (DIT). As of my last knowledge update, the current Secretary of State for BEIS is Grant Shapps, who took over the role in September 2022. Please verify with up-to-date sources, as this information may have changed.
+
+  [B] Trial 1 (O):
+    The position of Secretary of State for Business, Innovation and Skills was held by Vince Cable from 2010 to 2015. However, this department was abolished in 2016, and its responsibilities were transferred to the Department for Business, Energy & Industrial Strategy (BEIS). As of my last knowledge update, the relevant position would be the Secretary of State for Business, Energy and Industrial Strategy. Please check the latest sources for the current officeholder, as this information may have changed.
+
+  [B] Trial 2 (X):
+    As of my last knowledge update in October 2023, the position of Secretary of State for Business, Innovation and Skills no longer exists as it was restructured. The responsibilities have been divided among different departments, primarily the Department for Business and Trade. For the most current information regarding the Secretary of State for Business and related roles, please check the latest official government resources.
+
+
+================================================================================
+Q: In 'Coronation Street', what was the name of the character played by Roy Hudd?
+Gold: 'ARCHIE SHUTTLEWORTH'
+NER: PERSON
+A: guess (1/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (X):
+    In 'Coronation Street', Roy Hudd played the character of Leonard Swindley. He appeared in the show during the 1960s.
+
+  [A] Trial 1 (O):
+    In 'Coronation Street', Roy Hudd played the character of Archie Shuttleworth.
+
+  [A] Trial 2 (X):
+    In 'Coronation Street', Roy Hudd played the character of Leonard Swindley. He appeared in the show during the 1960s and was known for his comedic role as a local undertaker.
+
+
+  [B] Trial 0 (O):
+    In 'Coronation Street', the character played by Roy Hudd was named Archie Shuttleworth.
+
+  [B] Trial 1 (X):
+    In 'Coronation Street', the character played by Roy Hudd was named Leonard Swindley.
+
+  [B] Trial 2 (O):
+    In 'Coronation Street', the character played by Roy Hudd was named Archie Shuttleworth.
+
+
+================================================================================
+Q: Which root vegetable pie was named after a Minister of Food during World War II?
+Gold: WOOLTON (Pie)
+NER: WORK_OF_ART
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    The root vegetable pie named after a Minister of Food during World War II is the "Beetroot Pie," which is often associated with Lord Woolton, who was the Minister of Food at the time. The pie is also known as "Woolton Pie," and it was created as a way to make use of available vegetables during rationing. It typically includes a variety of root vegetables and is topped with a pastry crust.
+
+  [A] Trial 1 (X):
+    The root vegetable pie named after a Minister of Food during World War II is "Wellington Pie." It was named after Lord Woolton, who was the Minister of Food in the UK during the war. The pie is made primarily from root vegetables like potatoes, carrots, and onions, and is a classic example of wartime British cuisine.
+
+  [A] Trial 2 (X):
+    The root vegetable pie named after a Minister of Food during World War II is "Wellington Pie." It is named after Lord Woolton, who was the Minister of Food in the UK during the war. The pie typically contains a variety of root vegetables and was created as part of wartime efforts to promote the use of vegetables and rationing.
+
+
+  [B] Trial 0 (X):
+    The root vegetable pie named after a Minister of Food during World War II is "Wellington pie," more commonly known as "Wellington." It was named after Lord John Russell, who served as the Minister of Food. The pie typically contains a mixture of root vegetables and is associated with wartime rationing and creativity in cooking.
+
+  [B] Trial 1 (X):
+    The root vegetable pie named after a Minister of Food during World War II is "Wellington Pie," often associated with Lord Woolton, who was the Minister of Food in the UK during that time. The pie typically features a mixture of root vegetables and is a reflection of wartime rationing and the use of available ingredients.
+
+  [B] Trial 2 (X):
+    The root vegetable pie named after a Minister of Food during World War II is the "Wellington Pie," often referred to as "Wellington." It was named after Lord Woolton, who was the Minister of Food in the UK during the war. The pie is made primarily with root vegetables and was created as a way to promote the use of vegetables during rationing.
+
+
+================================================================================
+Q: Who memorably failed to win the Marathon in the 1954 Commonwealth Games?
+Gold: JIM PETERS
+NER: PERSON
+A: strong-knows (3/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (O):
+    In the 1954 Commonwealth Games, the marathon was notably won by Australian athlete Derek Clayton. However, the runner who memorably failed to win the marathon was British athlete Jim Peters. Peters was leading the race but collapsed just before the finish line, which led to him being unable to complete the race successfully. His dramatic failure became a memorable moment in Commonwealth Games history.
+
+  [A] Trial 1 (O):
+    In the 1954 Commonwealth Games, it was the British athlete Jim Peters who memorably failed to win the Marathon. He was leading the race but collapsed just a few hundred yards from the finish line due to exhaustion and dehydration. This dramatic moment is well-remembered in the history of athletics, as it highlighted the physical demands of long-distance running. The race was ultimately won by Australia's Derek Clayton.
+
+  [A] Trial 2 (O):
+    In the 1954 Commonwealth Games, the runner who memorably failed to win the Marathon was Jim Peters. He was a British athlete who was leading the race but collapsed just before the finish line due to exhaustion and dehydration. This dramatic incident is well-remembered in the history of the Commonwealth Games. The race was ultimately won by Australia's Derek Clayton.
+
+
+  [B] Trial 0 (X):
+    The athlete who memorably failed to win the Marathon at the 1954 Commonwealth Games was Lesley "Les" McDonald. He was in a strong position but ultimately finished in a disappointing place, while the race was won by Australian runner John Landy.
+
+  [B] Trial 1 (O):
+    In the 1954 Commonwealth Games, the runner who memorably failed to win the Marathon was Jim Peters. He was leading the race but collapsed just a few hundred yards from the finish line, allowing Australian runner Derek Ibbotson to take the victory. Peters' dramatic failure is one of the most famous moments in Commonwealth Games history.
+
+  [B] Trial 2 (X):
+    The athlete who memorably failed to win the Marathon in the 1954 Commonwealth Games was Australian runner John Landy. Although he was a strong contender and had previously set a world record in the mile, he finished second in the marathon, which was won by his fellow Australian, Derek Clayton.
+
+
+================================================================================
+Q: Which is the fourth largest of the Balearic Islands?
+Gold: FORMENTERA
+NER: GPE
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The fourth largest of the Balearic Islands is Menorca. The largest is Mallorca, followed by Ibiza and Formentera.
+
+  [A] Trial 1 (O):
+    The fourth largest of the Balearic Islands is Menorca. The largest is Mallorca, followed by Ibiza and Formentera.
+
+  [A] Trial 2 (O):
+    The fourth largest of the Balearic Islands is Menorca. The largest is Mallorca, followed by Ibiza and Formentera.
+
+
+  [B] Trial 0 (O):
+    The fourth largest of the Balearic Islands is Formentera.
+
+  [B] Trial 1 (O):
+    The fourth largest of the Balearic Islands is Menorca. The largest is Mallorca, followed by Ibiza and Formentera.
+
+  [B] Trial 2 (X):
+    The fourth largest of the Balearic Islands is Menorca.
+
+
+================================================================================
+Q: Leslie Poles were the Christian names of which English novelist, born in 1895?
+Gold: L.P. HARTLEY
+NER: PERSON
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    Leslie Poles Hartley was the English novelist born in 1895. He is best known for his works such as "The Go-Between" and "The Hireling."
+
+  [A] Trial 1 (O):
+    Leslie Poles Hartley was the English novelist born in 1895. He is best known for his works such as "The Go-Between" and "The Eustace and Hilda."
+
+  [A] Trial 2 (O):
+    Leslie Poles was the Christian name of the English novelist better known as **L.P. Hartley**. He was born in 1895 and is known for works such as "The Go-Between."
+
+
+  [B] Trial 0 (O):
+    Leslie Poles Hartley was the English novelist born in 1895. He is known for works such as "The Go-Between" and "The Hireling."
+
+  [B] Trial 1 (X):
+    Leslie Poles Huxley was the English novelist born in 1895. He is known for his works that often explore themes of society and human behavior.
+
+  [B] Trial 2 (O):
+    Leslie Poles Hartley was the English novelist born in 1895. He is known for works such as "The Go-Between" and "The Shrimp and the Anemone."
+
+
+================================================================================
+Q: Who was the only judge on 'X Factor' to return for series eight in 2011?
+Gold: LOUIS WALSH
+NER: PERSON
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    The only judge on 'The X Factor' to return for series eight in 2011 was Louis Walsh.
+
+  [A] Trial 1 (X):
+    The only judge on 'X Factor' to return for series eight in 2011 was Gary Barlow.
+
+  [A] Trial 2 (O):
+    The only judge on 'The X Factor' to return for series eight in 2011 was Louis Walsh.
+
+
+  [B] Trial 0 (O):
+    The only judge on 'The X Factor' to return for series eight in 2011 was Louis Walsh.
+
+  [B] Trial 1 (O):
+    The only judge on 'X Factor' to return for series eight in 2011 was Louis Walsh.
+
+  [B] Trial 2 (O):
+    The only judge on 'X Factor' to return for series eight in 2011 was Louis Walsh.
+
+
+================================================================================
+Q: How many sides did the pre-decimal British threepence have around its edge?
+Gold: TWELVE
+NER: CARDINAL
+A: strong-knows (3/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (O):
+    The pre-decimal British threepence coin, also known as the "thruppence," had twelve sides, making it a dodecagon. This design was used from its introduction in 1937 until decimalization in 1971.
+
+  [A] Trial 1 (O):
+    The pre-decimal British threepence coin, also known as the "thruppence," had twelve sides around its edge. This shape is known as a dodecagon. The threepence was produced in this form from 1937 until the decimalisation of the currency in 1971.
+
+  [A] Trial 2 (O):
+    The pre-decimal British threepence coin, often referred to as the "threepenny bit," had twelve sides around its edge. This shape is known as a dodecagon.
+
+
+  [B] Trial 0 (X):
+    The pre-decimal British threepence coin had three sides around its edge, making it a three-sided coin, also known as a "thruppence."
+
+  [B] Trial 1 (O):
+    The pre-decimal British threepence had 12 sides around its edge.
+
+  [B] Trial 2 (X):
+    The pre-decimal British threepence had three sides around its edge, making it a three-sided coin, also known as a "thruppence."
+
+
+================================================================================
+Q: In November 2008, RMS Queen Elizabeth II will depart Southamptonon her last voyage. To which city will she travel?
+Gold: DUBAI
+NER: GPE
+A: guess (1/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The RMS Queen Elizabeth II departed Southampton on her last voyage to Dubai in November 2008.
+
+  [A] Trial 1 (X):
+    In November 2008, RMS Queen Elizabeth II departed Southampton on her last voyage to New York City.
+
+  [A] Trial 2 (X):
+    In November 2008, RMS Queen Elizabeth II departed Southampton on her last voyage to New York City.
+
+
+  [B] Trial 0 (X):
+    In November 2008, RMS Queen Elizabeth II departed Southampton on her last voyage to New York City.
+
+  [B] Trial 1 (O):
+    In November 2008, RMS Queen Elizabeth II departed Southampton on her last voyage to Dubai.
+
+  [B] Trial 2 (O):
+    In November 2008, RMS Queen Elizabeth II departed Southampton on her last voyage to Dubai.
+
+
+================================================================================
+Q: Which US gangster was released from Alcatraz prison in November 1939?
+Gold: Al Capone
+NER: PERSON
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    The US gangster released from Alcatraz prison in November 1939 was Al Capone. He had been incarcerated at Alcatraz since 1934 and was released after serving about four and a half years.
+
+  [A] Trial 1 (X):
+    The US gangster released from Alcatraz prison in November 1939 was George "Machine Gun" Kelly. He was a notorious criminal involved in various illegal activities during the Prohibition era and became famous for his bank robberies and kidnappings. After serving time in Alcatraz, he was released, but his criminal career had already made a significant impact on American crime history.
+
+  [A] Trial 2 (O):
+    The US gangster who was released from Alcatraz prison in November 1939 is Al Capone. He had been incarcerated there for several years before his release due to health issues.
+
+
+  [B] Trial 0 (O):
+    The US gangster released from Alcatraz prison in November 1939 was Al Capone.
+
+  [B] Trial 1 (O):
+    The US gangster released from Alcatraz prison in November 1939 was Al Capone.
+
+  [B] Trial 2 (O):
+    The US gangster released from Alcatraz prison in November 1939 was Al Capone.
+
+
+================================================================================
+Q: Which 5th/6th Century Buddhist monk is described in Chinese texts as ‘The Blue-Eyed Barbarian’?
+Gold: Bodhidharma
+NER: PERSON
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The Buddhist monk described in Chinese texts as ‘The Blue-Eyed Barbarian’ is Bodhidharma. He is traditionally credited as the founder of the Chan school of Buddhism in China, which later became known as Zen Buddhism in Japan. Bodhidharma is often depicted as a figure with distinctive features, and his moniker reflects his foreign origins, as he is believed to have come from the Indian subcontinent.
+
+  [A] Trial 1 (O):
+    The 5th/6th Century Buddhist monk referred to as ‘The Blue-Eyed Barbarian’ in Chinese texts is Bodhidharma. He is traditionally considered the founder of Zen Buddhism (Chan Buddhism in China) and is known for his teachings and the legendary story of his nine years of meditation facing a wall. The term "Blue-Eyed Barbarian" likely refers to his non-Chinese origins, as he is believed to have come from the region that is now part of modern-day India or Central Asia.
+
+  [A] Trial 2 (O):
+    The 5th/6th Century Buddhist monk described in Chinese texts as ‘The Blue-Eyed Barbarian’ is Bodhidharma. He is traditionally credited as the founder of Chan Buddhism (known as Zen in Japan) and is often depicted as a figure who brought Buddhist teachings from India to China. His distinctive appearance, particularly his blue eyes, is noted in Chinese accounts, which referred to him as a "barbarian" due to his non-Chinese origins.
+
+
+  [B] Trial 0 (O):
+    The 5th/6th Century Buddhist monk described in Chinese texts as ‘The Blue-Eyed Barbarian’ is Bodhidharma. He is traditionally credited as the founder of Zen Buddhism in China and is often depicted with distinct features that led to this description.
+
+  [B] Trial 1 (X):
+    The 5th/6th Century Buddhist monk described in Chinese texts as ‘The Blue-Eyed Barbarian’ is Faxian. He was a Chinese monk known for his pilgrimage to India to acquire Buddhist scriptures and his accounts of the journey, which are recorded in his work "A Record of Buddhistic Kingdoms."
+
+  [B] Trial 2 (O):
+    The 5th/6th Century Buddhist monk described in Chinese texts as ‘The Blue-Eyed Barbarian’ is Bodhidharma. He is traditionally credited as the founder of Chan Buddhism (known as Zen Buddhism in Japan) and is often associated with the introduction of meditation practices in China. His distinctive appearance, as noted in Chinese accounts, is what led to the moniker.
+
+
+================================================================================
+Q: During which year was Washington DC declared the capital of the USA?
+Gold: 1790
+NER: DATE
+A: weak-knows (2/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    Washington, D.C. was officially designated as the capital of the United States in the year 1790, following the Residence Act, which established the city as the seat of the federal government. The federal government moved there in 1800.
+
+  [A] Trial 1 (O):
+    Washington, D.C. was officially designated as the capital of the United States in the year 1790. The Residence Act, signed by President George Washington on July 16, 1790, established the location of the capital along the Potomac River and laid the groundwork for the creation of the city. The federal government moved there in 1800.
+
+  [A] Trial 2 (X):
+    Washington, D.C. was officially declared the capital of the United States in the year 1800. The federal government moved there from Philadelphia, which had served as the temporary capital.
+
+
+  [B] Trial 0 (X):
+    Washington, D.C. was officially designated as the capital of the United States in the year 1800.
+
+  [B] Trial 1 (X):
+    Washington DC was declared the capital of the USA in the year 1800.
+
+  [B] Trial 2 (X):
+    Washington, D.C. was declared the capital of the United States in the year 1800.
+
+
+================================================================================
+Q: Which American car manufacturer has a logo which features three shields inside a circle?
+Gold: Buick
+NER: ORG
+A: doesn't-know (0/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    The American car manufacturer with a logo featuring three shields inside a circle is **Chrysler**. The logo is designed to represent the brands under the Chrysler umbrella, including Dodge and Jeep, and the three shields symbolize the brands' heritage and identity.
+
+  [A] Trial 1 (X):
+    The American car manufacturer with a logo featuring three shields inside a circle is **Chrysler**. The logo represents the brands under the Chrysler umbrella, including Dodge, Jeep, and Ram.
+
+  [A] Trial 2 (X):
+    The American car manufacturer with a logo featuring three shields inside a circle is Chrysler. The logo represents the three brands that were originally part of the Chrysler Corporation: Chrysler, Dodge, and Jeep.
+
+
+  [B] Trial 0 (O):
+    The American car manufacturer with a logo featuring three shields inside a circle is Buick.
+
+  [B] Trial 1 (O):
+    The American car manufacturer with a logo that features three shields inside a circle is Buick.
+
+  [B] Trial 2 (O):
+    The American car manufacturer with a logo that features three shields inside a circle is Buick.
+
+
+================================================================================
+Q: How many ‘Triangles’ are there on the logo of car manufacturer BMW?
+Gold: Four
+NER: CARDINAL
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    The BMW logo consists of a circular emblem divided into four quadrants, with alternating blue and white colors representing the Bavarian flag. While the logo itself does not contain any traditional triangles, the sections can be interpreted geometrically. However, if you are looking for a specific count of triangles formed by the design elements, that may depend on how one visually interprets the divisions and shapes within the logo. Generally, the logo is not recognized for having distinct triangles.
+
+  [A] Trial 1 (X):
+    The logo of BMW consists of a circular design with a quadrants pattern that features blue and white segments, representing the colors of the Bavarian flag. While the logo itself does not explicitly contain triangles, the segments can be interpreted as forming triangular shapes when viewed in relation to each other. However, if you're asking for a specific count of distinct triangles, the answer would be that there are no explicitly defined triangles in the logo, as it primarily consists of circular segments.
+
+  [A] Trial 2 (O):
+    The BMW logo consists of a circular design divided into four quadrants, alternating between blue and white, which represent the colors of the Bavarian flag. While the logo itself does not feature any triangles, if you consider the visual elements formed by the segments and the overall design, you could interpret some shapes as triangles. However, there are no explicit triangles in the traditional interpretation of the BMW logo. 
+
+If you meant a different aspect or a stylized version of the logo, please clarify!
+
+
+  [B] Trial 0 (O):
+    The logo of BMW features a circular design divided into four quadrants, with alternating blue and white colors, which represent the colors of the flag of Bavaria. However, the logo does not explicitly contain any triangles. It is primarily recognized for its circular shape and color scheme rather than triangular elements.
+
+  [B] Trial 1 (O):
+    The BMW logo features a circular design divided into four quadrants, with alternating blue and white colors that represent the Bavarian flag. However, it does not specifically contain any triangles. Therefore, the answer is zero triangles in the BMW logo.
+
+  [B] Trial 2 (O):
+    The BMW logo features a circular design divided into four quadrants, with alternating blue and white segments. While the logo itself does not explicitly contain triangles, one might interpret the blue and white segments as creating a triangular shape when viewed from certain angles. However, if you are looking for a specific count of triangles, the logo does not have any distinct triangle shapes.
+
+
+================================================================================
+Q: What is the name of the perfume launched by British boyband JLS in January 2013?
+Gold: Love
+NER: PRODUCT
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    The perfume launched by British boyband JLS in January 2013 is called "JLS: The Fragrance."
+
+  [A] Trial 1 (X):
+    The perfume launched by British boyband JLS in January 2013 is called "JLS Kiss."
+
+  [A] Trial 2 (O):
+    The perfume launched by British boyband JLS in January 2013 is called "JLS: Love."
+
+
+  [B] Trial 0 (X):
+    The perfume launched by British boyband JLS in January 2013 is called "JLS: The Perfume."
+
+  [B] Trial 1 (X):
+    The perfume launched by British boyband JLS in January 2013 is called "JLS: The Perfume."
+
+  [B] Trial 2 (X):
+    The perfume launched by British boyband JLS in January 2013 is called "JLS: The Perfume."
+
+
+================================================================================
+Q: Released in 1961, what was the last No.1 hit for Frankie Vaughan?
+Gold: Tower of Strength
+NER: WORK_OF_ART
+A: weak-knows (2/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (O):
+    The last No. 1 hit for Frankie Vaughan was "Tower of Strength," which topped the UK Singles Chart in 1961.
+
+  [A] Trial 1 (X):
+    Frankie Vaughan's last No. 1 hit was "The Garden of Eden," which topped the UK Singles Chart in 1961.
+
+  [A] Trial 2 (O):
+    Frankie Vaughan's last No.1 hit was "Tower of Strength," which was released in 1961.
+
+
+  [B] Trial 0 (X):
+    Frankie Vaughan's last No. 1 hit was "The Garden of Eden," which topped the UK Singles Chart in 1961.
+
+  [B] Trial 1 (X):
+    The last No.1 hit for Frankie Vaughan was "The Garden of Eden," which topped the UK Singles Chart in 1961.
+
+  [B] Trial 2 (O):
+    The last No.1 hit for Frankie Vaughan, released in 1961, was "Tower of Strength."
+
+
+================================================================================
+Q: In MASH what was the character Radars full name?
+Gold: Walter O'Reilly
+NER: PERSON
+A: doesn't-know (0/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (X):
+    In the television series M*A*S*H, the character Radar's full name is Walter Eugene O'Reilly. He is portrayed by actor Gary Burghoff.
+
+  [A] Trial 1 (X):
+    In the television series "M*A*S*H," the character Radar's full name is Walter Eugene O'Reilly. He is portrayed by Gary Burghoff.
+
+  [A] Trial 2 (X):
+    In the television series M*A*S*H, the character Radar's full name is Walter Eugene O'Reilly. He is portrayed by actor Gary Burghoff.
+
+
+  [B] Trial 0 (X):
+    In the television show M*A*S*H, the character Radar's full name is Walter Eugene O'Reilly.
+
+  [B] Trial 1 (O):
+    In M*A*S*H, the character Radar's full name is Walter O'Reilly.
+
+  [B] Trial 2 (O):
+    In M*A*S*H, the character Radar's full name is Walter O'Reilly.
+
+
+================================================================================
+Q: Who is currently the Supreme Governor of the Church of England?
+Gold: Queen Elizabeth II
+NER: PERSON
+A: strong-knows (3/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    As of my last update in October 2023, the Supreme Governor of the Church of England is King Charles III. He assumed this role following the death of his mother, Queen Elizabeth II, in September 2022. Please verify with up-to-date sources to confirm this information, as it may change.
+
+  [A] Trial 1 (O):
+    As of my last knowledge update in October 2023, the Supreme Governor of the Church of England is King Charles III. He became the monarch following the death of Queen Elizabeth II in September 2022. Please verify with current sources to ensure this information is still accurate.
+
+  [A] Trial 2 (O):
+    As of my last update in October 2023, the Supreme Governor of the Church of England is King Charles III. He became the monarch in September 2022 following the death of his mother, Queen Elizabeth II. Please verify with current sources to ensure this information is still accurate.
+
+
+  [B] Trial 0 (X):
+    The Supreme Governor of the Church of England is the reigning monarch. As of my last update, that is King Charles III.
+
+  [B] Trial 1 (X):
+    The Supreme Governor of the Church of England is the reigning monarch of the United Kingdom. As of my last update, that is King Charles III.
+
+  [B] Trial 2 (X):
+    As of my last knowledge update, the Supreme Governor of the Church of England is King Charles III.
+
+
+================================================================================
+Q: First released in 1969, which single gave David Bowie his first No. 1 in 1975?
+Gold: Space Oddity
+NER: WORK_OF_ART
+A: strong-knows (3/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (O):
+    David Bowie's first No. 1 single in the UK was "Space Oddity," which was originally released in 1969. However, it was not until 1975 that it reached No. 1 on the charts.
+
+  [A] Trial 1 (O):
+    David Bowie's first No. 1 single in the UK was "Space Oddity," which was originally released in 1969. However, it was not until 1975 that it reached the No. 1 spot on the charts.
+
+  [A] Trial 2 (O):
+    David Bowie achieved his first No. 1 single in 1975 with the song "Space Oddity." Although the song was initially released in 1969, it gained renewed popularity and reached the top of the charts in the UK in 1975.
+
+
+  [B] Trial 0 (O):
+    The single that gave David Bowie his first No. 1 in 1975 is "Space Oddity."
+
+  [B] Trial 1 (X):
+    The single that gave David Bowie his first No. 1 in 1975 is "Fame."
+
+  [B] Trial 2 (X):
+    The single that gave David Bowie his first No. 1 in 1975 is "Fame."
+
+
+================================================================================
+Q: Next Sunday, Sept 19, is International what day?
+Gold: Talk Like A Pirate Day
+NER: EVENT
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    Next Sunday, September 19, is International Talk Like a Pirate Day. It's a fun, unofficial holiday where people are encouraged to speak like a pirate for the day.
+
+  [A] Trial 1 (X):
+    International Day of Peace is observed on September 21 each year. However, if you are referring to September 19, there isn't a widely recognized international day on that date. If you meant a specific event or observance that falls on a different date, please let me know!
+
+  [A] Trial 2 (O):
+    Next Sunday, September 19, 2023, is International Talk Like a Pirate Day. This quirky holiday encourages people to speak like pirates for fun.
+
+
+  [B] Trial 0 (O):
+    Next Sunday, September 19, is International Talk Like a Pirate Day. This fun observance encourages people to speak like a pirate for the day.
+
+  [B] Trial 1 (O):
+    Next Sunday, September 19, is recognized as International Talk Like a Pirate Day. This fun observance encourages people to speak in pirate lingo and celebrate pirate culture.
+
+  [B] Trial 2 (O):
+    Next Sunday, September 19, is International Talk Like a Pirate Day.
+
+
+================================================================================
+Q: What is the 3rd largest car rental company in the United States?
+Gold: Alamo
+NER: ORG
+A: weak-knows (2/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    As of my last knowledge update in October 2023, the third largest car rental company in the United States is typically considered to be **Hertz**. The largest is **Enterprise Holdings**, which operates Enterprise Rent-A-Car, Alamo, and National Car Rental. The second largest is usually **Avis Budget Group**, which includes Avis and Budget brands. However, rankings can change over time due to market conditions and company performance, so it's always a good idea to check the latest industry reports for the most current information.
+
+  [A] Trial 1 (X):
+    As of my last knowledge update in October 2021, the third largest car rental company in the United States was typically considered to be Enterprise Rent-A-Car, following Hertz and Avis. However, rankings can change over time due to market conditions, mergers, and other factors. For the most current information, I recommend checking the latest industry reports or news articles.
+
+  [A] Trial 2 (O):
+    As of my last update, the third-largest car rental company in the United States is typically considered to be Enterprise Holdings, which operates Enterprise Rent-A-Car, National Car Rental, and Alamo Rent A Car. However, it's important to note that rankings can vary based on different criteria such as revenue, fleet size, or market share, and the landscape may change over time. For the most current information, it's advisable to check recent industry reports or news articles.
+
+
+  [B] Trial 0 (X):
+    As of my last update, the third largest car rental company in the United States is typically considered to be Hertz. The largest is Enterprise, followed by Avis Budget Group. However, rankings can change, so it's always a good idea to check the latest industry reports for the most current information.
+
+  [B] Trial 1 (X):
+    As of my last update, the third largest car rental company in the United States is typically considered to be Enterprise Rent-A-Car, following Avis Budget Group and Hertz. However, rankings can vary based on different metrics such as fleet size, revenue, and market presence, so it's always good to check the most current sources for the latest information.
+
+  [B] Trial 2 (X):
+    As of my last knowledge update, the third-largest car rental company in the United States is typically considered to be Enterprise Rent-A-Car, following Hertz and Avis in terms of market share. However, rankings can vary based on different metrics and time periods.
+
+
+================================================================================
+Q: Opened in May 11, 2010, Charlotte, NC is the home to the Hall of Fame for what popular outdoor sport, the second most watched sport (on TV) in the US?
+Gold: NASCAR
+NER: ORG
+A: strong-knows (3/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    The Hall of Fame you are referring to is the National Basketball Hall of Fame, which is located in Charlotte, NC. However, it seems there may be a mix-up in the details. The National Basketball Hall of Fame is actually located in Springfield, Massachusetts. 
+
+If you are looking for the Hall of Fame related to a popular outdoor sport, it could be the NASCAR Hall of Fame, which is indeed located in Charlotte, NC, and is associated with auto racing, a popular sport in the United States. NASCAR is one of the most watched sports on TV in the US, especially in terms of outdoor motorsport events.
+
+  [A] Trial 1 (O):
+    The Hall of Fame you are referring to is the NASCAR Hall of Fame, which is located in Charlotte, North Carolina. NASCAR (National Association for Stock Car Auto Racing) is known for being one of the most popular motorsports in the United States and is often considered the second most watched sport on television in the country.
+
+  [A] Trial 2 (O):
+    Charlotte, NC is home to the Hall of Fame for NASCAR, which is a popular outdoor sport and the second most watched sport on TV in the US. The NASCAR Hall of Fame opened on May 11, 2010.
+
+
+  [B] Trial 0 (X):
+    Opened on May 11, 2010, in Charlotte, NC, the Hall of Fame is dedicated to professional football, specifically the Pro Football Hall of Fame. Football is the second most watched sport on TV in the US, following basketball.
+
+  [B] Trial 1 (X):
+    Opened on May 11, 2010, in Charlotte, NC, the Hall of Fame is dedicated to professional basketball, specifically the Naismith Memorial Basketball Hall of Fame. Basketball is one of the most popular outdoor sports in the United States and has a significant television viewership.
+
+  [B] Trial 2 (X):
+    Opened on May 11, 2010, the Hall of Fame in Charlotte, NC, is dedicated to professional basketball, specifically the Naismith Memorial Basketball Hall of Fame. Basketball is one of the most popular outdoor sports in the United States, and it is widely watched on television.
+
+
+================================================================================
+Q: The 2010 Six Nations Championship, the 11th series of an annual rugby union competition contested by the six major Northern Hemisphere rugby union national teams, was won by France. Which nation won it in 2009 and came second in 2010 and 2011?
+Gold: Ireland
+NER: GPE
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    The nation that won the 2009 Six Nations Championship and came second in both 2010 and 2011 is England.
+
+  [A] Trial 1 (X):
+    Wales won the 2009 Six Nations Championship and came second in both the 2010 and 2011 tournaments.
+
+  [A] Trial 2 (O):
+    In 2009, the Six Nations Championship was won by Ireland. They came second in both the 2010 and 2011 tournaments.
+
+
+  [B] Trial 0 (X):
+    The nation that won the 2009 Six Nations Championship and came second in 2010 and 2011 is England.
+
+  [B] Trial 1 (X):
+    The nation that won the 2009 Six Nations Championship and came second in both 2010 and 2011 is England.
+
+  [B] Trial 2 (X):
+    The nation that won the 2009 Six Nations Championship and came second in 2010 and 2011 is England.
+
+
+================================================================================
+Q: Where was the final of the 1999 Rugby World Cup held?
+Gold: Wales
+NER: GPE
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The final of the 1999 Rugby World Cup was held at the Millennium Stadium in Cardiff, Wales.
+
+  [A] Trial 1 (O):
+    The final of the 1999 Rugby World Cup was held at the Millennium Stadium in Cardiff, Wales. The match took place on November 22, 1999.
+
+  [A] Trial 2 (O):
+    The final of the 1999 Rugby World Cup was held at the Millennium Stadium in Cardiff, Wales.
+
+
+  [B] Trial 0 (X):
+    The final of the 1999 Rugby World Cup was held at Wembley Stadium in London, England.
+
+  [B] Trial 1 (O):
+    The final of the 1999 Rugby World Cup was held at the Millennium Stadium in Cardiff, Wales.
+
+  [B] Trial 2 (O):
+    The final of the 1999 Rugby World Cup was held at the Millennium Stadium in Cardiff, Wales.
 
 
 ================================================================================
 Q: In a standard deck of cards, how many Kings have a moustache?
 Gold: Three
+NER: CARDINAL
+A: weak-knows (2/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    In a standard deck of playing cards, the Kings of Hearts and the Kings of Spades typically have moustaches. Therefore, there are 2 Kings with moustaches in a standard deck of cards.
+
+  [A] Trial 1 (O):
+    In a standard deck of playing cards, there are four Kings: one for each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts is typically depicted without a moustache, while the King of Diamonds, King of Clubs, and King of Spades are generally illustrated with moustaches. Therefore, there are three Kings in a standard deck that have a moustache.
+
+  [A] Trial 2 (O):
+    In a standard deck of playing cards, there are four Kings, one for each suit: hearts, diamonds, clubs, and spades. Traditionally, the King of hearts is depicted without a moustache, while the Kings of spades, clubs, and diamonds are often depicted with moustaches. Therefore, there are three Kings in a standard deck of cards that have a moustache.
+
+
+  [B] Trial 0 (X):
+    In a standard deck of playing cards, two Kings have a moustache: the King of Hearts and the King of Spades. The King of Diamonds and the King of Clubs do not have moustaches.
+
+  [B] Trial 1 (X):
+    In a standard deck of cards, there are four Kings, one for each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts is typically depicted with a moustache. Therefore, there is one King with a moustache in a standard deck of cards.
+
+  [B] Trial 2 (X):
+    In a standard deck of cards, there are typically two Kings that are depicted with a moustache: the King of Hearts and the King of Diamonds. The King of Spades and the King of Clubs do not have moustaches in most traditional designs.
+
+
+================================================================================
+Q: Which cockney private detective, co-created by Terry Venables, was portrayed on TV by Nicholas Ball?
+Gold: James Hazell
+NER: PERSON
 A: guess (1/3)  |  B: doesn't-know (0/3)
 
   [A] Trial 0 (X):
-    In a standard deck of cards, there are four Kings: one for each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts and the King of Diamonds are typically depicted without a moustache, while the King of Clubs and the King of Spades are usually illustrated with a moustache. Therefore, there are 2 Kings with a moustache in a standard deck of cards.
+    The Cockney private detective you are referring to is "Benny". He was co-created by Terry Venables and portrayed by Nicholas Ball in the television series.
 
   [A] Trial 1 (X):
-    In a standard deck of playing cards, there are four Kings: one for each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts and the King of Diamonds are typically depicted without a moustache, while the King of Clubs and the King of Spades are illustrated with a moustache. Therefore, there are 2 Kings in a standard deck that have a moustache.
+    The Cockney private detective you are referring to is "Harry Starks." He was co-created by Terry Venables and was portrayed by Nicholas Ball in the TV series "Harry Starks."
 
   [A] Trial 2 (O):
-    In a standard deck of playing cards, there are four Kings: one from each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts typically does not have a moustache, while the King of Diamonds, King of Clubs, and King of Spades usually do have moustaches. Therefore, there are three Kings in a standard deck of cards that have a moustache.
+    The Cockney private detective you are referring to is "Hazell." The character was co-created by Terry Venables and portrayed by Nicholas Ball in the television series.
 
 
   [B] Trial 0 (X):
-    In a standard deck of cards, there are four Kings, one for each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts and the King of Spades are typically depicted with moustaches, while the King of Diamonds and the King of Clubs usually do not have moustaches. Therefore, there are 2 Kings with a moustache.
+    The Cockney private detective co-created by Terry Venables and portrayed on TV by Nicholas Ball is "Harry Stottle."
 
   [B] Trial 1 (X):
-    In a standard deck of cards, two Kings have a moustache: the King of Hearts and the King of Spades. The King of Diamonds and the King of Clubs do not have moustaches.
+    The Cockney private detective co-created by Terry Venables and portrayed on TV by Nicholas Ball is "Harry Starks."
 
   [B] Trial 2 (X):
-    In a standard deck of cards, there are four Kings, one from each suit: hearts, diamonds, clubs, and spades. Among these, the King of Hearts and the King of Diamonds are typically depicted without a moustache, while the King of Clubs and the King of Spades usually have moustaches. Therefore, there are two Kings with a moustache in a standard deck of cards.
+    The Cockney private detective co-created by Terry Venables and portrayed on TV by Nicholas Ball is "Harry Starks."
 
 
 ================================================================================
-Q: What is the imperial distance of a marathon race?
-Gold: 26 miles, 385 yards
-A: strong-knows (3/3)  |  B: guess (1/3)
+Q: Which vegetable has varieties called Royal Favourite and Walton Mammoth?
+Gold: LEEK
+NER: PRODUCT
+A: weak-knows (2/3)  |  B: guess (1/3)
 
   [A] Trial 0 (O):
-    A marathon race is 26.2 miles long in imperial distance.
+    The vegetable with varieties called Royal Favourite and Walton Mammoth is the leek. These are different cultivars of leeks, which are known for their mild onion-like flavor and are commonly used in various dishes.
 
-  [A] Trial 1 (O):
-    A marathon race is 26.2 miles long in imperial distance.
+  [A] Trial 1 (X):
+    The vegetable that has varieties called Royal Favourite and Walton Mammoth is the **cabbage**. These are specific cultivars of cabbage known for their unique characteristics and growing traits.
 
   [A] Trial 2 (O):
-    A marathon race is 26.2 miles long in imperial distance.
+    The vegetable with varieties called Royal Favourite and Walton Mammoth is the **leek**. These are specific cultivars known for their size and flavor.
 
 
-  [B] Trial 0 (O):
-    The imperial distance of a marathon race is 26 miles and 385 yards.
-
-  [B] Trial 1 (X):
-    The imperial distance of a marathon race is 26.2 miles.
-
-  [B] Trial 2 (X):
-    The imperial distance of a marathon race is 26.2 miles.
-
-
-================================================================================
-Q: What is the only language that is historically African in origin among the six official working languages of the African Union?
-Gold: Swahili
-A: weak-knows (2/3)  |  B: strong-knows (3/3)
-
-  [A] Trial 0 (O):
-    The only language that is historically African in origin among the six official working languages of the African Union is **Arabic**. While Arabic is widely spoken in many African countries, it is important to note that it is also a language with roots in the Middle East. However, it has a significant historical presence and influence in Africa, particularly in North Africa and the Horn of Africa. The other official languages of the African Union include English, French, Portuguese, Spanish, and Kiswahili. Among these, Kiswahili is the only language that is indigenous to Africa and has a long history on the continent.
-
-  [A] Trial 1 (O):
-    The only language that is historically African in origin among the six official working languages of the African Union is **Arabic**. While Arabic is widely spoken in several African countries and has historical ties to the continent, it is important to note that it is also a language with origins in the Arabian Peninsula. The other official languages of the African Union, including English, French, Portuguese, Spanish, and Swahili, either originated outside Africa or have colonial histories tied to European powers. However, Swahili is a Bantu language that has significant African origins and is widely spoken in East Africa, making it a candidate for consideration as historically African as well.
-
-  [A] Trial 2 (X):
-    The only language that is historically African in origin among the six official working languages of the African Union is **Arabic**. While Arabic is also spoken in other regions of the world, it has deep historical roots and significance in many African countries, particularly in North Africa.
-
-
-  [B] Trial 0 (O):
-    The only language that is historically African in origin among the six official working languages of the African Union is Swahili.
+  [B] Trial 0 (X):
+    The vegetable that has varieties called Royal Favourite and Walton Mammoth is the cabbage.
 
   [B] Trial 1 (O):
-    The only language that is historically African in origin among the six official working languages of the African Union is Swahili.
+    The vegetable that has varieties called Royal Favourite and Walton Mammoth is the leek.
 
-  [B] Trial 2 (O):
-    The only language that is historically African in origin among the six official working languages of the African Union is Swahili.
+  [B] Trial 2 (X):
+    The vegetable that has varieties called Royal Favourite and Walton Mammoth is the cabbage.
 
 
 ================================================================================
-Q: Which type of hat takes its name from an 1894 novel by George Du Maurier where the title character has the surname O'Ferrall ?
-Gold: TRILBY
+Q: What name connects 'Cold Comfort Farm, stamp collecting and ancient Rome?
+Gold: GIBBONS
+NER: PERSON
 A: strong-knows (3/3)  |  B: doesn't-know (0/3)
 
   [A] Trial 0 (O):
-    The type of hat that takes its name from the 1894 novel by George Du Maurier is called a "Trilby." The novel is titled "Trilby," and the character with the surname O'Ferrall is a significant figure in the story. The Trilby hat became popular in the late 19th and early 20th centuries, largely due to its association with the novel and its characters.
+    The name that connects 'Cold Comfort Farm', stamp collecting, and ancient Rome is "Flora." 
+
+1. **Cold Comfort Farm** is a novel by Stella Gibbons, and one of the main characters is named Flora Poste.
+2. **Stamp collecting** often involves collecting stamps featuring various themes, including flora (plants). Additionally, there are stamps specifically dedicated to flowers and plant life.
+3. **Ancient Rome** has a significant connection to flora, as many Roman poets and historians wrote about plants and gardens. Moreover, the word "flora" itself refers to plant life and is derived from the name of the Roman goddess Flora, who was associated with flowers and the season of spring.
+
+Thus, "Flora" is the common connection among the three.
 
   [A] Trial 1 (O):
-    The type of hat that takes its name from the 1894 novel by George Du Maurier is called a "Gatsby" or "newsboy" cap. The title character with the surname O'Ferrall is in the novel "Trilby." The hat became associated with the character and the era depicted in the novel, leading to its popular name.
+    The name that connects 'Cold Comfort Farm', stamp collecting, and ancient Rome is "Florence." 
+
+1. **Cold Comfort Farm**: The author of the novel is Stella Gibbons, and one of the characters is named Flora Poste.
+2. **Stamp Collecting**: The term "Florin" refers to a historical gold or silver coin used in various European countries, which is often collected by stamp collectors.
+3. **Ancient Rome**: The Florin was originally named after the city of Florence in Italy, which was a significant center of trade and culture during the Renaissance, following the Roman era.
+
+Thus, "Florence" links all three topics.
 
   [A] Trial 2 (O):
-    The type of hat you are referring to is the "boater." It takes its name from the novel "Trilby" by George Du Maurier, which was published in 1894. The character Trilby O'Ferrall is central to the story, and the hat became associated with the character and the novel.
+    The name that connects 'Cold Comfort Farm', stamp collecting, and ancient Rome is "Flora." 
+
+1. **Cold Comfort Farm**: The novel is written by Stella Gibbons, and the main character is named Flora Poste.
+2. **Stamp collecting**: The term "flora" refers to plant life, and there are stamps that feature flora (plants) from various regions, often collected by philatelists.
+3. **Ancient Rome**: In ancient Rome, "Flora" is the name of the goddess of flowers and the season of spring.
+
+Thus, the common connection is the name "Flora."
 
 
   [B] Trial 0 (X):
-    The type of hat that takes its name from the 1894 novel by George Du Maurier is called a "bowler hat." The character in the novel, whose surname is O'Ferrall, is associated with this style of hat.
+    The name that connects 'Cold Comfort Farm,' stamp collecting, and ancient Rome is "Flora." In 'Cold Comfort Farm,' the main character is named Flora Poste. Stamp collecting is associated with "flora" as a theme in many stamps, often depicting plants and flowers. Additionally, in ancient Rome, "flora" refers to the goddess of flowers and the season of spring.
 
   [B] Trial 1 (X):
-    The type of hat that takes its name from the 1894 novel by George Du Maurier is the "boater." The character O'Ferrall in the novel is associated with this style of hat, which is typically made of straw and has a flat top and a ribbon around the crown.
+    The name that connects 'Cold Comfort Farm,' stamp collecting, and ancient Rome is "Flora." In 'Cold Comfort Farm,' the main character is named Flora Poste. In stamp collecting, "flora" refers to the plant life represented on stamps. Additionally, in ancient Rome, "Flora" was the goddess of flowers and the season of spring.
 
   [B] Trial 2 (X):
-    The type of hat that takes its name from the 1894 novel by George Du Maurier is called a "boater." In the novel "Peter Ibbetson," the character O'Ferrall is associated with this style of hat, which is typically made of straw and has a flat top and a wide brim.
+    The name that connects 'Cold Comfort Farm', stamp collecting, and ancient Rome is "Flora." 
+
+In 'Cold Comfort Farm', the main character is named Flora Poste. In stamp collecting, "flora" refers to the plant life represented on stamps. Additionally, in ancient Rome, "Flora" was the goddess of flowers and the season of spring.
+
+
+================================================================================
+Q: Who produces the `Agila' car model?
+Gold: VAUXHALL
+NER: ORG
+A: doesn't-know (0/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (X):
+    The `Agila' car model is produced by the automobile manufacturer Opel. The Opel Agila is a small city car that was first introduced in 2000 and has been part of the European market. It was developed in collaboration with Suzuki, which also produced a similar model called the Suzuki Splash. If you need more specific information about the Agila or its specifications, feel free to ask!
+
+  [A] Trial 1 (X):
+    The `Agila' car model is produced by the automotive manufacturer Opel. It is a small multi-purpose vehicle (MPV) that was developed in collaboration with Suzuki, and it was primarily sold in Europe. The Agila was designed to be a compact and practical vehicle, suitable for urban driving. The model has seen various iterations since its introduction, with the first generation launched in the early 2000s.
+
+  [A] Trial 2 (X):
+    The Agila car model is produced by the manufacturer Opel, which is a subsidiary of the automotive group Stellantis. The Agila is a small city car that was produced in various generations, with the first model launched in the early 2000s. It is known for its compact size and practicality, making it suitable for urban driving.
+
+
+  [B] Trial 0 (X):
+    The `Agila` car model is produced by the automobile manufacturer Opel, which is a subsidiary of the French company PSA Group (now part of Stellantis). The Agila is a small city car that was developed in collaboration with Suzuki.
+
+  [B] Trial 1 (X):
+    The `Agila' car model is produced by Opel, a German automobile manufacturer. It is a small city car that was developed in collaboration with Suzuki, sharing some design and engineering elements with the Suzuki Splash.
+
+  [B] Trial 2 (O):
+    The Agila car model is produced by the manufacturer Opel.
+
+
+================================================================================
+Q: 'An Island Parish' is a documentary series on BBC2, in which islands were the first four series set?
+Gold: Scilly Isles
+NER: LOC
+A: guess (1/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The first four series of 'An Island Parish' were set in the following locations:
+
+1. **Sark** - The first series focused on the island of Sark, which is part of the Channel Islands.
+2. **Tresco** - The second series was set on the island of Tresco in the Isles of Scilly.
+3. **St. Helena** - The third series took viewers to the remote island of St. Helena in the South Atlantic Ocean.
+4. **Bermuda** - The fourth series was set in Bermuda, a British Overseas Territory in the North Atlantic.
+
+Each series explores the unique communities, cultures, and challenges faced by the residents of these islands.
+
+  [A] Trial 1 (X):
+    The first four series of 'An Island Parish' were set on the following islands:
+
+1. **Sark** - The first series focused on this island in the Channel Islands.
+2. **Harris** - The second series was set on the Isle of Harris in Scotland.
+3. **St. Helena** - The third series took place on this remote island in the South Atlantic.
+4. **Lundy** - The fourth series was set on Lundy Island, located in the Bristol Channel.
+
+Each series explored the unique lifestyles, cultures, and challenges faced by the communities on these islands.
+
+  [A] Trial 2 (X):
+    The first four series of 'An Island Parish' were set on the following islands:
+
+1. **Sark** - The first series focused on this small island in the Channel Islands.
+2. **St. Helena** - The second series was set on this remote island in the South Atlantic Ocean.
+3. **Bermuda** - The third series took place on this British Overseas Territory in the North Atlantic.
+4. **Isle of Man** - The fourth series was set on this self-governing British Crown dependency located in the Irish Sea.
+
+The series showcases the lives of the residents and the unique aspects of each island community.
+
+
+  [B] Trial 0 (O):
+    'An Island Parish' is a documentary series that focuses on life in various island communities. The first four series were set on the following islands:
+
+1. Series 1 - St. Helena
+2. Series 2 - The Isle of Man
+3. Series 3 - The Scilly Isles
+4. Series 4 - The Isle of Lewis in Scotland
+
+Each series explores the unique culture, challenges, and lifestyle of the island's inhabitants.
+
+  [B] Trial 1 (O):
+    The first four series of 'An Island Parish' on BBC2 were set in the following locations: 
+
+1. The Isle of Scilly
+2. The Isle of Lewis (in the Outer Hebrides)
+3. The Isle of Man
+4. The Isle of Wight
+
+Each series focused on the unique communities and challenges faced by these island locations.
+
+  [B] Trial 2 (X):
+    The first four series of the documentary series 'An Island Parish' on BBC2 were set in the following locations: 
+
+1. **Shetland** - The first series was set in the Shetland Islands.
+2. **St. Helena** - The second series focused on the island of St. Helena.
+3. **Lundy** - The third series took place on Lundy Island.
+4. **Jersey** - The fourth series was set in Jersey in the Channel Islands. 
+
+These series explore the lives of the communities living on these islands.
+
+
+================================================================================
+Q: Who coined the phrase 'Somebody up there likes me'?
+Gold: ROCKY GRAZIANO
+NER: PERSON
+A: doesn't-know (0/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (X):
+    The phrase "Somebody up there likes me" was popularized by American boxer Jake LaMotta, who used it to express his belief in divine favor or luck during his boxing career. The phrase was later used as the title of a 1956 film about LaMotta's life, starring Paul Newman. The expression has since entered popular culture, often used to convey a sense of being fortunate or favored in difficult situations.
+
+  [A] Trial 1 (X):
+    The phrase "Somebody up there likes me" is often attributed to the American boxer Rocky Marciano. He reportedly used it after winning a fight, expressing his belief that he had divine favor. The phrase later gained further popularity through the title of the 1956 film "Somebody Up There Likes Me," which was based on Marciano's life and starred Paul Newman.
+
+  [A] Trial 2 (X):
+    The phrase "Somebody up there likes me" is famously associated with the American boxer Jake LaMotta, who used it to express his belief in a higher power looking out for him. The phrase was popularized further by the 1956 film titled "Somebody Up There Likes Me," which starred Paul Newman as LaMotta. The film's title and the phrase have since become part of popular culture.
+
+
+  [B] Trial 0 (O):
+    The phrase "Somebody up there likes me" is often attributed to the American boxer Rocky Graziano. He famously used it to express his belief in a higher power watching over him, particularly in the context of his boxing career. The phrase has since become a popular expression and was also used as the title of a 1956 film about his life.
+
+  [B] Trial 1 (O):
+    The phrase "Somebody up there likes me" is often attributed to the American boxer Rocky Graziano. He famously used it to express his belief in having a guardian angel or good fortune during his life and career. The phrase was later popularized in the title of a 1956 biographical film about him.
+
+  [B] Trial 2 (X):
+    The phrase "Somebody up there likes me" is often associated with the American boxer Rocky Marciano, who reportedly used it to express his belief in a higher power watching over him. The phrase was popularized further by the title of a 1956 film about Marciano's life, which starred Paul Newman.
+
+
+================================================================================
+Q: Who was the first football nation to win the World Cup outside their own continent?
+Gold: BRAZIL
+NER: GPE
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    The first football nation to win the FIFA World Cup outside their own continent was Uruguay. They won the inaugural World Cup in 1930, which was held in Uruguay. However, if you are referring to a nation winning the World Cup while being from a different continent than where the tournament was held, that would be Brazil, who won the 1958 World Cup in Sweden.
+
+  [A] Trial 1 (X):
+    The first football nation to win the World Cup outside their own continent was Uruguay. They won the inaugural FIFA World Cup in 1930, which was held in Uruguay itself. However, the first instance of a nation winning the World Cup outside its own continent occurred in 1934 when Italy hosted and won the tournament, as Italy is in Europe and had previously won the World Cup in 1934. Therefore, the first nation to win the World Cup outside their own continent was Italy.
+
+  [A] Trial 2 (O):
+    The first football nation to win the FIFA World Cup outside their own continent was Uruguay. They won the inaugural World Cup in 1930, which was hosted in Uruguay, and then they won again in 1950 in Brazil, which is outside their own continent of South America.
+
+
+  [B] Trial 0 (O):
+    The first football nation to win the World Cup outside their own continent was Brazil. They achieved this feat in 1958 when they won the tournament in Sweden.
+
+  [B] Trial 1 (O):
+    The first football nation to win the World Cup outside their own continent was Brazil. They won the tournament in 1958, which was held in Sweden, becoming the first team from South America to win the World Cup in Europe.
+
+  [B] Trial 2 (O):
+    The first football nation to win the World Cup outside their own continent was Brazil. They achieved this feat in 1958 when they won the tournament held in Sweden.
+
+
+================================================================================
+Q: The first session of the United Nations General Assembly was convened in January 1946, in which city?
+Gold: London
+NER: GPE
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The first session of the United Nations General Assembly was convened in January 1946 in London, United Kingdom.
+
+  [A] Trial 1 (O):
+    The first session of the United Nations General Assembly was convened in January 1946 in London, United Kingdom.
+
+  [A] Trial 2 (O):
+    The first session of the United Nations General Assembly was convened in January 1946 in London, United Kingdom.
+
+
+  [B] Trial 0 (O):
+    The first session of the United Nations General Assembly was convened in London.
+
+  [B] Trial 1 (O):
+    The first session of the United Nations General Assembly was convened in London, England, in January 1946.
+
+  [B] Trial 2 (X):
+    The first session of the United Nations General Assembly was convened in New York City.
+
+
+================================================================================
+Q: Forbes Magazine named which author as the top earner between July 2012 and August 2013?
+Gold: E L JAMES
+NER: PERSON
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    Forbes Magazine named James Patterson as the top-earning author between July 2012 and August 2013.
+
+  [A] Trial 1 (O):
+    Forbes Magazine named E.L. James, the author of the "Fifty Shades" trilogy, as the top earner between July 2012 and August 2013.
+
+  [A] Trial 2 (X):
+    Forbes Magazine named James Patterson as the top-earning author between July 2012 and August 2013.
+
+
+  [B] Trial 0 (X):
+    Forbes Magazine named J.K. Rowling as the top earner between July 2012 and August 2013.
+
+  [B] Trial 1 (X):
+    Forbes Magazine named J.K. Rowling as the top earner between July 2012 and August 2013.
+
+  [B] Trial 2 (X):
+    Forbes Magazine named J.K. Rowling as the top earner between July 2012 and August 2013.
+
+
+================================================================================
+Q: Which Wirral-born Radio 1 disc jockey died in Peru in 2004?
+Gold: John Peel
+NER: PERSON
+A: guess (1/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was John Peel. He was a prominent figure in the music industry and was known for his influential radio shows.
+
+  [A] Trial 1 (X):
+    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was Johnnie Walker.
+
+  [A] Trial 2 (X):
+    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was Johnnie Walker.
+
+
+  [B] Trial 0 (O):
+    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was John Peel.
+
+  [B] Trial 1 (O):
+    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was John Peel.
+
+  [B] Trial 2 (O):
+    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was John Peel.
+
+
+================================================================================
+Q: Which country is bordered by Cambodia and Laos to the west and China to the north?
+Gold: Vietnam
+NER: GPE
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The country that is bordered by Cambodia and Laos to the west and China to the north is Vietnam.
+
+  [A] Trial 1 (O):
+    The country that is bordered by Cambodia and Laos to the west and China to the north is Vietnam.
+
+  [A] Trial 2 (O):
+    The country bordered by Cambodia and Laos to the west and China to the north is Vietnam.
+
+
+  [B] Trial 0 (O):
+    The country bordered by Cambodia and Laos to the west and China to the north is Vietnam.
+
+  [B] Trial 1 (O):
+    The country bordered by Cambodia and Laos to the west and China to the north is Vietnam.
+
+  [B] Trial 2 (X):
+    The country bordered by Cambodia and Laos to the west and China to the north is Thailand.
+
+
+================================================================================
+Q: Who had a top 40 hit UK single in 1966 with Mustang Sally?
+Gold: Wilson Pickett
+NER: PERSON
+A: weak-knows (2/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (O):
+    The song "Mustang Sally" was famously performed by Wilson Pickett, and he had a top 40 hit with it in the UK in 1966. The song is one of his signature tracks and remains a classic in the soul and R&B genres.
+
+  [A] Trial 1 (X):
+    In 1966, the song "Mustang Sally" was a top 40 hit in the UK for The Young Rascals. The song, originally written and recorded by Mack Rice, became popular after The Young Rascals released their version.
+
+  [A] Trial 2 (O):
+    In 1966, the song "Mustang Sally" was a hit for the artist Wilson Pickett in the UK, reaching the top 40 of the singles chart. The song was originally written and recorded by Mack Rice in 1965, but Wilson Pickett's version became the most well-known.
+
+
+  [B] Trial 0 (X):
+    The top 40 hit UK single "Mustang Sally" in 1966 was by The Young Rascals.
+
+  [B] Trial 1 (X):
+    The top 40 hit UK single "Mustang Sally" in 1966 was by The Young Rascals.
+
+  [B] Trial 2 (O):
+    The song "Mustang Sally" was a top 40 hit in the UK in 1966 by the artist Wilson Pickett.
+
+
+================================================================================
+Q: In which London magazine did Sherlock Holmes first appear?
+Gold: The Strand
+NER: WORK_OF_ART
+A: guess (1/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    Sherlock Holmes first appeared in the magazine "Beeton's Christmas Annual" in 1887, in the story "A Study in Scarlet."
+
+  [A] Trial 1 (O):
+    Sherlock Holmes first appeared in the magazine "The Strand Magazine." His debut story, "A Scandal in Bohemia," was published in July 1891.
+
+  [A] Trial 2 (X):
+    Sherlock Holmes first appeared in the magazine "Beeton's Christmas Annual" in 1887, specifically in the novella "A Study in Scarlet."
+
+
+  [B] Trial 0 (O):
+    Sherlock Holmes first appeared in "The Strand Magazine."
+
+  [B] Trial 1 (O):
+    Sherlock Holmes first appeared in "The Strand Magazine."
+
+  [B] Trial 2 (O):
+    Sherlock Holmes first appeared in "The Strand Magazine."
+
+
+================================================================================
+Q: The Nag's Head was the local pub in which TV comedy series?
+Gold: ONLY FOOLS AND HORSES
+NER: WORK_OF_ART
+A: doesn't-know (0/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    The Nag's Head was the local pub in the TV comedy series "The Royle Family."
+
+  [A] Trial 1 (X):
+    The Nag's Head was the local pub in the TV comedy series "The Royle Family."
+
+  [A] Trial 2 (X):
+    The Nag's Head was the local pub in the TV comedy series "The Royle Family."
+
+
+  [B] Trial 0 (O):
+    The Nag's Head was the local pub in the TV comedy series "Only Fools and Horses."
+
+  [B] Trial 1 (O):
+    The Nag's Head was the local pub in the TV comedy series "Only Fools and Horses."
+
+  [B] Trial 2 (O):
+    The Nag's Head was the local pub in the TV comedy series "Only Fools and Horses."
+
+
+================================================================================
+Q: Name either of the detectives featured in novels by Reginald Hill and in a TV series based on the novels?
+Gold: Dalziel and Pascoe
+NER: PERSON
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The detectives featured in Reginald Hill's novels and the subsequent TV series are Dalziel and Pascoe. Inspector Andy Dalziel and Sergeant Peter Pascoe are the main characters in the series.
+
+  [A] Trial 1 (O):
+    One of the detectives featured in Reginald Hill's novels and the TV series based on them is Detective Chief Superintendent Andrew Dalziel. He is often paired with Detective Sergeant Peter Pascoe in the stories.
+
+  [A] Trial 2 (O):
+    The detectives featured in novels by Reginald Hill and in the TV series based on those novels are Dalziel and Pascoe. Detective Superintendent Andrew Dalziel and Detective Sergeant Peter Pascoe are the main characters in the series.
+
+
+  [B] Trial 0 (O):
+    One of the detectives featured in Reginald Hill's novels and the TV series based on them is Detective Superintendent Andrew Dalziel.
+
+  [B] Trial 1 (X):
+    One of the detectives featured in Reginald Hill's novels and the TV series based on them is Dalziel.
+
+  [B] Trial 2 (O):
+    The detective featured in novels by Reginald Hill and in a TV series based on those novels is Dalziel. He is often paired with his partner, Pascoe.
+
+
+================================================================================
+Q: In the context of UK government, for what does the C stand in the acronym COBRA?
+Gold: Cabinet
+NER: ORG
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    In the context of the UK government, the "C" in the acronym COBRA stands for "Civil." COBRA stands for the "Civil Contingencies Committee," which is a committee that coordinates the government's response to emergencies or crises.
+
+  [A] Trial 1 (O):
+    In the context of the UK government, the "C" in the acronym COBRA stands for "Civil." COBRA stands for "Cabinet Office Briefing Rooms," which are used for crisis management and coordination during emergencies or significant incidents.
+
+  [A] Trial 2 (O):
+    In the context of the UK government, the "C" in the acronym COBRA stands for "Cabinet." COBRA stands for "Cabinet Office Briefing Rooms A," and it refers to a system used to manage emergencies and crises, where senior government officials meet to coordinate responses.
+
+
+  [B] Trial 0 (O):
+    In the context of the UK government, the C in the acronym COBRA stands for "Cabinet." COBRA stands for "Cabinet Office Briefing Rooms," which are used for crisis management and emergency response meetings.
+
+  [B] Trial 1 (O):
+    In the context of the UK government, the C in the acronym COBRA stands for "Civil." COBRA stands for "Cabinet Office Briefing Rooms," which are used for high-level meetings during emergencies and crises.
+
+  [B] Trial 2 (O):
+    In the context of the UK government, the C in the acronym COBRA stands for "Civil." COBRA stands for "Cabinet Office Briefing Rooms," which are used for crisis management and emergency response meetings.
+
+
+================================================================================
+Q: Aglaia, Thalia and. Euphrosyne were known as what?
+Gold: THREE GRACES
+NER: PERSON
+A: guess (1/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    Aglaia, Thalia, and Euphrosyne are known as the Graces (or Charites) in Greek mythology. They are often associated with beauty, charm, and joy, and are typically depicted as three sister goddesses who represent different aspects of grace and creativity.
+
+  [A] Trial 1 (X):
+    Aglaia, Thalia, and Euphrosyne are known as the Graces in Greek mythology. They are often associated with beauty, charm, and joy, and are considered goddesses who bring grace and goodwill to human endeavors.
+
+  [A] Trial 2 (X):
+    Aglaia, Thalia, and Euphrosyne were known as the Graces in Greek mythology. They were considered goddesses of charm, beauty, nature, human creativity, and fertility. The Graces were often associated with the arts and were believed to bestow joy and goodwill upon humanity.
+
+
+  [B] Trial 0 (O):
+    Aglaia, Thalia, and Euphrosyne were known as the Graces or Charites in Greek mythology. They are often associated with beauty, charm, and joy, and are typically depicted as three distinct figures who embody these qualities.
+
+  [B] Trial 1 (X):
+    Aglaia, Thalia, and Euphrosyne were known as the Graces or the Charites in Greek mythology. They were goddesses of charm, beauty, nature, human creativity, and fertility, often associated with the enjoyment of life and the arts.
+
+  [B] Trial 2 (O):
+    Aglaia, Thalia, and Euphrosyne were known as the Graces (or Charites) in Greek mythology. They were typically associated with beauty, charm, and joy, and were often depicted as personifications of grace and elegance.
+
+
+================================================================================
+Q: Who created the Barry McKenzie cartoon strip in the 1960s?
+Gold: Barry Humphries
+NER: PERSON
+A: guess (1/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    The Barry McKenzie cartoon strip was created by Australian cartoonist Bruce Petty in the 1960s. The character became popular in the pages of the magazine "The Bulletin," and the strip is known for its satirical take on Australian culture and society.
+
+  [A] Trial 1 (X):
+    The Barry McKenzie cartoon strip was created by Australian cartoonist Bruce Petty in the 1960s. The strip, featuring the character Barry McKenzie, became popular in Australia and was known for its satirical take on Australian culture and society.
+
+  [A] Trial 2 (O):
+    The Barry McKenzie cartoon strip was created by Australian cartoonist Barry Humphries in the 1960s. The character became well-known through various media, including comic strips and films. Humphries is also famous for his character Dame Edna Everage.
+
+
+  [B] Trial 0 (O):
+    The Barry McKenzie cartoon strip was created by Australian cartoonist Barry Humphries in the 1960s.
+
+  [B] Trial 1 (O):
+    The Barry McKenzie cartoon strip was created by Australian cartoonist Barry Humphries in the 1960s.
+
+  [B] Trial 2 (O):
+    The Barry McKenzie cartoon strip was created by Australian cartoonist Barry Humphries in the 1960s.
+
+
+================================================================================
+Q: The Humber bridge forms part of which A road?
+Gold: A15
+NER: CARDINAL
+A: weak-knows (2/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (X):
+    The Humber Bridge forms part of the A63 road.
+
+  [A] Trial 1 (O):
+    The Humber Bridge forms part of the A15 road in the United Kingdom. The bridge connects the city of Hull in East Yorkshire to North Lincolnshire.
+
+  [A] Trial 2 (O):
+    The Humber Bridge forms part of the A15 road. It connects the city of Hull in East Yorkshire with the town of Barton-upon-Humber in North Lincolnshire.
+
+
+  [B] Trial 0 (X):
+    The Humber Bridge forms part of the A63 road.
+
+  [B] Trial 1 (X):
+    The Humber Bridge forms part of the A63 road.
+
+  [B] Trial 2 (O):
+    The Humber Bridge forms part of the A15 road.
+
+
+================================================================================
+Q: The division of Penguin that deals with science fiction and fantasy books started in 2002 with what fantastical avian name? (hint: Stravinsky)
+Gold: Firebird
+NER: ORG
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    The division of Penguin that deals with science fiction and fantasy books, which started in 2002, is called "Penguin Random House's Ace" and "Roc" imprints. However, the fantastical avian name you're referring to, connected to the hint "Stravinsky," is likely "The Black Swan," which is a reference to Stravinsky's famous ballet. If you meant a specific imprint or series, please clarify, but "The Black Swan" fits the fantastical theme and the hint provided.
+
+  [A] Trial 1 (O):
+    The division of Penguin that deals with science fiction and fantasy books that started in 2002 is called "Penguin Press." The fantastical avian name you are referring to is "Strange Birds," which is a nod to Igor Stravinsky's work "The Firebird."
+
+  [A] Trial 2 (X):
+    The division of Penguin that deals with science fiction and fantasy books, which started in 2002, is called "Penguin Razorbill." The name "Razorbill" refers to a type of bird, drawing on the fantastical avian theme you mentioned.
+
+
+  [B] Trial 0 (X):
+    The division of Penguin that deals with science fiction and fantasy books that started in 2002 is called "Penguin Razorbill." The name "Razorbill" refers to a type of bird, aligning with the avian theme in your question.
+
+  [B] Trial 1 (X):
+    The division of Penguin that deals with science fiction and fantasy books, which started in 2002, is called "Penguin Random House's Ace." The fantastical avian name you are referring to, inspired by the hint "Stravinsky," is likely "Gryphon."
+
+  [B] Trial 2 (X):
+    The division of Penguin that deals with science fiction and fantasy books and started in 2002 is called "Penguin Razorbill." The name "Razorbill" refers to a type of seabird, which fits the avian theme in your hint.
+
+
+================================================================================
+Q: To the nearest two, how many tennis Grand Slam titles did Jimmy Connors win?
+Gold: 10
+NER: CARDINAL
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    Jimmy Connors won a total of 8 Grand Slam titles in his career. To the nearest two, this would still be 8.
+
+  [A] Trial 1 (X):
+    Jimmy Connors won a total of 8 Grand Slam singles titles. To the nearest two, that would still be 8.
+
+  [A] Trial 2 (O):
+    Jimmy Connors won a total of 8 Grand Slam titles in his tennis career. To the nearest two, that would still be 8.
+
+
+  [B] Trial 0 (X):
+    Jimmy Connors won a total of 8 Grand Slam titles. To the nearest two, that would be 8.
+
+  [B] Trial 1 (X):
+    Jimmy Connors won a total of 8 Grand Slam titles. To the nearest two, that would be 8.
+
+  [B] Trial 2 (X):
+    Jimmy Connors won a total of 8 Grand Slam titles. To the nearest two, that would be 8.
+
+
+================================================================================
+Q: Who had a 70s No 1 hit with Let's Do It Again?
+Gold: The Staple Singers
+NER: ORG
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The song "Let's Do It Again" was a No. 1 hit in the 1970s for the group The Staple Singers. It topped the Billboard Hot 100 chart in 1975. The song was also featured in the film of the same name, which starred Sidney Poitier and Bill Cosby.
+
+  [A] Trial 1 (O):
+    The song "Let's Do It Again" was a No. 1 hit in the 1970s for the group The Staple Singers. It topped the Billboard Hot 100 chart in 1975. The song was also featured in the film of the same name, which starred Sidney Poitier and Bill Cosby.
+
+  [A] Trial 2 (O):
+    The song "Let's Do It Again" was a No. 1 hit in the 1970s for The Staple Singers. It was released in 1975 and became one of their signature songs. If you have any more questions about music or anything else, feel free to ask!
+
+
+  [B] Trial 0 (O):
+    The song "Let's Do It Again" was a No. 1 hit in the 1970s for the group The Staple Singers. It was released in 1975 and was part of the soundtrack for the film of the same name.
+
+  [B] Trial 1 (X):
+    The song "Let's Do It Again" was a No. 1 hit in the 1970s by the Stylistics. The track was released in 1975 and became one of their signature songs.
+
+  [B] Trial 2 (O):
+    The song "Let's Do It Again" was a No. 1 hit in the 1970s by the American R&B group The Staple Singers. It was released in 1975 and became one of their signature songs.
+
+
+================================================================================
+Q: Which political party, founded in 1967, has its headquarters in London and currently has the leader Ian Edward ?
+Gold: NATIONAL FRONT
+NER: ORG
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    The political party you are referring to is the **Social Democratic Party (SDP)**. It was founded in 1981, not 1967, but it is often associated with political movements that began in the 1960s. The SDP has had various leaders over the years, and as of my last update, Ian Edward is mentioned as a leader, though specific details may change over time. Please verify with up-to-date sources for the latest information.
+
+  [A] Trial 1 (X):
+    The political party you are referring to is the **Scottish National Party (SNP)**. It was founded in 1967 and has its headquarters in London. The current leader is Ian Edward.
+
+  [A] Trial 2 (O):
+    The political party you are referring to is the **National Front (NF)**, which was founded in 1967 and has its headquarters in London. The current leader, as of the last available information, is Ian Edward. The National Front is known for its far-right positions and has been involved in various controversies over the years.
+
+
+  [B] Trial 0 (X):
+    The political party you are referring to is the "Social Democratic Party" (SDP), which was founded in 1981, not 1967. However, if you are specifically looking for a party founded in 1967 with a leader named Ian Edward, that does not match any prominent political party in the UK known to me. Please verify the details for accuracy.
+
+  [B] Trial 1 (X):
+    The political party you are referring to is the "Scottish National Party" (SNP). However, it's important to clarify that while the SNP was founded in 1934, it has had significant developments and changes in leadership over the years. The current leader as of my last knowledge update is Humza Yousaf, who succeeded Nicola Sturgeon. If Ian Edward is a recent leader or a specific reference that emerged after my last update, I don't have that information.
+
+  [B] Trial 2 (X):
+    The political party you are referring to is the Liberal Party in the United Kingdom. It was founded in 1967 and has had various leaders over the years, with Ian Edward being a notable figure associated with it.
+
+
+================================================================================
+Q: How many dominoes are there in a double six set?
+Gold: 28
+NER: CARDINAL
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    A double six set of dominoes consists of all possible pairs of numbers from 0 to 6, including doubles. To calculate the total number of dominoes, we can use the formula for combinations, since the order of the numbers does not matter.
+
+The pairs can be represented as (a, b) where \(0 \leq a \leq b \leq 6\). 
+
+- For each number \(a\) from 0 to 6, \(b\) can take values from \(a\) to 6. 
+- The pairs are:
+  - For \(a = 0\): (0,0), (0,1), (0,2), (0,3), (0,4), (0,5), (0,6) → 7 pairs
+  - For \(a = 1\): (1,1), (1,2), (1,3), (1,4), (1,5), (1,6) → 6 pairs
+  - For \(a = 2\): (2,2), (2,3), (2,4), (2,5), (2,6) → 5 pairs
+  - For
+
+  [A] Trial 1 (O):
+    A double-six set of dominoes contains 28 unique pieces. In this set, each domino is represented by a pair of numbers ranging from 0 to 6. The pieces include all combinations of these numbers, including doubles (where both ends of the domino have the same number). The total number of unique dominoes can be calculated using the formula for combinations:
+
+\[
+\text{Number of dominoes} = \frac{(n + 1)(n)}{2}
+\]
+
+For a double-six set, \( n = 6 \):
+
+\[
+\text{Number of dominoes} = \frac{(6 + 1)(6)}{2} = \frac{7 \times 6}{2} = \frac{42}{2} = 21
+\]
+
+However, this method counts each pair only once, and we also need to include the doubles (which are counted once). Hence, the total number of dominoes is indeed 28, including all combinations of the numbers from 0 to 6.
+
+  [A] Trial 2 (O):
+    A double six set of dominoes consists of 28 individual domino pieces. Each piece is represented by a pair of numbers ranging from 0 to 6. The pieces include all combinations of these numbers, including doubles (where both ends of the domino have the same number). The combinations can be calculated using the formula for combinations with repetition, or simply by listing them:
+
+- (0,0), (0,1), (0,2), (0,3), (0,4), (0,5), (0,6)
+- (1,1), (1,2), (1,3), (1,4), (1,5), (1,6)
+- (2,2), (2,3), (2,4), (2,5), (2,6)
+- (3,3), (3,4), (3,5), (3,6)
+- (4,4), (4,5), (4,6)
+- (5,5), (5,6)
+- (6,6)
+
+Counting all these combinations gives a total of 28 dominoes in a double six set.
+
+
+  [B] Trial 0 (O):
+    A double six set of dominoes contains 28 individual pieces. Each piece represents a unique combination of two numbers ranging from 0 to 6.
+
+  [B] Trial 1 (O):
+    A double six set of dominoes contains 28 individual dominoes. Each domino is represented by a pair of numbers ranging from 0 to 6, allowing for combinations of these numbers.
+
+  [B] Trial 2 (O):
+    A double six set of dominoes contains 28 individual dominoes. Each domino is represented by a pair of numbers ranging from 0 to 6, including doubles (like 0-0, 1-1, etc.).
 
 

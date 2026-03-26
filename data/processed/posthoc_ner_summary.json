@@ -1,0 +1,55 @@
+{
+  "analyzable_tags": [
+    "PERSON",
+    "GPE",
+    "WORK_OF_ART",
+    "ORG",
+    "PRODUCT",
+    "LOC",
+    "CARDINAL",
+    "DATE",
+    "EVENT",
+    "FAC"
+  ],
+  "other_tags": [
+    "NORP",
+    "LANGUAGE",
+    "QUANTITY",
+    "MONEY",
+    "ORDINAL"
+  ],
+  "tag_counts": {
+    "PERSON": 318,
+    "WORK_OF_ART": 118,
+    "GPE": 224,
+    "DATE": 32,
+    "PRODUCT": 78,
+    "LOC": 51,
+    "FAC": 22,
+    "CARDINAL": 34,
+    "EVENT": 23,
+    "ORG": 83,
+    "QUANTITY": 1,
+    "NORP": 9,
+    "LANGUAGE": 5,
+    "MONEY": 1,
+    "ORDINAL": 1
+  },
+  "tag_mapping": {
+    "PERSON": "PERSON",
+    "GPE": "GPE",
+    "WORK_OF_ART": "WORK_OF_ART",
+    "ORG": "ORG",
+    "PRODUCT": "PRODUCT",
+    "LOC": "LOC",
+    "CARDINAL": "CARDINAL",
+    "DATE": "DATE",
+    "EVENT": "EVENT",
+    "FAC": "FAC",
+    "NORP": "OTHER",
+    "LANGUAGE": "OTHER",
+    "QUANTITY": "OTHER",
+    "MONEY": "OTHER",
+    "ORDINAL": "OTHER"
+  }
+}

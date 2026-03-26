@@ -1,69 +1,82 @@
 {
   "overall": {
-    "strong-knows": 238,
-    "guess": 2,
-    "doesn't-know": 25,
-    "weak-knows": 3
+    "strong-knows": 888,
+    "doesn't-know": 72,
+    "weak-knows": 18,
+    "guess": 22
   },
   "by_ner_tag": {
-    "CARDINAL": {
-      "strong-knows": 19,
-      "guess": 1
+    "PERSON": {
+      "strong-knows": 281,
+      "doesn't-know": 24,
+      "guess": 10,
+      "weak-knows": 3
     },
-    "DATE": {
-      "strong-knows": 17,
-      "doesn't-know": 3
-    },
-    "EVENT": {
-      "strong-knows": 20
-    },
-    "FAC": {
-      "strong-knows": 17,
-      "doesn't-know": 3
+    "WORK_OF_ART": {
+      "doesn't-know": 11,
+      "strong-knows": 102,
+      "guess": 3,
+      "weak-knows": 2
     },
     "GPE": {
-      "strong-knows": 18,
-      "doesn't-know": 2
+      "weak-knows": 2,
+      "strong-knows": 203,
+      "doesn't-know": 17,
+      "guess": 2
     },
-    "LANGUAGE": {
-      "strong-knows": 17,
+    "DATE": {
+      "strong-knows": 30,
+      "weak-knows": 1,
+      "doesn't-know": 1
+    },
+    "PRODUCT": {
+      "strong-knows": 69,
+      "doesn't-know": 6,
+      "guess": 2,
+      "weak-knows": 1
+    },
+    "LOC": {
+      "strong-knows": 46,
+      "guess": 2,
       "weak-knows": 1,
       "doesn't-know": 2
     },
-    "LOC": {
-      "strong-knows": 19,
+    "FAC": {
+      "weak-knows": 1,
+      "strong-knows": 20,
+      "doesn't-know": 1
+    },
+    "CARDINAL": {
+      "strong-knows": 29,
+      "weak-knows": 4,
+      "guess": 1
+    },
+    "EVENT": {
+      "strong-knows": 22,
+      "weak-knows": 1
+    },
+    "ORG": {
+      "strong-knows": 71,
+      "doesn't-know": 8,
+      "weak-knows": 2,
+      "guess": 2
+    },
+    "QUANTITY": {
       "doesn't-know": 1
     },
     "NORP": {
-      "weak-knows": 1,
-      "strong-knows": 16,
-      "doesn't-know": 2,
-      "guess": 1
+      "strong-knows": 8,
+      "doesn't-know": 1
+    },
+    "LANGUAGE": {
+      "strong-knows": 5
+    },
+    "MONEY": {
+      "strong-knows": 1
     },
     "ORDINAL": {
-      "strong-knows": 11
-    },
-    "ORG": {
-      "strong-knows": 19,
-      "doesn't-know": 1
-    },
-    "PERSON": {
-      "strong-knows": 18,
-      "doesn't-know": 2
-    },
-    "PRODUCT": {
-      "weak-knows": 1,
-      "strong-knows": 18,
-      "doesn't-know": 1
-    },
-    "QUANTITY": {
-      "strong-knows": 12,
-      "doesn't-know": 5
-    },
-    "WORK_OF_ART": {
-      "strong-knows": 17,
-      "doesn't-know": 3
+      "strong-knows": 1
     }
   },
-  "total": 268
+  "total": 1000
 }

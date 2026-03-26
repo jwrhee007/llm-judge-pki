@@ -25,7 +25,13 @@ import yaml
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.api.openai_client import OpenAIClient
-from src.data.sampler import stratified_sample, save_sampled_data
+from src.data.sampler import (
+    random_sample,
+    stratified_sample,
+    posthoc_ner_summary,
+    assign_analysis_tag,
+    save_sampled_data,
+)
 from src.data.triviaqa_loader import load_processed_data
 from src.prompts.ner_prompt import build_ner_messages, parse_ner_response
 from src.utils.logger import setup_logger
@@ -138,7 +144,7 @@ def run_ner_batch(
 
 
 def main():
-    parser = argparse.ArgumentParser(description="NER tagging and stratified sampling")
+    parser = argparse.ArgumentParser(description="NER tagging and sampling")
     parser.add_argument(
         "--input",
         default="data/processed/triviaqa_rc_evidence_present.jsonl",
@@ -160,6 +166,17 @@ def main():
         help="Use OpenAI Batch API instead of sync calls",
     )
     parser.add_argument(
+        "--skip-ner",
+        action="store_true",
+        help="Skip NER tagging (use pre-tagged data from --input)",
+    )
+    parser.add_argument(
+        "--sampling-strategy",
+        choices=["random", "stratified"],
+        default=None,
+        help="Sampling strategy (default: from config)",
+    )
+    parser.add_argument(
         "--config",
         default="configs/config.yaml",
         help="Config file path",
@@ -168,70 +185,99 @@ def main():
 
     load_dotenv()
     config = load_config(args.config)
+    strategy = args.sampling_strategy or config["sampling"]["strategy"]
 
     logger.info("=" * 60)
-    logger.info("Step 1: NER Tagging + Stratified Sampling")
+    logger.info(f"Step 1: NER Tagging + Sampling (strategy={strategy})")
     logger.info("=" * 60)
 
     # Load data
     data = load_processed_data(args.input)
 
-    # Initialize client
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        logger.error("OPENAI_API_KEY not found in environment")
-        sys.exit(1)
-
-    client = OpenAIClient(
-        api_key=api_key,
-        max_retries=config["api"]["max_retries"],
-        requests_per_minute=config["api"]["requests_per_minute"],
-    )
-
-    # NER tagging
-    ner_model = config["model"]["ner_tagger"]
-    logger.info(f"NER model: {ner_model}")
-
-    if args.use_batch:
-        logger.info("Using Batch API for NER tagging")
-        tagged_data = run_ner_batch(
-            client=client,
-            data=data,
-            model=ner_model,
-            batch_output_dir=config["api"]["batch_output_dir"],
-        )
+    # NER tagging (skip if --skip-ner or input is already NER-tagged)
+    if args.skip_ner:
+        logger.info("Skipping NER tagging (--skip-ner)")
+        tagged_data = data
     else:
-        logger.info("Using synchronous API for NER tagging")
-        tagged_data = run_ner_sync(
-            client=client,
-            data=data,
-            model=ner_model,
+        # Initialize client
+        api_key = os.environ.get("OPENAI_API_KEY")
+        if not api_key:
+            logger.error("OPENAI_API_KEY not found in environment")
+            sys.exit(1)
+
+        client = OpenAIClient(
+            api_key=api_key,
+            max_retries=config["api"]["max_retries"],
+            requests_per_minute=config["api"]["requests_per_minute"],
         )
 
-    # Save NER-tagged data (before sampling)
-    output_path = Path(args.ner_output)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_path, "w", encoding="utf-8") as f:
-        for item in tagged_data:
-            f.write(json.dumps(item, ensure_ascii=False) + "\n")
-    logger.info(f"NER-tagged data saved to {args.ner_output}")
+        ner_model = config["model"]["ner_tagger"]
+        logger.info(f"NER model: {ner_model}")
+
+        if args.use_batch:
+            logger.info("Using Batch API for NER tagging")
+            tagged_data = run_ner_batch(
+                client=client,
+                data=data,
+                model=ner_model,
+                batch_output_dir=config["api"]["batch_output_dir"],
+            )
+        else:
+            logger.info("Using synchronous API for NER tagging")
+            tagged_data = run_ner_sync(
+                client=client,
+                data=data,
+                model=ner_model,
+            )
+
+        # Save NER-tagged data (before sampling)
+        output_path = Path(args.ner_output)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            for item in tagged_data:
+                f.write(json.dumps(item, ensure_ascii=False) + "\n")
+        logger.info(f"NER-tagged data saved to {args.ner_output}")
 
     # NER tag distribution
     from collections import Counter
-    tag_dist = Counter(item["ner_tag"] for item in tagged_data)
+    tag_dist = Counter(item.get("ner_tag", "UNKNOWN") for item in tagged_data)
     logger.info("NER tag distribution (full dataset):")
     for tag, count in tag_dist.most_common():
         logger.info(f"  {tag}: {count}")
 
-    # Stratified sampling
-    sampled = stratified_sample(
-        data=tagged_data,
-        ner_tag_key="ner_tag",
-        max_per_tag=config["sampling"]["max_per_ner_tag"],
-        target_total=config["sampling"]["target_total"],
-        seed=config["sampling"]["random_seed"],
-        target_tags=config["sampling"]["target_ner_tags"],
-    )
+    # Sampling
+    if strategy == "random":
+        logger.info(f"Using random sampling (target={config['sampling']['target_total']})")
+        sampled = random_sample(
+            data=tagged_data,
+            target_total=config["sampling"]["target_total"],
+            seed=config["sampling"]["random_seed"],
+        )
+
+        # Post-hoc NER analysis: assign analysis tags
+        min_count = config["sampling"].get("min_per_ner_tag_for_analysis", 15)
+        ner_summary = posthoc_ner_summary(sampled, min_count=min_count)
+        sampled = assign_analysis_tag(sampled, ner_summary["tag_mapping"])
+
+        # Save post-hoc NER summary
+        summary_path = Path(args.output).parent / "posthoc_ner_summary.json"
+        with open(summary_path, "w", encoding="utf-8") as f:
+            json.dump(ner_summary, f, indent=2, ensure_ascii=False)
+        logger.info(f"Post-hoc NER summary saved to {summary_path}")
+
+    elif strategy == "stratified":
+        logger.info(f"Using stratified sampling (max_per_tag={config['sampling']['max_per_ner_tag']})")
+        sampled = stratified_sample(
+            data=tagged_data,
+            ner_tag_key="ner_tag",
+            max_per_tag=config["sampling"]["max_per_ner_tag"],
+            target_total=config["sampling"]["target_total"],
+            seed=config["sampling"]["random_seed"],
+            target_tags=config["sampling"]["target_ner_tags"],
+        )
+    else:
+        logger.error(f"Unknown sampling strategy: {strategy}")
+        sys.exit(1)
 
     save_sampled_data(sampled, args.output)
 

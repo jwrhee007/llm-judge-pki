@@ -2,76 +2,81 @@
 
 ## 1. Overview
 
-- Total items: **250**
-- Method A (Bare question): 268 items
-- Method B (Knowledge-eliciting): 268 items
+- Total items: **956**
+- Method A (Bare question): 1000 items
+- Method B (Knowledge-eliciting): 1000 items
 
 ## 2. Overall 4-Level Classification
 
 | Level | Method A | A (%) | Method B | B (%) |
 |-------|----------|-------|----------|-------|
-| strong-knows | 238 | 88.8% | 232 | 86.6% |
-| weak-knows | 3 | 1.1% | 3 | 1.1% |
-| guess | 2 | 0.7% | 4 | 1.5% |
-| doesn't-know | 25 | 9.3% | 29 | 10.8% |
+| strong-knows | 888 | 88.8% | 882 | 88.2% |
+| weak-knows | 18 | 1.8% | 21 | 2.1% |
+| guess | 22 | 2.2% | 18 | 1.8% |
+| doesn't-know | 72 | 7.2% | 79 | 7.9% |
 
 ## 3. Method A vs B Agreement
 
-- **Exact agreement rate**: 96.4%
-- **Cohen's Kappa**: 0.828
+- **Exact agreement rate**: 93.9%
+- **Cohen's Kappa**: 0.712
 
-- **Interpretation**: Almost perfect agreement
+- **Interpretation**: Substantial agreement
 
 ## 4. Cross-tabulation (Method A × Method B)
 
 | level_A      |   strong-knows |   weak-knows |   guess |   doesn't-know |   Total |
 |:-------------|---------------:|-------------:|--------:|---------------:|--------:|
-| strong-knows |            218 |            1 |       2 |              2 |     223 |
-| weak-knows   |              1 |            1 |       1 |              0 |       3 |
-| guess        |              0 |            0 |       0 |              2 |       2 |
-| doesn't-know |              0 |            0 |       0 |             22 |      22 |
-| Total        |            219 |            2 |       3 |             26 |     250 |
+| strong-knows |            831 |           10 |       4 |              4 |     849 |
+| weak-knows   |              7 |            2 |       5 |              3 |      17 |
+| guess        |              3 |            5 |       5 |              8 |      21 |
+| doesn't-know |              2 |            3 |       4 |             60 |      69 |
+| Total        |            843 |           20 |      18 |             75 |     956 |
 
 ## 5. Disagreement Analysis
 
-Total disagreements: 9
+Total disagreements: 58
 
 | Method A → Method B | Count |
 |---------------------|-------|
-| strong-knows → doesn't-know | 2 |
-| guess → doesn't-know | 2 |
-| strong-knows → guess | 2 |
-| weak-knows → guess | 1 |
-| strong-knows → weak-knows | 1 |
-| weak-knows → strong-knows | 1 |
+| strong-knows → weak-knows | 10 |
+| guess → doesn't-know | 8 |
+| weak-knows → strong-knows | 7 |
+| weak-knows → guess | 5 |
+| guess → weak-knows | 5 |
+| strong-knows → doesn't-know | 4 |
+| doesn't-know → guess | 4 |
+| strong-knows → guess | 4 |
+| doesn't-know → weak-knows | 3 |
+| weak-knows → doesn't-know | 3 |
 
 ## 6. NER Tag Breakdown
 
 | ner_tag     |   n |   A_strong-knows |   A_weak-knows |   A_guess |   A_doesn't-know |   B_strong-knows |   B_weak-knows |   B_guess |   B_doesn't-know |
 |:------------|----:|-----------------:|---------------:|----------:|-----------------:|-----------------:|---------------:|----------:|-----------------:|
-| CARDINAL    |  20 |               19 |              0 |         1 |                0 |               18 |              0 |         1 |                1 |
-| DATE        |  20 |               17 |              0 |         0 |                3 |               17 |              0 |         0 |                3 |
-| EVENT       |  20 |               20 |              0 |         0 |                0 |               20 |              0 |         0 |                0 |
-| FAC         |  18 |               15 |              0 |         0 |                3 |               15 |              0 |         0 |                3 |
-| GPE         |  20 |               18 |              0 |         0 |                2 |               18 |              0 |         0 |                2 |
-| LANGUAGE    |  15 |               13 |              1 |         0 |                1 |               14 |              0 |         0 |                1 |
-| LOC         |  20 |               19 |              0 |         0 |                1 |               19 |              0 |         0 |                1 |
-| NORP        |  19 |               15 |              1 |         1 |                2 |               15 |              1 |         0 |                3 |
-| ORDINAL     |   6 |                6 |              0 |         0 |                0 |                6 |              0 |         0 |                0 |
-| ORG         |  20 |               19 |              0 |         0 |                1 |               19 |              0 |         0 |                1 |
-| PERSON      |  20 |               18 |              0 |         0 |                2 |               18 |              0 |         0 |                2 |
-| PRODUCT     |  20 |               18 |              1 |         0 |                1 |               16 |              0 |         1 |                3 |
-| QUANTITY    |  12 |                9 |              0 |         0 |                3 |                7 |              1 |         1 |                3 |
-| WORK_OF_ART |  20 |               17 |              0 |         0 |                3 |               17 |              0 |         0 |                3 |
+| CARDINAL    |  34 |               29 |              4 |         1 |                0 |               30 |              0 |         2 |                2 |
+| DATE        |  31 |               29 |              1 |         0 |                1 |               29 |              0 |         0 |                2 |
+| EVENT       |  22 |               21 |              1 |         0 |                0 |               22 |              0 |         0 |                0 |
+| FAC         |  22 |               20 |              1 |         0 |                1 |               20 |              0 |         2 |                0 |
+| GPE         | 214 |              194 |              2 |         2 |               16 |              191 |              6 |         0 |               17 |
+| LANGUAGE    |   5 |                5 |              0 |         0 |                0 |                5 |              0 |         0 |                0 |
+| LOC         |  48 |               44 |              0 |         2 |                2 |               44 |              1 |         1 |                2 |
+| MONEY       |   1 |                1 |              0 |         0 |                0 |                1 |              0 |         0 |                0 |
+| NORP        |   9 |                8 |              0 |         0 |                1 |                8 |              0 |         0 |                1 |
+| ORDINAL     |   1 |                1 |              0 |         0 |                0 |                1 |              0 |         0 |                0 |
+| ORG         |  80 |               68 |              2 |         2 |                8 |               67 |              1 |         2 |               10 |
+| PERSON      | 300 |              266 |              3 |         9 |               22 |              261 |             10 |         7 |               22 |
+| PRODUCT     |  76 |               67 |              1 |         2 |                6 |               67 |              0 |         2 |                7 |
+| QUANTITY    |   1 |                0 |              0 |         0 |                1 |                0 |              0 |         0 |                1 |
+| WORK_OF_ART | 112 |               96 |              2 |         3 |               11 |               97 |              2 |         2 |               11 |
 
 ## 7. Knows Rate Comparison
 
 *Knows rate = (strong-knows + weak-knows) / total*
 
-- Method A knows rate: **89.9%** (241/268)
-- Method B knows rate: **87.7%** (235/268)
+- Method A knows rate: **90.6%** (906/1000)
+- Method B knows rate: **90.3%** (903/1000)
 
-Method A는 Method B보다 knows rate이 2.2pp 높다.
+Method A는 Method B보다 knows rate이 0.3pp 높다.
 
 ## 8. Next Steps
 

@@ -1,251 +1,957 @@
 question_id,question,gold_answer,ner_tag,level_A,n_correct_A,level_B,n_correct_B,agreement
+bb_1026,"""Colton Harris Moore, the 6'5"""" American teenager who made the news because he stole a boat and a plane, acquired what nickname because of his lack of footwear?""",The Barefoot Bandit,PERSON,strong-knows,3,strong-knows,3,True
+bb_1080,"Bell, Wax, Jalapeño, Habanero and Poblano are types of which fruit, (which some think is a vegetable)?",Chili pepper,PRODUCT,strong-knows,3,strong-knows,3,True
+bb_1106,"Aphasia is the medical term for the inability to use or understand what, resulting from damage to the brain?",Language,LANGUAGE,strong-knows,3,strong-knows,3,True
+bb_113,"Dame Ninette de Valois, the eminent ballet teacher, director, and founder of The Royal Ballet and Birmingham Royal Ballet, was born in which country?",Ireland,GPE,doesn't-know,0,doesn't-know,0,True
+bb_1189,"Planchet was the servant of which of the Three Musketeers, by Alexandre Dumas?",D'Artagnan,PERSON,doesn't-know,0,weak-knows,2,False
 bb_121,A sophomore is a student in which year of a US college?,Second,ORDINAL,strong-knows,3,strong-knows,3,True
-bb_1549,Which canal is known as the 'Highway to India'?,Suez Canal,LOC,strong-knows,3,strong-knows,3,True
-bb_1567,"At what fret are found the same notes as the open strings, but an octave higher, on a standard guitar?",12th,ORDINAL,strong-knows,3,strong-knows,3,True
+bb_1342,"At which English racecourse did two horses collapse and die in the parade ring due to electrocution, in February 2011?",Newbury,FAC,weak-knows,2,guess,1,False
+bb_1352,"Revealed in the author's archives given to Oxford's Bodelian Library in 2008, what occupationally titled novel had the working name The Reluctant Autumn of George Smiley?","Tinker, Tailor, Soldier, Spy",WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
+bb_15,Who wrote The Railway Children?,Edith Nesbit,PERSON,strong-knows,3,strong-knows,3,True
+bb_1551,The moons of which planet are named after Shakespearian characters?,Uranus,GPE,strong-knows,3,strong-knows,3,True
+bb_1584,What common substance has the chemical formula NaCl?,Salt,PRODUCT,strong-knows,3,strong-knows,3,True
+bb_1626,Which author created the character Moll Flanders?,Daniel Defoe,PERSON,strong-knows,3,strong-knows,3,True
+bb_168,Cape Wrath is on the coast of which country?,Scotland,GPE,strong-knows,3,strong-knows,3,True
+bb_1935,The Picts were an ancient tribe of people occupying what country in Roman times?,Scotland,GPE,strong-knows,3,strong-knows,3,True
+bb_196,"A sequence of numbers beginning 0, 1, in which each number is the sum of the previous two numbers is named after what Italian mathematician who devised the system?",Fibonacci,PERSON,strong-knows,3,strong-knows,3,True
+bb_2576,"(As at 2012, and here translated into English) it is illegal to use the slogan 'One People, one Empire, one Leader' in what country?",Germany,GPE,weak-knows,2,weak-knows,2,True
+bb_2661,As at 2012 Dame Marjorie Scardino is/was head of what high-performing global media/learning corporation?,Pearson plc,ORG,strong-knows,3,strong-knows,3,True
+bb_2727,American Jim Yong Kim was appointed head of which international organization in April 2012?,World Bank,ORG,strong-knows,3,strong-knows,3,True
+bb_319,How many Oscars did the 1994 film 'Forrest Gump' win?,Six,CARDINAL,strong-knows,3,strong-knows,3,True
 bb_3474,"Aleph, Beth, Gimel, Daleth are A B C D in which language?",Hebrew,LANGUAGE,strong-knows,3,strong-knows,3,True
-bb_3496,Scrying commonly entails the use of a?,Crystal ball,PRODUCT,strong-knows,3,strong-knows,3,True
-bb_3546,(When discovered Jan 2013) the largest known structure in the universe - a large quasar group named 'Huge-LQG' - would take how many years to cross if travelling at the speed of light?,4 billion,CARDINAL,strong-knows,3,strong-knows,3,True
-bb_3708,Afghanistan's controversial Parwan Detention Facility is better known in the 'western world' by what name?,Bagram,FAC,strong-knows,3,strong-knows,3,True
-bb_3900,A ewer is a large?,Jug,PRODUCT,weak-knows,2,guess,1,False
-bb_3958,The rights to which famous character were sold by creators Jerry Siegel and Joe Shuster to Detective Comics for $130 in 1937?,Superman,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-bb_4224,The German company Recaro famously produces what high-performance product?,Seats,PRODUCT,strong-knows,3,strong-knows,3,True
-bb_4341,In what year was Band-Aid's Do They Know It's Christmas the UK Christmas chart-topping record (bonus point each for the years of reissue success by Band Aid II and Band Aid 20)?,1984,DATE,strong-knows,3,strong-knows,3,True
+bb_3669,Which country is famous for its Blue Lagoon hot springs bathing lake?,Iceland,GPE,strong-knows,3,strong-knows,3,True
+bb_3733,Cosa Nostra refers to what organization?,The Mafia,ORG,strong-knows,3,strong-knows,3,True
+bb_3870,What Belgian city boasts the famous urinating boy fountain called 'Manneken Pis'?,Brussels,GPE,strong-knows,3,strong-knows,3,True
+bb_3905,"What plant, named Olea europaea, is an ancient widely used metaphor for peace?",Olive,PRODUCT,strong-knows,3,strong-knows,3,True
+bb_4168,The hamburger is named after?,Hamburg (Germany),GPE,strong-knows,3,strong-knows,3,True
+bb_418,How many pennies were in a British pre-decimal pound? 120; 200; 204; or 240?,240,CARDINAL,strong-knows,3,strong-knows,3,True
+bb_4230,Which global confectioner started its business in 1920 making 'gummibärchen'?,Haribo,ORG,strong-knows,3,strong-knows,3,True
+bb_4319,A polygraph is more popularly called a?,Lie detector,PRODUCT,strong-knows,3,strong-knows,3,True
+bb_437,Which English novelist is best known for his Father Brown detective series?,G K Chesterton,PERSON,strong-knows,3,strong-knows,3,True
+bb_4415,How many North American railway metro systems are busier than Mexico City's metro?,1,CARDINAL,strong-knows,3,strong-knows,3,True
 bb_4422,What is Mexico's most commonly used language?,Spanish,LANGUAGE,strong-knows,3,strong-knows,3,True
-bb_5013,"The inventors of Penicillin, Television, the Bank of England, the BBC, and the decimal point were?",Scottish,NORP,doesn't-know,0,doesn't-know,0,True
-bb_5577,Minyan is a quorum of ten adult males required for public worship in?,Judaism,NORP,strong-knows,3,strong-knows,3,True
-bb_7289,Singer and musician Gordon Sumner is better known by what name?,Sting,PERSON,strong-knows,3,strong-knows,3,True
-bb_7750,The term 'green-eyed monster' originated from which of Shakepseare's plays?,Othello,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-bb_7851,In which year did Foinavon win the Grand National?,1967,DATE,strong-knows,3,strong-knows,3,True
+bb_4773,"G-BOAG, G-BOAC, and F-BVFC and the tragic F-BTSC designated what iconic 20thC invention?",Concorde,PRODUCT,strong-knows,3,strong-knows,3,True
+bb_4796,By the year 2010 there were roughly how many bicycles worldwide?,1 billion,CARDINAL,strong-knows,3,strong-knows,3,True
+bb_4861,Which famous city has the official website domain www.mcgm.gov.in?,Mumbai,GPE,strong-knows,3,strong-knows,3,True
+bb_4865,What communal cooking method/equipment derives from French 'melted'?,Fondue,PRODUCT,strong-knows,3,strong-knows,3,True
+bb_5083,"What instrument is sized according to terms such as 0, 00, 000, Grand Auditorium and Dreadnought?",Guitar,PRODUCT,strong-knows,3,strong-knows,3,True
+bb_5544,"Proposed in 1776, 'E pluribus unum' ('One from many'), is on the national seal and banknotes of which nation?",USA,GPE,strong-knows,3,strong-knows,3,True
+bb_5633,Which famous employee-owned UK retailer's slogan is 'Never Knowingly Undersold'?,John Lewis,ORG,strong-knows,3,strong-knows,3,True
+bb_5700,"Introduced in 1894 and one of the world's oldest trademarks, Bibendum is better known as what?",The Michelin Man,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+bb_5737,Which multi-talented actor played Mr Burns and Derek Smalls?,Harry Shearer,PERSON,strong-knows,3,strong-knows,3,True
+bb_6022,What is a third divided by a half?,Two-thirds,CARDINAL,strong-knows,3,strong-knows,3,True
+bb_6268,Christian is the lead character in the film 2015 adaptation of what extraordinarily successful book?,Fifty Shades of Grey,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+bb_6646,"Who was assassinated by Hugh de Merville, William de Tracy, Reginald Fitzhurse and Richard le Breton?",Thomas Becket,PERSON,strong-knows,3,strong-knows,3,True
+bb_6744,"What regal name is capital of Seychelles, and British Columbia (Canada), and is an Australian state?",Victoria,GPE,strong-knows,3,strong-knows,3,True
+bb_6957,Lent (Latin Quadragesima) is traditionally a Christian religious fast of how many days?,40,CARDINAL,strong-knows,3,strong-knows,3,True
+bb_7154,"Born Henry John Deutschendorf Junior, which American singer died when his light aircraft crashed into the sea off California in 1997?",John Denver,PERSON,strong-knows,3,strong-knows,3,True
+bb_7194,The cult TV series Lost which began in 2004 features 'Oceanic Flight ...' what?,815,CARDINAL,strong-knows,3,strong-knows,3,True
+bb_7221,Where was the first British Grand Prix motor race held?,Brooklands,LOC,strong-knows,3,strong-knows,3,True
+bb_7353,In what Sudan city was Gillian Gibbons imprisoned for the blasphemous naming of a teddy bear incident?,Khartoum,GPE,strong-knows,3,strong-knows,3,True
+bb_7368,Faye Turney became famous as a member of which of the services?,Royal Navy,ORG,strong-knows,3,strong-knows,3,True
+bb_7429,Which guitar innovator and player has a range of Gibson Guitars named after him?,Les Paul,PERSON,strong-knows,3,strong-knows,3,True
+bb_7576,What gemstone is The Moonstone in the classic novel of that name by Wilkie Collins?,Diamond,PRODUCT,strong-knows,3,strong-knows,3,True
+bb_7737,In which year did Captain Scott reach the South Pole?,1912,DATE,strong-knows,3,strong-knows,3,True
+bb_777,How many suspects are in a normal game of Cluedo?,Six,CARDINAL,strong-knows,3,strong-knows,3,True
+bb_7898,In which film did Roger Moore first play James Bond?,LIVE AND LET DIE,WORK_OF_ART,strong-knows,3,strong-knows,3,True
 bb_7930,In which war was the Battle of Bunker Hill fought?,AMERICAN WAR OF INDEPENDENCE,EVENT,strong-knows,3,strong-knows,3,True
-bb_9345,"If North is 0 and 360 degrees and East is 90 degrees, how many degrees is South-West?",225 degrees,QUANTITY,strong-knows,3,strong-knows,3,True
-bb_9390,"Loosely translated, Aleph Beth Gimel Daleth are the first four letters of what alphabet?",Hebrew,LANGUAGE,strong-knows,3,strong-knows,3,True
-bb_9398,"Name the renowned shirt maker in Jermyn Street, London?",Thomas Pink,ORG,strong-knows,3,strong-knows,3,True
-bt_1466,What is the largest natural lake in Wales,Lake Bala,LOC,strong-knows,3,strong-knows,3,True
+bb_7983,What was Hiram Hackenbacker's nickname in Thunderbirds?,Brains,PERSON,strong-knows,3,strong-knows,3,True
+bb_7993,Which team was the first to score a 'Golden Goal' in the soccer World Cup Finals?,France,GPE,strong-knows,3,strong-knows,3,True
+bb_8093,Who is the voice of baby Mikey in the 1989 film Look Who's Talking?,Bruce Willis,PERSON,strong-knows,3,strong-knows,3,True
+bb_823,Which mime artist is associated with the character Bip?,Marcel Marceau,PERSON,strong-knows,3,strong-knows,3,True
+bb_8345,According to legend who killed the lion represented by the constellation Leo?,Hercules,PERSON,strong-knows,3,strong-knows,3,True
+bb_8442,Gwyl San Steffan is the name for 26th December (St Stephen's Day or Boxing Day) in which country?,Wales,GPE,strong-knows,3,strong-knows,3,True
+bb_8476,In which 1995 film does Robert Carlisle play the character Begbie?,Trainspotting,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+bb_8498,What name for a temple derives from the ancient Greek meaning 'to all gods' ?,Pantheon,FAC,strong-knows,3,strong-knows,3,True
+bb_8676,Which company began a hostile takeover bid for Cadbury in September 2009?,Kraft,ORG,strong-knows,3,strong-knows,3,True
+bb_9212,Mrs Maria Fitzherbert was the wife of which British monarch?,George the Fourth,PERSON,strong-knows,3,strong-knows,3,True
+bb_924,What former Egyptian president was born on Christmas day in 1918?,Anwar Sadat,PERSON,strong-knows,3,strong-knows,3,True
+bb_9307,What railway line is green on the traditional map of the London Underground (Tube)?,District Line,FAC,strong-knows,3,strong-knows,3,True
+bb_9380,The archaeological site of the ancient city of Troy is in which country?,Turkey,GPE,strong-knows,3,strong-knows,3,True
+bb_9448,How many noble gases are there?,Six,CARDINAL,strong-knows,3,strong-knows,3,True
+bt_1153,Which island's parliament is called The Court of Chief Pleas,Sark,LOC,strong-knows,3,strong-knows,3,True
+bt_116,In what year was the Magna Carta signed,1215,DATE,strong-knows,3,strong-knows,3,True
+bt_1412,In which year was the Dambuster's raid,1943,DATE,strong-knows,3,strong-knows,3,True
+bt_1484,When Laurence Olivier became Baron Olivier where was he the Baron of,Brighton,GPE,strong-knows,3,strong-knows,3,True
+bt_1545,The Arsacid Dynasty ruled which country from 250 B.C. until 224 A.D.,Persia,GPE,strong-knows,3,strong-knows,3,True
+bt_1718,Who wrote The Sea Wolf,London,PERSON,strong-knows,3,strong-knows,3,True
+bt_1773,On which river is Kings Lynn,The Great Ouse,LOC,guess,1,guess,1,True
+bt_1861,Who led the quest for the golden fleece,Jason,PERSON,strong-knows,3,strong-knows,3,True
 bt_1974,What nationality is singer Vanessa Paradis,French,NORP,strong-knows,3,strong-knows,3,True
-bt_2036,Which cup competition was founded by Charles William Alcock in the eighteen seventies,The FA Cup,EVENT,strong-knows,3,strong-knows,3,True
-bt_2049,What did Davey Crocket call his rifle,Old Betsy,PRODUCT,strong-knows,3,strong-knows,3,True
-bt_2646,What is the waxy secretion of the sperm whale used in perfume manufacturing,Ambergris,PRODUCT,strong-knows,3,strong-knows,3,True
-bt_2692,Which car company advertises with the slogan The best or nothing,Mercedes-Benz,ORG,strong-knows,3,strong-knows,3,True
+bt_2064,Where was the Titanic heading for on her maiden voyage,New York,GPE,strong-knows,3,strong-knows,3,True
+bt_2065,In which street did the Great Fire of London originate,Pudding Lane,LOC,strong-knows,3,strong-knows,3,True
+bt_212,"First I was afraid I was petrified, are the first words of which song",I Will Survive,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+bt_2321,"How was Monday October 19, 1987 known in the world of finance",Black Monday,EVENT,strong-knows,3,strong-knows,3,True
+bt_2352,Cape Verde was formerly a dependency of which European country,Portugal,GPE,strong-knows,3,strong-knows,3,True
+bt_2403,What was the name of the driver of the mail train robbed by the great train robbers,Jack Mills,PERSON,strong-knows,3,strong-knows,3,True
+bt_259,How many hearts does an earthworm have,Five,CARDINAL,strong-knows,3,strong-knows,3,True
+bt_2623,What is normally celebrated on the third Sunday in June in the UK,Father's Day,EVENT,strong-knows,3,strong-knows,3,True
+bt_264,Who was the first woman to fly the Atlantic solo,Amelia Earheart,PERSON,strong-knows,3,strong-knows,3,True
+bt_2652,A Varsovian is a native of which capital city,Warsaw,GPE,strong-knows,3,strong-knows,3,True
+bt_2729,In which town is the University of Surrey,Guildford,GPE,strong-knows,3,strong-knows,3,True
+bt_284,Which musical instrument did the Lemon Pipers sing about,Green Tambourine,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+bt_2979,Who duetted with Aretha Franklin on Sisters Are Doing It For Themselves,Annie Lennox,PERSON,strong-knows,3,strong-knows,3,True
+bt_3007,Who wrote the epic 1869 novel War and Peace,Leo Tolstoy,PERSON,strong-knows,3,strong-knows,3,True
+bt_307,Which river runs through The Grand Canyon,Colorado,LOC,strong-knows,3,strong-knows,3,True
+bt_3155,"Who wrote the poems If, Gunga Din, Mandalay, and The Female of the Species",Rudyard Kipling,PERSON,strong-knows,3,strong-knows,3,True
 bt_3225,"Kelly Jones, Richard Jones and Richard Cable founded which group",Stereophonics,ORG,strong-knows,3,strong-knows,3,True
-bt_4087,What used to be bought at Spitalfields market apart from fruit and vegetables,Flowers,PRODUCT,strong-knows,3,doesn't-know,0,False
-bt_426,High Force is in County Durham but what is it,A waterfall,LOC,strong-knows,3,strong-knows,3,True
-bt_4289,What nationality was Aristotle Onassis originally,Turkish,NORP,guess,1,doesn't-know,0,False
-bt_4348,Milford Sound in Fiordland National Park that was once judged the world's top travel destination is in which country,New Zealand,GPE,strong-knows,3,strong-knows,3,True
-dpql_1145,When first discovered what name was given to Tasmania?,Van Dieman’s Land,GPE,strong-knows,3,strong-knows,3,True
-dpql_1669,Which is the only Semitic language that is an official language of the EU?,Maltese,LANGUAGE,strong-knows,3,strong-knows,3,True
-dpql_1775,Who had a hit in 1966 with When a Man Loves a Woman?,Percy Sledge,PERSON,strong-knows,3,strong-knows,3,True
-dpql_2210,"When David killed Goliath, how many of his five stones did he use?",ONE,ORDINAL,strong-knows,3,strong-knows,3,True
+bt_3734,In America what name was given to the granite boulder onto which the Plymouth fathers (allegedly) stepped ashore,Plymouth Rock,LOC,strong-knows,3,strong-knows,3,True
+bt_3896,What was the name of the character played by Bonnie Langford in Just William,Violet Elizabeth Bott,PERSON,strong-knows,3,strong-knows,3,True
+bt_4011,Who was the last woman hanged in Britain,Ruth Ellis,PERSON,strong-knows,3,strong-knows,3,True
+bt_4237,What is the shortest Channel crossing,Dover to Calais,LOC,strong-knows,3,strong-knows,3,True
+bt_4289,What nationality was Aristotle Onassis originally,Turkish,NORP,doesn't-know,0,doesn't-know,0,True
+bt_4328,What was the Duke of Wellington's name,Arthur Wellesley,PERSON,strong-knows,3,strong-knows,3,True
+bt_434,What is the capital of Algeria,Algiers,GPE,strong-knows,3,strong-knows,3,True
+bt_435,What is the state capital of Maryland,Annapolis,GPE,strong-knows,3,strong-knows,3,True
+bt_4353,Which female singer had a top ten hit in 1998 with My Favourite Mistake,Sheryl Crow,PERSON,strong-knows,3,strong-knows,3,True
+bt_4413,Who was the original bass guitarist with The Who,John Entwhistle,PERSON,strong-knows,3,strong-knows,3,True
+bt_4573,Which song begins If I was a sculptor but then again no,Your Song,WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
+bt_488,Which mediaeval author wrote The Canterbury Tales,Geoffrey Chaucer,PERSON,strong-knows,3,strong-knows,3,True
+bt_682,Which famous huntsman who was known for wearing a grey coat was buried in Caldbeck cemetery,John Peel,PERSON,strong-knows,3,strong-knows,3,True
+bt_685,What is the name of the official publication of the Jehova’s Witnesses,The Watchtower,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+bt_743,Which boxer broke Muhammed Ali's jaw,Ken Norton,PERSON,strong-knows,3,doesn't-know,0,False
+bt_75,Who was lead singer with Frankie goes to Hollywood,Holly Johnson,PERSON,strong-knows,3,strong-knows,3,True
+bt_85,Which city is the headquarters of the Mormon church,Salt Lake City,GPE,strong-knows,3,strong-knows,3,True
+bt_858,Who played the part of Samantha in Bewitched,Elizabeth Montgomery,PERSON,strong-knows,3,strong-knows,3,True
+bt_999,Who were On The Road Again in 1968,Canned Heat,ORG,doesn't-know,0,doesn't-know,0,True
+dpql_1304,"In the lyrics of ‘Hello, Hello, Who’s Your Lady Friend?’, Margate is mentioned in the verse.",BRIGHTON,GPE,doesn't-know,0,doesn't-know,0,True
+dpql_1343,Who wrote the 1790’s work “Travels in the Interior of Africa”?,Mungo Park,PERSON,strong-knows,3,strong-knows,3,True
+dpql_140,JB Who wrote the novel ‘Greenmantle’?,JOHN BUCHAN,PERSON,strong-knows,3,strong-knows,3,True
+dpql_1410,Who painted Luncheon of the Boating Party?,Renoir,PERSON,strong-knows,3,strong-knows,3,True
+dpql_1491,The cover of which of Pink Floyd’s LP covers features Battersea Power Station?,ANIMALS,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+dpql_151,Which is the highest mountain in North America?,MT MCKINLEY,LOC,strong-knows,3,strong-knows,3,True
+dpql_1648,"""Which composer's operas are famously staged in the town of Bayreuth (say """"Bye-royt"""")?""",Richard WAGNER,PERSON,strong-knows,3,strong-knows,3,True
+dpql_2068,Which town’s Crab Fair features a world-famous face-pulling or “gurning” contest?,Egremont,GPE,strong-knows,3,strong-knows,3,True
 dpql_2463,Robert Hubert was hanged for confessing to what?,Starting the Great Fire,EVENT,strong-knows,3,strong-knows,3,True
-dpql_2984,Kia Motors Corporation is nearly one-third owned by which other Asian company?,HYUNDAI Motor Company,ORG,strong-knows,3,strong-knows,3,True
-dpql_2986,"Sidney Poitier, Eartha Kitt, Val Doonican and Ferenc Puskas were all born in what year?",1927,DATE,strong-knows,3,strong-knows,3,True
-dpql_3210,"When people talk about LGBT rights, what does the ‘T’ represent?",TRANSGENDER,NORP,strong-knows,3,strong-knows,3,True
-dpql_3425,The thoroughfare where fictional Sweeny Todd had his barber shop?,Fleet Street,LOC,strong-knows,3,strong-knows,3,True
-dpql_362,What do 4 roods equal?,An Acre,QUANTITY,strong-knows,3,strong-knows,3,True
-dpql_3692,Football World Cup venue Soccer City is in which city?,Johannesburg,GPE,strong-knows,3,strong-knows,3,True
+dpql_2643,Clifford’s Tower is all that remains of which city’s castle?,York,GPE,strong-knows,3,strong-knows,3,True
+dpql_2767,Which English town is home to the Stephen Joseph Theatre?,SCARBOROUGH,GPE,strong-knows,3,strong-knows,3,True
+dpql_3002,"On August 15th 1914, the SS Ancon became the first ship to officially do what?",TRANSIT the PANAMA CANAL,FAC,strong-knows,3,strong-knows,3,True
+dpql_3061,Which Scottish mathematician discovered logarithms?,John NAPIER,PERSON,strong-knows,3,strong-knows,3,True
+dpql_3227,Harvey was one of Dr. Crippen’s first names. What was the other?,HAWLEY,PERSON,strong-knows,3,weak-knows,2,False
+dpql_3356,Who was the first person in the bible to get drunk?,Noah,PERSON,strong-knows,3,strong-knows,3,True
+dpql_3437,"Who played Nurse Gladys Emmanuel, Arkwright’s love interest in Open All Hours?",Lynda Baron,PERSON,doesn't-know,0,guess,1,False
+dpql_3578,Joe Gargery is a character in which Charles Dickens novel?,Great Expectations,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+dpql_3627,What literally means ‘submission to God’ in Arabic?,Islam,NORP,strong-knows,3,strong-knows,3,True
+dpql_376,Pantagruel was the son of which giant?,Gargantua,PERSON,strong-knows,3,strong-knows,3,True
+dpql_381,In the computer world what company is nicknamed Big Blue?,IBM,ORG,strong-knows,3,strong-knows,3,True
+dpql_3818,What is the largest city and capital of Madeira?,Funchal,GPE,strong-knows,3,strong-knows,3,True
+dpql_3969,What is the fictional location of the tv soap ‘Eastenders’?,WALFORD,GPE,doesn't-know,0,doesn't-know,0,True
+dpql_3976,How was Moose the dog better known when he starred in a popular US sitcom?,EDDIE,PERSON,strong-knows,3,strong-knows,3,True
+dpql_3993,"As well as municipalities, which country is made up of 26 states and one federal district?",BRAZIL,GPE,strong-knows,3,strong-knows,3,True
+dpql_4024,"Subtitled ‘What You Will’, which play begins: ‘If music be the food of love, play on’?",TWELFTH NIGHT,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+dpql_4093,What is nicknamed 'The Cathedral of the Railways'?,St PANCRAS,FAC,doesn't-know,0,guess,1,False
+dpql_4167,What was the title of Fun Lovin’ Criminals’ 1996 song that nearly made the Top 20?,SCOOBY SNACKS,WORK_OF_ART,guess,1,weak-knows,2,False
+dpql_4269,Which band featured Siobhan Fahey and Marcella Detroit?,Shakespeare’s Sister,ORG,strong-knows,3,guess,1,False
+dpql_4292,Who was the first presenter of Room 101 when it opened in 1994?,Nick Hancock,PERSON,doesn't-know,0,doesn't-know,0,True
+dpql_4461,From around 2566 B.C. to 1311 A.D. what was the world’s tallest building?,Great Pyramid of Giza,FAC,strong-knows,3,strong-knows,3,True
+dpql_4553,Which World war 2 American general was nicknamed “Vinegar Joe”?,Stillwell,PERSON,strong-knows,3,strong-knows,3,True
+dpql_4703,Claude Littner is the new face in the latest series of which programme?,The Apprentice,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+dpql_4731,Which kind of food can be either ‘blanket’ or ‘honeycomb’?,Tripe,PRODUCT,doesn't-know,0,doesn't-know,0,True
+dpql_4754,Which rock star is known as 'The Boss'?,Bruce Springsteen,PERSON,strong-knows,3,strong-knows,3,True
+dpql_4774,Marjorie Courtenay-Latimer discovered which rare fish in 1938?,Coelocanth,PRODUCT,strong-knows,3,strong-knows,3,True
+dpql_5011,Conakry is the capital of which African country?,Guinea,GPE,strong-knows,3,strong-knows,3,True
+dpql_503,Where in Europe is the Attila Line a major divide?,Cyprus,GPE,doesn't-know,0,doesn't-know,0,True
+dpql_5145,‘When Will You Marry?’ became the world’s most expensive work of art when it was sold,Paul GAUGUIN,PERSON,strong-knows,3,weak-knows,2,False
+dpql_5178,"What breed of dog is the ‘Monopoly’ playing piece, or token?",SCOTTISH TERRIER,PRODUCT,strong-knows,3,strong-knows,3,True
+dpql_5268,Which planet did Gustav Holst describe as the ‘Winged Messenger’?,Mercury,PRODUCT,strong-knows,3,strong-knows,3,True
+dpql_540,Which King of Macedon a great military leader was reputedly never defeated in battle?,Alexander the Great,PERSON,strong-knows,3,strong-knows,3,True
+dpql_5497,JSC. What phrase was trending worldwide on Twitter after the events of 7th Jan. 2015?,JE SUIS CHARLIE,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+dpql_5636,Which two countries took part in the short Kargil War in 1999?,India and Pakistan,GPE,strong-knows,3,strong-knows,3,True
+dpql_5706,Which is the EU’s highest capital city?,Madrid,GPE,doesn't-know,0,doesn't-know,0,True
+dpql_574,Which hit programme is filmed in a tent at Harptree Court in Somerset?,Great British Bake Off,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+dpql_5750,"Who presented the 1980 blockbuster documentary series, Cosmos: A Personal Voyage?",Carl Sagan,PERSON,strong-knows,3,strong-knows,3,True
 dpql_5784,What name specifically describes an inhabitant of Dundee?,Dundonian,NORP,strong-knows,3,strong-knows,3,True
-dpql_5808,"Which golf course has holes called Silver Tassie, Blink Bonnie and Wee Bogle?",GLENEAGLES,FAC,doesn't-know,0,doesn't-know,0,True
-dpql_654,The characters Denisov and Dolokhov appear in which famous novel?,War and Peace,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+dpql_5817,Which 1987 US film was based on the 1985 French film ‘Trois hommes et un couffin’?,THREE MEN AND A BABY,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+dpql_5849,Who wrote ‘The Forsyte Saga’?,John GALSWORTHY,PERSON,strong-knows,3,strong-knows,3,True
+dpql_6139,The Most Noble Order of the Garter was established during the reign of which King?,Edward III,PERSON,strong-knows,3,strong-knows,3,True
+dpql_6251,The Walker Art Gallery is in which UK city?,Liverpool,GPE,strong-knows,3,strong-knows,3,True
+dpql_633,Saloth Sar was the real name of which infamous dictator?,Pol Pot,PERSON,strong-knows,3,strong-knows,3,True
+dpql_909,Who declared the 1936 summer Olympic Games open? (Both names required.),ADOLF HITLER,PERSON,strong-knows,3,strong-knows,3,True
+dpql_962,The books were Alice and Jerry in the USA – what were they here?,Janet and John,WORK_OF_ART,weak-knows,2,weak-knows,2,True
+dpql_98,Which cigarette manufacturer used to boast of its tobacco ‘It’s Toasted’?,Lucky Strike,PRODUCT,strong-knows,3,strong-knows,3,True
+jp_1126,Who was the leader of the Medellin cartel in the 1980's?,Pablo Escobar,PERSON,strong-knows,3,strong-knows,3,True
+jp_124,What dance craze was named after a city in South Carolina?,The Charleston,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+jp_1280,What did Peter Carl Fabergé famously make?,Fabergé Eggs,PRODUCT,strong-knows,3,strong-knows,3,True
+jp_1347,What drinking vessel supposedly confers eternal life on those who drink from it?,Holy Grail,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+jp_1386,Who is also known as Jove?,Jupiter,PERSON,strong-knows,3,strong-knows,3,True
+jp_1403,What country does Waterford crystal come from?,Ireland,GPE,strong-knows,3,strong-knows,3,True
+jp_1420,What celestial object was visited by the New Horizons spacecraft in 2015?,Pluto,LOC,strong-knows,3,strong-knows,3,True
+jp_1432,"""What movie featured the Randy Newman song """"You've Got a Friend in Me""""?""",Toy Story,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+jp_1525,"""In what city did James Joyce's """"Ulysses"""" take place?""",Dublin,GPE,strong-knows,3,strong-knows,3,True
+jp_165,What would you find on Carmen Miranda's hat?,Fruit,PRODUCT,strong-knows,3,strong-knows,3,True
+jp_1791,What island country lies off the southeast tip of India?,Sri Lanka,GPE,strong-knows,3,strong-knows,3,True
 jp_1846,Juan Valdez advertises the coffee of which country?,Colombia,GPE,strong-knows,3,strong-knows,3,True
-jp_1920,"""What beer is advertised by """"The World's Most Interesting Man""""?""",Dos Equis,PRODUCT,strong-knows,3,strong-knows,3,True
+jp_189,"Fill in the blank: Houston, Tranquility Base here. The _____ has landed",Eagle,PRODUCT,strong-knows,3,strong-knows,3,True
+jp_1890,"In legend, what city was founded by Romulus and Remus?",Rome,GPE,strong-knows,3,strong-knows,3,True
 jp_1928,What brand name are Chuck Taylor sneakers sold under?,Converse,ORG,strong-knows,3,strong-knows,3,True
-jp_1979,What is the Japanese word for Japan?,Nippon,LANGUAGE,strong-knows,3,strong-knows,3,True
+jp_1936,In what city was Muhammad born?,Mecca,GPE,strong-knows,3,strong-knows,3,True
+jp_2066,What major river flows through Paris?,The Seine,LOC,strong-knows,3,strong-knows,3,True
+jp_2085,Who was the demon barber of Fleet Street?,Sweeney Todd,PERSON,strong-knows,3,strong-knows,3,True
+jp_2203,"""What is the American name for the board game known in England as """"draughts""""?""",Checkers,PRODUCT,strong-knows,3,strong-knows,3,True
+jp_2252,What city will host the 2016 Olympics?,Rio de Janeiro,GPE,strong-knows,3,strong-knows,3,True
+jp_2261,Which country was once led by F.W. de Klerk?,South Africa,GPE,strong-knows,3,strong-knows,3,True
 jp_2463,What is Brazil's most widely-spoken language?,Portuguese,LANGUAGE,strong-knows,3,strong-knows,3,True
-jp_3278,What kind of bean is used to make tempeh?,Soybean,PRODUCT,strong-knows,3,strong-knows,3,True
+jp_2509,What world leader introduced Glasnost and Perestroika?,Mikhail Gorbachev,PERSON,strong-knows,3,strong-knows,3,True
+jp_2523,What was Mumbai formerly called?,Bombay,GPE,strong-knows,3,strong-knows,3,True
+jp_2665,What Harvard researcher was well-known for experimenting with LSD?,Timothy Leary,PERSON,strong-knows,3,strong-knows,3,True
+jp_2683,What cereal is kid-tested and mother-approved?,Kix,PRODUCT,doesn't-know,0,doesn't-know,0,True
+jp_283,Who was Bridget Jones's true love?,Mark Darcy,PERSON,strong-knows,3,strong-knows,3,True
+jp_2847,What is the only country in which the Komodo Dragon is found in the wild?,Indonesia,GPE,strong-knows,3,strong-knows,3,True
+jp_2987,What Olympics-like event is for athletes with physical disabilities?,Paralympics,EVENT,strong-knows,3,strong-knows,3,True
+jp_3034,What Italian author envisioned 9 circles of hell?,Dante,PERSON,strong-knows,3,strong-knows,3,True
+jp_321,What company bought Time Warner in 2001 - the biggest merger in U.S. history?,AOL,ORG,strong-knows,3,strong-knows,3,True
+jp_3234,What is the only country to share a land border with Denmark?,Germany,GPE,strong-knows,3,strong-knows,3,True
+jp_3236,What product is the Singer company well-known for making?,Sewing Machine,PRODUCT,strong-knows,3,strong-knows,3,True
+jp_3341,In what mountain range would you find the homeland of the Sherpa people?,Himalayas,LOC,strong-knows,3,strong-knows,3,True
+jp_3423,What king was forced to agree to the Magna Carta?,King John,PERSON,strong-knows,3,strong-knows,3,True
+jp_3474,What Carl Sagan television series was resurrected in 2014 with Neil deGrasse Tyson as host?,Cosmos,WORK_OF_ART,strong-knows,3,strong-knows,3,True
 jp_3476,What country won 3 of the 5 Olympic gold medals awarded in baseball?,Cuba,GPE,doesn't-know,0,doesn't-know,0,True
+jp_3480,What artist famously cut off one of his own ears?,Vincent Van Gogh,PERSON,strong-knows,3,strong-knows,3,True
+jp_349,Who was confused about the difference between chicken and tuna?,Jessica Simpson,PERSON,strong-knows,3,strong-knows,3,True
+jp_3505,"""What country's film industry is called """"Nollywood""""?""",Nigeria,GPE,strong-knows,3,strong-knows,3,True
+jp_3587,What is the southernmost national capital?,Wellington,GPE,strong-knows,3,strong-knows,3,True
+jp_3591,In what country would you find Coptic Christians?,Egypt,GPE,strong-knows,3,strong-knows,3,True
 jp_3613,What alphabet is used in Russia?,Cyrillic,LANGUAGE,strong-knows,3,strong-knows,3,True
-jp_3652,"""What group of people in the United States speak a dialect called """"Pennsylvania German""""?""",Amish,NORP,strong-knows,3,strong-knows,3,True
-jp_4544,What bridge connects the two peninsulas of Michigan?,Mackinac Bridge,FAC,strong-knows,3,strong-knows,3,True
-odql_10310,Which group did Steve Marriot go on to form when he left the 'Small Faces'?,'HUMBLE PIE',ORG,strong-knows,3,strong-knows,3,True
-odql_10846,What is the family home of the Spencer family for over 500 years?,Althorp,FAC,strong-knows,3,strong-knows,3,True
-odql_11061,What is the county town of Mayo?,CASTLE BAR,GPE,strong-knows,3,strong-knows,3,True
+jp_3802,What European country has 227 inhabited islands?,Greece,GPE,doesn't-know,0,doesn't-know,0,True
+jp_3803,What is Paris's largest airport?,Charles de Gaulle,FAC,strong-knows,3,strong-knows,3,True
+jp_3826,What notorious leader had a similar style mustache to Charlie Chaplin?,Adolf Hitler,PERSON,strong-knows,3,strong-knows,3,True
+jp_4067,"What movie had a sexy, supernatural pottery scene?",Ghost,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+jp_4098,What techno group was formed in Düsseldorf in 1970?,Kraftwerk,ORG,strong-knows,3,strong-knows,3,True
+jp_4151,What city do The White Stripes and Kid Rock come from?,Detroit,GPE,strong-knows,3,strong-knows,3,True
+jp_4292,What company makes Big Red and Juicy Fruit gum?,Wrigley,ORG,strong-knows,3,strong-knows,3,True
+jp_4365,"What area of Florida can be described as a slow-moving, 60 mile wide river?",The Everglades,LOC,strong-knows,3,strong-knows,3,True
+jp_487,On which British holiday did the 2004 tsunami occur?,Boxing Day,DATE,strong-knows,3,strong-knows,3,True
+jp_52,What notorious outlaw was shot in the back by the coward Robert Ford?,Jesse James,PERSON,strong-knows,3,strong-knows,3,True
+jp_653,What city is considered the birthplace of jazz music?,New Orleans,GPE,strong-knows,3,strong-knows,3,True
+jp_663,"""What Canadian province's name is Latin for """"New Scotland""""?""",Nova Scotia,GPE,strong-knows,3,strong-knows,3,True
+jp_755,"""""""Torchwood"""" was a spin-off of what popular TV show?""",Doctor Who,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+jp_784,"""In what city were travelers first asked to """"mind the gap""""?""",London,GPE,strong-knows,3,strong-knows,3,True
+odql_1001,"Who together with Vince Clarke, formed the pop duo 'Yazoo'?",ALISON MOYET,PERSON,strong-knows,3,strong-knows,3,True
+odql_10047,Alan Greenspan was the head of which US government department from 1987 to 2006?,FEDERAL RESERVE BOARD,ORG,strong-knows,3,strong-knows,3,True
+odql_10410,The Appian Way ran from Rome to which Italian port?,BRINDISI,GPE,strong-knows,3,strong-knows,3,True
+odql_10461,"Of all the rugby teams to have participated in the 2008- 2009 Guinness Premiership, which team is furthest west?",BRISTOL,GPE,doesn't-know,0,doesn't-know,0,True
+odql_10472,What was the name of the aeroplane in which Wiley Post became the first pilot to fly solo around the world?,'WINNIE MAE',PRODUCT,strong-knows,3,strong-knows,3,True
+odql_10483,"Which author has been nominated for the Booker Prize for the novels 'Briefing For A Descent Into Hell', 'The Sirian Experiments' and 'The Good Terrorist' but is yet to win the award?",DORIS LESSING,PERSON,strong-knows,3,strong-knows,3,True
+odql_10794,Near which Chinese city is the famous Terracotta Army to be found?,Xian,GPE,strong-knows,3,strong-knows,3,True
+odql_10842,Which British city is served by Eastleigh airport?,Southampton,GPE,strong-knows,3,strong-knows,3,True
+odql_10945,On the banks of which river does the town of Kidderminster stand?,RIVER STOUR,LOC,strong-knows,3,strong-knows,3,True
+odql_10997,Which film studio produced the 'Bugs Bunny' cartoons?,WARNER BROTHERS,ORG,strong-knows,3,strong-knows,3,True
+odql_11086,"Which 'Inn of Court' in London is missing - Lincoln's Inn, Inner Temple, Middle Temple and ........?",GRAY'S INN,ORG,strong-knows,3,strong-knows,3,True
+odql_11191,In which Italian city is the newspaper 'La Stampa' published?,TURIN,GPE,strong-knows,3,strong-knows,3,True
+odql_113,"From which film, for which Chaplin film wrote the music, did Petula Clark have a Number One with 'This Is My Song'?",'COUNTESS FROM HONG KONG',WORK_OF_ART,strong-knows,3,strong-knows,3,True
 odql_11384,"Mykonos, Naxos and Santorini are in which group of Greek islands?",Cyclades,LOC,strong-knows,3,strong-knows,3,True
-odql_11781,Which group had a number one hit in July 2010 with 'The Club Is Alive'?,'JLS',ORG,strong-knows,3,strong-knows,3,True
-odql_1190,The Kalahari Desert lies chiefly in which country?,Botswana,GPE,strong-knows,3,strong-knows,3,True
-odql_12387,"Rahere, an Anglo-Norman monk, founded which London hospital in 1123?",St Bartholomew's,FAC,strong-knows,3,strong-knows,3,True
+odql_11507,"Who is the Secretary of State for Business, Innovation and Skills?",VINCE CABLE,PERSON,doesn't-know,0,guess,1,False
+odql_11788,In which country were both the 'G8' and 'G20' summits held in June 2010?,CANADA,GPE,strong-knows,3,strong-knows,3,True
+odql_11867,Who was the Romanian gymnast who scored the first ever perfect ten at the Olympic Games of 1976?,NADIA COMANECI,PERSON,strong-knows,3,strong-knows,3,True
+odql_12061,Which precious gem is the birthstone for May?,Emerald,PRODUCT,strong-knows,3,strong-knows,3,True
+odql_12229,George and Mildred and Robin's Nest were spin-offs from which TV series of the 1970s?,Man About The House,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_12232,The Angostura Bridge crosses the Orinoco River in which country?,Venezuela,GPE,strong-knows,3,strong-knows,3,True
+odql_12235,In which US state was singer Bruno Mars born?,Hawaii,GPE,strong-knows,3,strong-knows,3,True
+odql_12237,In which city was King George II born?,Hanover,GPE,strong-knows,3,strong-knows,3,True
+odql_12262,"In which novel does Flora Poste move to live with her relatives, the Starkadders, in Sussex?",Cold Comfort Farm,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_12351,Which canal joins the North Sea at Brunsbüttel?,Kiel Canal,LOC,strong-knows,3,strong-knows,3,True
+odql_12483,Interflug used the AN-2 and AN-24 aircraft - manufactured by which company?,ANTONOV,ORG,strong-knows,3,strong-knows,3,True
 odql_12517,The organisation Spectrum appeared in which Gerry Anderson TV series?,Captain Scarlet and the Mysterons,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-odql_12857,Romansh is a native and official language of which country?,Switzerland,GPE,strong-knows,3,strong-knows,3,True
-odql_13565,In the church calendar what name is given to the three days before Ascension Day?,Rogation Days,EVENT,strong-knows,3,strong-knows,3,True
-odql_2056,Which art gallery is in Trafalgar Square?,NATIONAL GALLERY,ORG,strong-knows,3,strong-knows,3,True
+odql_12656,"""Which English playwright born in 1572 wrote the plays """"Il Volpone"""", """"The Alchemist"""" & """"Every Man in his Humour""""?""",(Ben)Jonson,PERSON,strong-knows,3,strong-knows,3,True
+odql_12669,Which European country has the Cupon as its currency?,Moldova,GPE,doesn't-know,0,doesn't-know,0,True
+odql_12886,In which Spanish city is the Alhambra Palace located?,Granada,GPE,strong-knows,3,strong-knows,3,True
+odql_12923,What is the most famous work of the architect James Hoban?,The Whitehouse,FAC,strong-knows,3,strong-knows,3,True
+odql_13054,What name was given to the metal hoop worn by women in the 16th and 17th centuries to make their dresses stand out?,FARTHINGALE,PRODUCT,strong-knows,3,strong-knows,3,True
+odql_13215,The King of which fictional country is drugged on the eve of his coronation in the 1894 book The Prisoner of Zenda?,Ruritania,GPE,strong-knows,3,strong-knows,3,True
+odql_1324,RAF Lakenheath is situated in which English county?,SUFFOLK,GPE,strong-knows,3,strong-knows,3,True
+odql_13270,Which Scottish percussionist born in 1965 has been deaf since the age of 12?,Evelyn Glennie,PERSON,strong-knows,3,strong-knows,3,True
+odql_13345,"In 'Coronation Street', what was the name of the character played by Roy Hudd?",'ARCHIE SHUTTLEWORTH',PERSON,guess,1,weak-knows,2,False
+odql_13485,Which company produces the 'Magentis' car model?,KIA,ORG,strong-knows,3,strong-knows,3,True
+odql_13755,Which organisation was founded in 1863 after the publication of the book 'A Memory Of Solferino' by the Swiss businessman Henri Dunant?,RED CROSS,ORG,strong-knows,3,strong-knows,3,True
+odql_13785,"Who wrote the lyrics for 'Sing', written to celebrate the Queen's Diamond Jubilee?",GARY BARLOW,PERSON,doesn't-know,0,doesn't-know,0,True
+odql_14012,"As Charles Dickens' 'A Christmas Carol' is generally considered to be a short story, what is Dickens' shortest novel?",'A TALE OF TWO CITIES',WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
+odql_1436,"In 1942, which town was destroyed by Nazis in reprisal for the assassination of Reinhard Heydrick?",LIDICE,GPE,strong-knows,3,strong-knows,3,True
+odql_14523,Milwaukee is the largest city in which American state?,Wisconsin,GPE,strong-knows,3,strong-knows,3,True
+odql_14689,Which character is known as Ursinho Puff in Portugal and Vinni Pukh in Russia?,WINNIE THE POOH,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_14853,In which year did Brookside first appear on Channel 4?,1982,DATE,strong-knows,3,strong-knows,3,True
+odql_15009,"""""""Abracadabra"""" (1982) and """"The Joker"""" (1990) were big hits for which group?""",The Steve Miller Band,ORG,strong-knows,3,strong-knows,3,True
+odql_15054,"""Who composed the """"Christmas Oratorio"""" and """"The Coffee Cantata""""?""",Johann Sebastian Bach,PERSON,strong-knows,3,strong-knows,3,True
+odql_1598,Who was the President of France at the time of the Falklands War?,FRANCOIS MITTERAND,PERSON,strong-knows,3,strong-knows,3,True
+odql_1898,By what first name was the actor brother of Vanessa and Lynn Redgrave known?,CORIN,PERSON,strong-knows,3,strong-knows,3,True
+odql_1921,Which writer created the detective Charlie Chan?,EARL DERR BIGGERS,PERSON,strong-knows,3,strong-knows,3,True
+odql_2050,'Sir Oliver Martext' is avicar in which of Shakespeare's comedies?,'AS YOU LIKE IT',WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_2221,Which root vegetable pie was named after a Minister of Food during World War II?,WOOLTON (Pie),WORK_OF_ART,guess,1,doesn't-know,0,False
+odql_2332,Who founded the TV production company 'David Paradine Productions'?,DAVID FROST,PERSON,strong-knows,3,strong-knows,3,True
+odql_2412,In which US city did the 2004 remake of the film Alfie take place?,New York,GPE,strong-knows,3,strong-knows,3,True
+odql_2438,Which song was a hit for both Guns ‘n’ Roses in 1988 and Sheryl Crow in 1999?,Sweet Child of Mine,WORK_OF_ART,strong-knows,3,strong-knows,3,True
 odql_2574,'Sir Leicester and Lady Dedlock' appear in which Charles Dickens novel?,'BLEAK HOUSE',WORK_OF_ART,strong-knows,3,strong-knows,3,True
-odql_3058,In which year was the Jarrow Crusade march to London?,1936,DATE,strong-knows,3,strong-knows,3,True
-odql_3814,In which race did Zola Budd and Mary Decker famously collide at the 1984 Olympics?,3000 metres,QUANTITY,strong-knows,3,strong-knows,3,True
-odql_478,How is the former G-Mex Centre in Manchester now known?,MANCHESTER CENTRAL,FAC,strong-knows,3,strong-knows,3,True
-odql_5547,In which US state is the Innoko River?,ALASKA,GPE,strong-knows,3,strong-knows,3,True
-odql_5621,"The painters Theodore Rousseau and Jean-Francois Millet were prominent members of which 19th century French school of landscape painters, named after the town in Fontainbleu Forest where the artists gathered?",BARBIZON SCHOOL,ORG,strong-knows,3,strong-knows,3,True
-odql_661,"Which 19th century king sired ten illegitimate children, by the Irish comedienne, Dorothea Jordan?",WILLIAM IV,PERSON,strong-knows,3,strong-knows,3,True
-odql_7776,"Belonging to Indonesia, Irian Jaya is the western portion of which large island?",New Guinea,LOC,strong-knows,3,strong-knows,3,True
-odql_8365,"Which is the oldest of the eight Ivy League Universities, founded in 1636 as New College?",HARVARD,ORG,strong-knows,3,strong-knows,3,True
-odql_8447,Give an example of an 'ordinal number'?,"FIRST, SECOND, THIRD etc",ORDINAL,strong-knows,3,strong-knows,3,True
-odql_9622,"In which street would you find 'Smiffy', 'Wilfred', 'Danny' and 'Plug'?",'BASH STREET',FAC,strong-knows,3,strong-knows,3,True
-qb_10055,"In April 1966, Bobbi Gibb became the first woman to run the entire distance of which marathon?",Boston Marathon,EVENT,strong-knows,3,strong-knows,3,True
-qb_113,The Khyber Pass is approximately how many miles long?,33 Miles,QUANTITY,strong-knows,3,strong-knows,3,True
-qb_1456,"In Greek mythology, Amphitrite, queen of the sea, was the wife of which god?",Poseidon,PERSON,strong-knows,3,strong-knows,3,True
+odql_2741,Which town was the birthplace of David Garrick?,HEREFORD,GPE,strong-knows,3,strong-knows,3,True
+odql_2749,From which country does 'Manchego' cheese come?,SPAIN,GPE,strong-knows,3,strong-knows,3,True
+odql_2963,"The character 'James Bond' was created by Ian Fleming, but who wrote the book 'Zero Minus Ten' featuring 'James Bond'?",RAYMOND BENSON,PERSON,strong-knows,3,strong-knows,3,True
+odql_2965,"The Estonian, Arvo Part wrote a Cantus to mourn which English composer, who died in 1976?",BENJAMIN BRITTEN,PERSON,strong-knows,3,strong-knows,3,True
+odql_3279,In which year was the Highway Code first published by the government?,1931,DATE,strong-knows,3,strong-knows,3,True
+odql_3536,"Used when making tea, and deriving from the Russian for 'self brewer', what name is given to the heated metal container traditionally used to heat and boil water in Russia, Iran and Turkey?",SAMOVAR,PRODUCT,strong-knows,3,strong-knows,3,True
+odql_3668,Ilich Ramirez Sanchez was a notorious figure in the 1970's. How was he better known?,'CARLOS THE JACKAL',PERSON,strong-knows,3,strong-knows,3,True
+odql_3695,Who memorably failed to win the Marathon in the 1954 Commonwealth Games?,JIM PETERS,PERSON,strong-knows,3,guess,1,False
+odql_3731,Who created the cartoon character Hagar the Horrible?,Dik Browne,PERSON,strong-knows,3,strong-knows,3,True
+odql_4042,Who wrote the Buddy Holly hit 'It Doesn't Matter Anymore'?,PAUL ANKA,PERSON,strong-knows,3,strong-knows,3,True
+odql_4141,"In Greek mythology, who was the mother of Perseus visited by Zeus disguised as a shower of gold?",DANAE,PERSON,strong-knows,3,strong-knows,3,True
+odql_4153,"The trade union Unison was formed by a merger of NALGO, NUPE and which other union?",COHSE,ORG,strong-knows,3,strong-knows,3,True
+odql_416,What is the capital city of Croatia?,ZAGREB,GPE,strong-knows,3,strong-knows,3,True
+odql_4218,Who was the Liberal Prime Minister of Great Britain from 1855 to 1858?,PALMERSTON,PERSON,strong-knows,3,strong-knows,3,True
+odql_4409,Which BBC2 comedy is set around the church of St Saviours in the Marshes in Hackney?,REV,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_4450,What is the surname of the father and son TV comedy characters with the first names Albert Edward Ladysmith and Harold Albert Kitchener?,STEPTOE,PERSON,doesn't-know,0,doesn't-know,0,True
+odql_4493,In which musical would you hear the song Have Yourself a Merry Little Christmas?,Meet Me In St Louis,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_450,"Which painting by Thomas Gainsborough is thought to be of Jonathan Buttall, the son of a wealthy hardware merchant?",'THE BLUE BOY',WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_4592,"An American aided coup in Chile in 1973, deposed which President?",SALVADOR ALLENDE,PERSON,strong-knows,3,strong-knows,3,True
+odql_4621,The name of which month is used for a letter in the phonetic alphabet?,NOVEMBER,DATE,strong-knows,3,strong-knows,3,True
+odql_4631,Which director won the 'Oscar' for best Director for the picture 'A Beautiful Mind' in 2001?,RON HOWARD,PERSON,strong-knows,3,strong-knows,3,True
+odql_4777,"The working title of which sit-com, set in the 'Globelink News' office, was 'Dead Belgians Don't Count'?",'DROP THE DEAD DONKEY',WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_4794,Which was the first year that the Queen's Christmas speech was televised?,1957,DATE,strong-knows,3,strong-knows,3,True
+odql_4851,Which singer's real name is Elaine Bookbinder?,ELKIE BROOKS,PERSON,strong-knows,3,strong-knows,3,True
+odql_5021,Nine tenths of the world's Cinnamon is produced on which island nation? It is the only island to which the plant is native?,SRI LANKA,GPE,strong-knows,3,strong-knows,3,True
+odql_5076,"What were invented by Adolf Fick in 1887 and, while being to all intents and purposes invisible, are used worldwide by an estimated 125 million people?",Contact Lenses,PRODUCT,strong-knows,3,strong-knows,3,True
+odql_5148,In Old Possums book of practical cats what is the name of the cat who is the terror of the Thames?,GROWLTIGER,PERSON,doesn't-know,0,doesn't-know,0,True
+odql_5184,What nationality is James Rodriguez who won the Golden Boot Award at the 2014 FIFA World Cup Finals in July having scored six goals?,COLOMBIA,GPE,strong-knows,3,strong-knows,3,True
+odql_5215,Which English brewer produces 'Spitfire' Kentish ale?,SHEPHERD NEAME,ORG,strong-knows,3,strong-knows,3,True
+odql_524,Two counties in the Irish province of Munster begin with the letter C. One is Cork. Name the other.,CLARE,GPE,strong-knows,3,strong-knows,3,True
+odql_525,‘The Road Back’ is the sequel to which novel by Erich Maria Remarque published in 1929?,ALL QUIET ON THE WESTERN FRONT,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_5327,In which film did Bruce Willis play the character 'Harry Stamper'?,'ARMAGEDDON',WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_5476,Which pop star had the real name of Ernest Evans?,'CHUBBY CHECKER',PERSON,strong-knows,3,strong-knows,3,True
+odql_5532,Which is the fourth largest of the Balearic Islands?,FORMENTERA,GPE,strong-knows,3,weak-knows,2,False
+odql_5622,His debut album 'Disc-Overy' was released in 2010. By what stage-name id Patrick Chukwuemeka Okogwu better known?,'TINIE TEMPAH',PERSON,strong-knows,3,strong-knows,3,True
+odql_5633,"Which 2010 biographical film, starring Mark Wahlberg and Christian Bale, centred on the life of professional boxer 'Micky Ward' and his older half-brother 'Dicky Eklund'?",'THE FIGHTER',WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_5635,"According to legend, who was the father of King Arthur?",UTHER PENDRAGON,PERSON,strong-knows,3,strong-knows,3,True
+odql_5720,"Which boy band consists of Niall Horan, Zayn Malik, Liam Payne, Harry Stiles and Louis Tomlinson?",'ONE DIRECTION',ORG,strong-knows,3,strong-knows,3,True
+odql_5824,Which 'superhero's' alter ego is 'Peter Parker'?,'SPIDERMAN',PERSON,strong-knows,3,strong-knows,3,True
+odql_6028,"Which county shares borders with Northumberland, County Durham, North Yorkshire and Lancashire?",CUMBRIA,GPE,strong-knows,3,strong-knows,3,True
+odql_6161,Which company produces the 'Fireblade' motorcycle?,HONDA,ORG,strong-knows,3,strong-knows,3,True
+odql_6188,"Who wrote the play, 'A Day In The Death Of Joe Egg'?",PETER NICHOLS,PERSON,strong-knows,3,strong-knows,3,True
+odql_6274,In which city could you travel on the underground from Atlantis to Mall of the Emirates?,Dubai,GPE,strong-knows,3,strong-knows,3,True
+odql_6477,Who won the 'Oscar' for Best Actress in 2000 for her part in'Boys Don't Cry'?,HILARY SWANK,PERSON,strong-knows,3,strong-knows,3,True
+odql_6518,"In which city, one of the hosts for the 2003 Cricket World Cup, is the Buffalo Park Ground?",EAST LONDON,GPE,strong-knows,3,strong-knows,3,True
+odql_6624,Which town is the administrative headquarters of Northumberland?,MORPETH,GPE,strong-knows,3,strong-knows,3,True
+odql_6731,"In Shakespeare's 'Hamlet', what was the name of 'Hamlet's' mother?",'GERTRUDE',PERSON,strong-knows,3,strong-knows,3,True
+odql_6791,"Which record by 'The Rubettes', with the initials SBL was 'top of the pops' in June 1974?",'SUGAR BABY LOVE',WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_6883,What is Bangladesh's unit of currency?,TAKA,MONEY,strong-knows,3,strong-knows,3,True
+odql_6918,For which film did Tatum O'Neal receive the Best Supporting Actress 'Oscar'?,'PAPER MOON',WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_7023,Alex Turner is the lead vocalist of which rock band?,Arctic Monkeys,ORG,strong-knows,3,strong-knows,3,True
+odql_724,"Which film about a submarine had as one of its stars Denzil Washington, whose character had violent disagreements with his Captain played by Gene Hackman?",'CRIMSON TIDE',WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_7274,"First flown on the 27th July 1972, who built the F15 Eagle fighter?",McDONNELL DOUGLAS,ORG,strong-knows,3,strong-knows,3,True
+odql_7409,In which US city do the basketball team known as the 'Trail Blazers' play their home games?,"PORTLAND, Oregon",GPE,strong-knows,3,strong-knows,3,True
+odql_7466,In which town in Greater Manchester is the TV series set?,ROCHDALE,GPE,doesn't-know,0,doesn't-know,0,True
+odql_7728,"Which French writer said “Short as life is, we make it still shorter by the careless waste of time”?",VICTOR HUGO,PERSON,strong-knows,3,strong-knows,3,True
+odql_7808,In which bay are the Belcher Islands located?,Hudson Bay,LOC,strong-knows,3,strong-knows,3,True
+odql_7861,In which country will the 2019 Rugby Union World Cup be played?,JAPAN,GPE,strong-knows,3,strong-knows,3,True
+odql_7910,In which Thomas Hardynovel does the character 'John Loveday' appear?,'THE TRUMPET MAJOR',WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
+odql_8017,Which town is home to the University of Ulster?,COLERAINE,GPE,strong-knows,3,strong-knows,3,True
+odql_8192,"In the English translations of the 'Asterix' comics, what is the name of the village leader, a middle-aged, obese man with red hair, pigtails and a huge moustache?",'VITALSTATISTIX',PERSON,strong-knows,3,strong-knows,3,True
+odql_8198,"Leslie Poles were the Christian names of which English novelist, born in 1895?",L.P. HARTLEY,PERSON,strong-knows,3,weak-knows,2,False
+odql_8256,In which year was the 'Boxing Day Tsunami' in the Indian Ocean?,2004,DATE,strong-knows,3,strong-knows,3,True
+odql_8301,Who is the father-in-law of Manchester City footballer Sergio Kűn Aguerro?,DIEGO MARADONA,PERSON,strong-knows,3,strong-knows,3,True
+odql_8420,Sea World is in Mission Bay Park in which US city?,SAN DIEGO,GPE,strong-knows,3,strong-knows,3,True
+odql_8459,'Christie Mahon' is the title character in which play?,'PLAYBOY OF THE WESTERN WORLD',WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_8669,Julie Pankhurst made a fortune creating which website?,FRIENDS REUNITED,PRODUCT,doesn't-know,0,doesn't-know,0,True
+odql_8697,Who sang about 'Angie Baby' in 1975?,HELEN REDDY,PERSON,strong-knows,3,strong-knows,3,True
+odql_8813,"In a nonsense poem by Lewis Carroll for what were a crew of ten led by a bellman and including a butcher, a baker and a billiard-marker hunting?",'THE SNARK',WORK_OF_ART,strong-knows,3,strong-knows,3,True
+odql_8823,The crime drama 'The Killing' shown on BBC 4 earlier this year is set in which European capital city?,COPENHAGEN,GPE,strong-knows,3,strong-knows,3,True
+odql_8870,The first was published in 195. Whose series of five novels featured the conman murderer 'Tom Ripley'?,PATRICIA HIGHSMITH,PERSON,strong-knows,3,strong-knows,3,True
+odql_8879,Which American naval destroyer was attacked in Aden in October 2000?,U.S.S. COLE,PRODUCT,strong-knows,3,strong-knows,3,True
+odql_8893,Who was the only judge on 'X Factor' to return for series eight in 2011?,LOUIS WALSH,PERSON,weak-knows,2,strong-knows,3,False
+odql_9086,How many sides did the pre-decimal British threepence have around its edge?,TWELVE,CARDINAL,strong-knows,3,guess,1,False
+odql_9090,"Who directed the 1949 film, 'The Third Man'?",CAROL REED,PERSON,strong-knows,3,strong-knows,3,True
+odql_9160,"In November 2008, RMS Queen Elizabeth II will depart Southamptonon her last voyage. To which city will she travel?",DUBAI,GPE,guess,1,weak-knows,2,False
+odql_9430,Who on television is the 'Idiot Abroad'?,KARL PILKINGTON,PERSON,strong-knows,3,strong-knows,3,True
+odql_9592,"Which American University is situated in Ithaca, New York?",CORNELL,ORG,strong-knows,3,strong-knows,3,True
+odql_9756,Who was Richard Nixon's Democratic opponent in the 1968 US Presidential campaign?,HUBERT HUMPHREY,PERSON,strong-knows,3,strong-knows,3,True
+odql_9821,"In the TV sit-com 'Porridge', a youngish David Jason played the part of which old man?",'BLANCO' (Webb),PERSON,doesn't-know,0,doesn't-know,0,True
+qb_10132,In which country is the River Darling?,Australia,GPE,strong-knows,3,strong-knows,3,True
+qb_10292,"Which comedian/actor played the Doctor Who monster Abzorbaloff, which appeared in the 2006 episode ‘Love and Monsters’?",Peter Kay,PERSON,strong-knows,3,strong-knows,3,True
+qb_1166,Which British playwright was killed with a hammer by his lover Keith Haliwell in 1967?,Joe Orton,PERSON,strong-knows,3,strong-knows,3,True
+qb_1253,Which US gangster was released from Alcatraz prison in November 1939?,Al Capone,PERSON,weak-knows,2,strong-knows,3,False
+qb_1557,Nguyen Tan Dung became Prime Minister of which country in June 2006?,Vietnam,GPE,strong-knows,3,strong-knows,3,True
+qb_1569,Boll weevil cause damage to which crop?,Cotton,PRODUCT,strong-knows,3,strong-knows,3,True
+qb_1683,Which member of the British royal family married on the 29th April 2011?,Prince William,PERSON,strong-knows,3,strong-knows,3,True
 qb_1752,‘Giovedi’ is the Italian word for which day of the week?,Thursday,DATE,strong-knows,3,strong-knows,3,True
+qb_1757,How many stars are on the national flag of New Zealand?,Four,CARDINAL,strong-knows,3,strong-knows,3,True
+qb_2020,Selenology is the scientific study of which celestial body?,The moon,LOC,strong-knows,3,strong-knows,3,True
+qb_2123,The Forest of Arden is in which English county?,Warwickshire,GPE,strong-knows,3,strong-knows,3,True
+qb_2234,Who designed St Paul’s Cathedral in London?,Christopher Wren,PERSON,strong-knows,3,strong-knows,3,True
+qb_2350,From which 1968 film did English band Duran Duran take their name?,Barbarella,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qb_2377,"Sinology is the study of the language, history and culture of which country?",China,GPE,strong-knows,3,strong-knows,3,True
+qb_241,Keflavik is the main international airport of which country?,Iceland,GPE,strong-knows,3,strong-knows,3,True
+qb_2476,‘Impossible is nothing’ is the motto of which sportswear company?,Adidas,ORG,strong-knows,3,strong-knows,3,True
 qb_2546,What do the interior angles of a hexagon add up to in degrees?,720,CARDINAL,strong-knows,3,strong-knows,3,True
-qb_2932,What is the official language of Nicaragua?,Spanish,LANGUAGE,strong-knows,3,strong-knows,3,True
-qb_41,‘Think Different’ is an advertising slogan for which company?,Apple (computers),ORG,strong-knows,3,strong-knows,3,True
-qb_4264,What is the official language of Barbados?,English,LANGUAGE,strong-knows,3,strong-knows,3,True
-qb_4397,"In April 1963, Lester Bowles Pearson became Prime Minister of which country?",Canada,GPE,strong-knows,3,strong-knows,3,True
-qb_4501,"In the nursery rhyme ‘Oranges and Lemons’, the bells of which church said ‘You owe me five farthings’?",St Martins,FAC,doesn't-know,0,doesn't-know,0,True
-qb_4569,The day after Shrove Tuesday is known as ‘What’….Wednesday’?,Ash Wednesday,EVENT,strong-knows,3,strong-knows,3,True
-qb_5442,"‘Swifter, Higher, Stronger’ is the motto for the modern ‘what’?",Olympic Games,EVENT,strong-knows,3,strong-knows,3,True
-qb_5824,How many US Presidents have been impeached?,Two,CARDINAL,strong-knows,3,guess,1,False
-qb_6004,Which British monarch was the first Head of the Commonwealth?,King George VI,PERSON,strong-knows,3,strong-knows,3,True
-qb_6105,"In the game of golf, an Albatross is how many strokes under par for a given hole?",Three,CARDINAL,strong-knows,3,strong-knows,3,True
+qb_2621,"In the NATO phonetic alphabet, which word represents the letter I?",India,GPE,strong-knows,3,strong-knows,3,True
+qb_2640,"Which US author wrote ‘The Naked and the Dead’, based on his military service in World War II?",Norman Mailer,PERSON,strong-knows,3,strong-knows,3,True
+qb_2710,‘Quicksilver’ is another name for which metallic element?,Mercury,PRODUCT,strong-knows,3,strong-knows,3,True
+qb_2853,Which clothing chain was founded by brothers Clemens and August Brenninkmeijer in 1841?,C&A,ORG,strong-knows,3,strong-knows,3,True
+qb_2928,The Nullarbor Plain is in which country?,Australia,GPE,strong-knows,3,strong-knows,3,True
+qb_3042,Which country will host the 2014 FIFA World Cup?,Brazil,GPE,strong-knows,3,strong-knows,3,True
+qb_3085,Which US singer released a 2010 album entitled ‘The Lady Killer’?,Cee Lo Green,PERSON,strong-knows,3,strong-knows,3,True
+qb_3798,Who played factory boss Danny Baldwin in the British television soap ‘Coronation Street’?,Bradley Walsh,PERSON,strong-knows,3,strong-knows,3,True
+qb_382,Which British actress played Valerie in the 1997 film ‘Nil By Mouth’?,Kathy Burke,PERSON,strong-knows,3,strong-knows,3,True
+qb_3822,In 1883 which Indonesian volcano erupted and was believed to be the largest single explosion in recorded human history?,Krakatoa,LOC,strong-knows,3,strong-knows,3,True
+qb_4010,"In 1968, who did radical feminist Valerie Solanas shoot and wound as he entered his New York studio?",Andy Warhol,PERSON,strong-knows,3,strong-knows,3,True
+qb_4040,Which English football team play their home games at Vicarage Road?,Watford,ORG,strong-knows,3,strong-knows,3,True
+qb_4528,In which country was the 2006 FIFA World Cup held?,Germany,GPE,strong-knows,3,strong-knows,3,True
+qb_4594,What is the nickname of the great bell of the clock at the north end of the Palace of Westminster in London?,Big Ben,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qb_4606,"In January 1971, Idi Amin deposed Milton Obote in a coup to become President of which country?",Uganda,GPE,strong-knows,3,strong-knows,3,True
+qb_4695,In November 1975 Juan Carlos was declared King of which European country?,Spain,GPE,strong-knows,3,strong-knows,3,True
+qb_470,Which 5th/6th Century Buddhist monk is described in Chinese texts as ‘The Blue-Eyed Barbarian’?,Bodhidharma,PERSON,strong-knows,3,weak-knows,2,False
+qb_4717,In which year did students first enrol in the Open University in the UK,1971,DATE,strong-knows,3,strong-knows,3,True
+qb_4786,A throw of which number on each of a pair of dice is known as Snake Eyes?,One,CARDINAL,strong-knows,3,strong-knows,3,True
+qb_4879,"‘My heart aches, and a drowsy numbness pains, My sense, as though of hemlock I had drunk’ are the opening lines of which poem?",Ode to a Nightingale,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qb_4911,What is the name of the fictional school in the UK television series ‘Please Sir’?,Fenn Street School,FAC,strong-knows,3,strong-knows,3,True
+qb_495,What was the name of the Cunard ocean liner which was launched on 20th September 1906?,Mauretania,PRODUCT,strong-knows,3,strong-knows,3,True
+qb_5098,During which year was Washington DC declared the capital of the USA?,1790,DATE,weak-knows,2,doesn't-know,0,False
+qb_5139,Who replaced Iraqi President Ahmed Hassan al-Bakr in July 1979?,Saddam Hussein,PERSON,strong-knows,3,strong-knows,3,True
+qb_5233,Who played Grandad in the UK television series ‘Only Fools and Horses’?,Lennard Pearce,PERSON,strong-knows,3,strong-knows,3,True
+qb_5281,The Gilles Villeneuve Formula One racing circuit is in which country?,Canada,GPE,strong-knows,3,strong-knows,3,True
+qb_5484,St Joseph’s Day is celebrated during which month of the year?,March -19th,DATE,strong-knows,3,strong-knows,3,True
+qb_6013,Who released a 2011 album entitled ‘Born This Way’?,Lady Gaga,PERSON,strong-knows,3,strong-knows,3,True
+qb_603,The Strawberry Museum in the town of Wepion is in which country?,Belgium,GPE,strong-knows,3,strong-knows,3,True
+qb_6092,What is footballer Ryan Giggs real surname?,Wilson,PERSON,strong-knows,3,strong-knows,3,True
+qb_6193,Tennis player Martina Hingis was born in which European country?,Switzerland,GPE,strong-knows,3,strong-knows,3,True
+qb_6309,Michaelmas Day is celebrated on the 29th of which month?,September,DATE,strong-knows,3,strong-knows,3,True
+qb_640,"Bedloe’s Island in New York Harbour, is the former name of which island?",Liberty Island,LOC,strong-knows,3,strong-knows,3,True
 qb_6515,How many legs does a ladybird have?,Six,CARDINAL,strong-knows,3,strong-knows,3,True
-qb_6562,All Saints Day is celebrated on the 1st of which month?,November,DATE,strong-knows,3,strong-knows,3,True
-qb_7169,The Museum of Bags and Purses is in which European city?,Amsterdam,GPE,strong-knows,3,strong-knows,3,True
+qb_6653,What number shirt did England rugby union player Jonny Wilkinson wear in the 2011 World Cup?,10,CARDINAL,strong-knows,3,strong-knows,3,True
+qb_6721,What is the name of the character played by actor Nicholas Lyndhurst in the British television series ‘Goodnight Sweetheart’?,Gary Sparrow,PERSON,strong-knows,3,strong-knows,3,True
+qb_6790,"Scottish artist, Sir Henry Raeburn was knighted by which British monarch in 1822?",King George IV,PERSON,strong-knows,3,strong-knows,3,True
+qb_6862,Which American car manufacturer has a logo which features three shields inside a circle?,Buick,ORG,doesn't-know,0,strong-knows,3,False
+qb_7020,Wilbroe beer is produced in which European country?,Denmark,GPE,doesn't-know,0,doesn't-know,0,True
 qb_7207,How many times did Actress Zsa Zsa Gabor marry?,Nine,CARDINAL,strong-knows,3,strong-knows,3,True
-qb_7436,Mount Entoto is the highest peak overlooking which African capital city?,Addis Ababa,GPE,strong-knows,3,strong-knows,3,True
-qb_817,What nationality was 19th Century author Hans Christian Anderson?,Danish,NORP,strong-knows,3,strong-knows,3,True
+qb_7293,"The fictitious station of Walford East, which features in the UK television series ‘Eastenders’, replaces which London Underground station on the tube map?",Bromley-By-Bow,GPE,doesn't-know,0,doesn't-know,0,True
+qb_8058,"Which syndrome, a type of delusional jealousy of infidelity of a spouse or partner, is named after a Shakespearian character?",Othello Syndrome,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qb_8254,How many ‘Triangles’ are there on the logo of car manufacturer BMW?,Four,CARDINAL,weak-knows,2,strong-knows,3,False
+qb_8261,"Terry Molloy, David Gooderson and Julian Bleach have all portrayed which villain in the UK television series Dr Who?",Davros,PERSON,strong-knows,3,strong-knows,3,True
 qb_8267,United Nations Day is celebrated during which month of the year?,October,DATE,strong-knows,3,strong-knows,3,True
-qb_8299,Jack Nicholson played Randle McMurphy in which film?,One Flew Over the Cuckoo’s Nest,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-qb_8316,"Steve Jobs, Ronald Wayne and Steve Wozniak founded which company in 1976?",Apple (computers),ORG,strong-knows,3,strong-knows,3,True
+qb_8360,What is the name of the woollen gown worn by a junior barrister in the UK who has not taken silk?,Stuff Gown,PRODUCT,doesn't-know,0,doesn't-know,0,True
+qb_8465,"Didsbury, Ardwick and Fallowfield are all areas of which British city?",Manchester,GPE,strong-knows,3,strong-knows,3,True
+qb_866,Which US singing duo started out under the names Caesar and Cleo?,Sonny and Cher,PERSON,strong-knows,3,strong-knows,3,True
 qb_8767,Which British comedian plays headmaster Mr Gilbert in the UK television series ‘The Inbetweeners’?,Greg Davies,PERSON,strong-knows,3,strong-knows,3,True
-qb_9198,"In most constellations, which letter of the Greek alphabet was designated by German astronomer Johann Bayer to the brightest star?",Alpha,ORDINAL,strong-knows,3,strong-knows,3,True
-qb_9452,Arkansas Black is a variety of which fruit?,Apple,PRODUCT,strong-knows,3,strong-knows,3,True
-qb_9568,"In January 1973, who defeated Joe Frazier to win the Heavyweight World Boxing Championship?",George Foreman,PERSON,strong-knows,3,strong-knows,3,True
-qf_1053,What was the name of the island where Nelson Mandela was imprisoned for 18 years?,Robben Island,LOC,strong-knows,3,strong-knows,3,True
-qf_1170,"What 1945 film won best picture, actor, director Oscars?",The Lost Weekend,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-qf_1178,What name was given to the eleven states that fought the Union in the US Civil War?,Confederates,NORP,strong-knows,3,strong-knows,3,True
-qf_1254,In which war was the charge of the Light Brigade?,Crimean,EVENT,strong-knows,3,strong-knows,3,True
-qf_1269,Where was Dick Turpin executed by hanging?,York,GPE,strong-knows,3,strong-knows,3,True
-qf_1632,The Guinness Book of Records was first published in what year?,1955,DATE,strong-knows,3,strong-knows,3,True
+qb_8798,How many male strippers perform on stage together in the 1997 film ‘The Full Monty’?,Six,CARDINAL,strong-knows,3,strong-knows,3,True
+qb_8823,"In 1996, Dolly the Sheep was successfully cloned in which European country?",Scotland,GPE,strong-knows,3,strong-knows,3,True
+qb_8955,‘Before I Forget’ is a 1981 Autobiography by which English actor?,James Mason,PERSON,doesn't-know,0,doesn't-know,0,True
+qb_9017,"In the UK television series ‘Doctor Who’, what is the name of the leader of the underground-dwelling race ‘Tractators’?",The Gravis,PERSON,strong-knows,3,strong-knows,3,True
+qb_9140,"Columbia University, in the city of New York, was founded as King’s College by royal charter of which British monarch?",King George II,PERSON,strong-knows,3,strong-knows,3,True
+qb_9347,"Bunny Chow, also known as Kota, is a fast-food dish consisting of a hollowed-out loaf filled with curry and is native to which country?",South Africa,GPE,strong-knows,3,strong-knows,3,True
+qb_9353,Which planet in our solar system takes around 165 Earth years to orbit the Sun?,Neptune,LOC,strong-knows,3,strong-knows,3,True
+qb_9361,"At the age of 86, which US actor married 40 year old make up artist Arlene Silver in 2012?",Dick Van Dyke,PERSON,strong-knows,3,strong-knows,3,True
+qb_9397,The White Rose Shopping Centre is in which English city?,Leeds,GPE,strong-knows,3,strong-knows,3,True
+qb_9492,Who won the 2013 British Open Golf Championship?,Phil Mickelson,PERSON,strong-knows,3,strong-knows,3,True
+qb_9577,What is the first name of Blackadder in the UK television series ‘Blackadder’?,Edmund,PERSON,strong-knows,3,strong-knows,3,True
+qb_9589,The UK television series ‘Blackadder Goes Forth’ is set during which war?,World War I,EVENT,strong-knows,3,strong-knows,3,True
+qb_9675,King Robert Baratheon and Queen Cersei Lannister are characters in which US television fantasy drama series?,Game of Thrones,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qb_980,The Wang River is in which Asian country?,Thailand,GPE,strong-knows,3,strong-knows,3,True
+qb_9851,What is the name of the perfume launched by British boyband JLS in January 2013?,Love,PRODUCT,guess,1,doesn't-know,0,False
+qb_9945,Who was elected US President in November 2012?,Barack Obama,PERSON,strong-knows,3,strong-knows,3,True
+qf_1183,Which black and white marine creature is the largest member of the Dolphin family?,Killer Whale,PRODUCT,strong-knows,3,strong-knows,3,True
+qf_1204,Who was the author of 'The Thorne Birds'?,Colleen McCullough,PERSON,strong-knows,3,strong-knows,3,True
+qf_1245,What river flows through the Grand Canyon in the USA?,Colorado,LOC,strong-knows,3,strong-knows,3,True
+qf_1273,What is 'The Old Lady of Threadneedle Street'?,The Bank of England,ORG,strong-knows,3,strong-knows,3,True
+qf_1287,"Vijay Singh, a US Masters champion, comes from where?",Fiji,GPE,strong-knows,3,strong-knows,3,True
+qf_1321,What spirit is mixed with ginger beer in a Moscow mule?,Vodka,PRODUCT,strong-knows,3,strong-knows,3,True
+qf_1366,Can you name the singer of the title track in '1995 - GoldenEye'?,Tina Turner,PERSON,strong-knows,3,strong-knows,3,True
+qf_1414,How many James Bond films did Pierce Brosnan do?,4,CARDINAL,strong-knows,3,strong-knows,3,True
+qf_1492,During which battle did Davey Crockett lose his life?,The Alamo,EVENT,strong-knows,3,strong-knows,3,True
+qf_1633,What was the name of the TV comedy series starring Windsor Davies and Donald Sinden as Antique dealers?,Never The Twain,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qf_1650,"In 1967, who was the first DJ on Radio 1?",Tony Blackburn,PERSON,strong-knows,3,strong-knows,3,True
+qf_1696,Tanganyika and Zanzibar merged in 1964 to become which East African Republic?,Tanzania,GPE,strong-knows,3,strong-knows,3,True
+qf_183,Who is Vincent Furnier better know as?,Alice Cooper,PERSON,strong-knows,3,strong-knows,3,True
 qf_1928,What was made and repaired by a Wainwright?,Wagons,PRODUCT,strong-knows,3,strong-knows,3,True
-qf_2191,Ascorbic acid is usually known as what?,Vitamin C,PRODUCT,strong-knows,3,strong-knows,3,True
-qf_3257,Richard Burton was nominated 7 times for an Oscar. How many did he win?,0,CARDINAL,strong-knows,3,strong-knows,3,True
-qf_3399,When free school milk was given out what size were the bottles?,Third of a pint,QUANTITY,strong-knows,3,weak-knows,2,False
+qf_2002,What name was given to the floating harbours used on D-Day?,Mulberries,PRODUCT,strong-knows,3,strong-knows,3,True
+qf_2054,Which Sweets were advertised with the slogan ' Taste the Rainbow'?,Skittles,PRODUCT,strong-knows,3,strong-knows,3,True
+qf_2386,What percentage of Mike Tyson's 1995 earnings came from endorsements?,Zero,CARDINAL,strong-knows,3,strong-knows,3,True
+qf_2784,Whose compositions included 'The Firebird' and 'Petrushka'?,Igor Stravinsky,PERSON,strong-knows,3,strong-knows,3,True
+qf_2918,Which British impresario was noted for his productions of Gilbert and Sullivan operettas?,Richard D'Oyly Carte,PERSON,strong-knows,3,strong-knows,3,True
+qf_3000,Who was the 'Referee' on the TV game show 'Big Break'?,John Virgo,PERSON,doesn't-know,0,doesn't-know,0,True
+qf_3101,In British Wrestling who was Shirley Crabtree?,Big Daddy,PERSON,strong-knows,3,strong-knows,3,True
+qf_3190,"Released in 1961, what was the last No.1 hit for Frankie Vaughan?",Tower of Strength,WORK_OF_ART,weak-knows,2,guess,1,False
+qf_3360,Which comedy duo were born Bartholomew and Wiseman?,Morecambe and Wise,PERSON,doesn't-know,0,doesn't-know,0,True
+qf_3379,What is the surname of the captain who assists Hercule Poirot?,Hastings,PERSON,strong-knows,3,strong-knows,3,True
+qf_3671,"When was basketball invented: 17th, 18th or 19th century?",19th century,DATE,strong-knows,3,strong-knows,3,True
 qf_590,In which month of 1929 did the St Valentines Day massacre take place?,February,DATE,strong-knows,3,strong-knows,3,True
-qg_1309,"At what 1876 battle was the US Army's 7th Cavalry wiped out to a man, leaving only a horse, Comanche, alive?",Little Big Horn,EVENT,strong-knows,3,strong-knows,3,True
+qf_620,Who taught Eliza Dolittle to be a lady ?,Professor Henry Higgins,PERSON,strong-knows,3,strong-knows,3,True
+qf_687,In MASH what was the character Radars full name?,Walter O'Reilly,PERSON,doesn't-know,0,weak-knows,2,False
+qf_787,Who is currently the Supreme Governor of the Church of England?,Queen Elizabeth II,PERSON,strong-knows,3,doesn't-know,0,False
+qf_792,Who designed the Queen's wedding dress?,Norman Hartnell,PERSON,strong-knows,3,strong-knows,3,True
+qf_83,Who had an August 1969 No.1 with 'In The Year 2525 (Exordium And Terminus)'?,Zager & Evans,ORG,strong-knows,3,strong-knows,3,True
+qf_867,"First released in 1969, which single gave David Bowie his first No. 1 in 1975?",Space Oddity,WORK_OF_ART,strong-knows,3,guess,1,False
+qf_931,In what country is 'Mt. Everest'?,Nepal,GPE,strong-knows,3,strong-knows,3,True
+qf_957,"In what year did Torville and Dean (Jane and Christopher) win their first Olympic gold, scoring 12 perfect sixes in their free-dance routine?",1984,DATE,strong-knows,3,strong-knows,3,True
+qg_1045,"Translating from the Greek as ""separating circle"", what is the name of the apparent line that separates the earth from the sky?",Horizon,LOC,strong-knows,3,strong-knows,3,True
+qg_108,"January 3, 1924 saw Howard Carter discover what famous Egyptian pharaoh?",King Tutankhamun,PERSON,strong-knows,3,strong-knows,3,True
+qg_1091,"Who's missing: Miss Scarlett, Mrs. White, Mr. Green, Mrs. Peacock, Professor Plum?",Colonel Mustard,PERSON,strong-knows,3,strong-knows,3,True
+qg_1273,"According to Arthurian legend, Arthur's wife Guinevere, had a little on the side with which Knight of the Round Table?",Lancelot,PERSON,strong-knows,3,strong-knows,3,True
+qg_1376,"What airline, founding member of the Star Alliance, the largest airline alliance in the world, got its start as the Boeing Air Transport company in 1927?",United,ORG,strong-knows,3,strong-knows,3,True
+qg_158,"What popular opera, penned by George Bizet, is a story about a female cigarette factory worker?",Carmen,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qg_1585,"The voice of Bugs Bunny, Daffy Duck, Porky Pig, Sylvester the Cat, Tweety Bird, Foghorn Leghorn, Yosemite Sam, Wile E. Coyote, Woody Woodpecker, Barney Rubble, Mr. Spacely, Speed Buggy, Captain Caveman, Heathcliff, Speedy Gonzales, Elmer Fudd and hundreds of others, which American voice actor was born on May 30, 1908?",Mel Blanc,PERSON,strong-knows,3,strong-knows,3,True
+qg_1752,In what film would you have seen a sword fight on the Cliffs of Insanity?,The Princess Bride,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qg_1847,"June 17, 1994 saw a low speed chase up Interstate 405 as OJ Simpson was pursued by some of Los Angeles finest for a good 6 hours. What type of vehicle was OJ riding in?",White Ford Bronco,PRODUCT,strong-knows,3,strong-knows,3,True
 qg_1992,Yesterday saw the passing of Ed McMahon. What publishing sweepstakes company employed him as its' spokesperson?,American Family Publishing,ORG,doesn't-know,0,doesn't-know,0,True
-qg_2301,At what Bikini Bottom restaurant does SpongeBob Squarepants earn a living as a fry cook?,The Krusty Krab,ORG,strong-knows,3,strong-knows,3,True
+qg_2138,"Proclaiming himself ""the luckiest man on the face of the earth"", what baseball legend announced his retirement from the New York Yankees on July 4, 1939, following an amazing streak of 2130 straight games?",Lou Gerhig,PERSON,strong-knows,3,strong-knows,3,True
+qg_218,By what name are Rontgen rays more commonly known?,X-Rays,PRODUCT,strong-knows,3,strong-knows,3,True
+qg_2268,"Which US city had the first subway system, being opened in 1895?",Boston,GPE,strong-knows,3,strong-knows,3,True
+qg_233,"The Springfield, Mass YMCA saw the first game of what played on January 20, 1892, when 9 players ended the game with a 1-0 score?",Basketball,EVENT,strong-knows,3,strong-knows,3,True
+qg_2407,"On July 21, 1969, who became the first man to set foot on the moon?",Neil Armstrong,PERSON,strong-knows,3,strong-knows,3,True
+qg_2494,Acura is the luxury division of what major automaker?,Honda,ORG,strong-knows,3,strong-knows,3,True
+qg_2561,"Replacing the unofficial E. Pluribis Unum, what phrase did the US adopt as its' national motto on July 30, 1956?",In God we trust,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qg_2596,"Who's missing: George Costanza, Elaine Bennes, Cosmo Kramer",Jerry Seinfeld,PERSON,strong-knows,3,strong-knows,3,True
 qg_2646,Genghis Khan led what group of people?,Mongols,NORP,strong-knows,3,strong-knows,3,True
-qg_3109,"What speaker component is used to produce the highest audio frequencies, usually between 2,000HZ and 20,000HZ?",Tweeter,PRODUCT,strong-knows,3,strong-knows,3,True
-qg_3158,What is a “Scotch Bonnet”?,Chili Pepper,PRODUCT,strong-knows,3,strong-knows,3,True
-qg_3166,"September 9, 1969 saw what made an official language of Canada?",French,LANGUAGE,strong-knows,3,strong-knows,3,True
-qg_3679,"What device uses radio waves bounced off of objects to identify their range, altitude, direction, and speed?",Radar,PRODUCT,strong-knows,3,strong-knows,3,True
-qg_3828,"What is the name of the long running science program, produced by WGBH in Boston, on PBS, running from 1974 to the present?",Nova,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-qg_749,"With 47 attacks in the year 2010 alone, what body of water is known as Pirate Alley?",Gulf of Aden,LOC,strong-knows,3,strong-knows,3,True
-qg_808,What is the lowest level of the Earth's atmosphere?,Troposphere,LOC,strong-knows,3,strong-knows,3,True
-qw_10364,"What battle cry of Richard I at the Battle of Gisors in 1198 was adopted as the motto of the arms of England where, except for changes during the reigns of Elizabeth I, Anne and William III, it has been since 1340?",Dieu Et Mon Droit,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-qw_10472,What name was given to a trooper in the Parliamentarian cavalry formed by Oliver Cromwell during the English Civil War?,Ironside,NORP,strong-knows,3,strong-knows,3,True
+qg_2810,What type of rain did Prince sing about in 1984?,Purple Rain,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qg_2887,"Consisting of a stick with a woven pocket at the top, the stick used to play the sport of Lacrosse is called what?",A crosse or Lacrosse stick,PRODUCT,strong-knows,3,strong-knows,3,True
+qg_2955,"Starting 30 years of conflict, the Eritrean War of Independence broke out on Sept 1, 1961, as Eritrean separatists fought for independence from what country?",Ethiopia,GPE,strong-knows,3,strong-knows,3,True
+qg_3077,General Augusto Pinochet was the former dictator of which South American country?,Chile,GPE,strong-knows,3,strong-knows,3,True
+qg_315,"Which 18th century polymath invented the lightning rod, the flexible urinary catheter, and coined the phrase 'time is money'?",Benjamin Franklin,PERSON,strong-knows,3,strong-knows,3,True
+qg_3182,"Next Sunday, Sept 19, is International what day?",Talk Like A Pirate Day,EVENT,weak-knows,2,strong-knows,3,False
+qg_3215,"What product is advertised with the slogan ""Great taste, less filling""?",Miller Lite Beer,PRODUCT,strong-knows,3,strong-knows,3,True
+qg_3523,"Oct 5, 1902 saw the birth of Ray Kroc, who started which ubiquitous food source, the most successful fast food operation in the world?",McDonalds,ORG,strong-knows,3,strong-knows,3,True
+qg_3820,"What drink consists of vodka, Triple Sec, cranberry juice, and lime juice?",Cosmopolitan,PRODUCT,strong-knows,3,strong-knows,3,True
+qg_3843,What is the 3rd largest car rental company in the United States?,Alamo,ORG,weak-knows,2,doesn't-know,0,False
+qg_3993,"The longest running television series ever, November 6, 1947 saw the debut of what now weekly news program, now hosted by David Gregory, following the unfortunante sudden death of host Tim Russert?",Meet the Press,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qg_4076,"Tomorrow marks the anniversary of the debut of what long running children's television series, originally produced by the Children's Television Workshop?",Sesame Street,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qg_4107,"What cocktail typically consists of 3 parts vodka, 1 part apple schnapps, and 1 part cointreau?",Appletini,PRODUCT,strong-knows,3,strong-knows,3,True
+qg_4216,What fictional spy show showcases the dysfunctional International Secret Intelligence Service (ISIS)?,Archer,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qg_4615,Who tried to steal Christmas from the town of Whoville?,The Grinch,PERSON,strong-knows,3,strong-knows,3,True
+qg_504,"The sinking of what battleship in Havana harbor on Feb 15, 1898 led the United States to declare war on Spain on April 25?",USS Maine,PRODUCT,strong-knows,3,strong-knows,3,True
+qg_517,"How many points on the maple leaf that plays such a significant role in the flag of our neighbor to the north, Canada?",11,CARDINAL,strong-knows,3,strong-knows,3,True
+qg_746,"Opened in May 11, 2010, Charlotte, NC is the home to the Hall of Fame for what popular outdoor sport, the second most watched sport (on TV) in the US?",NASCAR,ORG,strong-knows,3,doesn't-know,0,False
+qg_848,Star Trek: TOS was cancelled in 1969 after how many years on the air?,3,CARDINAL,strong-knows,3,strong-knows,3,True
+qg_884,"According to the song's lyrics, what did Yankee Doodle stick in his hat (and call macaroni)?",a feather,PRODUCT,strong-knows,3,strong-knows,3,True
+qg_961,"On what apparatus would a male gymnast traditionally perform moves such as scissors, moores, spindels and flairs?",Pommel horse,PRODUCT,strong-knows,3,strong-knows,3,True
+qg_965,"Now a part of Carnival Corporation, what shipping company commissioned and sailed the RMS Titanic?",White Star Line,ORG,strong-knows,3,strong-knows,3,True
+qw_10342,"In the middle ages, what were built in Canterbury, York, Lincoln, Salisbury, Lichfield and Winchester?",Cathedrals,FAC,strong-knows,3,strong-knows,3,True
+qw_1058,Who built the original Palace of Versailles that was enlarged by Louis XIV?,Louis XIII,PERSON,strong-knows,3,strong-knows,3,True
+qw_10894,"""Who was known as """"The Waltz King""""?""",Johann Strauss,PERSON,strong-knows,3,strong-knows,3,True
+qw_113,What is the capital of the U S state of Pennsylvania?,Harrisburg,GPE,strong-knows,3,strong-knows,3,True
 qw_11324,"""In what country, between the 1950s and 1980, would one have found """"Rusticated Youth""""?""",China,GPE,doesn't-know,0,doesn't-know,0,True
-qw_11432,The islands called the Moluccas were previously known as what?,The Spice Islands,LOC,strong-knows,3,strong-knows,3,True
-qw_11908,How many odd numbers are there between 12 and 42?,15,CARDINAL,strong-knows,3,strong-knows,3,True
+qw_11567,"Which British TV comedy series of the 1970s and early 1980s (74 episodes) was co-created and co-written by and co-starred Tim Brooke-Taylor, Graeme Garden and Bill Oddie?",The Goodies,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qw_11658,"""In 1858 Rowland Macy established a new store named """"R. H. Macy & Company"""", where it stayed on the same site for nearly forty years, in which city?""",New York,GPE,strong-knows,3,strong-knows,3,True
+qw_11689,"The 2010 Six Nations Championship, the 11th series of an annual rugby union competition contested by the six major Northern Hemisphere rugby union national teams, was won by France. Which nation won it in 2009 and came second in 2010 and 2011?",Ireland,GPE,guess,1,doesn't-know,0,False
+qw_1201,Which English rowing event is held every year on the River Thames for 5 days (Wednesday to Sunday) over the first weekend in July?,Henley Royal Regatta,EVENT,strong-knows,3,strong-knows,3,True
+qw_1225,"The War of the Triple Alliance (1864 - 1870) was fought between the allied countries of Argentina, Brazil, and Uruguay and which other country?",Paraguay,GPE,strong-knows,3,strong-knows,3,True
+qw_12369,"""What year did Jean-Francois Champollion publish the first correct translation of Egyptian hieroglyphs from the Rosetta Stone, the Roman Catholic Church take Galileo Galilei's """"Dialogue"""" off their list of banned books, and Britain repeal the death penalty for over 100 crimes?""",1822,DATE,strong-knows,3,strong-knows,3,True
+qw_12382,Who was the first woman to fly solo from England to Australia?,Amy Johnson,PERSON,strong-knows,3,strong-knows,3,True
 qw_12470,"What is the ninth month of the Muslim year, a period of fasting during which there is strict abstinence during daylight from food, drink and perfume?",Ramadan,EVENT,strong-knows,3,strong-knows,3,True
-qw_12689,"Areas on the Canadian eastern coast share their name with two breeds of dog, Newfoundland and which other?",Labrador,LOC,strong-knows,3,strong-knows,3,True
-qw_12817,What is the last Grand Slam tennis tournament played in a calendar year?,The US Open,EVENT,strong-knows,3,strong-knows,3,True
+qw_1253,Charles Lindbergh became famous by flying which aeroplane?,The Spirit of St Louis,PRODUCT,strong-knows,3,strong-knows,3,True
+qw_12647,"""Up to 1974, the title of """"Negus"""" was used for the traditional rulers of what country?""",Ethiopia,GPE,strong-knows,3,strong-knows,3,True
+qw_12732,"General Franco, the Spanish military general, was head of state of Spain from October 1936 following the Spanish Civil War, until when?",1975,DATE,strong-knows,3,strong-knows,3,True
+qw_1297,"What was the name of Sir Fred Hoyles theory, an alternative to the Big Bang, that said that there was continuous creation of matter between galaxies, so that as galaxies get further apart, new ones develop between them?",Steady state,WORK_OF_ART,strong-knows,3,strong-knows,3,True
 qw_13019,"When did the Canadian Charter of Rights and Freedoms, the bill of rights entrenched in Canadian law as part of the Constitution Act, come into force?",1982,DATE,strong-knows,3,strong-knows,3,True
-qw_13806,What complex of artificial biological environments near St Blazey and St Austell in Cornwall was opened to the public in 2001?,The Eden Project,FAC,strong-knows,3,strong-knows,3,True
-qw_14685,What is the official language of the People's Republic of Bangladesh?,Bengali,LANGUAGE,strong-knows,3,strong-knows,3,True
+qw_13616,The oldest still operating national parliament in Europe governs which country?,Iceland,GPE,strong-knows,3,strong-knows,3,True
+qw_13734,"Cable News Network (CNN), the first channel to provide 24-hour television news coverage, was founded by Ted Turner in what year?",1980,DATE,strong-knows,3,strong-knows,3,True
+qw_13879,Where would you find the metatarsal bone?,Foot,LOC,strong-knows,3,strong-knows,3,True
+qw_13977,What is kept in the sump of a motor car engine?,Oil,PRODUCT,strong-knows,3,strong-knows,3,True
+qw_14000,How many military conflicts have been generally given the name of World War?,2,CARDINAL,strong-knows,3,strong-knows,3,True
+qw_1421,"Anthony Wilding, who won the Wimbledon men's singles from 1910 to 1913, was from what country?",New Zealand,GPE,strong-knows,3,strong-knows,3,True
+qw_14436,"""Known in the USA as """"The March King"""" he made his first recordings with Columbia Phonograph Company in 1890; what was his name?""",John Philip Sousa,PERSON,strong-knows,3,strong-knows,3,True
+qw_14568,"Which Earl of Essex, after being sent to Ireland as Governor-General in 1599, being briefly imprisoned and leading a rebellion against Queen Eliabeth I, was executed in 1601?",Robert Devereux,PERSON,strong-knows,3,strong-knows,3,True
+qw_14911,"The cocktail called a Tom Collins consists of lemon or lime juice, sugar, soda water and what else?",Gin,PRODUCT,strong-knows,3,strong-knows,3,True
 qw_1505,"What is the standard length of the bars in the uneven parallel bars or asymmetric bars, an artistic gymnastics apparatus used only by female gymnasts?",240 cm,QUANTITY,doesn't-know,0,doesn't-know,0,True
-qw_15588,What language did the playwright Henrik Ibsen write his plays in?,Danish,LANGUAGE,doesn't-know,0,doesn't-know,0,True
-qw_15839,"""Who published an autobiography entitled """"A Journey"""" on 1 September 2010?""",Tony Blair,PERSON,strong-knows,3,strong-knows,3,True
-qw_3129,What is Bedloes Island in the USA used for?,Statue of Liberty,FAC,strong-knows,3,strong-knows,3,True
+qw_15580,"""Who wrote the sons """"I've Got You Under My Skin"""" and """"I Get A Kick Out Of You""""?""",Cole Porter,PERSON,strong-knows,3,strong-knows,3,True
+qw_15789,"""What dish derives from the Portuguese dish """"Carne de Vinha d' Alhos"""" (pork preserved in red wine or red wine vinegar, chili pepper, and stewed with garlic) which was brought to Goa and evolved into the a dish of meat, usually lamb, with wine and garlic plentiful amounts of spice?""",Vindaloo,PRODUCT,strong-knows,3,strong-knows,3,True
+qw_15796,What year did the cable television network ESPN made its debut broadcasting and producing sports-related programming 24 hours a day?,1979,DATE,strong-knows,3,strong-knows,3,True
+qw_1581,"In beach volleyball and indoor volleyball, what is the maximum number of contacts that a team can have with the ball before it crosses the net?",3,CARDINAL,strong-knows,3,strong-knows,3,True
+qw_15987,"What was the first name of the fictional character Gulliver, which was created by Jonathan Swift?",Lemuel,PERSON,strong-knows,3,strong-knows,3,True
+qw_1617,The Wimbledon tennis tournament is held at which tennis club in London?,The All England Club,ORG,strong-knows,3,strong-knows,3,True
+qw_16389,Which city is sited on the Absheron Peninsula which juts into the Caspian Sea?,"Baku, Azerbaijan",GPE,strong-knows,3,strong-knows,3,True
+qw_16558,"In which country was Saddam Hussein President 1979-2003, being deposed and then hanged in 2006?",Iraq,GPE,strong-knows,3,strong-knows,3,True
+qw_16632,"""""""Andre 3000"""" & """"Big Boi"""" make up which hip hop duo?""",Outkast,ORG,strong-knows,3,strong-knows,3,True
+qw_2135,"On British television, John Steed and Emma Peel were known collectively as what?",The Avengers,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qw_2146,In which city are the Oscar statuettes made?,Chicago,GPE,strong-knows,3,strong-knows,3,True
+qw_2197,"Saint Augustine, the oldest city in the USA, is in which state?",Florida,GPE,strong-knows,3,strong-knows,3,True
+qw_2555,What is the symbol for a 30th wedding anniversary?,Pearl,PRODUCT,strong-knows,3,strong-knows,3,True
+qw_2792,A bagel is a type of what?,Bread,PRODUCT,strong-knows,3,strong-knows,3,True
+qw_2876,"""The X-Files spawned two theatrical movies, """"The X-Files"""" and """"I Want To Believe"""", and which spin-off TV series?""",The Lone Gunmen,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qw_3004,"Colin Meads, nicknamed 'Pinetree', a former rugby union footballer who played 55 test matches for his national team from 1957 until 1971 and was named his country's Player of the Century, represented which country?",New Zealand,GPE,strong-knows,3,strong-knows,3,True
 qw_3195,What is an astronomical event that occurs when one celestial object moves into the shadow of another?,Eclipse,EVENT,strong-knows,3,strong-knows,3,True
 qw_3348,"In croquet, what is used to hit the ball?",Mallet,PRODUCT,strong-knows,3,strong-knows,3,True
 qw_3516,"Which group of around 200 Greek islands in the Aegean Sea includes Andros, Naxos, Paros and Milos?",Cyclades,LOC,strong-knows,3,strong-knows,3,True
-qw_4432,Who did the British fight at the Battle of Rorke's Drift in 1879?,Zulus,NORP,strong-knows,3,strong-knows,3,True
-qw_4781,Which wonder of the ancient world was at Ephesus?,Temple of Artemis,FAC,strong-knows,3,strong-knows,3,True
+qw_3670,Who was Europe's captain in the 2008 Ryder Cup?,Nick Faldo,PERSON,strong-knows,3,strong-knows,3,True
+qw_3723,"Where is the giant copper statue of a man, woman and child, known as the African Renaissance monument, that was unveiled in April 2010?","Dakar, Senegal",GPE,strong-knows,3,strong-knows,3,True
+qw_3850,Where was the final of the 1999 Rugby World Cup held?,Wales,GPE,strong-knows,3,weak-knows,2,False
+qw_3904,"""Which Scottish singer had hits with """"Maggie Mae"""", """"Tonight's The Night"""" and """"Do You Think I'm Sexy"""", and has then turned to singing older standards?""",Rod Stewart,PERSON,strong-knows,3,strong-knows,3,True
+qw_4121,"The Dardanelles and the Bosporus, straits which separate Europe from the mainland of Asia, run through which country?",Turkey,GPE,strong-knows,3,strong-knows,3,True
+qw_4371,"Excluding Antarctica, which continent reaches the furthest south?",South America,LOC,strong-knows,3,strong-knows,3,True
+qw_4699,"""Who is a South African serial killer who committed the """"ABC Murders"""" between 1994 and 1995, with over 30 victims?""",Moses Sithole,PERSON,guess,1,guess,1,True
+qw_4783,What is a popular name for the North American bison?,Buffalo,PRODUCT,strong-knows,3,strong-knows,3,True
+qw_503,"""From her first US film musical """"Down Argentina Way"""" (1940), who became famous for extravagant hats, jewellery and dresses?""",Carmen Miranda,PERSON,strong-knows,3,strong-knows,3,True
+qw_5140,"""Who wrote numerous short stories and plays and the novels """"Of Human Bondage"""", """"The Moon And Sixpence"""" and """"Cakes And Ale""""?""",Somerset Maugham,PERSON,strong-knows,3,strong-knows,3,True
+qw_5155,"""What musical has the characters Roxie Hart, Velma Kelly, Billy Flynn, Matron """"Mama"""" Morton, Amos Hart, Mary Sunshine, Fred Casely, Mrs. Borusewicz, Harrison and Go-to-Hell Kitty Baxter?""",Chicago,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qw_5236,Cathay is a poetic name for which country?,China,GPE,strong-knows,3,strong-knows,3,True
+qw_5298,"According to legend, who was King Arthur's father?",Uther Pendragon,PERSON,strong-knows,3,strong-knows,3,True
+qw_5335,"What fictional Chinese-American detective, created by Earl Derr Biggers in 1923 for a novel published in 1925, was the subject of over 45 films made between 1926 and 1981?",Charlie Chan,PERSON,strong-knows,3,strong-knows,3,True
 qw_5351,"Quantrill's Raiders, a loosely organised force of Partisan rangers under the leadership of William Clarke Quantril, fought in which war?",American Civil War,EVENT,strong-knows,3,strong-knows,3,True
-qw_5588,"When is Labour Day in the USA, Bermuda and Canada?",The first Monday in September,DATE,strong-knows,3,strong-knows,3,True
-qw_5723,How many books in the Bible's Old Testament are included in the Catholic version but not in the Protestant one?,7,CARDINAL,strong-knows,3,strong-knows,3,True
-qw_5740,"What style of American Football founded in 2003 is a full-contact 7 a side game where uniforms consist of helmets, shoulder pads, elbow pads, knee pads, bras, and panties?",Lingerie Football League,ORG,strong-knows,3,strong-knows,3,True
-qw_6002,Who lived in the Lateran Palace from the fourth to the fourteenth centuries?,Popes,NORP,strong-knows,3,strong-knows,3,True
-qw_6075,"Which river runs through the cities of Basel, Strasbourg, Karlsruhe, Mainz, Koblenz, Bonn, Cologne, Dsseldorf, Arnhem, Utrecht and Rotterdam?",Rhine,LOC,strong-knows,3,strong-knows,3,True
-qw_6361,"""Until 2004, when the International Judging System (IJS) (informally called the """"Code of Points"""") was introduced, what was the highest score a judge could award in figure skating for each of the """"free skate"""" and the """"short"""" programmes?""",6,CARDINAL,strong-knows,3,strong-knows,3,True
-qw_8039,"""In which song does the singer sing about """"the way you wear your hat, the way you sip your tea"""", and """"the way you hold your knife, the way we danced till three""""?""",They Can't Take That Away from Me,WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
-qw_8126,"What is the minimum number of points needed to win a tiebreak in tennis, such as in the Hopman Cup for mixed doubles, on the ATP and WTA tours for doubles and sometmes in USTA league play?",10,CARDINAL,strong-knows,3,strong-knows,3,True
-qw_8397,"In 1995, Steffi Graf became the only tennis player to have won each of the four grand slam events how many times?",4,CARDINAL,strong-knows,3,strong-knows,3,True
-qw_8563,Horatio was a legendary Roman hero who defended a bridge against which army?,Etruscan,NORP,strong-knows,3,strong-knows,3,True
-qw_869,Which 2007 Italian drama film directed by Daniele Luchetti is based on Antonio Pennacchi's novel?,My Brother Is An Only Child,WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
-qw_9990,"The Treaty of Kiel, between the UK, Sweden and Denmark-Norway was intended to ease hostilities relating to which war?",Napoleonic,NORP,strong-knows,3,strong-knows,3,True
-qz_1074,"In years and days, how old was Luigina Giavotti when she won a silver medal in gymnastics in 1928, and is still the youngest medal winner today?",11 years and 302 days,QUANTITY,doesn't-know,0,doesn't-know,0,True
-qz_1380,"In a standard deck of cards, how many Kings have a moustache?",Three,CARDINAL,guess,1,doesn't-know,0,False
-qz_1429,What is the final event in a decathlon?,1500 metres,QUANTITY,strong-knows,3,strong-knows,3,True
-qz_2291,How meny times have Liverpool won the Europion Cup?,5,CARDINAL,strong-knows,3,strong-knows,3,True
-qz_2397,"In Greek mythology, where do righteous souls go after death?",Elysian Fields,LOC,strong-knows,3,strong-knows,3,True
-qz_2440,Which film features the Dawes Tomes Mousley Grubbs Fidelity Fiduciary Bank?,Mary Poppins,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-qz_3898,How many times did Steffi Graf win the Ladies Singles at Wimbledon?,7,CARDINAL,strong-knows,3,strong-knows,3,True
-qz_3927,"How many Rings of Power were there, in total?",20,CARDINAL,strong-knows,3,strong-knows,3,True
-qz_4226,Which wedding anniversary is celebrated with paper,1st,ORDINAL,strong-knows,3,strong-knows,3,True
-qz_5044,Who had chart hits which included Annie`s Song and Rocky Mountain High?,John DENVER,PERSON,strong-knows,3,strong-knows,3,True
-qz_5684,What is the minimum age of someone running for the office of President of the United States?,35 years of age,QUANTITY,strong-knows,3,strong-knows,3,True
-qz_6128,The King of Wishful Thinking was a hit song used during the opening credits of the movie Pretty Woman. Who sang it?,Go West,ORG,strong-knows,3,strong-knows,3,True
-sfq_10360,What name has been given to the previously unknown species of man found in Russia 2010?,Denisovans,NORP,weak-knows,2,weak-knows,2,True
+qw_5355,"What was the original surname of T E Shaw, an RAF aircraftsman who was killed in a motorbike accident in 1935?",Lawrence,PERSON,strong-knows,3,strong-knows,3,True
+qw_5512,"Canadian Florence Nightingale Graham dropped out of nursing school in Toronto and joined her elder brother in New York City, working as a bookkeeper for the E.R. Squibb Pharmaceuticals Company. By what name is she better known?",Elizabeth Arden,PERSON,strong-knows,3,strong-knows,3,True
+qw_5734,"A particular song was copyrighted in 1935 by the Summy Company, crediting authors Preston Ware Orem and Mrs. R.R. Forman. The company was purchased in 1990 by Warner Chappell for US$15 million, with the value of the song estimated at US$5 million. What is the song?",Happy Birthday to You,WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
+qw_5984,"Who presented a list of 23 problems in mathematics at a conference of the International Congress of Mathematicians on 8 August 1900 in the Sorbonne, of which only 10 have resolutions which are fully accepted?",David Hilbert,PERSON,strong-knows,3,strong-knows,3,True
+qw_6212,"Of the 26 times that the 100 metres has been included in the Olympic Games to 2008, which country has won the most gold medals (16)?",USA,GPE,strong-knows,3,strong-knows,3,True
+qw_6353,"The initial parts of which London building were built as a fortress by the Normans, had additions to become a palace and then was used primarily as a prison?",Tower of London,FAC,strong-knows,3,strong-knows,3,True
+qw_6536,"""How many people made up the English pop rock group """"Tears For Fears""""?""",2,CARDINAL,strong-knows,3,strong-knows,3,True
+qw_6635,"""Who painted """"Boy With a Pipe"""" which, in May 2004, was sold for a record price of $104 million?""",Picasso,PERSON,strong-knows,3,strong-knows,3,True
+qw_6676,"""In the James Bond film """"Goldfinger"""" who played Bond girl Pussy Galore?""",Honor Blackman,PERSON,strong-knows,3,strong-knows,3,True
+qw_6693,"What was the fictional family with children called Greg, Peter, Bobby, Marcia, Jan and Cindy, that first came to US TV screens in 1969?",The Brady Bunch,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qw_6802,The rings of which planet were first detected in 1980 but only identified in 1989 by the Voyager 2 spacecraft? .,Neptune,GPE,strong-knows,3,strong-knows,3,True
+qw_685,Fado is a type of music from which country?,Portugal,GPE,strong-knows,3,strong-knows,3,True
+qw_7195,"""In the films """"Batman Forever"""" (1995) and """"Batman & Robin"""" (1997) who was Bruce Wayne's ward?""",Dick Grayson,PERSON,strong-knows,3,strong-knows,3,True
+qw_7353,Most of the world's caviar comes from where?,Caspian Sea,LOC,strong-knows,3,strong-knows,3,True
+qw_751,In which film did Johnny Depp play a policeman called Ichabod Crane?,Sleepy Hollow,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qw_7924,"""The """"Three Laws of Motion"""" are named after which scientist who published them in 1687?""",Isaac Newton,PERSON,strong-knows,3,strong-knows,3,True
+qw_8127,"""The song """"Good Morning To All"""", composed by Pattie and Mildred Hill in 1893, is now sung as what?""",Happy Birthday to You,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qw_8139,In 1973 the Paris Peace Accords were held in an attempt to end which war?,Vietnam,GPE,strong-knows,3,strong-knows,3,True
+qw_8247,American rapper Tramar Dillard is better known by what stage name?,Flo Rida,PERSON,strong-knows,3,strong-knows,3,True
+qw_841,"Who was re-elected President of the Republic of Germany in 1932 defeating Adolf Hitler, became a figurehead when Hitler became Chancellor in 1932, and died in 1934, enabling Hitler to disestablish the position of President and proclaim himself Fuhrer?",von Hindenburg,PERSON,strong-knows,3,strong-knows,3,True
+qw_859,"The 1812 Fire of Moscow, on 14 September 14 1812, broke out after most residents and Russian troops had abandoned the city, and whose troops had entered it?",Napoleon,PERSON,strong-knows,3,strong-knows,3,True
+qw_8638,"What amateur rowing club based at Henley on Thames, England, was founded in 1818?",Leander Club,ORG,doesn't-know,0,doesn't-know,0,True
+qw_8760,"Who created St Trinians, a fictional girls' boarding school, the subject of 8 books and 7 films between 1954 and 2009?",Ronald Searle,PERSON,strong-knows,3,strong-knows,3,True
+qw_8793,The mountain massif called Maxwell Montes contains the highest point on the surface of which planet?,Venus,GPE,strong-knows,3,strong-knows,3,True
+qw_8871,"Lieutenant General James Thomas Brudenell, who commanded the Light Brigade of the British Army during the Crimean War, was the 7th Earl of what?",Cardigan,GPE,strong-knows,3,strong-knows,3,True
+qw_8897,Who was the last Anglo-Saxon king of England?,Harold II,PERSON,strong-knows,3,strong-knows,3,True
+qw_8916,Where was the world's tallest road bridge opened in December 2004?,France,GPE,strong-knows,3,strong-knows,3,True
+qw_9105,"""Who wrote the piece of music recognised in much of the Western world as """"The Wedding March"""" (or as """"Here Comes The Bride"""")?""",Mendelssohn,PERSON,strong-knows,3,strong-knows,3,True
+qw_9112,Tanzania was renamed in 1964. What was it previously called?,United Republic of Tanganyika and Zanzibar,GPE,strong-knows,3,strong-knows,3,True
+qw_9154,"Which game that contained many D&D; features and references, including a computer controlled dungeon master, created in 1975 by Will Crowther on a DEC PDP-10 computer, the first widely used adventure game, was significantly expanded in 1976 by Don Woods, that inspired a group of students at MIT to write a game called Zork in the summer of 1977 for the PDP-10 minicomputer which became quite popular on the ARPANET?",Adventure,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qw_9414,What is the maximum number of points that can be scored from a single shot in basketball?,3,CARDINAL,strong-knows,3,strong-knows,3,True
+qw_9494,Damascus is the capital of which country?,Syria,GPE,strong-knows,3,strong-knows,3,True
+qw_9726,"""The TV series """"Married... with Children"""" was set in which city?""",Chicago,GPE,strong-knows,3,strong-knows,3,True
+qz_122,How many verses make up the national anthem God Save The Queen?,Three,CARDINAL,strong-knows,3,strong-knows,3,True
+qz_1380,"In a standard deck of cards, how many Kings have a moustache?",Three,CARDINAL,weak-knows,2,doesn't-know,0,False
+qz_1804,Which Christmas song includes the line It seems so long since I could say 'sister Susie sitting on a thistle'?,All I Want for Christmas Is My Two Front Teeth,WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
+qz_2018,"Which scientist was Time magazine's ""Person of the 20th Century""?",Albert Einstein,PERSON,strong-knows,3,strong-knows,3,True
+qz_2090,Wayne Rooney signed for Manchester United from which other Premiership Club?,Everton,ORG,strong-knows,3,strong-knows,3,True
+qz_2309,The Sign Of Four was a detective story written by which author?,Sir Arthur Conan Doyle,PERSON,strong-knows,3,strong-knows,3,True
+qz_2423,Suger Mice was a 1987 single for which British rock band?,Marillion,ORG,strong-knows,3,strong-knows,3,True
+qz_2594,Which famous cowboy was created by George W. Trendle?,The Lone Ranger,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qz_2845,Ecuador has a border with Peru and which other country ?,Colombia,GPE,strong-knows,3,strong-knows,3,True
+qz_2853,"In 2009, who was convicted of the murder of Lana Clarkson?",Phil Spector,PERSON,strong-knows,3,strong-knows,3,True
+qz_3041,Who killed Robert F Kennedy?,Sirhan Sirhan,PERSON,strong-knows,3,strong-knows,3,True
+qz_3130,A youngberry is a cross between a dewberry and what else?,A blackberry,PRODUCT,strong-knows,3,strong-knows,3,True
+qz_3358,Who is the patron saint of lost causes?,St Jude,PERSON,strong-knows,3,strong-knows,3,True
+qz_374,"The invention of what in 1867, made Alfred Nobel famous?",Dynamite,PRODUCT,strong-knows,3,strong-knows,3,True
+qz_3878,"If you heard the catchphrase ""They're great"" what would expect to be advertised?",Frosties,PRODUCT,strong-knows,3,strong-knows,3,True
+qz_3920,What story introduced the Cybermen?,The Tenth Planet,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+qz_4127,Name the magician who first introduced us to Basil Brush.,David Nixon,PERSON,doesn't-know,0,doesn't-know,0,True
+qz_4140,Who was the only Prime Minister of Britain to be assassinated?,Spencer Percival,PERSON,strong-knows,3,strong-knows,3,True
+qz_4839,Who made Victor Krum's wand?,Gregorovitch,PERSON,strong-knows,3,strong-knows,3,True
+qz_4923,"Which cockney private detective, co-created by Terry Venables, was portrayed on TV by Nicholas Ball?",James Hazell,PERSON,guess,1,doesn't-know,0,False
+qz_4925,Who in 1975 became the first black man to win a Wimbledon singles title?,Arthur Ashe,PERSON,strong-knows,3,strong-knows,3,True
+qz_5202,Who did Simple Simon meet on his way to the fair?,The Pie man.,PERSON,strong-knows,3,strong-knows,3,True
+qz_5217,"The Asian Tsunami or Boxing day tsunami that hit Thailand, Indonesia and many other countries happened in what year?",2004,DATE,strong-knows,3,strong-knows,3,True
+qz_5332,Which country does the drink Cinzano come from?,Italy,GPE,strong-knows,3,strong-knows,3,True
+qz_5459,By what name did Samuel Langhorne Clemens publish his novels under?,Mark Twain,PERSON,strong-knows,3,strong-knows,3,True
+qz_5461,Who wrote the novel Rasselas in a single week in 1759 to pay for his mother's funeral?,Samuel Johnson,PERSON,strong-knows,3,strong-knows,3,True
+qz_5584,Whose last words were Et Tu Brute according to Shakespeare?,Julius Ceasar,PERSON,strong-knows,3,strong-knows,3,True
+qz_5796,The Red Setter is more properly known by which name?,The Irish Setter.,PRODUCT,strong-knows,3,strong-knows,3,True
+qz_603,In which city would you find O'Hare International Airport?,Chicago,GPE,strong-knows,3,strong-knows,3,True
+qz_6898,In which New York borough would you find Hell’s Kitchen?,Manhattan,GPE,strong-knows,3,strong-knows,3,True
+qz_726,Who provided the voice for Bob The Builder on his number one hit Can We Fix It?,Neil Morrissey,PERSON,strong-knows,3,strong-knows,3,True
+qz_860,What is the name of Kevin the teenager's friend played by Kathy Burke in a series of sketches with Harry Enfield?,Perry,PERSON,guess,1,guess,1,True
+sfq_10103,Who has been Archbishop of York since 2005?,John Sentamu,PERSON,strong-knows,3,strong-knows,3,True
+sfq_10296,Which monarch said 'Will no-one rid me of this turbulent priest'?,Henry II,PERSON,strong-knows,3,strong-knows,3,True
+sfq_10334,In which Thomas Hardy novel does Michael Henchard appear?,Mayor of Casterbridge,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_10502,Rebecca Front plays Detective Chief Superintendent Innocent in which TV series?,LEWIS,WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
+sfq_10508,In 2010 which country saw the Red Shirt Rebellion?,THAILAND,GPE,strong-knows,3,strong-knows,3,True
+sfq_10512,The advance south into England by Bonnie Prince Charlie in 1745 reached approximately as far as the Swarkstone Bridge on which major English River?,TRENT,LOC,strong-knows,3,strong-knows,3,True
+sfq_10565,What is the name of Long John Silver's parrot in Treasure Island?,Captain Flint,PERSON,strong-knows,3,strong-knows,3,True
+sfq_10682,What consumer electronics product shares its name with the common name of the fruit Rubus Fructicosis?,BLACKBERRY,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_10701,In popular music how is Paul Hewson better known?,BONO,PERSON,strong-knows,3,strong-knows,3,True
+sfq_10769,"Len Martin, who read the football results on BBC from 1958 until his death in 1995, was succeeded in the job by whom?",TIM GUDGIN,PERSON,doesn't-know,0,doesn't-know,0,True
+sfq_10796,Which Hollywood film star advertises 'Qantas' airlines and is a qualified pilot?,JOHN TRAVOLTA,PERSON,strong-knows,3,strong-knows,3,True
 sfq_10948,"The Bet365 Gold Cup, formerly the Beffred and the Whitbread Gold Cup, is the last major 'race of the National Hunt season. On which course is it run?",Sandown,LOC,strong-knows,3,strong-knows,3,True
-sfq_1144,What was the code name for the British retreat from Dunkirk in World War 2?,Dynamo,EVENT,strong-knows,3,strong-knows,3,True
-sfq_11835,In which year did John Stonehouse disappear and the Flixborough chemical plant exploded?,1974,DATE,strong-knows,3,strong-knows,3,True
-sfq_12333,"The German's called it the Siegfried Line, what did the allies call it?",THE HINDENBERG LINE,FAC,doesn't-know,0,doesn't-know,0,True
-sfq_14039,Which car manufacturer has its headquarters at Martorell near Barcelona?,SEAT,ORG,strong-knows,3,strong-knows,3,True
-sfq_14641,"In electromagnetism, which unit is found by multiplying volts by amperes?",WATTS,QUANTITY,strong-knows,3,strong-knows,3,True
+sfq_1095,Who was the first American President to live in the White House; he moved there in 1800?,John Adams,PERSON,strong-knows,3,strong-knows,3,True
+sfq_10974,"In the Sudanese wars, which British general won the Battle of Omdurman?",(Sir Herbert) Kitchener,PERSON,strong-knows,3,strong-knows,3,True
+sfq_11092,Which vegetable has varieties called Royal Favourite and Walton Mammoth?,LEEK,PRODUCT,weak-knows,2,guess,1,False
+sfq_1137,"There are two forms of classical Japanese theatre, 'Noh' is mostly spoken, but what name is given to the singing and dancing form?",Kabuki,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_11567,Which actress is the mother of actress Carrie Fisher?,DEBBIE REYNOLDS,PERSON,strong-knows,3,strong-knows,3,True
+sfq_12195,Which Verdi opera is based on La Dame aux Camellias by Alexandre Dumas fils?,La Traviata,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_1224,Who was Poet Laureate from 1850 to 1892?,Alfred Lord Tennyson,PERSON,strong-knows,3,strong-knows,3,True
+sfq_12262,In what year did Pope John Paul II die?,2005,DATE,strong-knows,3,strong-knows,3,True
+sfq_12370,Which island produces Marsala wines?,Sicily,GPE,strong-knows,3,strong-knows,3,True
+sfq_12471,"What name connects 'Cold Comfort Farm, stamp collecting and ancient Rome?",GIBBONS,PERSON,strong-knows,3,doesn't-know,0,False
+sfq_12623,Who produces the `Agila' car model?,VAUXHALL,ORG,doesn't-know,0,guess,1,False
+sfq_1263,"Who was the deviser, producer and director 'That Was The Week That Was'?",Ned Sherrin,PERSON,strong-knows,3,strong-knows,3,True
+sfq_13117,Who is the present Prime Minister of the Irish Republic?,ENDA KENNY,PERSON,doesn't-know,0,doesn't-know,0,True
+sfq_13175,John Sell Cotman was a leading member of which group of artists?,NORWICH SCHOOL,ORG,strong-knows,3,strong-knows,3,True
+sfq_13456,Which football league championship side plays home games at Keepmoat Stadium?,DONCASTER ROVERS,ORG,strong-knows,3,strong-knows,3,True
+sfq_13780,"The UK's longest National Trail, what path stretches 630 miles between Minehead and Poole Harbour?",SOUTH WEST COAST,LOC,strong-knows,3,strong-knows,3,True
+sfq_13804,Sheikh Hamad bin Isa Al Khalifa is the reigning monarch of what country?,BAHRAIN,GPE,strong-knows,3,strong-knows,3,True
+sfq_14036,"In which Indian city is Eden Gardens, the second largest test cricket ground in the world?",KOLKATA,GPE,strong-knows,3,strong-knows,3,True
+sfq_14273,Which fruit has the alternative name the alligator pear?,AVOCADO,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_14501,"Goosnargh Corn-fed Chicken and Duck is championed by chefs and five of the ten Lancashire cheese dairies listed by the British Cheese Board are located in Goosnargh parish, in which town or city is Goosnargh?",Preston,GPE,strong-knows,3,strong-knows,3,True
+sfq_14530,"'An Island Parish' is a documentary series on BBC2, in which islands were the first four series set?",Scilly Isles,LOC,guess,1,weak-knows,2,False
+sfq_14649,The sea between Australia and New Zealand is named after an explorer of what nationality?,DUTCH,NORP,strong-knows,3,strong-knows,3,True
+sfq_14796,Mitt Romney was Governor of which state 2003-7?,Massachusetts,GPE,strong-knows,3,strong-knows,3,True
+sfq_14806,"In 1956, which peninsula was the first part of Britain to be designated an 'Area of Outstanding Natural Beauty'?",Gower,LOC,doesn't-know,0,doesn't-know,0,True
+sfq_15026,"Which children's fictional character lives at 32, Windsor Gardens, London?",Paddington Bear,PERSON,strong-knows,3,strong-knows,3,True
+sfq_15043,Who played the part of 'Fitz' in the TV series 'Cracker'?,Robbie Coltrane,PERSON,strong-knows,3,strong-knows,3,True
 sfq_15048,Which car company has owned the Lagonda name since 1947?,Aston Martin,ORG,strong-knows,3,strong-knows,3,True
-sfq_15787,Name the year: Kate Middleton is born; Mail on Sunday first published; Laker Airways collapsed,1982,DATE,strong-knows,3,strong-knows,3,True
-sfq_16199,"In Rugby Union, how high, in metres, is the crossbar?",3,CARDINAL,strong-knows,3,strong-knows,3,True
-sfq_16988,Which playwright wrote Murder in the Cathedral?,T S Eliot,PERSON,strong-knows,3,strong-knows,3,True
-sfq_17180,"The islands of Hoy, Sanday and Westray belong to which island group?",ORKNEYS,LOC,strong-knows,3,strong-knows,3,True
-sfq_17967,In the 1920s by what name did Angelo Siciliano become better known?,CHARLES ATLAS,PERSON,strong-knows,3,strong-knows,3,True
-sfq_1798,"What name is given to the gap between the A and B rings of Saturn, after the Italian astronomer who first discovered it in 1675?",CASSINI DIVISION,LOC,strong-knows,3,strong-knows,3,True
-sfq_18636,In which year did Alcock and Brown make the first flight across the Atlantic?,1919,DATE,strong-knows,3,strong-knows,3,True
-sfq_189,On which Saint's Day in 1572 did a massacre of Huguenots take place?,ST. BARTHOLOMEW,EVENT,strong-knows,3,strong-knows,3,True
+sfq_15054,"Which BBC TV sitcom about a retired security guard was set at 37 Wyngate Drive in the first series then at 19, Riverbank for the final 5 series?",One Foot In The Grave,WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
+sfq_15126,"Who was born at Villa Mon Repos, Corfu, in 1921?",Prince Philip,PERSON,strong-knows,3,strong-knows,3,True
+sfq_15208,Which Japanese company has bought Horizon Nuclear Power and so has the contract to build nuclear power stations in Britain from 2015?,Hitachi,ORG,strong-knows,3,strong-knows,3,True
+sfq_15247,In which children's TV series does Shaggy appear?,SCOOBY DOO,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_15281,Whom did Malcolm III kill in battle in 1057 to become King of Scotland?,MACBETH,PERSON,strong-knows,3,strong-knows,3,True
+sfq_15417,Which duo had a hit album entitled Sweet Dreams (Are Made of This)?,EURYTHMICS,ORG,strong-knows,3,strong-knows,3,True
+sfq_15686,Who presents the BBC4 cerebral quiz show 'Only Connect'?,Victoria Coren,PERSON,strong-knows,3,strong-knows,3,True
+sfq_15723,"John Crome was the main artist of which group of English painters, named after the city where he was born?",The Norwich School,ORG,strong-knows,3,strong-knows,3,True
+sfq_15725,"Which choral work by Handel, still used at coronations, was written originally for the Coronation of King George II in 1727?",Zadok the Priest,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_15759,Nagaland is a constituent state of which SE Asian country?,India,GPE,strong-knows,3,strong-knows,3,True
+sfq_15802,Which British comic included Desperate Dan and Korky the Cat?,The Dandy,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_15836,The line 'The mirror crack'd from side to side' comes from which poem?,THE LADY OF SHALLOT,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_15881,"""Who presents """"The Unbelievable Truth"""" on BBC Radio 4?""",David Mitchell,PERSON,strong-knows,3,strong-knows,3,True
+sfq_15952,Who hosts the ITV show 'Take Me Out'?,Paddy McGuiness,PERSON,strong-knows,3,strong-knows,3,True
+sfq_16067,What country borders only Romania and Ukraine?,Moldova,GPE,strong-knows,3,strong-knows,3,True
+sfq_16202,Which optical toy was first patented in 1817 by David Brewster?,KALEIDOSCOPE,PRODUCT,doesn't-know,0,doesn't-know,0,True
+sfq_16363,Which Scotsman became the first European to reach the River Niger in 1796?,Mungo Park,PERSON,strong-knows,3,strong-knows,3,True
+sfq_16585,In which Verdi opera do the gypsies sing the 'Anvil Chorus'?,Il Trovatore,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_16624,How many symphonies did Jean Sibelius compose?,Seven,CARDINAL,strong-knows,3,strong-knows,3,True
+sfq_16640,What type of exhibit can be seen in the military museum at Bovington in Dorset?,Tanks,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_17009,"From which song does this lyric come? 'She calls out to the man in the street, sir can you help me'?",Another day in Paradise,WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
+sfq_17035,"First published in 1932, what is the official magazine of the British Film Institute?",SIGHT & SOUND,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_17210,In which UK City is there a district called Holgate?,YORK,GPE,strong-knows,3,strong-knows,3,True
+sfq_17294,Which Australian prime minister was presumed drowned in 1967?,Harold Holt,PERSON,strong-knows,3,strong-knows,3,True
+sfq_17392,Which record by Dexy's Midnight Runners was the best-selling UK single of 1982?,COME ON EILEEN,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_17501,Which comedian had the catch phrase 'It's all done in the best possible taste!'?,KENNY EVERETT,PERSON,strong-knows,3,strong-knows,3,True
+sfq_17514,In which county is Blacksticks Blue cheese produced?,LANCASHIRE,GPE,strong-knows,3,strong-knows,3,True
+sfq_17590,Whose mistress was Clara Petacci?,(Benito) Mussolini,PERSON,strong-knows,3,strong-knows,3,True
+sfq_17779,Who coined the phrase 'Somebody up there likes me'?,ROCKY GRAZIANO,PERSON,doesn't-know,0,weak-knows,2,False
+sfq_17840,In which modern country is the ancient city of Petra?,JORDAN,GPE,strong-knows,3,strong-knows,3,True
+sfq_17846,"If the words Posta Shqiptare appear on a postage stamp, from which country does it come?",ALBANIA,GPE,strong-knows,3,strong-knows,3,True
+sfq_1817,"Which media mogul married actress Jane Fonda in 1991, the marriage ending in divorce ten years later?",TED TURNER,PERSON,strong-knows,3,strong-knows,3,True
+sfq_18209,Who directed the 1966 film 'A Countess from Hong Kong?,CHARLIE CHAPLIN,PERSON,strong-knows,3,strong-knows,3,True
+sfq_18399,On which island is Mahon situated?,MENORCA,GPE,strong-knows,3,strong-knows,3,True
+sfq_18400,"""In which old children's TV programme did the """"biggest spotty dog you ever did see"""" feature?""",THE WOODENTOPS,WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
+sfq_18516,Which 1959 film starred Peter Sellers as shop steward Fred Kite?,I'M ALL RIGHT JACK,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_18522,Which actress played Queen Victoria in the 1970s TV drama Edward the Seventh?,ANNETTE CROSBIE,PERSON,guess,1,guess,1,True
+sfq_18543,Who was the first football nation to win the World Cup outside their own continent?,BRAZIL,GPE,weak-knows,2,strong-knows,3,False
+sfq_1864,Which year saw the assassination of US President James Garfield?,1881,DATE,strong-knows,3,strong-knows,3,True
+sfq_18907,What is the French name for the English channel?,La Manche,LOC,strong-knows,3,strong-knows,3,True
+sfq_18918,The River Durance flows into the Rhone near to which French town or city?,Avignon,GPE,strong-knows,3,strong-knows,3,True
+sfq_19039,Which English football ground features the 'Holte End'?,Villa Park,FAC,strong-knows,3,strong-knows,3,True
+sfq_19073,Julia Gillard became the first female Prime Minister of which country?,AUSTRALIA,GPE,strong-knows,3,strong-knows,3,True
+sfq_19115,Under what name is the American singer/songwriter Steveland Judkins better known?,STEVIE WONDER,PERSON,strong-knows,3,strong-knows,3,True
+sfq_19462,"In 480 BC, Leonidas led his 300 Spartans against the Persian army, led by Xerxes, in which land battle?",Thermopylae,LOC,strong-knows,3,strong-knows,3,True
+sfq_19481,Who had a hit in 1955 with Rock Around the Clock?,Bill Haley and the Comets,ORG,strong-knows,3,strong-knows,3,True
+sfq_196,In which country was kung fu expert Bruce Lee born?,USA,GPE,strong-knows,3,strong-knows,3,True
+sfq_20006,Which town on the River Colne holds an annual Oyster Festival?,Colchester,GPE,strong-knows,3,strong-knows,3,True
+sfq_20219,Maurice Cole was better known as which comedian?,KENNY EVERETT,PERSON,strong-knows,3,strong-knows,3,True
+sfq_20231,St John's is the capital of which Canadian Province?,NEWFOUNDLAND,GPE,strong-knows,3,strong-knows,3,True
+sfq_20357,In what year did the five founding members of OPEC hold their first meeting?,1960,DATE,strong-knows,3,strong-knows,3,True
 sfq_20377,What nationality was the botanist Carolus Linnaeus?,Swedish,NORP,strong-knows,3,strong-knows,3,True
-sfq_20846,Which famous London Building was completed in 1951 from a design by Hugh Casson?,ROYAL FESTIVAL HALL,FAC,strong-knows,3,strong-knows,3,True
-sfq_21202,Which internet site was founded in 1999 by Steve and Julie Pankhurst?,FRIENDS REUNITED,ORG,strong-knows,3,strong-knows,3,True
+sfq_20578,Which band released the albums Sheer Heart Attack and A Day at the Races?,Queen,ORG,strong-knows,3,strong-knows,3,True
+sfq_20621,Who is the current presenter of BBC Radio 4 programme Desert Island Discs?,Kirsty Young,PERSON,doesn't-know,0,doesn't-know,0,True
+sfq_20647,'Call me Ishmael' are the opening words of which work of literature?,Moby Dick,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_20945,"The first session of the United Nations General Assembly was convened in January 1946, in which city?",London,GPE,strong-knows,3,weak-knows,2,False
+sfq_20949,Broxtowe District Council is in which English county?,Nottinghamshire,GPE,strong-knows,3,strong-knows,3,True
+sfq_21052,Nomophobia is the fear of being without or losing what?,Mobile phone,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_21348,Forbes Magazine named which author as the top earner between July 2012 and August 2013?,E L JAMES,PERSON,guess,1,doesn't-know,0,False
+sfq_21466,Which is the largest island in Canada?,Baffin Island,LOC,strong-knows,3,strong-knows,3,True
+sfq_21538,What is the name of the structure designed by Anish Kapoor and Cecil Balmond for the 2012 London Olympics?,(Arcelormittal) Orbit,FAC,strong-knows,3,strong-knows,3,True
+sfq_21789,"From 1791 to 1803, Toussaint L’Ouverture led a revolt against France on which island?",Haiti,GPE,strong-knows,3,strong-knows,3,True
+sfq_21801,In which present day British county was the first UK Women’s Institute founded in 1915?,Anglesey,GPE,strong-knows,3,strong-knows,3,True
+sfq_2187,Which is the deepest loch in Scotland?,Loch Morar,LOC,strong-knows,3,strong-knows,3,True
+sfq_21893,Which restaurant chain has supported the Venice in Peril campaign since 1975?,Pizza Express,ORG,doesn't-know,0,doesn't-know,0,True
+sfq_219,'Feel Like Making Love' and 'The First Time Ever I Saw Your Face' were hit singles for which female artist?,Roberta Flack,PERSON,strong-knows,3,strong-knows,3,True
+sfq_22096,In which children?s cartoon series have you 'gotta catch em all'?,POKEMON,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_22123,Which handheld electronic toy had to be treated as a pet?,TAMAGOTCHI,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_22144,Who wrote the opera A Masked Ball?,Giuseppe Verdi,PERSON,strong-knows,3,strong-knows,3,True
+sfq_22172,Who played Gene Hunt in the TV series Life on Mars and Ashes to Ashes?,Philip Glenister,PERSON,strong-knows,3,strong-knows,3,True
+sfq_22250,Which American singer's music publishing company was called Gladys Music?,Elvis Presley,PERSON,doesn't-know,0,doesn't-know,0,True
+sfq_22430,"Which visitor attraction is in Exploration Drive, Leicester?",National Space Centre,FAC,strong-knows,3,strong-knows,3,True
+sfq_22454,"Played on TV by Gregor Fisher, whose boat was called The Vital Spark?",Para Handy,PERSON,strong-knows,3,strong-knows,3,True
+sfq_22539,Eleanor of Provence was the wife of which long-reigning English king?,HENRY III,PERSON,strong-knows,3,strong-knows,3,True
+sfq_22884,"Which TV series was about a pop group called 'Little Ladies' featuring Charlotte Cornwell, Julie Covington and Rula Lenska?",Rock Follies,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_22920,Who was the choreographer of the dance troupe Hot Gossip?,Arlene Phillips,PERSON,strong-knows,3,strong-knows,3,True
+sfq_22962,Which Wirral-born Radio 1 disc jockey died in Peru in 2004?,John Peel,PERSON,guess,1,strong-knows,3,False
+sfq_2318,"What is the title of the last Harry Potter novel, published in 2007?",Harry Potter and the Deathly Hallows,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_23258,Caroline of Brunswick was married to which British king?,GEORGE IV,PERSON,strong-knows,3,strong-knows,3,True
+sfq_23291,Which team did Jose Mourinho manage to win the 2004 UEFA Champions League Final - beating Monaco 3-0?,PORTO,ORG,strong-knows,3,strong-knows,3,True
+sfq_2337,In which Russian city is the Kirov Ballet based?,St Petersburg,GPE,strong-knows,3,strong-knows,3,True
+sfq_23388,Which country is bordered by Cambodia and Laos to the west and China to the north?,Vietnam,GPE,strong-knows,3,weak-knows,2,False
 sfq_23426,"in which century was St Bartholomew's Hospital located in West Smithfieid, London founded?",12th century,DATE,strong-knows,3,strong-knows,3,True
-sfq_23473,Which musical instrument is Albert Schweitzer known to have played?,Organ,PRODUCT,strong-knows,3,strong-knows,3,True
-sfq_23986,"jhe BBC2 production of Wolf Hal! was based on the novels by Hilary Mantel - one was Wolf Hall, name the other.",Bring Up the Bodies,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-sfq_24078,"What was James Herbert’s first book, published in 1974?",Rats,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-sfq_24237,How many vertices (ie corners) are there on an octahedron?,SIX,CARDINAL,strong-knows,3,strong-knows,3,True
-sfq_24815,Which competition was won by Nadiya Hussain in 2015?,The Great British Bake-Off,EVENT,strong-knows,3,strong-knows,3,True
+sfq_2345,During the 1970s which car maker produced the Triumph TR7 and the Jaguar XJS?,British Leyland,ORG,strong-knows,3,strong-knows,3,True
+sfq_23460,Name either of the cities served by Robin Hood airport?,Doncaster/Sheffield,GPE,strong-knows,3,strong-knows,3,True
+sfq_23511,Which country’s President resides in a mansion called the Casa Rosada (Pink House)?,Argentina,GPE,strong-knows,3,strong-knows,3,True
+sfq_23513,Who had a top 40 hit UK single in 1966 with Mustang Sally?,Wilson Pickett,PERSON,weak-knows,2,guess,1,False
+sfq_23571,In the Old Testament Goliath was a member of which race?,PHILISTINES,NORP,strong-knows,3,strong-knows,3,True
+sfq_23716,SS Thistlegorm is the name of the sunken WWII munitions ship which is an attraction to divers in which area of water?,The Red Sea,LOC,strong-knows,3,strong-knows,3,True
+sfq_23723,Mark Bolland is the current Dutch born CEO of which retail chain?,Marks & Spencer,ORG,strong-knows,3,strong-knows,3,True
+sfq_24035,Who penned his own epitaph ‘Here lies one whose name was writ in water’?,John Keats,PERSON,strong-knows,3,strong-knows,3,True
+sfq_24133,"What is the name of me political party, led by Alexis Tsipras,which won the general election in Greece in January 2015?",SYRIZA,ORG,strong-knows,3,strong-knows,3,True
+sfq_24275,What is the capital city of Saudi Arabia?,RIYADH,GPE,strong-knows,3,strong-knows,3,True
+sfq_24329,Which son of a famous drummer played drums for The Who at Glastonbury this year ? he has toured with them since 1996?,ZAK STARKEY,PERSON,strong-knows,3,strong-knows,3,True
+sfq_24346,In which city did Dylan Thomas die?,NEW YORK,GPE,strong-knows,3,strong-knows,3,True
+sfq_24596,Who said “I married beneath me. All women do.”?,Nancy Astor,PERSON,doesn't-know,0,doesn't-know,0,True
+sfq_24637,"""The culinary term """"Du Barry"""", indicates the presence of which vegetable?""",Cauliflower,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_24711,Who was elected Prime Minister of India in 2014?,Narendra Modi,PERSON,strong-knows,3,strong-knows,3,True
+sfq_24717,"""Which city was the target of the first """"Thousand Bomber Raid"""" on May 30th/31st 1942?""",Cologne,GPE,strong-knows,3,strong-knows,3,True
 sfq_24846,Which competition was won by Caroline Flack in December 2014?,Strictly Come Dancing,EVENT,strong-knows,3,strong-knows,3,True
-sfq_24980,Name the capital city of the Canadian Province of British Columbia?,VICTORIA,GPE,strong-knows,3,strong-knows,3,True
-sfq_25375,Of what does the usual base of a Florentine biscuit consist?,CHOCOLATE,PRODUCT,strong-knows,3,strong-knows,3,True
-sfq_25812,Ferrybridge Services are located on which UK motorway?,M62,FAC,strong-knows,3,strong-knows,3,True
-sfq_26116,In which European city was the world's first ghetto?,Venice,GPE,strong-knows,3,strong-knows,3,True
-sfq_26121,In which city will the 2020 Summer Olympics be held?,Tokyo,GPE,strong-knows,3,strong-knows,3,True
-sfq_26206,Which 1968 film featured the 3rd Foot and Mouth Regiment of soldiers?,Carry On Up the Khyber,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_24850,"According to the Bible, who was the high priest of Judea at the time of Christ's arrest and execution?",Caiaphas,PERSON,strong-knows,3,strong-knows,3,True
+sfq_24887,"""Who wrote the 1999 novel """"Chocolat"""" set in the French village of Lansquenet-sous-Tannes?""",Joanne Harris,PERSON,strong-knows,3,strong-knows,3,True
+sfq_24950,Who was the architect of Marble Arch?,JOHN NASH,PERSON,strong-knows,3,strong-knows,3,True
+sfq_24958,What is the chief ore used to make aluminium?,BAUXITE,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_24967,What was created by the Lateran Treaty of 1929?,THE VATICAN STATE,GPE,strong-knows,3,strong-knows,3,True
+sfq_2516,In which country did the Battle of El Alamein take place?,Egypt,GPE,strong-knows,3,strong-knows,3,True
+sfq_25185,Which British 2012 Olympic Gold medallist won two events at the 2015 World Athletics Championships?,MO FARAH,PERSON,strong-knows,3,strong-knows,3,True
+sfq_25194,Herdwick sheep are native to which area of Britain?,LAKE DISTRICT,LOC,strong-knows,3,strong-knows,3,True
+sfq_25197,What was the name of the flying island in Gulliver’s Travels?,LAPUTA,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_2520,In which year did Picasso die?,1973,DATE,strong-knows,3,strong-knows,3,True
+sfq_25365,"""Who composed the music for the 1924 ballet 'The Miraculous Mandarin""""?""",(BELA) BARTOK,PERSON,strong-knows,3,strong-knows,3,True
+sfq_25397,For which bank was Nick Leeson working at the time of his criminal dealings?,Barings,ORG,strong-knows,3,strong-knows,3,True
+sfq_25398,"First published in 1791, which was the world’s first Sunday newspaper?",The Observer,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_25508,“Tis Herself’ published in 2005 was the autobiography of which Irish-American actress?,MAUREEN O’HARA,PERSON,strong-knows,3,strong-knows,3,True
+sfq_25614,Which football team plays its home games at Portman Road?,Ipswich Town,ORG,strong-knows,3,strong-knows,3,True
+sfq_25839,Which group had a UK No.1 hit in 1983 with a cover version of Yazoo's Only You?,The Flying Pickets,ORG,doesn't-know,0,doesn't-know,0,True
+sfq_25869,The 1999 film 10 Things I Hate About You starring Heath Ledger and Julia Stiles is a modern version of which Shakespeare play?,THE TAMING OF THE SHREW,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_26081,What is the name of the 2500km long tourism trail on the west coast of Ireland?,Wild Atlantic Way,LOC,strong-knows,3,strong-knows,3,True
+sfq_26128,Granadilla is an alternative name for which fruit? NB it is not the pomegranate!,Passion fruit,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_26140,In a 1934 novella which title character taught at Brookfield School?,Mr Chips,PERSON,doesn't-know,0,doesn't-know,0,True
+sfq_26249,Canaletto is famous for his landscapes of Venice and which other city?,London,GPE,strong-knows,3,strong-knows,3,True
 sfq_2754,What was the original use of the building which now houses the Tate Modern Art Gallery in London?,(Bankside) Power Station,FAC,strong-knows,3,strong-knows,3,True
-sfq_3578,The name of which martial art comes from Korean words meaning 'kick fist method'?,TAE KWON DO,NORP,strong-knows,3,strong-knows,3,True
-sfq_3826,Name either of the detectives featured in novels by Reginald Hill and in a TV series based on the novels?,Dalziel and Pascoe,PERSON,strong-knows,3,strong-knows,3,True
-sfq_3948,Which is the only property on a traditional UK Monopoly board which is south of the River Thames?,OLD KENT ROAD,LOC,doesn't-know,0,doesn't-know,0,True
-sfq_4513,"""What is the setting for the 1942 painting, """"Nighthawks"""" by American artist, Edward Hopper?""",A DINER,FAC,strong-knows,3,strong-knows,3,True
-sfq_4730,What year appears on bottles of the French lager Kronenbourg?,1664,DATE,strong-knows,3,strong-knows,3,True
-sfq_5051,Who was the first husband of Catherine of Aragon?,Prince Arthur,PERSON,strong-knows,3,strong-knows,3,True
-sfq_550,What is the imperial distance of a marathon race?,"26 miles, 385 yards",QUANTITY,strong-knows,3,guess,1,False
-sfq_5888,Give a year in the reign of King Stephen.,1135-1154,DATE,doesn't-know,0,doesn't-know,0,True
-sfq_6110,On which island in the North Sea did both St Aidan and St Cuthbert live?,LINDISFARNE,LOC,strong-knows,3,strong-knows,3,True
-sfq_6755,"""In 1999, whom did William Hague describe as """"a candidate of probity and integrity""""?""",Jeffrey Archer,PERSON,doesn't-know,0,doesn't-know,0,True
+sfq_2902,In which London magazine did Sherlock Holmes first appear?,The Strand,WORK_OF_ART,guess,1,strong-knows,3,False
+sfq_2984,Who was the Texas governor who was shot and wounded when John F Kennedy was assassinated?,John Connally,PERSON,strong-knows,3,strong-knows,3,True
+sfq_302,"""In the novel, """"Nicholas Nickelby"""", by Charles Dickens, what was the name of the school, run by Wackford Squeers?""",DOTHEBOYS HALL,FAC,strong-knows,3,strong-knows,3,True
+sfq_312,"Mt. Aconcagua, the highest peak in the Western Hemisphere, stands in which South American country?",ARGENTINA,GPE,strong-knows,3,strong-knows,3,True
+sfq_3140,What do the Americans call what we call a 'sofa'?,DAVENPORT,PRODUCT,doesn't-know,0,doesn't-know,0,True
+sfq_3248,Which cartoon character created by Al Capp lives in Dog Patch?,L'ABNER,PERSON,strong-knows,3,strong-knows,3,True
+sfq_3345,Who was the third President of the USA?,Thomas Jefferson,PERSON,strong-knows,3,strong-knows,3,True
+sfq_346,On which river are the Victoria Falls?,Zambezi,LOC,strong-knows,3,strong-knows,3,True
+sfq_3513,The Victorian producer Richard d'Oyly Carte is most associated with the staging of whose works?,GILBERT AND SULLIVAN,PERSON,strong-knows,3,strong-knows,3,True
+sfq_3544,The Nag's Head was the local pub in which TV comedy series?,ONLY FOOLS AND HORSES,WORK_OF_ART,doesn't-know,0,strong-knows,3,False
+sfq_3663,Which is the largest of the United Arab Emirates?,Abu Dhabi,GPE,strong-knows,3,strong-knows,3,True
+sfq_3798,The John Brown Shipyard is/was on which river?,Clyde,LOC,doesn't-know,0,doesn't-know,0,True
+sfq_3826,Name either of the detectives featured in novels by Reginald Hill and in a TV series based on the novels?,Dalziel and Pascoe,PERSON,strong-knows,3,weak-knows,2,False
+sfq_4015,"Which group recorded the albums called 'Raintown', 'Fellow Hoodlums' and 'Homesick'?",Deacon Blue,ORG,strong-knows,3,strong-knows,3,True
+sfq_4264,"In the context of UK government, for what does the C stand in the acronym COBRA?",Cabinet,ORG,weak-knows,2,strong-knows,3,False
+sfq_4400,In what year was the most recent census in the UK ?,2001,DATE,doesn't-know,0,doesn't-know,0,True
+sfq_4725,The Aran Islands are located at the mouth of which bay?,Galway Bay,LOC,strong-knows,3,strong-knows,3,True
+sfq_4759,The 'Black Caps' is the nickname for which team in sport?,New Zealand Cricket Team,ORG,strong-knows,3,strong-knows,3,True
+sfq_4924,Who founded the Messenger group of newspapers in 1983?,Eddie Shah,PERSON,doesn't-know,0,doesn't-know,0,True
+sfq_4947,"In which State is USA's highest mountain, Mount McKinley?",Alaska,GPE,strong-knows,3,strong-knows,3,True
+sfq_5583,Whose first solo UK number 1 single was I Only Have Eyes for You in September 1975?,Art Garfunkel,PERSON,strong-knows,3,strong-knows,3,True
+sfq_5747,"Aglaia, Thalia and. Euphrosyne were known as what?",THREE GRACES,PERSON,guess,1,weak-knows,2,False
+sfq_5831,The plant Atropa Belladonna is better known as what?,Deadly Nightshade,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_5874,Who was the wife of Moses?,Zipporah,PERSON,strong-knows,3,strong-knows,3,True
+sfq_6074,What was the codename for the German invasion of Russia in 1941?,BARBAROSSA,EVENT,strong-knows,3,strong-knows,3,True
+sfq_6361,Which actor played the second Dr Who?,PATRICK TROUGHTON,PERSON,strong-knows,3,strong-knows,3,True
+sfq_6456,The Fitzwilliam Museum is in which British town or city?,Cambridge,GPE,strong-knows,3,strong-knows,3,True
+sfq_646,"What was the first name of the Dutch explorer, Tasman, after whom Tasmania is named?",ABEL,PERSON,strong-knows,3,strong-knows,3,True
+sfq_6599,"Which country has parishes including Westmoreland, St Andrew and Manchester?",Jamaica,GPE,strong-knows,3,strong-knows,3,True
+sfq_6658,What is the name of the heroine in the story of 'Beauty and the Beast'?,BELLE,PERSON,strong-knows,3,strong-knows,3,True
+sfq_6668,Which group had a hit in the 1980s with 'Everybody Wants To Rule The World'?,TEARS FOR FEARS,ORG,strong-knows,3,strong-knows,3,True
+sfq_6801,Who wrote the play The Three Sisters?,Anton Chekhov,PERSON,strong-knows,3,strong-knows,3,True
+sfq_6829,By what name is the garden flowering plant hypericum commonly known?,ST JOHN'S WORT,PRODUCT,strong-knows,3,strong-knows,3,True
 sfq_6881,"""Which composer, born in Grenoble in 1803 wrote """"Benvenuto Cellini"""", the first of his three operas?""",HECTOR BERLIOZ,PERSON,strong-knows,3,strong-knows,3,True
-sfq_7091,The Scottish football club Ferranti Thistle joined the Scottish Football League in 1974 as Meadowbank Thistle; in 1995 they relocated and changed their name to what?,Livingston,GPE,strong-knows,3,strong-knows,3,True
-sfq_7793,Who played the female lead in the 1957 film 'An Affair To Remember'?,Deborah Kerr,PERSON,strong-knows,3,strong-knows,3,True
-sfq_7935,Which long-running British TV crime series was created by writer Glen Chandler?,TAGGART,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-sfq_8023,"In which year was the £2 coin issued and introduced in the UK, although minted in the previous year?",1998,DATE,doesn't-know,0,doesn't-know,0,True
-sfq_8111,During which conflict was the battle of Agincourt fought?,Hundred Years War,EVENT,strong-knows,3,strong-knows,3,True
-sfq_8344,Snail porridge is a dish associated with which famous chef?,Heston Blumenthal,PERSON,strong-knows,3,strong-knows,3,True
-sfq_8642,"""According to the song lyrics where can """"you check out any time you like, but you can never leave""""?""",HOTEL CALIFORNIA,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_6969,"""What was advertised on TV as, """"A newspaper, not a snooze paper""""?""",THE MAIL ON SUNDAY,ORG,doesn't-know,0,doesn't-know,0,True
+sfq_720,The Old Faithful geyser is in which American national park?,Yellowstone,LOC,strong-knows,3,strong-knows,3,True
+sfq_7227,"""""""Holding Back the Years"""", was a US No 1 hit record for which British pop group?""",SIMPLY RED,ORG,strong-knows,3,strong-knows,3,True
+sfq_7345,"According to the Bible, how many stones did David pick up before he faced Goliath?",Five,CARDINAL,strong-knows,3,strong-knows,3,True
+sfq_739,Aesculus hippocastanum is the Latin name for which tree?,Horse Chestnut,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_7551,"Which American city has districts called Financial, Mission, Japantown and Richmond?",San Francisco,GPE,strong-knows,3,strong-knows,3,True
+sfq_7603,Who wrote One-upmanship and The Theory and Practice of Gamesmanship?,Stephen Potter,PERSON,strong-knows,3,strong-knows,3,True
+sfq_7796,In which part of the body will you find the 'Ligamentum nuchae'?,The Neck,LOC,strong-knows,3,strong-knows,3,True
+sfq_7865,Who is the author of the Twilight series of best-selling books?,Stephenie Meyer,PERSON,strong-knows,3,strong-knows,3,True
+sfq_789,What is the name of the seven-branched candelabra used in the Jewish religion?,Menorah,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_8166,The seven sisters known as the 'Pleiades' were the daughters of which legendary figure?,Atlas,PERSON,strong-knows,3,strong-knows,3,True
+sfq_8322,What was the stage name of the British comedian Chaim Reuben Weintrop?,Bud Flanagan,PERSON,doesn't-know,0,doesn't-know,0,True
+sfq_8391,Who created the Barry McKenzie cartoon strip in the 1960s?,Barry Humphries,PERSON,guess,1,strong-knows,3,False
+sfq_8470,The Humber bridge forms part of which A road?,A15,CARDINAL,weak-knows,2,guess,1,False
+sfq_8498,What special name is given to Tibetan monks?,Lamas,NORP,strong-knows,3,strong-knows,3,True
+sfq_8507,In which country are the ruins of the ancient city of Carthage?,Tunisia,GPE,strong-knows,3,strong-knows,3,True
+sfq_8526,Which real life astronaut was played by Tom Hanks in the film 'Apollo 13'?,Jim Lovell,PERSON,strong-knows,3,strong-knows,3,True
+sfq_8582,Which city was known as Edo before assuming its current name in 1868?,Tokyo,GPE,strong-knows,3,strong-knows,3,True
+sfq_8614,Which Aztec ruler was deposed by Cortez?,MONTEZUMA,PERSON,strong-knows,3,strong-knows,3,True
+sfq_8710,Zamalek is a top football club from which African country?,EGYPT,GPE,strong-knows,3,strong-knows,3,True
+sfq_8841,"Orange juice, galliano and which spirit are mixed together to make a Harvey Wallbanger cocktail?",VODKA,PRODUCT,strong-knows,3,strong-knows,3,True
+sfq_8867,In which city does the action of the Shakespeare play Measure for Measure take place?,Vienna,GPE,strong-knows,3,strong-knows,3,True
 sfq_8877,What was the name of the American Presidential retreat before it was called Camp David?,Shangri-La,FAC,strong-knows,3,strong-knows,3,True
-sfq_8998,At which school was Billy Bunter a pupil,GREYFRIARS,ORG,strong-knows,3,strong-knows,3,True
+sfq_8891,What is thalassophobia a fear of?,The Sea,LOC,strong-knows,3,strong-knows,3,True
+sfq_893,On which island is Reina Sofia Airport?,Tenerife,GPE,strong-knows,3,strong-knows,3,True
+sfq_8996,"Actor Norman Painting died in November 2009, which part in a log running radio series did he make his own?",PHIL ARCHER,PERSON,strong-knows,3,strong-knows,3,True
+sfq_901,What is the name of Beethoven's only opera?,Fidelio,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_9024,"In John Bunyan's Pilgrim's Progress, where did the Giant Despair live?",DOUBTING CASTLE,FAC,strong-knows,3,strong-knows,3,True
 sfq_9128,"""In """"Some Like It Hot"""", Tony Curtis and Jack Lemmon fled to Miami in drag after witnessing which well-known event?""",St Valentine's Day Massacre,EVENT,strong-knows,3,strong-knows,3,True
-sfq_9920,"""In which 1932 movie did Greta Garbo say I want to be alone""""?""",Grand Hotel,WORK_OF_ART,strong-knows,3,strong-knows,3,True
-sfq_9926,How many dot positions are usually used in each letter of the Braille system?,Six,CARDINAL,strong-knows,3,strong-knows,3,True
-tb_0,The 1810 betrothal of Princess Theresa to Crown Prince Ludwig not only resulted in the meadow where the event took place to be named Theresienwiese but also started what?,Octoberfest,EVENT,strong-knows,3,strong-knows,3,True
-tb_1104,What is the only language that is historically African in origin among the six official working languages of the African Union?,Swahili,LANGUAGE,weak-knows,2,strong-knows,3,False
-tb_1365,The Battle of Kadesh in 1274 BC that took place between the forces of the Egyptian Empire under Ramesses II and the Hittite Empire is best known for the use of what type of vehicles?,Chariots,PRODUCT,strong-knows,3,strong-knows,3,True
-tb_1478,The 19th century invention Paige Compositor sought to replace the typewriter but ended up becoming a failure. Which American author lost nearly all his fortune for its development?,Mark Twain,PERSON,strong-knows,3,strong-knows,3,True
-tb_882,"In the Norrmalmstorg bank robbery in 1973, employees were held hostage for a few days and became emotionally attached to their captors, and even defended them after they were freed from their six-day ordeal. In which city did this incident take place?",Stockholm,GPE,strong-knows,3,strong-knows,3,True
-tc_1387,Which female singer was born on exactly the same day as impressionist Rich Little?,Tina Turner,PERSON,doesn't-know,0,doesn't-know,0,True
+sfq_9308,Titan is a satellite of which planet?,SATURN,GPE,strong-knows,3,strong-knows,3,True
+sfq_9325,What was the name of the Oscar-winning song 'performed' by Audrey Hepburn in `Breakfast at Tiffany's'?,Moon River,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_9677,In which city did Field Marshal Freidrich Paulus surrender in January 1943?,Stalingrad,GPE,strong-knows,3,strong-knows,3,True
+sfq_9684,In Milton's 'Paradise Lost' what is the name of the Capital of Hell?,Pandaemonium,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+sfq_9722,In which country was singer Chris de Burgh born?,Argentina,GPE,strong-knows,3,strong-knows,3,True
+tb_1069,"If the Staten Island Ferry is to New York, the Star Ferry that was originally called the Kowloon Ferry Company is to what city?",Hong Kong,GPE,strong-knows,3,strong-knows,3,True
+tb_1129,The flag of which country prominently features 'The Eagle of Saladin' holding a scroll bearing the name of the country in Arabic?,Egypt,GPE,doesn't-know,0,doesn't-know,0,True
+tb_1234,"""The No. 617 Squadron of the Royal Air Force which operated with the motto """"After me, the flood"""" is known for its attacks on what type of installations during WWII?""",Dams,FAC,strong-knows,3,strong-knows,3,True
+tb_1235,The 1938 work The Black Jacobins by C. L. R. James is an account of what upheaval that took place between 1791 and 1804?,Haitian revolution,EVENT,strong-knows,3,strong-knows,3,True
+tb_1490,What is the name of the vessel in Paul Gallico's 1969 adventure novel that has been adapted as a film four times?,Poseidon,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+tb_1491,The division of Penguin that deals with science fiction and fantasy books started in 2002 with what fantastical avian name? (hint: Stravinsky),Firebird,ORG,guess,1,doesn't-know,0,False
+tb_1738,Washington Irving's classic story Rip Van Winkle is set in which geographic region of New York state?,Catskills,LOC,strong-knows,3,strong-knows,3,True
+tb_1764,"""The 1902 guitar composition """"Gran Vals"""" by the Spanish composer Francisco Tárrega would have remained obscure but for corporate executive Anssi Vanjoki selecting it for something in 1993. How do millions of people recognize it now?""",Nokia tune,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+tb_1824,"Which rock concert held on December 6, 1969 was speculated to be a 'Woodstock West' but became infamous after it was marred by considerable violence?",Altamont Free Concert,EVENT,strong-knows,3,strong-knows,3,True
+tb_1826,What is the name of the coronation anthem composed by Handel using texts from the King James Bible that has been sung at every British coronation service since 1727?,"""""""Zadok the Priest""""""",WORK_OF_ART,strong-knows,3,strong-knows,3,True
+tb_1931,The bitter 19th century rivalry between paleontologists Edward Drinker Cope and Othniel Charles Marsh during their search for dinosaur fossils is usually described with what 2-words?,Bone Wars,EVENT,strong-knows,3,strong-knows,3,True
+tb_2281,What is the name of the yacht that won the Royal Yacht Squadron's regatta around the Isle of Wight in 1851 and lent its name to a famous sports prize?,America,PRODUCT,strong-knows,3,strong-knows,3,True
+tb_2313,"In 2009, the tennis player Shahar Peer was prevented from playing at the Dubai Tennis Championships after she was denied a visa mainly for her nationality. Which country was she representing?",Israel,GPE,strong-knows,3,strong-knows,3,True
+tb_343,The American journalist Ida Tarbell is known for her expose of the corrupt practices of which giant company? John D. Rockefeller probably hated her!,Standard Oil,ORG,strong-knows,3,strong-knows,3,True
+tb_361,"In the 2014 zombie comedy Life After Beth, a character takes offense when asked about zombies just because she is from what country?",Haiti,GPE,doesn't-know,0,doesn't-know,0,True
+tb_550,"Mammy Two Shoes, a recurring character in MGM's Tom and Jerry cartoons was inspired by which African-American actress and singer?",Hattie McDaniel,PERSON,strong-knows,3,strong-knows,3,True
+tb_693,"""Didier Delsalle who wrote the following words confirming his May 14, 2005 achievement became the first person to land a helicopter where? """"No, nobody went out of the helicopter as I was alone and quite busy to stabilize the helicopter on this windy ...! The terrain characteristics prevent any full landing on the ... as you can see on the videos and only a hover landing...""""""",Summit of Mount Everest,LOC,strong-knows,3,strong-knows,3,True
+tb_804,"If Aman handles military intelligence and Shin Bet handles internal security, which agency is responsible for the overseas intelligence work of its country?",Mossad,ORG,strong-knows,3,strong-knows,3,True
+tb_957,"The hypothetical Jireček Line divides what region of the world, now a byword for fragmentation, into Latin influenced and Greek influenced regions?",Balkans,LOC,strong-knows,3,strong-knows,3,True
+tc_1007,"Who was born first, Kiefer Sutherland or Christian Slater?",Kiefer Sutherland,PERSON,strong-knows,3,strong-knows,3,True
+tc_1008,"To the nearest two, how many tennis Grand Slam titles did Jimmy Connors win?",10,CARDINAL,guess,1,doesn't-know,0,False
+tc_1020,Who set fire to his guitar at the Monterey Pop festival in 19676?,Jimi Hendrix,PERSON,strong-knows,3,strong-knows,3,True
+tc_1069,In which American state is the Isabella Stewart Gardner Museum?,Massachusetts,GPE,strong-knows,3,strong-knows,3,True
+tc_1098,Beloved in 1999 was whose first movie since The Color Purple in 1985?,Oprah Winfrey,PERSON,strong-knows,3,strong-knows,3,True
+tc_1189,What was the name of the brothel in The Best Little Whorehouse in Texas?,Chicken Ranch,FAC,strong-knows,3,strong-knows,3,True
 tc_1700,How long was swimmer Michelle Smith-de Bruin banned for attempting to manipulate a drugs test?,4 years,DATE,strong-knows,3,strong-knows,3,True
-tc_1867,The Suez Canal connects the Mediterranean Sea to which other Sea?,Red sea,LOC,strong-knows,3,strong-knows,3,True
-tc_3039,What is the approximate circumference of the earth?,"24,900 miles",QUANTITY,doesn't-know,0,doesn't-know,0,True
-tc_349,Men Against the Sea and Pitcairn's Island were two sequels to what famous novel?,Mutiny On The Bounty,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+tc_1858,"In baseball, where do the Royals come from?",Kansas city,GPE,strong-knows,3,strong-knows,3,True
+tc_1977,South Pacific was set during which war?,WWII,EVENT,strong-knows,3,strong-knows,3,True
+tc_2128,On which label did Chuck Berry record in the 1950s and 1960s?,Chess,ORG,strong-knows,3,strong-knows,3,True
+tc_217,Which volcano in Tanzania is the highest mountain in Africa?,Kilimanjaro,LOC,strong-knows,3,strong-knows,3,True
+tc_2256,Truax Field international airport is in which US state?,Wisconsin,GPE,strong-knows,3,strong-knows,3,True
+tc_2417,What is the Pacific terminus of the Trans Siberian Railway?,Vladivostok,GPE,strong-knows,3,strong-knows,3,True
+tc_2506,Which country is known to its people as Suomen Tasavalta?,Finland,GPE,strong-knows,3,strong-knows,3,True
+tc_2556,"In which battle did Harold II, the last Saxon king, lose his life?",Battle of Hastings,EVENT,strong-knows,3,strong-knows,3,True
+tc_276,Who had an 80s No 1 hit with Hold On To The Nights?,Richard Marx,PERSON,strong-knows,3,strong-knows,3,True
+tc_280,Who directed the classic 30s western Stagecoach?,John Ford,PERSON,strong-knows,3,strong-knows,3,True
+tc_455,What Michelle Pfeiffer movie got a boost from the Coolio song Gangsta's Paradise?,Dangerous Minds,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+tc_635,Where did the Shinning Path terrorists operate?,Peru,GPE,strong-knows,3,strong-knows,3,True
+tc_678,Who had a 70s No 1 hit with Let's Do It Again?,The Staple Singers,ORG,strong-knows,3,weak-knows,2,False
+tc_690,"""According to Rudyard Kipling what were the """"two imposters"""" to meet and treat the same day?""",Triumph and Disaster,EVENT,strong-knows,3,strong-knows,3,True
+tc_759,"""In which movie did Garbo say, """"I want to be alone"""".""",Grand Hotel,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+tc_841,In which country is the Sky Train Rail bridge?,Canada,GPE,doesn't-know,0,doesn't-know,0,True
+tc_881,What is the name of Terence and Shirley Conran's dress designer son?,Jasper,PERSON,strong-knows,3,strong-knows,3,True
+tc_955,Bandar Seri Begawan International airport is in which country?,Brunei,GPE,strong-knows,3,strong-knows,3,True
+wh_1013,In which northern English city will you find the Royal Armouries Museum?,LEEDS,GPE,strong-knows,3,strong-knows,3,True
+wh_1193,Which 18th century stately home is situated one mile south of Woodstock in Oxfordshire?,BLENHEIM PALACE,FAC,strong-knows,3,strong-knows,3,True
+wh_1296,"Which prison themed TV series that began in 1979 featured an evil prison officer named Joan (the freak) Ferguson, played by the actress Maggie Kirkpatrick?",PRISONER CELL BLOCK H,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+wh_1303,"Having a height of 3,478 metres, Mount Mulhacen is the highest mainland point of which country?",SPAIN,GPE,strong-knows,3,strong-knows,3,True
+wh_1415,Which of the seven wonders of the ancient world was thought to have straddled the harbour of a Greek island?,COLOSSUS OF RHODES,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+wh_1493,"""In the 1964 book """"Charlie and the Chocolate Factory"""" by Roald Dahl, what is the name of the young girl who is described as 'a girl who is spoiled by her parents'? She is the second person to find a golden ticket and the third to be ejected from the tour.""",VERUCA SALT,PERSON,strong-knows,3,strong-knows,3,True
+wh_1581,"""""""Because I'm worth it"""" was the advertising slogan for which product on TV?""",L'OREAL,ORG,strong-knows,3,strong-knows,3,True
+wh_1652,Which modern day country was known until 1981 as British Honduras?,BELIZE,GPE,strong-knows,3,strong-knows,3,True
+wh_194,"""The naem of which Japanese car company can be translated as """"three diamonds"""", which is reflected in its fanous logo?""",MITSUBISHI,ORG,strong-knows,3,strong-knows,3,True
+wh_2083,"""Who painted """"Girl before a Mirror"""" ?""",Pablo PICASSO,PERSON,strong-knows,3,strong-knows,3,True
 wh_2178,Who takes over the important position of Governor of the Bank of England in 2013 ?,MARK CARNEY,PERSON,strong-knows,3,strong-knows,3,True
-wh_2759,Which type of hat takes its name from an 1894 novel by George Du Maurier where the title character has the surname O'Ferrall ?,TRILBY,PRODUCT,strong-knows,3,doesn't-know,0,False
-wh_3000,What nationality was the tennis player Judy Teggart who lost to Billie Jean King in the 1968 Ladies Single Final at Wimbledon?,AUSTRALIAN,NORP,doesn't-know,0,doesn't-know,0,True
-wh_3333,"Which French vessel was the first ocean-going liner to exceed 1,000 feet in length ?",NORMANDIE,PRODUCT,doesn't-know,0,doesn't-know,0,True
-wh_3608,What is the official residence of the Lord Mayor of London ?,MANSION HOUSE,FAC,strong-knows,3,strong-knows,3,True
-wh_3688,Flemish is almost identical in form to which other language ?,DUTCH,LANGUAGE,strong-knows,3,strong-knows,3,True
-wh_373,"Which is the most northerly of the islands of Japan? Its capital, Sapporo, has hosted the Winter Olympics.",HOKKAIDO,GPE,strong-knows,3,strong-knows,3,True
-wh_4018,Which major computer language shares it's name with an Indonesian Island ?,JAVA,LANGUAGE,strong-knows,3,strong-knows,3,True
-wh_4170,In which year was the ten shilling note withdrawn in the UK following the introduction of the 50p coin ?,1970,DATE,doesn't-know,0,doesn't-know,0,True
-wh_4281,Which TV creatures ate Blue String Pudding ?,THE CLANGERS,WORK_OF_ART,doesn't-know,0,doesn't-know,0,True
-wh_645,How many dominoes are there in a double six set?,28,CARDINAL,strong-knows,3,strong-knows,3,True
+wh_2256,"In which European country is the HQ of the food company, Nestle ?",SWITZERLAND,GPE,strong-knows,3,strong-knows,3,True
+wh_2442,Which group had a number one hit in 2009 with 'I Gotta Feeling'?,BLACK EYED PEAS,ORG,strong-knows,3,strong-knows,3,True
+wh_261,What was the name of Lady Chatterley's lover in Lawrence's novel?,OLIVER MELLORS,PERSON,strong-knows,3,strong-knows,3,True
+wh_2708,"In the novel Strange Case of Dr Jekyll and Mr Hyde , what is Dr Jekyll's first name ?",HENRY,PERSON,strong-knows,3,strong-knows,3,True
+wh_2759,Which type of hat takes its name from an 1894 novel by George Du Maurier where the title character has the surname O'Ferrall ?,TRILBY,PRODUCT,guess,1,guess,1,True
+wh_2853,"Which political party, founded in 1967, has its headquarters in London and currently has the leader Ian Edward ?",NATIONAL FRONT,ORG,guess,1,doesn't-know,0,False
+wh_3016,"Which Scottish mathematician, physicist, astronomer and astrologer who lived from 1550 to 1617is widely regarded as being the discoverer of logarithms?",John NAPIER,PERSON,strong-knows,3,strong-knows,3,True
+wh_3039,"Which famous stage production, first seen in 1973, contains a scruffily dressed hunchback named Riff Raff?",THE ROCKY HORROR SHOW,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+wh_3040,"Introduced in 1940, the 'Local Defence Volunteers' later became known by what two word name?",HOME GUARD,ORG,strong-knows,3,strong-knows,3,True
+wh_3081,Three Men in a Boat was a famous novel of 1889 by which famous author?,JEROME K JEROME,PERSON,strong-knows,3,strong-knows,3,True
+wh_3323,"""Which Shakespeare play features the line: """" The play's the thing / Wherein I'll catch the conscience of the king. """" ?""",HAMLET,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+wh_3456,"What was the name of the African, American civil rights activist dubbed ‘ The first lady of civil rights ‘ who on December 1st 1955 refused to obey bus driver James Blake’s order that she gave up her seat in the coloured section of the bus to a white passenger because the white section was full ?",ROSA PARKS,PERSON,strong-knows,3,strong-knows,3,True
+wh_3828,George Washington Goethals was the chief engineer for which construction that was completed In 1914 ?,PANAMA CANAL,FAC,strong-knows,3,strong-knows,3,True
+wh_3853,Which 1988 children’s novel by Roald Dahl features a hostile school headmistress named Miss Trunchbull ?,MATILDA,WORK_OF_ART,strong-knows,3,strong-knows,3,True
+wh_3889,Queen Joan Of Navarre was the wife of which English king ?,HENRY IV,PERSON,strong-knows,3,strong-knows,3,True
+wh_4070,"Covering an area in excess of 30,000 square miles, in which country can you find the 'Dasht  e Kavir Desert' the largest to lie wholly in it's own country?",IRAN,GPE,strong-knows,3,strong-knows,3,True
+wh_4300,Who wrote the musical Blood Brothers ?,WILLY RUSSELL,PERSON,strong-knows,3,strong-knows,3,True
+wh_527,In which African country did the Mau Mau rebellion break out in October 1952 ?,KENYA,GPE,strong-knows,3,strong-knows,3,True
+wh_613,Which city was visited by Prince William in March 2011 after suffering two earthquakes in the preceeding six months?,CHRISTCHURCH,GPE,strong-knows,3,strong-knows,3,True
+wh_645,How many dominoes are there in a double six set?,28,CARDINAL,weak-knows,2,strong-knows,3,False
+wh_698,"Whose statue, situated in Grafton Street in Dublin is known as 'the tart with the cart'?",MOLLY MALONE,PERSON,strong-knows,3,strong-knows,3,True
+wh_797,What is the first name of Madame Bovary in Flaubert's 1856 novel?,EMMA,PERSON,strong-knows,3,strong-knows,3,True
+wh_828,"In Greek mythology, who fell in love with his own statue of a woman?",PYGMALION,PERSON,strong-knows,3,strong-knows,3,True
+wh_847,Caroline of Brunswick was the queen consort of which British King?,GEORGE IV,PERSON,strong-knows,3,strong-knows,3,True
+wh_879,Aladdin Sane and Diamond Dogs were number one albums for which famous singer in the 1970's?,DAVID BOWIE,PERSON,strong-knows,3,strong-knows,3,True
+wh_926,"""Which snooker player had the nickname """"The Thunder from Down Under""""?""",NEIL ROBERTSON,PERSON,strong-knows,3,strong-knows,3,True
+wh_938,Originally marketed as a rat poison what is the most commonly used drug in the treatment of thrombosis and embolism?,WARFARIN,PRODUCT,strong-knows,3,strong-knows,3,True

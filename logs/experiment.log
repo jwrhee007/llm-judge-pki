@@ -343,3 +343,339 @@ Done!
 [2026-03-25 15:26:47] INFO analyze_probe: 
 All outputs saved to: results/probe
 [2026-03-25 15:26:47] INFO analyze_probe: Done!
+[2026-03-26 19:45:21] INFO ner_tagging: ============================================================
+[2026-03-26 19:45:21] INFO ner_tagging: Step 1: NER Tagging + Sampling (strategy=random)
+[2026-03-26 19:45:21] INFO ner_tagging: ============================================================
+[2026-03-26 19:45:21] INFO src.data.triviaqa_loader: Loaded 12316 items from data/processed/triviaqa_rc_ner_tagged.jsonl
+[2026-03-26 19:45:21] INFO ner_tagging: Skipping NER tagging (--skip-ner)
+[2026-03-26 19:45:21] INFO ner_tagging: NER tag distribution (full dataset):
+[2026-03-26 19:45:21] INFO ner_tagging:   PERSON: 3285
+[2026-03-26 19:45:21] INFO ner_tagging:   NAN: 2388
+[2026-03-26 19:45:21] INFO ner_tagging:   GPE: 2140
+[2026-03-26 19:45:21] INFO ner_tagging:   WORK_OF_ART: 1134
+[2026-03-26 19:45:21] INFO ner_tagging:   PRODUCT: 838
+[2026-03-26 19:45:21] INFO ner_tagging:   ORG: 765
+[2026-03-26 19:45:21] INFO ner_tagging:   LOC: 560
+[2026-03-26 19:45:21] INFO ner_tagging:   CARDINAL: 332
+[2026-03-26 19:45:21] INFO ner_tagging:   DATE: 267
+[2026-03-26 19:45:21] INFO ner_tagging:   FAC: 194
+[2026-03-26 19:45:21] INFO ner_tagging:   EVENT: 190
+[2026-03-26 19:45:21] INFO ner_tagging:   NORP: 131
+[2026-03-26 19:45:21] INFO ner_tagging:   LANGUAGE: 36
+[2026-03-26 19:45:21] INFO ner_tagging:   LAW: 18
+[2026-03-26 19:45:21] INFO ner_tagging:   QUANTITY: 17
+[2026-03-26 19:45:21] INFO ner_tagging:   ORDINAL: 11
+[2026-03-26 19:45:21] INFO ner_tagging:   MONEY: 8
+[2026-03-26 19:45:21] INFO ner_tagging:   PERCENT: 2
+[2026-03-26 19:45:21] INFO ner_tagging: Using random sampling (target=1000)
+[2026-03-26 19:45:21] INFO src.data.sampler: Valid items (excluding {'NAN', 'UNKNOWN'}): 9928 / 12316
+[2026-03-26 19:45:21] INFO src.data.sampler: Sampled 1000 items, NER tag distribution:
+[2026-03-26 19:45:21] INFO src.data.sampler:   PERSON: 318
+[2026-03-26 19:45:21] INFO src.data.sampler:   GPE: 224
+[2026-03-26 19:45:21] INFO src.data.sampler:   WORK_OF_ART: 118
+[2026-03-26 19:45:21] INFO src.data.sampler:   ORG: 83
+[2026-03-26 19:45:21] INFO src.data.sampler:   PRODUCT: 78
+[2026-03-26 19:45:21] INFO src.data.sampler:   LOC: 51
+[2026-03-26 19:45:21] INFO src.data.sampler:   CARDINAL: 34
+[2026-03-26 19:45:21] INFO src.data.sampler:   DATE: 32
+[2026-03-26 19:45:21] INFO src.data.sampler:   EVENT: 23
+[2026-03-26 19:45:21] INFO src.data.sampler:   FAC: 22
+[2026-03-26 19:45:21] INFO src.data.sampler:   NORP: 9
+[2026-03-26 19:45:21] INFO src.data.sampler:   LANGUAGE: 5
+[2026-03-26 19:45:21] INFO src.data.sampler:   QUANTITY: 1
+[2026-03-26 19:45:21] INFO src.data.sampler:   MONEY: 1
+[2026-03-26 19:45:21] INFO src.data.sampler:   ORDINAL: 1
+[2026-03-26 19:45:21] INFO src.data.sampler: Post-hoc NER analysis (min_count=15):
+[2026-03-26 19:45:21] INFO src.data.sampler:   Analyzable tags (10):
+[2026-03-26 19:45:21] INFO src.data.sampler:     PERSON: 318
+[2026-03-26 19:45:21] INFO src.data.sampler:     GPE: 224
+[2026-03-26 19:45:21] INFO src.data.sampler:     WORK_OF_ART: 118
+[2026-03-26 19:45:21] INFO src.data.sampler:     ORG: 83
+[2026-03-26 19:45:21] INFO src.data.sampler:     PRODUCT: 78
+[2026-03-26 19:45:21] INFO src.data.sampler:     LOC: 51
+[2026-03-26 19:45:21] INFO src.data.sampler:     CARDINAL: 34
+[2026-03-26 19:45:21] INFO src.data.sampler:     DATE: 32
+[2026-03-26 19:45:21] INFO src.data.sampler:     EVENT: 23
+[2026-03-26 19:45:21] INFO src.data.sampler:     FAC: 22
+[2026-03-26 19:45:21] INFO src.data.sampler:   OTHER (5 tags, 17 items):
+[2026-03-26 19:45:21] INFO src.data.sampler:     NORP: 9
+[2026-03-26 19:45:21] INFO src.data.sampler:     LANGUAGE: 5
+[2026-03-26 19:45:21] INFO src.data.sampler:     QUANTITY: 1
+[2026-03-26 19:45:21] INFO src.data.sampler:     MONEY: 1
+[2026-03-26 19:45:21] INFO src.data.sampler:     ORDINAL: 1
+[2026-03-26 19:45:21] INFO ner_tagging: Post-hoc NER summary saved to data/processed/posthoc_ner_summary.json
+[2026-03-26 19:45:21] INFO src.data.sampler: Saved 1000 sampled items to data/processed/triviaqa_rc_sampled.jsonl
+[2026-03-26 19:45:21] INFO ner_tagging: Done! 1000 sampled items saved to data/processed/triviaqa_rc_sampled.jsonl
+[2026-03-26 19:45:33] INFO knowledge_probe: ============================================================
+[2026-03-26 19:45:33] INFO knowledge_probe: Exp. 2-0: Knowledge Probe
+[2026-03-26 19:45:33] INFO knowledge_probe: ============================================================
+[2026-03-26 19:45:33] INFO src.data.sampler: Loaded 1000 sampled items from data/processed/triviaqa_rc_sampled.jsonl
+[2026-03-26 19:45:33] INFO knowledge_probe: Judge model: gpt-4o-mini-2024-07-18
+[2026-03-26 19:45:33] INFO knowledge_probe: Methods: ['A', 'B']
+[2026-03-26 19:45:33] INFO knowledge_probe: Trials per method: 3
+[2026-03-26 19:45:33] INFO knowledge_probe: Temperature: 0.6
+[2026-03-26 19:45:33] INFO knowledge_probe: Total items: 1000
+[2026-03-26 19:45:33] INFO knowledge_probe: Expected API calls (probe): 6000
+[2026-03-26 19:45:33] INFO knowledge_probe: 
+--- Preparing Batch (method=A) ---
+[2026-03-26 19:45:33] INFO src.probes.knowledge_probe: Prepared 3000 batch requests (method=A, 1000 items × 3 trials)
+[2026-03-26 19:45:33] INFO src.api.openai_client: Batch file written: data/batch_outputs/probe_A_input.jsonl (3000 requests)
+[2026-03-26 19:45:36] INFO src.api.openai_client: Batch submitted: batch_69c50e4f851c8190a7b80d8398d4a9f6 (file: file-RrNxuBQKi3SxwfyoJUSEzS)
+[2026-03-26 19:45:36] INFO knowledge_probe: Method A: batch_id = batch_69c50e4f851c8190a7b80d8398d4a9f6
+[2026-03-26 19:45:36] INFO knowledge_probe: 
+--- Preparing Batch (method=B) ---
+[2026-03-26 19:45:36] INFO src.probes.knowledge_probe: Prepared 3000 batch requests (method=B, 1000 items × 3 trials)
+[2026-03-26 19:45:36] INFO src.api.openai_client: Batch file written: data/batch_outputs/probe_B_input.jsonl (3000 requests)
+[2026-03-26 19:45:39] INFO src.api.openai_client: Batch submitted: batch_69c50e530c248190b33a9358967a1a75 (file: file-7k7fCdmu1uHURg2nx3L6E6)
+[2026-03-26 19:45:39] INFO knowledge_probe: Method B: batch_id = batch_69c50e530c248190b33a9358967a1a75
+[2026-03-26 19:45:39] INFO knowledge_probe: Batch IDs saved to data/batch_outputs/probe_batch_ids.json
+[2026-03-26 19:45:39] INFO knowledge_probe: 
+--- Collecting Batch (method=A, id=batch_69c50e4f851c8190a7b80d8398d4a9f6) ---
+[2026-03-26 19:45:39] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: validating (completed: 0/0)
+[2026-03-26 19:46:09] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: validating (completed: 0/0)
+[2026-03-26 19:46:40] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:47:10] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:47:40] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:48:11] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:48:41] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:49:11] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:49:41] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:50:12] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:50:42] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:51:12] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:51:42] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:52:12] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:52:43] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:53:13] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:53:43] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:54:13] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:54:44] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:55:14] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:55:44] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:56:14] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:56:44] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:57:15] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:57:45] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:58:15] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:58:45] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:59:16] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 19:59:46] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 20:00:16] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 20:00:46] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 20:01:16] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 20:01:47] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 20:02:17] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 20:02:47] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 20:03:17] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 20:03:48] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 20:04:18] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 20:04:48] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 0/3000)
+[2026-03-26 20:05:18] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 38/3000)
+[2026-03-26 20:05:48] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 222/3000)
+[2026-03-26 20:06:19] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 422/3000)
+[2026-03-26 20:06:49] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 720/3000)
+[2026-03-26 20:07:19] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 783/3000)
+[2026-03-26 20:07:49] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 1027/3000)
+[2026-03-26 20:08:20] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 1145/3000)
+[2026-03-26 20:08:50] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 1426/3000)
+[2026-03-26 20:09:20] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 1579/3000)
+[2026-03-26 20:09:50] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 1647/3000)
+[2026-03-26 20:10:20] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 1989/3000)
+[2026-03-26 20:10:51] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 1989/3000)
+[2026-03-26 20:11:21] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2341/3000)
+[2026-03-26 20:11:51] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2577/3000)
+[2026-03-26 20:12:21] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2635/3000)
+[2026-03-26 20:12:52] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2679/3000)
+[2026-03-26 20:13:22] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2720/3000)
+[2026-03-26 20:13:52] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2720/3000)
+[2026-03-26 20:14:22] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2762/3000)
+[2026-03-26 20:14:52] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2783/3000)
+[2026-03-26 20:15:23] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2783/3000)
+[2026-03-26 20:15:53] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2835/3000)
+[2026-03-26 20:16:23] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2835/3000)
+[2026-03-26 20:16:53] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2835/3000)
+[2026-03-26 20:17:24] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2835/3000)
+[2026-03-26 20:17:54] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2835/3000)
+[2026-03-26 20:18:24] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2835/3000)
+[2026-03-26 20:18:54] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2835/3000)
+[2026-03-26 20:19:24] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2835/3000)
+[2026-03-26 20:19:55] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2924/3000)
+[2026-03-26 20:20:25] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2924/3000)
+[2026-03-26 20:20:55] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2924/3000)
+[2026-03-26 20:21:25] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2924/3000)
+[2026-03-26 20:21:56] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2937/3000)
+[2026-03-26 20:22:26] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2937/3000)
+[2026-03-26 20:22:56] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2943/3000)
+[2026-03-26 20:23:26] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2943/3000)
+[2026-03-26 20:23:57] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2943/3000)
+[2026-03-26 20:24:27] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2943/3000)
+[2026-03-26 20:24:57] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2943/3000)
+[2026-03-26 20:25:27] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2943/3000)
+[2026-03-26 20:25:57] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2943/3000)
+[2026-03-26 20:26:28] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2943/3000)
+[2026-03-26 20:26:58] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2943/3000)
+[2026-03-26 20:27:28] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2943/3000)
+[2026-03-26 20:27:58] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2943/3000)
+[2026-03-26 20:28:29] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:28:59] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:29:29] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:29:59] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:30:29] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:31:00] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:31:30] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:32:00] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:32:30] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:33:01] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:33:31] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:34:01] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:34:31] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:35:01] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:35:32] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:36:02] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:36:32] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:37:02] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:37:33] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:38:03] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:38:33] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:39:03] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:39:34] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:40:04] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:40:34] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:41:04] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:41:34] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:42:05] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:42:35] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:43:05] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:43:35] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:44:06] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:44:36] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:45:06] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:45:36] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:46:06] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:46:37] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:47:07] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:47:37] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:48:07] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:48:38] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:49:08] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:49:38] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:50:08] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: in_progress (completed: 2981/3000)
+[2026-03-26 20:50:39] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: finalizing (completed: 3000/3000)
+[2026-03-26 20:51:09] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: finalizing (completed: 3000/3000)
+[2026-03-26 20:51:39] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: finalizing (completed: 3000/3000)
+[2026-03-26 20:52:09] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: finalizing (completed: 3000/3000)
+[2026-03-26 20:52:39] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: finalizing (completed: 3000/3000)
+[2026-03-26 20:53:10] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: finalizing (completed: 3000/3000)
+[2026-03-26 20:53:40] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: finalizing (completed: 3000/3000)
+[2026-03-26 20:54:10] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: finalizing (completed: 3000/3000)
+[2026-03-26 20:54:40] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: finalizing (completed: 3000/3000)
+[2026-03-26 20:55:11] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: finalizing (completed: 3000/3000)
+[2026-03-26 20:55:41] INFO src.api.openai_client: Batch batch_69c50e4f851c8190a7b80d8398d4a9f6: completed (completed: 3000/3000)
+[2026-03-26 20:55:44] INFO src.api.openai_client: Downloaded 3000 results to data/batch_outputs/probe_A_output.jsonl
+[2026-03-26 20:55:44] INFO src.probes.knowledge_probe: Parsed 1000 question groups from batch results
+[2026-03-26 20:59:00] INFO src.probes.knowledge_probe: Saved 1000 probe results to results/probe/probe_method_A.jsonl
+[2026-03-26 20:59:00] INFO knowledge_probe: 
+==================================================
+[2026-03-26 20:59:00] INFO knowledge_probe: Knowledge Probe Summary — Method A
+[2026-03-26 20:59:00] INFO knowledge_probe: ==================================================
+[2026-03-26 20:59:00] INFO knowledge_probe: Total items: 1000
+[2026-03-26 20:59:00] INFO knowledge_probe:   strong-knows   :  888  ( 88.8%)
+[2026-03-26 20:59:00] INFO knowledge_probe:   weak-knows     :   18  (  1.8%)
+[2026-03-26 20:59:00] INFO knowledge_probe:   guess          :   22  (  2.2%)
+[2026-03-26 20:59:00] INFO knowledge_probe:   doesn't-know   :   72  (  7.2%)
+[2026-03-26 20:59:00] INFO knowledge_probe: 
+By NER tag:
+[2026-03-26 20:59:00] INFO knowledge_probe:   CARDINAL       :  34  (st=29, we=4, gu=1, do=0)
+[2026-03-26 20:59:00] INFO knowledge_probe:   DATE           :  32  (st=30, we=1, gu=0, do=1)
+[2026-03-26 20:59:00] INFO knowledge_probe:   EVENT          :  23  (st=22, we=1, gu=0, do=0)
+[2026-03-26 20:59:00] INFO knowledge_probe:   FAC            :  22  (st=20, we=1, gu=0, do=1)
+[2026-03-26 20:59:00] INFO knowledge_probe:   GPE            : 224  (st=203, we=2, gu=2, do=17)
+[2026-03-26 20:59:00] INFO knowledge_probe:   LANGUAGE       :   5  (st=5, we=0, gu=0, do=0)
+[2026-03-26 20:59:00] INFO knowledge_probe:   LOC            :  51  (st=46, we=1, gu=2, do=2)
+[2026-03-26 20:59:00] INFO knowledge_probe:   MONEY          :   1  (st=1, we=0, gu=0, do=0)
+[2026-03-26 20:59:00] INFO knowledge_probe:   NORP           :   9  (st=8, we=0, gu=0, do=1)
+[2026-03-26 20:59:00] INFO knowledge_probe:   ORDINAL        :   1  (st=1, we=0, gu=0, do=0)
+[2026-03-26 20:59:00] INFO knowledge_probe:   ORG            :  83  (st=71, we=2, gu=2, do=8)
+[2026-03-26 20:59:00] INFO knowledge_probe:   PERSON         : 318  (st=281, we=3, gu=10, do=24)
+[2026-03-26 20:59:00] INFO knowledge_probe:   PRODUCT        :  78  (st=69, we=1, gu=2, do=6)
+[2026-03-26 20:59:00] INFO knowledge_probe:   QUANTITY       :   1  (st=0, we=0, gu=0, do=1)
+[2026-03-26 20:59:00] INFO knowledge_probe:   WORK_OF_ART    : 118  (st=102, we=2, gu=3, do=11)
+[2026-03-26 20:59:00] INFO knowledge_probe: Summary saved to results/probe/probe_method_A_summary.json
+[2026-03-26 20:59:00] INFO knowledge_probe: 
+--- Collecting Batch (method=B, id=batch_69c50e530c248190b33a9358967a1a75) ---
+[2026-03-26 20:59:00] INFO src.api.openai_client: Batch batch_69c50e530c248190b33a9358967a1a75: completed (completed: 3000/3000)
+[2026-03-26 20:59:03] INFO src.api.openai_client: Downloaded 3000 results to data/batch_outputs/probe_B_output.jsonl
+[2026-03-26 20:59:03] INFO src.probes.knowledge_probe: Parsed 1000 question groups from batch results
+[2026-03-26 21:02:27] INFO src.probes.knowledge_probe: Saved 1000 probe results to results/probe/probe_method_B.jsonl
+[2026-03-26 21:02:27] INFO knowledge_probe: 
+==================================================
+[2026-03-26 21:02:27] INFO knowledge_probe: Knowledge Probe Summary — Method B
+[2026-03-26 21:02:27] INFO knowledge_probe: ==================================================
+[2026-03-26 21:02:27] INFO knowledge_probe: Total items: 1000
+[2026-03-26 21:02:27] INFO knowledge_probe:   strong-knows   :  882  ( 88.2%)
+[2026-03-26 21:02:27] INFO knowledge_probe:   weak-knows     :   21  (  2.1%)
+[2026-03-26 21:02:27] INFO knowledge_probe:   guess          :   18  (  1.8%)
+[2026-03-26 21:02:27] INFO knowledge_probe:   doesn't-know   :   79  (  7.9%)
+[2026-03-26 21:02:27] INFO knowledge_probe: 
+By NER tag:
+[2026-03-26 21:02:27] INFO knowledge_probe:   CARDINAL       :  34  (st=30, we=0, gu=2, do=2)
+[2026-03-26 21:02:27] INFO knowledge_probe:   DATE           :  32  (st=30, we=0, gu=0, do=2)
+[2026-03-26 21:02:27] INFO knowledge_probe:   EVENT          :  23  (st=23, we=0, gu=0, do=0)
+[2026-03-26 21:02:27] INFO knowledge_probe:   FAC            :  22  (st=20, we=0, gu=2, do=0)
+[2026-03-26 21:02:27] INFO knowledge_probe:   GPE            : 224  (st=200, we=6, gu=0, do=18)
+[2026-03-26 21:02:27] INFO knowledge_probe:   LANGUAGE       :   5  (st=5, we=0, gu=0, do=0)
+[2026-03-26 21:02:27] INFO knowledge_probe:   LOC            :  51  (st=46, we=2, gu=1, do=2)
+[2026-03-26 21:02:27] INFO knowledge_probe:   MONEY          :   1  (st=1, we=0, gu=0, do=0)
+[2026-03-26 21:02:27] INFO knowledge_probe:   NORP           :   9  (st=8, we=0, gu=0, do=1)
+[2026-03-26 21:02:27] INFO knowledge_probe:   ORDINAL        :   1  (st=1, we=0, gu=0, do=0)
+[2026-03-26 21:02:27] INFO knowledge_probe:   ORG            :  83  (st=70, we=1, gu=2, do=10)
+[2026-03-26 21:02:27] INFO knowledge_probe:   PERSON         : 318  (st=276, we=10, gu=7, do=25)
+[2026-03-26 21:02:27] INFO knowledge_probe:   PRODUCT        :  78  (st=69, we=0, gu=2, do=7)
+[2026-03-26 21:02:27] INFO knowledge_probe:   QUANTITY       :   1  (st=0, we=0, gu=0, do=1)
+[2026-03-26 21:02:27] INFO knowledge_probe:   WORK_OF_ART    : 118  (st=103, we=2, gu=2, do=11)
+[2026-03-26 21:02:27] INFO knowledge_probe: Summary saved to results/probe/probe_method_B_summary.json
+[2026-03-26 21:02:27] INFO knowledge_probe: 
+Done!
+[2026-03-26 21:19:54] INFO analyze_probe: ============================================================
+[2026-03-26 21:19:54] INFO analyze_probe: Step 3: Knowledge Probe Analysis
+[2026-03-26 21:19:54] INFO analyze_probe: ============================================================
+[2026-03-26 21:19:54] INFO src.probes.knowledge_probe: Loaded 1000 probe results from results/probe/probe_method_A.jsonl
+[2026-03-26 21:19:54] INFO src.probes.knowledge_probe: Loaded 1000 probe results from results/probe/probe_method_B.jsonl
+[2026-03-26 21:19:54] INFO analyze_probe: Comparison DataFrame: 956 rows
+[2026-03-26 21:19:54] INFO analyze_probe: Comparison CSV saved to results/probe/probe_comparison.csv
+[2026-03-26 21:19:54] INFO analyze_probe: Report saved to results/probe/probe_analysis_report.md
+[2026-03-26 21:19:56] INFO analyze_probe: Saved: results/probe/probe_overall_comparison.png
+[2026-03-26 21:19:56] INFO analyze_probe: Saved: results/probe/probe_confusion_matrix.png
+[2026-03-26 21:19:56] INFO analyze_probe: Saved: results/probe/probe_ner_breakdown.png
+[2026-03-26 21:19:56] INFO analyze_probe: 
+==================================================
+[2026-03-26 21:19:56] INFO analyze_probe: Key Metrics:
+[2026-03-26 21:19:56] INFO analyze_probe:   Exact agreement rate: 93.9%
+[2026-03-26 21:19:56] INFO analyze_probe:   Cohen's Kappa:        0.712
+[2026-03-26 21:19:56] INFO analyze_probe:   Method A knows rate: 90.6%
+[2026-03-26 21:19:56] INFO analyze_probe:   Method B knows rate: 90.3%
+[2026-03-26 21:19:56] INFO analyze_probe: 
+All outputs saved to: results/probe
+[2026-03-26 21:19:56] INFO analyze_probe: Done!
+[2026-03-26 21:24:56] INFO analyze_probe: ============================================================
+[2026-03-26 21:24:56] INFO analyze_probe: Step 3: Knowledge Probe Analysis
+[2026-03-26 21:24:56] INFO analyze_probe: ============================================================
+[2026-03-26 21:24:56] INFO src.probes.knowledge_probe: Loaded 1000 probe results from results/probe/probe_method_A.jsonl
+[2026-03-26 21:24:56] INFO src.probes.knowledge_probe: Loaded 1000 probe results from results/probe/probe_method_B.jsonl
+[2026-03-26 21:24:57] INFO analyze_probe: Comparison DataFrame: 956 rows
+[2026-03-26 21:24:57] INFO analyze_probe: Comparison CSV saved to results/probe/probe_comparison.csv
+[2026-03-26 21:24:57] INFO analyze_probe: Report saved to results/probe/probe_analysis_report.md
+[2026-03-26 21:24:57] INFO analyze_probe: Disagreement analysis saved to results/probe/disagreement_analysis.txt (58 items)
+[2026-03-26 21:24:58] INFO analyze_probe: Saved: results/probe/probe_overall_comparison.png
+[2026-03-26 21:24:58] INFO analyze_probe: Saved: results/probe/probe_confusion_matrix.png
+[2026-03-26 21:24:58] INFO analyze_probe: Saved: results/probe/probe_ner_breakdown.png
+[2026-03-26 21:24:58] INFO analyze_probe: 
+==================================================
+[2026-03-26 21:24:58] INFO analyze_probe: Key Metrics:
+[2026-03-26 21:24:58] INFO analyze_probe:   Exact agreement rate: 93.9%
+[2026-03-26 21:24:58] INFO analyze_probe:   Cohen's Kappa:        0.712
+[2026-03-26 21:24:58] INFO analyze_probe:   Method A knows rate: 90.6%
+[2026-03-26 21:24:58] INFO analyze_probe:   Method B knows rate: 90.3%
+[2026-03-26 21:24:58] INFO analyze_probe: 
+All outputs saved to: results/probe
+[2026-03-26 21:24:58] INFO analyze_probe: Done!
