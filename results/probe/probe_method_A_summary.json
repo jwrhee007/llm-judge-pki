@@ -1,80 +1,74 @@
 {
   "overall": {
-    "strong-knows": 888,
-    "doesn't-know": 72,
-    "weak-knows": 18,
-    "guess": 22
+    "strong-knows": 906,
+    "guess": 23,
+    "weak-knows": 17,
+    "doesn't-know": 54
   },
   "by_ner_tag": {
-    "PERSON": {
-      "strong-knows": 281,
-      "doesn't-know": 24,
-      "guess": 10,
-      "weak-knows": 3
-    },
-    "WORK_OF_ART": {
-      "doesn't-know": 11,
-      "strong-knows": 102,
-      "guess": 3,
-      "weak-knows": 2
-    },
     "GPE": {
-      "weak-knows": 2,
-      "strong-knows": 203,
-      "doesn't-know": 17,
-      "guess": 2
-    },
-    "DATE": {
-      "strong-knows": 30,
-      "weak-knows": 1,
-      "doesn't-know": 1
-    },
-    "PRODUCT": {
-      "strong-knows": 69,
-      "doesn't-know": 6,
-      "guess": 2,
+      "strong-knows": 204,
+      "doesn't-know": 5,
       "weak-knows": 1
     },
+    "PRODUCT": {
+      "strong-knows": 73,
+      "guess": 7,
+      "doesn't-know": 3
+    },
+    "WORK_OF_ART": {
+      "strong-knows": 110,
+      "doesn't-know": 5,
+      "guess": 1
+    },
+    "PERSON": {
+      "strong-knows": 305,
+      "guess": 14,
+      "weak-knows": 9,
+      "doesn't-know": 30
+    },
     "LOC": {
-      "strong-knows": 46,
-      "guess": 2,
-      "weak-knows": 1,
+      "strong-knows": 43,
+      "doesn't-know": 5,
+      "weak-knows": 2
+    },
+    "DATE": {
+      "strong-knows": 14,
       "doesn't-know": 2
     },
-    "FAC": {
-      "weak-knows": 1,
-      "strong-knows": 20,
+    "EVENT": {
+      "strong-knows": 23,
+      "doesn't-know": 1
+    },
+    "ORG": {
+      "strong-knows": 84,
+      "guess": 1,
+      "weak-knows": 3,
       "doesn't-know": 1
     },
     "CARDINAL": {
-      "strong-knows": 29,
-      "weak-knows": 4,
-      "guess": 1
-    },
-    "EVENT": {
-      "strong-knows": 22,
+      "strong-knows": 17,
+      "doesn't-know": 1,
       "weak-knows": 1
     },
-    "ORG": {
-      "strong-knows": 71,
-      "doesn't-know": 8,
-      "weak-knows": 2,
-      "guess": 2
+    "ORDINAL": {
+      "strong-knows": 2
     },
-    "QUANTITY": {
-      "doesn't-know": 1
-    },
-    "NORP": {
-      "strong-knows": 8,
+    "FAC": {
+      "strong-knows": 16,
+      "weak-knows": 1,
       "doesn't-know": 1
     },
     "LANGUAGE": {
-      "strong-knows": 5
+      "strong-knows": 2
     },
-    "MONEY": {
-      "strong-knows": 1
+    "QUANTITY": {
+      "strong-knows": 2
     },
-    "ORDINAL": {
+    "NORP": {
+      "strong-knows": 10
+    },
+    "LAW": {
       "strong-knows": 1
     }
   },

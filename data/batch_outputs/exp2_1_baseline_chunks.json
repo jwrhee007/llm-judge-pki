@@ -1,0 +1,187 @@
+{
+  "experiment": "exp2_1_baseline",
+  "n_chunks_total": 30,
+  "n_completed": 30,
+  "chunks": [
+    {
+      "chunk_idx": 0,
+      "batch_id": "batch_69c82c22b86081908c4b9e64dbdd45ec",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 1,
+      "batch_id": "batch_69c82ce36af481908105071ef4986914",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 2,
+      "batch_id": "batch_69c82da55ec0819081cfab461c0ca092",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 3,
+      "batch_id": "batch_69c82ee0c5fc8190b89737b094396e21",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 4,
+      "batch_id": "batch_69c82fff0a388190b05c9b80f5ca992e",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 5,
+      "batch_id": "batch_69c830bf38f88190b82bd31e45671a88",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 6,
+      "batch_id": "batch_69c83219037881908ad34daa909da002",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 7,
+      "batch_id": "batch_69c833cf57b481909a3c99b88e2fb8ce",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 8,
+      "batch_id": "batch_69c835a6633481909e09c196d3c9cf06",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 9,
+      "batch_id": "batch_69c836a49d1481909bf347eaffe8406e",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 10,
+      "batch_id": "batch_69c8383c80488190a09e4653eed934ee",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 11,
+      "batch_id": "batch_69c83a6e376481908958332bf0ee0020",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 12,
+      "batch_id": "batch_69c83ba9d9d88190a686c125b1f9b461",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 13,
+      "batch_id": "batch_69c83c4ace1c8190928d62ee10e25539",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 14,
+      "batch_id": "batch_69c83cecb0cc8190acf5666e7c563909",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 15,
+      "batch_id": "batch_69c83e2871ec81908cacb2704148862f",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 16,
+      "batch_id": "batch_69c83f2662508190a681f3d8a4a344ab",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 17,
+      "batch_id": "batch_69c840dd156c81908e25bb2d88d71fe4",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 18,
+      "batch_id": "batch_69c842948350819093fbfdb4664a90a7",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 19,
+      "batch_id": "batch_69c843f0a1808190ae6a49924a2e6b13",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 20,
+      "batch_id": "batch_69c8450df1b08190ac30bedd60e2ea6d",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 21,
+      "batch_id": "batch_69c8466b778c8190a4d3c8676a26496a",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 22,
+      "batch_id": "batch_69c8470cd8808190b07a3655952689d3",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 23,
+      "batch_id": "batch_69c84b0d96f081909d7892b44300e7d1",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 24,
+      "batch_id": "batch_69c84c6837388190882d9502c52eb625",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 25,
+      "batch_id": "batch_69c84d66c55481908b20d7f1eed9d463",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 26,
+      "batch_id": "batch_69c84e46334c8190937f69cadcdedece",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 27,
+      "batch_id": "batch_69c850d60d008190bb55b6eb260c81a6",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 28,
+      "batch_id": "batch_69c856a78d1881909821dda8e171b457",
+      "status": "completed",
+      "n_requests": 1000
+    },
+    {
+      "chunk_idx": 29,
+      "batch_id": "batch_69c857c49040819081187e322903b2fb",
+      "status": "completed",
+      "n_requests": 1000
+    }
+  ]
+}

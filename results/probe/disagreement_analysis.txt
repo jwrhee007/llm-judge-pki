@@ -1,1397 +1,1123 @@
-Disagreement Analysis: 58 items
-Generated at: 2026-03-26T21:24:57.073088
+Disagreement Analysis: 48 items
+Generated at: 2026-03-29T04:25:32.483421
 ================================================================================
 
 ================================================================================
-Q: Planchet was the servant of which of the Three Musketeers, by Alexandre Dumas?
-Gold: D'Artagnan
+Q: Which Christmas condiment is made from fruit sometimes referred to as marshworts?
+Gold: Cranberry sauce
+NER: PRODUCT
+A: doesn't-know (0/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    The Christmas condiment you are referring to is "marmalade." The term "marshworts" is often associated with the fruit known as "marmalade fruit," which can refer to certain types of citrus fruits used in making marmalade, especially orange marmalade. Marmalade is a popular spread during the Christmas season, often enjoyed on toast or as a glaze for meats.
+
+  [A] Trial 1 (X):
+    The Christmas condiment made from fruit sometimes referred to as marshworts is **marmalade**. This term "marshworts" is an old name for certain types of fruit used in making marmalade, particularly those in the citrus family. Marmalade is often enjoyed during the holiday season, especially with breakfast items like toast.
+
+  [A] Trial 2 (X):
+    The Christmas condiment made from fruit sometimes referred to as marshworts is "marmalade." This term is often used to describe a type of preserve made from citrus fruits, particularly oranges, and can be enjoyed during the holiday season. The term "marshworts" is a historical reference to the fruits used in making marmalade.
+
+
+  [B] Trial 0 (O):
+    The Christmas condiment made from fruit sometimes referred to as marshworts is cranberry sauce.
+
+  [B] Trial 1 (O):
+    The Christmas condiment made from fruit sometimes referred to as marshworts is cranberry sauce.
+
+  [B] Trial 2 (O):
+    The Christmas condiment made from fruit sometimes referred to as marshworts is cranberry sauce. Cranberries are often associated with the holiday season and are a popular accompaniment to turkey and other festive dishes.
+
+
+================================================================================
+Q: Which English public school shares it's name with a farm implement
+Gold: Harrow
+NER: ORG
+A: weak-knows (2/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (O):
+    The English public school that shares its name with a farm implement is "Harrow School." The term "harrow" refers to a type of farm implement used for tilling the soil. Harrow School is one of the most prestigious schools in England, located in Harrow on the Hill, London.
+
+  [A] Trial 1 (X):
+    The English public school that shares its name with a farm implement is "Eton College." The term "eton" is sometimes associated with a type of plow or farming tool, although it's more commonly recognized as the name of the prestigious school located in Eton, Berkshire.
+
+  [A] Trial 2 (O):
+    The English public school that shares its name with a farm implement is "Eton College." The term "eton" is a variant of "eaten," which relates to the act of harvesting or gathering crops, similar to how a farm implement is used in agriculture. However, it's important to note that "Eton" itself doesn't directly refer to a specific farm implement like a "plow" or "harrow." If you were looking for a school with a more direct connection to a specific farm implement, please let me know!
+
+
+  [B] Trial 0 (X):
+    The English public school that shares its name with a farm implement is Eton College. The term "eton" is similar to "yoke," which is a type of farm implement used to harness animals. However, it's worth noting that the connection is more metaphorical, as "Eton" itself does not directly refer to a specific farm tool.
+
+  [B] Trial 1 (X):
+    The English public school that shares its name with a farm implement is Eton College. The term "eton" is similar to "eton," which can refer to a type of plow or farming tool in some contexts.
+
+  [B] Trial 2 (O):
+    The English public school that shares its name with a farm implement is "Harrow School." The term "harrow" refers to a farming tool used for breaking up and smoothing out the surface of the soil.
+
+
+================================================================================
+Q: Which manager bought Trevor Francis thereby turning him into the first million pound footballer
+Gold: Brian Clough
+NER: PERSON
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    Trevor Francis became the first million-pound footballer when he was signed by Birmingham City from Nottingham Forest in 1979. The manager who made this historic transfer was Jim Smith. The transfer fee of £1 million marked a significant milestone in football history.
+
+  [A] Trial 1 (X):
+    Trevor Francis became the first million-pound footballer when he was signed by manager Jim Smith for Nottingham Forest in 1979. The transfer fee of £1 million was a groundbreaking moment in football history.
+
+  [A] Trial 2 (O):
+    Trevor Francis became the first million-pound footballer when he was signed by Nottingham Forest manager Brian Clough in February 1979. The transfer fee of £1 million was a record at that time.
+
+
+  [B] Trial 0 (X):
+    Trevor Francis became the first million-pound footballer when he was signed by manager Jim Smith for Nottingham Forest in 1979.
+
+  [B] Trial 1 (X):
+    Trevor Francis was bought by Birmingham City manager Jim Smith, making him the first million-pound footballer when he transferred from Nottingham Forest in 1979.
+
+  [B] Trial 2 (X):
+    Trevor Francis was bought by Birmingham City manager Jim Smith, making him the first million-pound footballer when he was transferred from Nottingham Forest in 1979.
+
+
+================================================================================
+Q: What aid to baking was invented by Henry Jones of Bristol in 1845
+Gold: Self-raising flour
+NER: PRODUCT
+A: doesn't-know (0/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (X):
+    Henry Jones of Bristol invented baking powder in 1845. His formulation provided a convenient way to leaven baked goods, making the baking process easier and more reliable for home cooks and professional bakers alike.
+
+  [A] Trial 1 (X):
+    Henry Jones of Bristol invented baking powder in 1845. This product provided a convenient leavening agent for baking, allowing for a more consistent rise in baked goods without the need for yeast or lengthy fermentation processes. Baking powder has since become a staple ingredient in many recipes.
+
+  [A] Trial 2 (X):
+    Henry Jones of Bristol invented baking powder in 1845. His formulation provided a convenient leavening agent that made baking easier and more consistent, allowing for lighter and fluffier baked goods. Baking powder has since become a staple ingredient in many recipes.
+
+
+  [B] Trial 0 (X):
+    The aid to baking invented by Henry Jones of Bristol in 1845 is baking powder. This invention revolutionized baking by providing a reliable leavening agent that allowed for lighter and fluffier baked goods.
+
+  [B] Trial 1 (O):
+    The aid to baking invented by Henry Jones of Bristol in 1845 is self-raising flour. This type of flour includes a leavening agent, such as baking powder, which allows baked goods to rise without the need for additional yeast.
+
+  [B] Trial 2 (O):
+    The aid to baking invented by Henry Jones of Bristol in 1845 is self-raising flour. This product combines regular flour with a leavening agent, typically baking powder, allowing for easier and more consistent baking results without the need for separate leavening.
+
+
+================================================================================
+Q: What surname connects equestrians Michael, Ellen, William, Robert and John?
+Gold: WHITAKER
 NER: PERSON
 A: doesn't-know (0/3)  |  B: weak-knows (2/3)
 
   [A] Trial 0 (X):
-    Planchet was the servant of Aramis, one of the Three Musketeers in Alexandre Dumas's novel "The Three Musketeers."
+    The surname that connects the equestrians Michael, Ellen, William, Robert, and John is "Miller." They are all notable figures in the world of equestrian sports.
 
   [A] Trial 1 (X):
-    Planchet was the servant of Aramis, one of the Three Musketeers in Alexandre Dumas' novel.
+    The surname that connects the equestrians Michael, Ellen, William, Robert, and John is "Smith." They are all famous for their contributions to the equestrian world and horse-related activities.
 
   [A] Trial 2 (X):
-    Planchet was the servant of Aramis, one of the Three Musketeers in Alexandre Dumas' novel "The Three Musketeers."
-
-
-  [B] Trial 0 (X):
-    Planchet was the servant of Aramis, one of the Three Musketeers in Alexandre Dumas' novel.
-
-  [B] Trial 1 (O):
-    Planchet was the servant of d'Artagnan, one of the Three Musketeers in Alexandre Dumas' novel.
-
-  [B] Trial 2 (O):
-    Planchet was the servant of d'Artagnan, one of the Three Musketeers in Alexandre Dumas' novel.
-
-
-================================================================================
-Q: At which English racecourse did two horses collapse and die in the parade ring due to electrocution, in February 2011?
-Gold: Newbury
-NER: FAC
-A: weak-knows (2/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (X):
-    In February 2011, two horses collapsed and died in the parade ring at the Hereford Racecourse in England due to electrocution.
-
-  [A] Trial 1 (O):
-    In February 2011, two horses collapsed and died in the parade ring at the **Newbury Racecourse** in England due to electrocution.
-
-  [A] Trial 2 (O):
-    In February 2011, two horses collapsed and died in the parade ring at the **Newbury Racecourse** in England due to electrocution.
-
-
-  [B] Trial 0 (X):
-    The incident you are referring to occurred at the Warwick Racecourse in February 2011, where two horses collapsed and died in the parade ring due to electrocution.
-
-  [B] Trial 1 (O):
-    The incident you are referring to occurred at the "Newbury Racecourse" in England in February 2011, where two horses collapsed and died due to electrocution in the parade ring.
-
-  [B] Trial 2 (X):
-    The incident occurred at the Warwick racecourse in February 2011, where two horses collapsed and died in the parade ring due to electrocution.
-
-
-================================================================================
-Q: Which boxer broke Muhammed Ali's jaw
-Gold: Ken Norton
-NER: PERSON
-A: strong-knows (3/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (O):
-    Muhammad Ali had his jaw broken by Ken Norton during their fight on March 31, 1973. Norton won the match by split decision, and the injury was significant enough to impact Ali's performance in the ring. This fight is notable in boxing history for Norton's victory and the physical toll it took on Ali.
-
-  [A] Trial 1 (O):
-    Muhammad Ali had his jaw broken by Ken Norton during their fight on March 31, 1973. Norton won the match by a split decision, and the injury was significant enough to affect Ali's performance in the ring. The fight is remembered as a key moment in boxing history, showcasing Norton's unique style and ability to counter Ali's speed and agility.
-
-  [A] Trial 2 (O):
-    Muhammad Ali's jaw was famously broken by Ken Norton during their bout on March 31, 1973. Norton won the fight by a split decision, and the injury was significant enough to impact Ali's performance in the ring. The fight was notable not only for the injury but also for the competitive nature of the match, leading to a famous rivalry between the two fighters.
-
-
-  [B] Trial 0 (X):
-    Joe Frazier broke Muhammad Ali's jaw during their first fight on March 8, 1971, which is famously known as the "Fight of the Century."
-
-  [B] Trial 1 (X):
-    Joe Frazier broke Muhammad Ali's jaw during their fight on March 8, 1971, in New York City, which was the first of their three legendary bouts. This fight is often referred to as the "Fight of the Century."
-
-  [B] Trial 2 (X):
-    Joe Frazier broke Muhammad Ali's jaw during their first fight on March 8, 1971, in what was famously known as the "Fight of the Century." This match was significant as it was the first time the two heavyweight champions faced each other.
-
-
-================================================================================
-Q: Harvey was one of Dr. Crippen’s first names. What was the other?
-Gold: HAWLEY
-NER: PERSON
-A: strong-knows (3/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    Dr. Hawley Harvey Crippen was the full name of the infamous American homeopath and murderer. His first name is "Hawley," and "Harvey" is often used as a shorthand or middle name.
-
-  [A] Trial 1 (O):
-    Dr. Crippen's full name was Hawley Harvey Crippen. His first name is "Hawley," and "Harvey" is his middle name.
-
-  [A] Trial 2 (O):
-    Dr. Hawley Harvey Crippen is the full name of the individual you are referring to. His first name was Hawley, and he is infamously known for being convicted of the murder of his wife, Cora, in the early 20th century.
-
-
-  [B] Trial 0 (X):
-    Harvey was one of Dr. Crippen's first names; the other was Frederick. His full name was Frederick Henry Crippen.
-
-  [B] Trial 1 (O):
-    Dr. Hawley Harvey Crippen was the full name of Dr. Crippen.
-
-  [B] Trial 2 (O):
-    The other first name of Dr. Crippen was Hawley. His full name was Hawley Harvey Crippen.
-
-
-================================================================================
-Q: Who played Nurse Gladys Emmanuel, Arkwright’s love interest in Open All Hours?
-Gold: Lynda Baron
-NER: PERSON
-A: doesn't-know (0/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (X):
-    Nurse Gladys Emmanuel, Arkwright's love interest in the television series "Open All Hours," was played by actress Patricia Routledge.
-
-  [A] Trial 1 (X):
-    Nurse Gladys Emmanuel, Arkwright's love interest in the British sitcom "Open All Hours," was played by actress Patricia Routledge.
-
-  [A] Trial 2 (X):
-    Nurse Gladys Emmanuel, Arkwright’s love interest in the British sitcom "Open All Hours," was played by actress Patricia Rutledge.
-
-
-  [B] Trial 0 (X):
-    Nurse Gladys Emmanuel, Arkwright’s love interest in "Open All Hours," was played by actress Patricia Routledge.
-
-  [B] Trial 1 (O):
-    Nurse Gladys Emmanuel, Arkwright’s love interest in "Open All Hours," was played by actress Lynda Baron.
-
-  [B] Trial 2 (X):
-    Nurse Gladys Emmanuel, Arkwright’s love interest in "Open All Hours," was played by actress Lynda Bellingham.
-
-
-================================================================================
-Q: What is nicknamed 'The Cathedral of the Railways'?
-Gold: St PANCRAS
-NER: FAC
-A: doesn't-know (0/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (X):
-    The structure nicknamed 'The Cathedral of the Railways' is the **Chhatrapati Shivaji Maharaj Terminus** (formerly known as Victoria Terminus) in Mumbai, India. This historic railway station is renowned for its stunning Victorian Gothic architecture and is a UNESCO World Heritage Site. It serves as a major hub for train services in Mumbai and is an iconic landmark in the city.
-
-  [A] Trial 1 (X):
-    The structure nicknamed 'The Cathedral of the Railways' is the **Chhatrapati Shivaji Maharaj Terminus (CST)** in Mumbai, India. This historic railway station, which was formerly known as Victoria Terminus, is renowned for its stunning Victorian Gothic architecture and is a UNESCO World Heritage Site. The station serves as a central hub for train services in Mumbai and is celebrated for its intricate design and grandeur, which have earned it the affectionate nickname.
-
-  [A] Trial 2 (X):
-    The structure nicknamed "The Cathedral of the Railways" is the **Kolkata Howrah Junction** (Howrah Station) in India. It is one of the busiest railway stations in the country and is known for its impressive architecture and historical significance. The nickname reflects its grand design and importance in the railway network, similar to how cathedrals are often seen as central and significant landmarks in a city.
+    The surname that connects the equestrians Michael, Ellen, William, Robert, and John is "Maguire." Each of these individuals is a notable equestrian with the surname Maguire.
 
 
   [B] Trial 0 (O):
-    The nickname 'The Cathedral of the Railways' refers to the **Basilica of Saint-Savin** in France, which is known for its impressive architecture and historical significance. However, it is also commonly associated with the **Palacio de Cibeles** in Madrid, Spain, which serves as the headquarters of the postal service and is a prominent example of early 20th-century architecture. Another notable mention is the **St. Pancras International Station** in London, celebrated for its stunning Gothic architecture. The term can apply to various railway stations or structures, often highlighting their grandeur and importance in the railway network.
-
-  [B] Trial 1 (X):
-    The nickname 'The Cathedral of the Railways' refers to the Gare de Lyon, a major railway station in Paris, France. This station is known for its impressive architecture and grand design, reminiscent of a cathedral, making it a notable landmark in the city.
-
-  [B] Trial 2 (X):
-    The nickname 'The Cathedral of the Railways' refers to the Gare de Lyon, a major railway station in Paris, France. It is renowned for its impressive architecture and grand design, resembling a cathedral in its scale and aesthetic appeal.
-
-
-================================================================================
-Q: What was the title of Fun Lovin’ Criminals’ 1996 song that nearly made the Top 20?
-Gold: SCOOBY SNACKS
-NER: WORK_OF_ART
-A: guess (1/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    The title of Fun Lovin’ Criminals' 1996 song that nearly made the Top 20 is "Scooby Snacks."
-
-  [A] Trial 1 (X):
-    The title of Fun Lovin’ Criminals' 1996 song that nearly made the Top 20 is "King of New York."
-
-  [A] Trial 2 (X):
-    The title of Fun Lovin' Criminals' 1996 song that nearly made the Top 20 is "King of New York."
-
-
-  [B] Trial 0 (X):
-    The title of Fun Lovin’ Criminals’ 1996 song that nearly made the Top 20 is "King of New York."
+    The surname that connects the equestrians Michael, Ellen, William, Robert, and John is "Whitaker."
 
   [B] Trial 1 (O):
-    The title of Fun Lovin’ Criminals’ 1996 song that nearly made the Top 20 is "Scooby Snacks."
-
-  [B] Trial 2 (O):
-    The title of Fun Lovin' Criminals' 1996 song that nearly made the Top 20 is "Scooby Snacks."
-
-
-================================================================================
-Q: Which band featured Siobhan Fahey and Marcella Detroit?
-Gold: Shakespeare’s Sister
-NER: ORG
-A: strong-knows (3/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (O):
-    Siobhan Fahey and Marcella Detroit were both members of the band Shakespear's Sister. The duo is known for their hit songs in the early 1990s, including "Stay," which became a major success.
-
-  [A] Trial 1 (O):
-    Siobhan Fahey and Marcella Detroit were both members of the band Shakespear's Sister. The group is known for its blend of pop and rock music and achieved significant success in the early 1990s.
-
-  [A] Trial 2 (O):
-    Siobhan Fahey and Marcella Detroit were members of the band Shakespear's Sister. The group is known for its hit songs in the early 1990s, including "Stay," which achieved significant commercial success.
-
-
-  [B] Trial 0 (O):
-    The band that featured Siobhan Fahey and Marcella Detroit is Shakespear's Sister.
-
-  [B] Trial 1 (X):
-    The band that featured Siobhan Fahey and Marcella Detroit is Bananarama.
+    The surname that connects equestrians Michael, Ellen, William, Robert, and John is "Whitaker." The Whitaker family is well-known in the equestrian world, particularly in show jumping.
 
   [B] Trial 2 (X):
-    The band that featured Siobhan Fahey and Marcella Detroit is Bananarama.
+    The surname that connects equestrians Michael, Ellen, William, Robert, and John is "Murphy."
 
 
 ================================================================================
-Q: ‘When Will You Marry?’ became the world’s most expensive work of art when it was sold
-Gold: Paul GAUGUIN
-NER: PERSON
-A: strong-knows (3/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    "When Will You Marry?" is a painting by the artist Paul Gauguin, created in 1892. It gained significant attention and became one of the most expensive works of art when it was sold at auction in 2015 for approximately $300 million. This sale marked a record for the highest price ever paid for a painting at auction at that time. The artwork is notable not only for its price but also for its vibrant colors and the themes of Polynesian culture that Gauguin explored in his work.
-
-  [A] Trial 1 (O):
-    "When Will You Marry?" is a painting by the artist Paul Gauguin, which was sold at auction for a record-breaking price. In 2015, it was sold for approximately $300 million, making it one of the most expensive works of art ever sold at that time. The painting depicts a young Tahitian girl and is notable for its vibrant colors and symbolism. Gauguin's work has continued to be highly sought after by collectors and institutions, reflecting both his artistic significance and the market's interest in high-value artworks. If you have any specific questions or need more information about this painting or Gauguin's work, feel free to ask!
-
-  [A] Trial 2 (O):
-    "When Will You Marry?" is a painting by the artist Paul Gauguin that was sold at auction for a record-breaking price. In 2015, it was sold for approximately $300 million, making it one of the most expensive paintings ever sold. This sale sparked significant interest and discussion in the art world regarding the valuation of art and the growing market for high-priced artworks. If you have more specific questions about the painting or its sale, feel free to ask!
-
-
-  [B] Trial 0 (O):
-    ‘When Will You Marry?’ by the artist Paul Gauguin became the world’s most expensive work of art when it was sold at auction in 2015 for approximately $300 million. This painting is notable for its vibrant colors and complex themes, and its sale marked a significant moment in the art market.
-
-  [B] Trial 1 (O):
-    ‘When Will You Marry?’ by Paul Gauguin became the world’s most expensive work of art when it was sold at auction in 2015 for approximately $300 million. This sale set a record for the highest price ever paid for a painting at that time.
-
-  [B] Trial 2 (X):
-    ‘When Will You Marry?’ became the world’s most expensive work of art when it was sold for $450.3 million at auction in November 2017. The artwork, created by Leonardo da Vinci, is a painting of Christ and was sold at Christie’s in New York.
-
-
-================================================================================
-Q: Who is the Secretary of State for Business, Innovation and Skills?
-Gold: VINCE CABLE
-NER: PERSON
-A: doesn't-know (0/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (X):
-    As of my last knowledge update in October 2023, the Secretary of State for Business, Innovation and Skills in the UK was not a current position, as the department was split in 2016. The responsibilities were divided between the Department for Business, Energy & Industrial Strategy (BEIS) and the Department for International Trade. If you are looking for the current Secretary of State for BEIS or any other related department, I recommend checking the latest information from official UK government sources or news updates.
-
-  [A] Trial 1 (X):
-    As of my last knowledge update in October 2023, the position of Secretary of State for Business, Innovation and Skills no longer exists as it was replaced by the Department for Business, Energy & Industrial Strategy (BEIS) in 2016. However, if you are looking for the current Secretary of State overseeing business and related matters, it would be advisable to check the latest updates from official government sources or news outlets, as cabinet positions can change frequently.
-
-  [A] Trial 2 (X):
-    As of my last knowledge update in October 2023, the Secretary of State for Business, Innovation and Skills in the UK is not a current position, as the department was dissolved in 2016. Its responsibilities were split between the Department for Business, Energy and Industrial Strategy (BEIS) and the Department for Education. If you are looking for the current Secretary of State for Business, Energy and Industrial Strategy, please check the latest sources for the most accurate information.
-
-
-  [B] Trial 0 (X):
-    The position of Secretary of State for Business, Innovation and Skills in the UK was last held by Sajid Javid until the department was dissolved in 2016. After that, its responsibilities were split between the Department for Business, Energy and Industrial Strategy (BEIS) and the Department for International Trade (DIT). As of my last knowledge update, the current Secretary of State for BEIS is Grant Shapps, who took over the role in September 2022. Please verify with up-to-date sources, as this information may have changed.
-
-  [B] Trial 1 (O):
-    The position of Secretary of State for Business, Innovation and Skills was held by Vince Cable from 2010 to 2015. However, this department was abolished in 2016, and its responsibilities were transferred to the Department for Business, Energy & Industrial Strategy (BEIS). As of my last knowledge update, the relevant position would be the Secretary of State for Business, Energy and Industrial Strategy. Please check the latest sources for the current officeholder, as this information may have changed.
-
-  [B] Trial 2 (X):
-    As of my last knowledge update in October 2023, the position of Secretary of State for Business, Innovation and Skills no longer exists as it was restructured. The responsibilities have been divided among different departments, primarily the Department for Business and Trade. For the most current information regarding the Secretary of State for Business and related roles, please check the latest official government resources.
-
-
-================================================================================
-Q: In 'Coronation Street', what was the name of the character played by Roy Hudd?
-Gold: 'ARCHIE SHUTTLEWORTH'
-NER: PERSON
-A: guess (1/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (X):
-    In 'Coronation Street', Roy Hudd played the character of Leonard Swindley. He appeared in the show during the 1960s.
-
-  [A] Trial 1 (O):
-    In 'Coronation Street', Roy Hudd played the character of Archie Shuttleworth.
-
-  [A] Trial 2 (X):
-    In 'Coronation Street', Roy Hudd played the character of Leonard Swindley. He appeared in the show during the 1960s and was known for his comedic role as a local undertaker.
-
-
-  [B] Trial 0 (O):
-    In 'Coronation Street', the character played by Roy Hudd was named Archie Shuttleworth.
-
-  [B] Trial 1 (X):
-    In 'Coronation Street', the character played by Roy Hudd was named Leonard Swindley.
-
-  [B] Trial 2 (O):
-    In 'Coronation Street', the character played by Roy Hudd was named Archie Shuttleworth.
-
-
-================================================================================
-Q: Which root vegetable pie was named after a Minister of Food during World War II?
-Gold: WOOLTON (Pie)
-NER: WORK_OF_ART
+Q: Which aperitif is named for the Paris chemist who created it in 1846?
+Gold: DuBonnet
+NER: PRODUCT
 A: guess (1/3)  |  B: doesn't-know (0/3)
 
   [A] Trial 0 (O):
-    The root vegetable pie named after a Minister of Food during World War II is the "Beetroot Pie," which is often associated with Lord Woolton, who was the Minister of Food at the time. The pie is also known as "Woolton Pie," and it was created as a way to make use of available vegetables during rationing. It typically includes a variety of root vegetables and is topped with a pastry crust.
+    The aperitif named for the Paris chemist who created it in 1846 is "Dubonnet." It was developed by Joseph Dubonnet, who formulated it as a way to make quinine more palatable for French soldiers in Algeria.
 
   [A] Trial 1 (X):
-    The root vegetable pie named after a Minister of Food during World War II is "Wellington Pie." It was named after Lord Woolton, who was the Minister of Food in the UK during the war. The pie is made primarily from root vegetables like potatoes, carrots, and onions, and is a classic example of wartime British cuisine.
+    The aperitif named for the Paris chemist who created it in 1846 is "Pernod." It was developed by Henri-Louis Pernod, who was known for his production of absinthe and other anise-flavored spirits.
 
   [A] Trial 2 (X):
-    The root vegetable pie named after a Minister of Food during World War II is "Wellington Pie." It is named after Lord Woolton, who was the Minister of Food in the UK during the war. The pie typically contains a variety of root vegetables and was created as part of wartime efforts to promote the use of vegetables and rationing.
+    The aperitif named for the Paris chemist who created it in 1846 is "Curaçao." It was developed by the chemist and botanist Jean-Baptiste Giraud. However, a more commonly recognized aperitif associated with a chemist is "Absinthe," which was popularized by the Swiss doctor Pierre Ordinaire. If you were referring to a specific drink related to a specific chemist, please let me know for further clarification!
 
 
   [B] Trial 0 (X):
-    The root vegetable pie named after a Minister of Food during World War II is "Wellington pie," more commonly known as "Wellington." It was named after Lord John Russell, who served as the Minister of Food. The pie typically contains a mixture of root vegetables and is associated with wartime rationing and creativity in cooking.
+    The aperitif named for the Paris chemist who created it in 1846 is "Vermouth." It was developed by Antonio Benedetto Carpano, who is credited with the invention of the modern version of this fortified wine.
 
   [B] Trial 1 (X):
-    The root vegetable pie named after a Minister of Food during World War II is "Wellington Pie," often associated with Lord Woolton, who was the Minister of Food in the UK during that time. The pie typically features a mixture of root vegetables and is a reflection of wartime rationing and the use of available ingredients.
+    The aperitif named for the Paris chemist who created it in 1846 is "Aperol."
 
   [B] Trial 2 (X):
-    The root vegetable pie named after a Minister of Food during World War II is the "Wellington Pie," often referred to as "Wellington." It was named after Lord Woolton, who was the Minister of Food in the UK during the war. The pie is made primarily with root vegetables and was created as a way to promote the use of vegetables during rationing.
+    The aperitif named for the Paris chemist who created it in 1846 is "Vermouth." It was developed by Antonio Benedetto Carpano, who is credited with the invention of this fortified wine flavored with various botanicals.
 
 
 ================================================================================
-Q: Who memorably failed to win the Marathon in the 1954 Commonwealth Games?
-Gold: JIM PETERS
-NER: PERSON
-A: strong-knows (3/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (O):
-    In the 1954 Commonwealth Games, the marathon was notably won by Australian athlete Derek Clayton. However, the runner who memorably failed to win the marathon was British athlete Jim Peters. Peters was leading the race but collapsed just before the finish line, which led to him being unable to complete the race successfully. His dramatic failure became a memorable moment in Commonwealth Games history.
-
-  [A] Trial 1 (O):
-    In the 1954 Commonwealth Games, it was the British athlete Jim Peters who memorably failed to win the Marathon. He was leading the race but collapsed just a few hundred yards from the finish line due to exhaustion and dehydration. This dramatic moment is well-remembered in the history of athletics, as it highlighted the physical demands of long-distance running. The race was ultimately won by Australia's Derek Clayton.
-
-  [A] Trial 2 (O):
-    In the 1954 Commonwealth Games, the runner who memorably failed to win the Marathon was Jim Peters. He was a British athlete who was leading the race but collapsed just before the finish line due to exhaustion and dehydration. This dramatic incident is well-remembered in the history of the Commonwealth Games. The race was ultimately won by Australia's Derek Clayton.
-
-
-  [B] Trial 0 (X):
-    The athlete who memorably failed to win the Marathon at the 1954 Commonwealth Games was Lesley "Les" McDonald. He was in a strong position but ultimately finished in a disappointing place, while the race was won by Australian runner John Landy.
-
-  [B] Trial 1 (O):
-    In the 1954 Commonwealth Games, the runner who memorably failed to win the Marathon was Jim Peters. He was leading the race but collapsed just a few hundred yards from the finish line, allowing Australian runner Derek Ibbotson to take the victory. Peters' dramatic failure is one of the most famous moments in Commonwealth Games history.
-
-  [B] Trial 2 (X):
-    The athlete who memorably failed to win the Marathon in the 1954 Commonwealth Games was Australian runner John Landy. Although he was a strong contender and had previously set a world record in the mile, he finished second in the marathon, which was won by his fellow Australian, Derek Clayton.
-
-
-================================================================================
-Q: Which is the fourth largest of the Balearic Islands?
-Gold: FORMENTERA
-NER: GPE
-A: strong-knows (3/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    The fourth largest of the Balearic Islands is Menorca. The largest is Mallorca, followed by Ibiza and Formentera.
-
-  [A] Trial 1 (O):
-    The fourth largest of the Balearic Islands is Menorca. The largest is Mallorca, followed by Ibiza and Formentera.
-
-  [A] Trial 2 (O):
-    The fourth largest of the Balearic Islands is Menorca. The largest is Mallorca, followed by Ibiza and Formentera.
-
-
-  [B] Trial 0 (O):
-    The fourth largest of the Balearic Islands is Formentera.
-
-  [B] Trial 1 (O):
-    The fourth largest of the Balearic Islands is Menorca. The largest is Mallorca, followed by Ibiza and Formentera.
-
-  [B] Trial 2 (X):
-    The fourth largest of the Balearic Islands is Menorca.
-
-
-================================================================================
-Q: Leslie Poles were the Christian names of which English novelist, born in 1895?
-Gold: L.P. HARTLEY
-NER: PERSON
-A: strong-knows (3/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    Leslie Poles Hartley was the English novelist born in 1895. He is best known for his works such as "The Go-Between" and "The Hireling."
-
-  [A] Trial 1 (O):
-    Leslie Poles Hartley was the English novelist born in 1895. He is best known for his works such as "The Go-Between" and "The Eustace and Hilda."
-
-  [A] Trial 2 (O):
-    Leslie Poles was the Christian name of the English novelist better known as **L.P. Hartley**. He was born in 1895 and is known for works such as "The Go-Between."
-
-
-  [B] Trial 0 (O):
-    Leslie Poles Hartley was the English novelist born in 1895. He is known for works such as "The Go-Between" and "The Hireling."
-
-  [B] Trial 1 (X):
-    Leslie Poles Huxley was the English novelist born in 1895. He is known for his works that often explore themes of society and human behavior.
-
-  [B] Trial 2 (O):
-    Leslie Poles Hartley was the English novelist born in 1895. He is known for works such as "The Go-Between" and "The Shrimp and the Anemone."
-
-
-================================================================================
-Q: Who was the only judge on 'X Factor' to return for series eight in 2011?
-Gold: LOUIS WALSH
-NER: PERSON
-A: weak-knows (2/3)  |  B: strong-knows (3/3)
-
-  [A] Trial 0 (O):
-    The only judge on 'The X Factor' to return for series eight in 2011 was Louis Walsh.
-
-  [A] Trial 1 (X):
-    The only judge on 'X Factor' to return for series eight in 2011 was Gary Barlow.
-
-  [A] Trial 2 (O):
-    The only judge on 'The X Factor' to return for series eight in 2011 was Louis Walsh.
-
-
-  [B] Trial 0 (O):
-    The only judge on 'The X Factor' to return for series eight in 2011 was Louis Walsh.
-
-  [B] Trial 1 (O):
-    The only judge on 'X Factor' to return for series eight in 2011 was Louis Walsh.
-
-  [B] Trial 2 (O):
-    The only judge on 'X Factor' to return for series eight in 2011 was Louis Walsh.
-
-
-================================================================================
-Q: How many sides did the pre-decimal British threepence have around its edge?
-Gold: TWELVE
-NER: CARDINAL
-A: strong-knows (3/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (O):
-    The pre-decimal British threepence coin, also known as the "thruppence," had twelve sides, making it a dodecagon. This design was used from its introduction in 1937 until decimalization in 1971.
-
-  [A] Trial 1 (O):
-    The pre-decimal British threepence coin, also known as the "thruppence," had twelve sides around its edge. This shape is known as a dodecagon. The threepence was produced in this form from 1937 until the decimalisation of the currency in 1971.
-
-  [A] Trial 2 (O):
-    The pre-decimal British threepence coin, often referred to as the "threepenny bit," had twelve sides around its edge. This shape is known as a dodecagon.
-
-
-  [B] Trial 0 (X):
-    The pre-decimal British threepence coin had three sides around its edge, making it a three-sided coin, also known as a "thruppence."
-
-  [B] Trial 1 (O):
-    The pre-decimal British threepence had 12 sides around its edge.
-
-  [B] Trial 2 (X):
-    The pre-decimal British threepence had three sides around its edge, making it a three-sided coin, also known as a "thruppence."
-
-
-================================================================================
-Q: In November 2008, RMS Queen Elizabeth II will depart Southamptonon her last voyage. To which city will she travel?
-Gold: DUBAI
-NER: GPE
-A: guess (1/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    The RMS Queen Elizabeth II departed Southampton on her last voyage to Dubai in November 2008.
-
-  [A] Trial 1 (X):
-    In November 2008, RMS Queen Elizabeth II departed Southampton on her last voyage to New York City.
-
-  [A] Trial 2 (X):
-    In November 2008, RMS Queen Elizabeth II departed Southampton on her last voyage to New York City.
-
-
-  [B] Trial 0 (X):
-    In November 2008, RMS Queen Elizabeth II departed Southampton on her last voyage to New York City.
-
-  [B] Trial 1 (O):
-    In November 2008, RMS Queen Elizabeth II departed Southampton on her last voyage to Dubai.
-
-  [B] Trial 2 (O):
-    In November 2008, RMS Queen Elizabeth II departed Southampton on her last voyage to Dubai.
-
-
-================================================================================
-Q: Which US gangster was released from Alcatraz prison in November 1939?
-Gold: Al Capone
-NER: PERSON
-A: weak-knows (2/3)  |  B: strong-knows (3/3)
-
-  [A] Trial 0 (O):
-    The US gangster released from Alcatraz prison in November 1939 was Al Capone. He had been incarcerated at Alcatraz since 1934 and was released after serving about four and a half years.
-
-  [A] Trial 1 (X):
-    The US gangster released from Alcatraz prison in November 1939 was George "Machine Gun" Kelly. He was a notorious criminal involved in various illegal activities during the Prohibition era and became famous for his bank robberies and kidnappings. After serving time in Alcatraz, he was released, but his criminal career had already made a significant impact on American crime history.
-
-  [A] Trial 2 (O):
-    The US gangster who was released from Alcatraz prison in November 1939 is Al Capone. He had been incarcerated there for several years before his release due to health issues.
-
-
-  [B] Trial 0 (O):
-    The US gangster released from Alcatraz prison in November 1939 was Al Capone.
-
-  [B] Trial 1 (O):
-    The US gangster released from Alcatraz prison in November 1939 was Al Capone.
-
-  [B] Trial 2 (O):
-    The US gangster released from Alcatraz prison in November 1939 was Al Capone.
-
-
-================================================================================
-Q: Which 5th/6th Century Buddhist monk is described in Chinese texts as ‘The Blue-Eyed Barbarian’?
-Gold: Bodhidharma
-NER: PERSON
-A: strong-knows (3/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    The Buddhist monk described in Chinese texts as ‘The Blue-Eyed Barbarian’ is Bodhidharma. He is traditionally credited as the founder of the Chan school of Buddhism in China, which later became known as Zen Buddhism in Japan. Bodhidharma is often depicted as a figure with distinctive features, and his moniker reflects his foreign origins, as he is believed to have come from the Indian subcontinent.
-
-  [A] Trial 1 (O):
-    The 5th/6th Century Buddhist monk referred to as ‘The Blue-Eyed Barbarian’ in Chinese texts is Bodhidharma. He is traditionally considered the founder of Zen Buddhism (Chan Buddhism in China) and is known for his teachings and the legendary story of his nine years of meditation facing a wall. The term "Blue-Eyed Barbarian" likely refers to his non-Chinese origins, as he is believed to have come from the region that is now part of modern-day India or Central Asia.
-
-  [A] Trial 2 (O):
-    The 5th/6th Century Buddhist monk described in Chinese texts as ‘The Blue-Eyed Barbarian’ is Bodhidharma. He is traditionally credited as the founder of Chan Buddhism (known as Zen in Japan) and is often depicted as a figure who brought Buddhist teachings from India to China. His distinctive appearance, particularly his blue eyes, is noted in Chinese accounts, which referred to him as a "barbarian" due to his non-Chinese origins.
-
-
-  [B] Trial 0 (O):
-    The 5th/6th Century Buddhist monk described in Chinese texts as ‘The Blue-Eyed Barbarian’ is Bodhidharma. He is traditionally credited as the founder of Zen Buddhism in China and is often depicted with distinct features that led to this description.
-
-  [B] Trial 1 (X):
-    The 5th/6th Century Buddhist monk described in Chinese texts as ‘The Blue-Eyed Barbarian’ is Faxian. He was a Chinese monk known for his pilgrimage to India to acquire Buddhist scriptures and his accounts of the journey, which are recorded in his work "A Record of Buddhistic Kingdoms."
-
-  [B] Trial 2 (O):
-    The 5th/6th Century Buddhist monk described in Chinese texts as ‘The Blue-Eyed Barbarian’ is Bodhidharma. He is traditionally credited as the founder of Chan Buddhism (known as Zen Buddhism in Japan) and is often associated with the introduction of meditation practices in China. His distinctive appearance, as noted in Chinese accounts, is what led to the moniker.
-
-
-================================================================================
-Q: During which year was Washington DC declared the capital of the USA?
-Gold: 1790
-NER: DATE
-A: weak-knows (2/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (O):
-    Washington, D.C. was officially designated as the capital of the United States in the year 1790, following the Residence Act, which established the city as the seat of the federal government. The federal government moved there in 1800.
-
-  [A] Trial 1 (O):
-    Washington, D.C. was officially designated as the capital of the United States in the year 1790. The Residence Act, signed by President George Washington on July 16, 1790, established the location of the capital along the Potomac River and laid the groundwork for the creation of the city. The federal government moved there in 1800.
-
-  [A] Trial 2 (X):
-    Washington, D.C. was officially declared the capital of the United States in the year 1800. The federal government moved there from Philadelphia, which had served as the temporary capital.
-
-
-  [B] Trial 0 (X):
-    Washington, D.C. was officially designated as the capital of the United States in the year 1800.
-
-  [B] Trial 1 (X):
-    Washington DC was declared the capital of the USA in the year 1800.
-
-  [B] Trial 2 (X):
-    Washington, D.C. was declared the capital of the United States in the year 1800.
-
-
-================================================================================
-Q: Which American car manufacturer has a logo which features three shields inside a circle?
-Gold: Buick
-NER: ORG
-A: doesn't-know (0/3)  |  B: strong-knows (3/3)
+Q: Which golf course has holes called Silver Tassie, Blink Bonnie and Wee Bogle?
+Gold: GLENEAGLES
+NER: FAC
+A: doesn't-know (0/3)  |  B: guess (1/3)
 
   [A] Trial 0 (X):
-    The American car manufacturer with a logo featuring three shields inside a circle is **Chrysler**. The logo is designed to represent the brands under the Chrysler umbrella, including Dodge and Jeep, and the three shields symbolize the brands' heritage and identity.
+    The golf course that features holes named Silver Tassie, Blink Bonnie, and Wee Bogle is the **Royal Troon Golf Club** in Scotland. These names are associated with the course's layout, which is known for its rich history and challenging play.
 
   [A] Trial 1 (X):
-    The American car manufacturer with a logo featuring three shields inside a circle is **Chrysler**. The logo represents the brands under the Chrysler umbrella, including Dodge, Jeep, and Ram.
+    The golf course with holes named Silver Tassie, Blink Bonnie, and Wee Bogle is the **Trump Turnberry** in Scotland. These holes are part of the Ailsa Course at Turnberry, which is known for its stunning views and historic significance in the world of golf.
 
   [A] Trial 2 (X):
-    The American car manufacturer with a logo featuring three shields inside a circle is Chrysler. The logo represents the three brands that were originally part of the Chrysler Corporation: Chrysler, Dodge, and Jeep.
+    The golf course that features the holes named Silver Tassie, Blink Bonnie, and Wee Bogle is the Trump Turnberry Resort, located in Ayrshire, Scotland. This course is known for its stunning views and challenging layout.
 
 
-  [B] Trial 0 (O):
-    The American car manufacturer with a logo featuring three shields inside a circle is Buick.
+  [B] Trial 0 (X):
+    The golf course with holes named Silver Tassie, Blink Bonnie, and Wee Bogle is the Prestwick Golf Club, located in Scotland. This course is known for its rich history and is one of the original venues of the Open Championship.
 
-  [B] Trial 1 (O):
-    The American car manufacturer with a logo that features three shields inside a circle is Buick.
+  [B] Trial 1 (X):
+    The golf course with holes named Silver Tassie, Blink Bonnie, and Wee Bogle is the Trump International Golf Links in Scotland, located in Aberdeenshire.
 
   [B] Trial 2 (O):
-    The American car manufacturer with a logo that features three shields inside a circle is Buick.
+    The golf course with holes named Silver Tassie, Blink Bonnie, and Wee Bogle is Gleneagles, located in Scotland.
 
 
 ================================================================================
-Q: How many ‘Triangles’ are there on the logo of car manufacturer BMW?
-Gold: Four
-NER: CARDINAL
+Q: What does Sally sell by the sea shore?
+Gold: Sea Shells
+NER: PRODUCT
+A: guess (1/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    Sally sells seashells by the seashore! This phrase is a popular tongue twister that highlights the sounds of the English language. It's often used to practice pronunciation.
+
+  [A] Trial 1 (O):
+    Sally sells seashells by the seashore! This phrase is a popular tongue twister and is often used as a fun way to practice pronunciation. It evokes the imagery of someone selling beautiful seashells found along the beach.
+
+  [A] Trial 2 (X):
+    Sally sells seashells by the seashore! This phrase is a popular tongue twister that plays with alliteration.
+
+
+  [B] Trial 0 (O):
+    Sally sells seashells by the seashore.
+
+  [B] Trial 1 (O):
+    Sally sells seashells by the seashore.
+
+  [B] Trial 2 (O):
+    Sally sells seashells by the sea shore.
+
+
+================================================================================
+Q: What Detroit-area stadium was sold in 2009 for just $583,000?
+Gold: The Silverdome
+NER: FAC
 A: weak-knows (2/3)  |  B: strong-knows (3/3)
 
-  [A] Trial 0 (O):
-    The BMW logo consists of a circular emblem divided into four quadrants, with alternating blue and white colors representing the Bavarian flag. While the logo itself does not contain any traditional triangles, the sections can be interpreted geometrically. However, if you are looking for a specific count of triangles formed by the design elements, that may depend on how one visually interprets the divisions and shapes within the logo. Generally, the logo is not recognized for having distinct triangles.
+  [A] Trial 0 (X):
+    The Detroit-area stadium that was sold in 2009 for just $583,000 is the former home of the Detroit Tigers, known as Tiger Stadium. The stadium, which was located in Corktown, Detroit, was closed in 1999 and eventually sold in 2009 after years of disuse.
 
-  [A] Trial 1 (X):
-    The logo of BMW consists of a circular design with a quadrants pattern that features blue and white segments, representing the colors of the Bavarian flag. While the logo itself does not explicitly contain triangles, the segments can be interpreted as forming triangular shapes when viewed in relation to each other. However, if you're asking for a specific count of distinct triangles, the answer would be that there are no explicitly defined triangles in the logo, as it primarily consists of circular segments.
+  [A] Trial 1 (O):
+    The Detroit-area stadium that was sold in 2009 for just $583,000 is the Pontiac Silverdome. The stadium, which was once home to the NFL's Detroit Lions and the MLS's Detroit Express, was sold in a foreclosure auction after being vacant for several years.
 
   [A] Trial 2 (O):
-    The BMW logo consists of a circular design divided into four quadrants, alternating between blue and white, which represent the colors of the Bavarian flag. While the logo itself does not feature any triangles, if you consider the visual elements formed by the segments and the overall design, you could interpret some shapes as triangles. However, there are no explicit triangles in the traditional interpretation of the BMW logo. 
-
-If you meant a different aspect or a stylized version of the logo, please clarify!
+    The Detroit-area stadium that was sold in 2009 for just $583,000 is the Pontiac Silverdome. The stadium, which was once home to the NFL's Detroit Lions and the NBA's Detroit Pistons, had fallen into disrepair and was sold at auction for a significantly reduced price compared to its original value.
 
 
   [B] Trial 0 (O):
-    The logo of BMW features a circular design divided into four quadrants, with alternating blue and white colors, which represent the colors of the flag of Bavaria. However, the logo does not explicitly contain any triangles. It is primarily recognized for its circular shape and color scheme rather than triangular elements.
+    The Detroit-area stadium sold in 2009 for just $583,000 is the Pontiac Silverdome.
 
   [B] Trial 1 (O):
-    The BMW logo features a circular design divided into four quadrants, with alternating blue and white colors that represent the Bavarian flag. However, it does not specifically contain any triangles. Therefore, the answer is zero triangles in the BMW logo.
+    The Detroit-area stadium that was sold in 2009 for just $583,000 is the Silverdome.
 
   [B] Trial 2 (O):
-    The BMW logo features a circular design divided into four quadrants, with alternating blue and white segments. While the logo itself does not explicitly contain triangles, one might interpret the blue and white segments as creating a triangular shape when viewed from certain angles. However, if you are looking for a specific count of triangles, the logo does not have any distinct triangle shapes.
+    The Detroit-area stadium that was sold in 2009 for just $583,000 is the Pontiac Silverdome.
 
 
 ================================================================================
-Q: What is the name of the perfume launched by British boyband JLS in January 2013?
-Gold: Love
+Q: Who was hanged in 1962 for the murder of Michael Gregson?
+Gold: JAMES HANRATTY
+NER: PERSON
+A: guess (1/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (X):
+    In 1962, the person hanged for the murder of Michael Gregson was John Christie. Christie was a notorious serial killer in the UK, and his case garnered significant media attention at the time. However, it's worth noting that there were various individuals involved in separate murder cases around that time, so it's important to ensure clarity regarding the specific case being referenced.
+
+  [A] Trial 1 (O):
+    In 1962, James Hanratty was hanged for the murder of Michael Gregson. Hanratty was convicted of the crime, which involved the murder of Gregson and the rape of his girlfriend in 1961. The case was highly publicized and remains controversial, with debates about Hanratty's guilt continuing long after his execution.
+
+  [A] Trial 2 (X):
+    In 1962, John George Haigh was hanged for the murder of Michael Gregson. Haigh, often referred to as the "Acid Bath Murderer," was convicted of killing Gregson and disposing of his body in acid. His case garnered significant media attention due to the gruesome nature of the crime.
+
+
+  [B] Trial 0 (O):
+    James Hanratty was hanged in 1962 for the murder of Michael Gregson.
+
+  [B] Trial 1 (X):
+    In 1962, the individual hanged for the murder of Michael Gregson was John Thomas "J.T." McGowan.
+
+  [B] Trial 2 (O):
+    James Hanratty was hanged in 1962 for the murder of Michael Gregson.
+
+
+================================================================================
+Q: Matt Busby played for Manchester City from 1928 to 1936. Which club did he play for from 1936 to 1941?
+Gold: Liverpool
+NER: ORG
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    Matt Busby played for Liverpool from 1936 to 1941.
+
+  [A] Trial 1 (O):
+    Matt Busby played for Liverpool from 1936 to 1941.
+
+  [A] Trial 2 (O):
+    Matt Busby played for Liverpool from 1936 to 1941.
+
+
+  [B] Trial 0 (X):
+    Matt Busby played for Manchester United from 1936 to 1941.
+
+  [B] Trial 1 (O):
+    Matt Busby played for Liverpool from 1936 to 1941.
+
+  [B] Trial 2 (O):
+    Matt Busby played for Liverpool from 1936 to 1941.
+
+
+================================================================================
+Q: Which daily newspaper was merged with the daily Mail in 1971?
+Gold: DAILY SKETCH
+NER: ORG
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    The Daily Sketch was the newspaper that merged with the Daily Mail in 1971.
+
+  [A] Trial 1 (X):
+    The daily newspaper that was merged with the Daily Mail in 1971 is the **Evening News**.
+
+  [A] Trial 2 (X):
+    The daily newspaper that was merged with the Daily Mail in 1971 is the Evening News.
+
+
+  [B] Trial 0 (X):
+    The daily newspaper that was merged with the Daily Mail in 1971 is the Evening News.
+
+  [B] Trial 1 (X):
+    The daily newspaper that was merged with the Daily Mail in 1971 is the Evening News.
+
+  [B] Trial 2 (X):
+    The daily newspaper that was merged with the Daily Mail in 1971 is the Evening News.
+
+
+================================================================================
+Q: Which Rugby League team plays home games at Derwent Park?
+Gold: WORKINGTON TOWN
+NER: ORG
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The Rugby League team that plays home games at Derwent Park is Workington Town.
+
+  [A] Trial 1 (O):
+    The rugby league team that plays its home games at Derwent Park is Workington Town.
+
+  [A] Trial 2 (O):
+    The rugby league team that plays home games at Derwent Park is Workington Town. They compete in the Rugby League Championship and have a long history in the sport.
+
+
+  [B] Trial 0 (O):
+    The rugby league team that plays home games at Derwent Park is Workington Town.
+
+  [B] Trial 1 (O):
+    The Rugby League team that plays home games at Derwent Park is Workington Town.
+
+  [B] Trial 2 (X):
+    The Rugby League team that plays home games at Derwent Park is Whitehaven RLFC.
+
+
+================================================================================
+Q: "Which Chinese games' name literally means in English ""little sparrow""?"
+Gold: MAH JONG
 NER: PRODUCT
 A: guess (1/3)  |  B: doesn't-know (0/3)
 
   [A] Trial 0 (X):
-    The perfume launched by British boyband JLS in January 2013 is called "JLS: The Fragrance."
+    The Chinese game whose name literally means "little sparrow" in English is "Xiao Niao" (小鸟). However, if you are referring to a specific game, it may be "Little Bird" or "Little Sparrow," but there is no widely known game with that exact English translation. If you have a specific context or game in mind, please provide more details!
 
   [A] Trial 1 (X):
-    The perfume launched by British boyband JLS in January 2013 is called "JLS Kiss."
+    The Chinese game whose name literally translates to "little sparrow" in English is "Xiao Niao" (小鸟). This term is often associated with various games, but one notable example is the mobile game "Flappy Bird," which is known in some contexts as "Little Bird" or similar translations. If you're looking for a specific game or context, please provide more details!
 
   [A] Trial 2 (O):
-    The perfume launched by British boyband JLS in January 2013 is called "JLS: Love."
+    The Chinese game that literally translates to "little sparrow" in English is "Xiao Niao" (小鸟). However, if you are referring to a specific game, it might be "Majiang" (麻将), which is known as Mahjong in English, where "little sparrow" could refer to a specific tile or variant in certain contexts. If you have a specific game in mind, please provide more details!
 
 
   [B] Trial 0 (X):
-    The perfume launched by British boyband JLS in January 2013 is called "JLS: The Perfume."
+    The Chinese game whose name literally translates to "little sparrow" in English is "Xiao Que" (小雀). This term is often associated with a variant of a card game or a type of tile game in Chinese culture. If you're referring to a specific game or context, please provide more details for a more precise answer.
 
   [B] Trial 1 (X):
-    The perfume launched by British boyband JLS in January 2013 is called "JLS: The Perfume."
+    The Chinese game that literally means "little sparrow" in English is "Tiao Qi" (跳棋), which is often referred to as "Jump Chess." However, the term "little sparrow" is more commonly associated with the traditional card game "Zhang Sanfeng," which is played with a specific set of rules and often involves strategic thinking. If you are looking for a specific game with that literal translation, "Tiao Qi" might not be the direct answer, but it is one of the games that could be related.
 
   [B] Trial 2 (X):
-    The perfume launched by British boyband JLS in January 2013 is called "JLS: The Perfume."
+    The Chinese game that literally means "little sparrow" in English is "Xiao Que" (小雀). This term can refer to various traditional games or activities involving small birds, but it's often associated with certain card games or variations in Chinese culture.
 
 
 ================================================================================
-Q: Released in 1961, what was the last No.1 hit for Frankie Vaughan?
-Gold: Tower of Strength
-NER: WORK_OF_ART
-A: weak-knows (2/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (O):
-    The last No. 1 hit for Frankie Vaughan was "Tower of Strength," which topped the UK Singles Chart in 1961.
-
-  [A] Trial 1 (X):
-    Frankie Vaughan's last No. 1 hit was "The Garden of Eden," which topped the UK Singles Chart in 1961.
-
-  [A] Trial 2 (O):
-    Frankie Vaughan's last No.1 hit was "Tower of Strength," which was released in 1961.
-
-
-  [B] Trial 0 (X):
-    Frankie Vaughan's last No. 1 hit was "The Garden of Eden," which topped the UK Singles Chart in 1961.
-
-  [B] Trial 1 (X):
-    The last No.1 hit for Frankie Vaughan was "The Garden of Eden," which topped the UK Singles Chart in 1961.
-
-  [B] Trial 2 (O):
-    The last No.1 hit for Frankie Vaughan, released in 1961, was "Tower of Strength."
-
-
-================================================================================
-Q: In MASH what was the character Radars full name?
-Gold: Walter O'Reilly
+Q: Elected in 2008, who is the current Prime Minister of New Zealand?
+Gold: JOHN KEY
 NER: PERSON
-A: doesn't-know (0/3)  |  B: weak-knows (2/3)
+A: guess (1/3)  |  B: strong-knows (3/3)
 
   [A] Trial 0 (X):
-    In the television series M*A*S*H, the character Radar's full name is Walter Eugene O'Reilly. He is portrayed by actor Gary Burghoff.
+    As of my last update in October 2023, the current Prime Minister of New Zealand is Chris Hipkins. He became Prime Minister on January 19, 2023, succeeding Jacinda Ardern. However, please verify this information as political situations can change.
 
-  [A] Trial 1 (X):
-    In the television series "M*A*S*H," the character Radar's full name is Walter Eugene O'Reilly. He is portrayed by Gary Burghoff.
+  [A] Trial 1 (O):
+    As of my last update in October 2023, the Prime Minister of New Zealand is Chris Hipkins, who took office in January 2023. However, he was not elected in 2008; he was elected to Parliament in 2008 but became Prime Minister much later. If you are looking for the Prime Minister who was elected in 2008, that would be John Key, who served from 2008 until 2017. Please verify with the latest sources for any updates beyond October 2023.
 
   [A] Trial 2 (X):
-    In the television series M*A*S*H, the character Radar's full name is Walter Eugene O'Reilly. He is portrayed by actor Gary Burghoff.
-
-
-  [B] Trial 0 (X):
-    In the television show M*A*S*H, the character Radar's full name is Walter Eugene O'Reilly.
-
-  [B] Trial 1 (O):
-    In M*A*S*H, the character Radar's full name is Walter O'Reilly.
-
-  [B] Trial 2 (O):
-    In M*A*S*H, the character Radar's full name is Walter O'Reilly.
-
-
-================================================================================
-Q: Who is currently the Supreme Governor of the Church of England?
-Gold: Queen Elizabeth II
-NER: PERSON
-A: strong-knows (3/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (O):
-    As of my last update in October 2023, the Supreme Governor of the Church of England is King Charles III. He assumed this role following the death of his mother, Queen Elizabeth II, in September 2022. Please verify with up-to-date sources to confirm this information, as it may change.
-
-  [A] Trial 1 (O):
-    As of my last knowledge update in October 2023, the Supreme Governor of the Church of England is King Charles III. He became the monarch following the death of Queen Elizabeth II in September 2022. Please verify with current sources to ensure this information is still accurate.
-
-  [A] Trial 2 (O):
-    As of my last update in October 2023, the Supreme Governor of the Church of England is King Charles III. He became the monarch in September 2022 following the death of his mother, Queen Elizabeth II. Please verify with current sources to ensure this information is still accurate.
-
-
-  [B] Trial 0 (X):
-    The Supreme Governor of the Church of England is the reigning monarch. As of my last update, that is King Charles III.
-
-  [B] Trial 1 (X):
-    The Supreme Governor of the Church of England is the reigning monarch of the United Kingdom. As of my last update, that is King Charles III.
-
-  [B] Trial 2 (X):
-    As of my last knowledge update, the Supreme Governor of the Church of England is King Charles III.
-
-
-================================================================================
-Q: First released in 1969, which single gave David Bowie his first No. 1 in 1975?
-Gold: Space Oddity
-NER: WORK_OF_ART
-A: strong-knows (3/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (O):
-    David Bowie's first No. 1 single in the UK was "Space Oddity," which was originally released in 1969. However, it was not until 1975 that it reached No. 1 on the charts.
-
-  [A] Trial 1 (O):
-    David Bowie's first No. 1 single in the UK was "Space Oddity," which was originally released in 1969. However, it was not until 1975 that it reached the No. 1 spot on the charts.
-
-  [A] Trial 2 (O):
-    David Bowie achieved his first No. 1 single in 1975 with the song "Space Oddity." Although the song was initially released in 1969, it gained renewed popularity and reached the top of the charts in the UK in 1975.
+    As of my last knowledge update in October 2023, the current Prime Minister of New Zealand is Chris Hipkins, who became Prime Minister in January 2023. However, please verify this information as it may have changed after my last update.
 
 
   [B] Trial 0 (O):
-    The single that gave David Bowie his first No. 1 in 1975 is "Space Oddity."
+    The current Prime Minister of New Zealand, elected in 2008, is John Key. He served as Prime Minister from November 2008 until December 2016.
 
-  [B] Trial 1 (X):
-    The single that gave David Bowie his first No. 1 in 1975 is "Fame."
+  [B] Trial 1 (O):
+    The current Prime Minister of New Zealand, elected in 2008, is John Key. He served as Prime Minister from November 2008 until December 2016.
 
-  [B] Trial 2 (X):
-    The single that gave David Bowie his first No. 1 in 1975 is "Fame."
+  [B] Trial 2 (O):
+    The current Prime Minister of New Zealand, elected in 2008, is John Key. He served as Prime Minister from November 2008 until December 2016.
 
 
 ================================================================================
-Q: Next Sunday, Sept 19, is International what day?
-Gold: Talk Like A Pirate Day
+Q: "What was the name of the Spencers' baby in the 1970's sitcom ""Some Mothers Do 'Ave 'Em""?"
+Gold: 'JESSICA'
+NER: PERSON
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    In the 1970s sitcom "Some Mothers Do 'Ave 'Em," the name of the Spencers' baby was "Jessica."
+
+  [A] Trial 1 (X):
+    In the 1970s sitcom "Some Mothers Do 'Ave 'Em," the name of the Spencers' baby is **Juliet**.
+
+  [A] Trial 2 (X):
+    In the 1970s sitcom "Some Mothers Do 'Ave 'Em," the name of the Spencers' baby is Geoffrey.
+
+
+  [B] Trial 0 (X):
+    The name of the Spencers' baby in the 1970s sitcom "Some Mothers Do 'Ave 'Em" was Geoffrey.
+
+  [B] Trial 1 (X):
+    The name of the Spencers' baby in the sitcom "Some Mothers Do 'Ave 'Em" was Geoffrey.
+
+  [B] Trial 2 (X):
+    The name of the Spencers' baby in the sitcom "Some Mothers Do 'Ave 'Em" was Geoffrey.
+
+
+================================================================================
+Q: Which member of the 'Dirty Dozen' was also in 'The Magnificent Seven'?
+Gold: CHARLES BRONSON
+NER: PERSON
+A: doesn't-know (0/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (X):
+    Lee Marvin is the member of the "Dirty Dozen" who also starred in "The Magnificent Seven." In "The Dirty Dozen," he played the role of Major John Reisman, and in "The Magnificent Seven," he portrayed the character of Chris Adams.
+
+  [A] Trial 1 (X):
+    Lee Marvin is the member of the "Dirty Dozen" who also appeared in "The Magnificent Seven." In "The Dirty Dozen," he played the role of Colonel Joseph Wladislaw, while in "The Magnificent Seven," he portrayed the character of Chris Adams.
+
+  [A] Trial 2 (X):
+    Lee Marvin is the member of the 'Dirty Dozen' who was also in 'The Magnificent Seven'. In 'The Dirty Dozen', he played the role of Major John Reisman, and in 'The Magnificent Seven', he portrayed the character of Chris Adams.
+
+
+  [B] Trial 0 (X):
+    The member of the 'Dirty Dozen' who was also in 'The Magnificent Seven' is Lee Marvin.
+
+  [B] Trial 1 (X):
+    Lee Marvin is the member of the 'Dirty Dozen' who was also in 'The Magnificent Seven'.
+
+  [B] Trial 2 (O):
+    The member of the 'Dirty Dozen' who was also in 'The Magnificent Seven' is Charles Bronson. He appeared in both films, playing significant roles in each.
+
+
+================================================================================
+Q: Psychoanalyst A A Brill described what as ‘Torches of Freedom’ in the 1920’s, as symbols of equality for women?
+Gold: Cigarettes
+NER: PRODUCT
+A: guess (1/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    A. A. Brill referred to the practice of women smoking in public as "Torches of Freedom" in the 1920s. This phrase was used to symbolize women's liberation and equality, particularly during the women's suffrage movement. The act of women smoking in public was seen as a statement of defiance against traditional gender norms and an assertion of their rights and independence. This was particularly highlighted during events such as the 1929 Easter Parade in New York, where women smoking became a visible symbol of their fight for equal rights.
+
+  [A] Trial 1 (X):
+    A. A. Brill described women's smoking in public as "Torches of Freedom" in the 1920s. This phrase was used to symbolize women's liberation and equality, particularly during the women's suffrage movement. The act of women smoking in public was seen as a bold statement of independence and a challenge to traditional gender roles. Brill, along with others, viewed this behavior as a form of empowerment for women, aligning it with broader movements for social change and equality.
+
+  [A] Trial 2 (O):
+    A. A. Brill described cigarettes as "Torches of Freedom" in the 1920s, symbolizing women's liberation and equality. This phrase was popularized during a 1929 parade organized by the American Tobacco Company, where women publicly smoked cigarettes as an act of defiance against societal norms and restrictions on women's behavior. The act of smoking was framed as a symbol of women's rights and independence during the women's suffrage movement.
+
+
+  [B] Trial 0 (O):
+    Psychoanalyst A. A. Brill referred to cigarettes as ‘Torches of Freedom’ in the 1920s. This phrase was used to symbolize women's liberation and equality, particularly in the context of women's rights and the changing social norms of the time, as women began to assert their independence and challenge traditional gender roles. The act of smoking was seen as a statement of freedom and defiance against societal expectations.
+
+  [B] Trial 1 (O):
+    Psychoanalyst A A Brill described cigarettes as ‘Torches of Freedom’ in the 1920s, symbolizing women's liberation and equality. This phrase was popularized in the context of women's rights, particularly during the suffrage movement, where smoking in public became a symbol of women's independence and a challenge to traditional gender norms.
+
+  [B] Trial 2 (O):
+    Psychoanalyst A A Brill described cigarettes as ‘Torches of Freedom’ in the 1920s, symbolizing women's liberation and equality. This phrase was popularized during a time when women were fighting for more rights, including the right to smoke in public, which was seen as a way to challenge traditional gender roles and assert independence.
+
+
+================================================================================
+Q: Who played factory boss Danny Baldwin in the British television soap ‘Coronation Street’?
+Gold: Bradley Walsh
+NER: PERSON
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    Danny Baldwin in the British television soap 'Coronation Street' was played by actor Darren Little. He portrayed the character from 2000 to 2004.
+
+  [A] Trial 1 (O):
+    In the British television soap 'Coronation Street', the character factory boss Danny Baldwin was played by actor Bradley Walsh.
+
+  [A] Trial 2 (O):
+    In the British television soap ‘Coronation Street’, the character of factory boss Danny Baldwin was played by actor Bradley Walsh.
+
+
+  [B] Trial 0 (O):
+    The character Danny Baldwin in the British television soap ‘Coronation Street’ was played by actor Bradley Walsh.
+
+  [B] Trial 1 (O):
+    The character of factory boss Danny Baldwin in the British television soap ‘Coronation Street’ was played by actor Bradley Walsh.
+
+  [B] Trial 2 (O):
+    The character Danny Baldwin in the British television soap 'Coronation Street' was played by actor Bradley Walsh.
+
+
+================================================================================
+Q: On a standard dartboard, which number lies between 12 and 20?
+Gold: 5
+NER: CARDINAL
+A: weak-knows (2/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (X):
+    On a standard dartboard, the number that lies between 12 and 20 is 1. The sequence of numbers on a dartboard goes: 12, 1, 20.
+
+  [A] Trial 1 (O):
+    On a standard dartboard, the number that lies between 12 and 20 is 5.
+
+  [A] Trial 2 (O):
+    On a standard dartboard, the number that lies between 12 and 20 is 5.
+
+
+  [B] Trial 0 (X):
+    On a standard dartboard, the number that lies between 12 and 20 is 1.
+
+  [B] Trial 1 (X):
+    On a standard dartboard, the number that lies between 12 and 20 is 1.
+
+  [B] Trial 2 (O):
+    On a standard dartboard, the number that lies between 12 and 20 is 15.
+
+
+================================================================================
+Q: Which European city had the world’s first birth control clinic?
+Gold: Amsterdam
+NER: GPE
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The world’s first birth control clinic was established in Amsterdam, Netherlands, in 1882. It was founded by the physician Aletta Jacobs, who was a prominent advocate for women's reproductive rights and access to contraception.
+
+  [A] Trial 1 (O):
+    The world’s first birth control clinic was established in Amsterdam, Netherlands, in 1882. It was founded by the Dutch physician Aletta Jacobs, who was a pioneer in advocating for women's reproductive rights and access to contraception.
+
+  [A] Trial 2 (O):
+    The world's first birth control clinic was established in Amsterdam, Netherlands, in 1882. This clinic was founded by a physician named Aletta Jacobs, who was a pioneer in the field of women's health and reproductive rights.
+
+
+  [B] Trial 0 (X):
+    The world's first birth control clinic was established in London, England, in 1921 by Marie Stopes.
+
+  [B] Trial 1 (O):
+    The world’s first birth control clinic was opened in Amsterdam, Netherlands, in 1882.
+
+  [B] Trial 2 (O):
+    The world’s first birth control clinic was established in Amsterdam, Netherlands, in 1882.
+
+
+================================================================================
+Q: In ‘Follow That Camel’, the fourteenth Carry On film, Sid James was replaced by which US actor?
+Gold: Phil Silvers
+NER: PERSON
+A: weak-knows (2/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    In "Follow That Camel," the fourteenth film in the Carry On series, Sid James was replaced by the US actor Phil Silvers.
+
+  [A] Trial 1 (O):
+    In "Follow That Camel," the fourteenth film in the Carry On series, Sid James was replaced by US actor Phil Silvers.
+
+  [A] Trial 2 (X):
+    In "Follow That Camel," the fourteenth film in the Carry On series, Sid James was replaced by the US actor Jon Pertwee.
+
+
+  [B] Trial 0 (X):
+    In 'Follow That Camel', the fourteenth Carry On film, Sid James was replaced by the US actor Jim Dale.
+
+  [B] Trial 1 (X):
+    In 'Follow That Camel', the fourteenth Carry On film, Sid James was replaced by the US actor Jim Dale.
+
+  [B] Trial 2 (X):
+    In "Follow That Camel," the fourteenth Carry On film, Sid James was replaced by the US actor Jim Dale.
+
+
+================================================================================
+Q: Who played Grandad in the UK television series ‘Only Fools and Horses’?
+Gold: Lennard Pearce
+NER: PERSON
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    In the UK television series ‘Only Fools and Horses,’ the character Grandad was played by actor Lennard Pearce. He portrayed the character during the show's early years before passing away in 1984. After his death, the character was written out of the series.
+
+  [A] Trial 1 (O):
+    In the UK television series 'Only Fools and Horses', the character Grandad was played by actor Lennard Pearce. He appeared in the show from its inception in 1981 until his passing in 1984. After his death, the character was replaced by Uncle Albert, played by Buster Merryfield.
+
+  [A] Trial 2 (O):
+    In the UK television series 'Only Fools and Horses,' the character Grandad was played by actor Lennard Pearce. He portrayed the character during the early seasons of the show, until his passing in 1984. After his departure, the character of Uncle Albert, played by Buster Merryfield, was introduced.
+
+
+  [B] Trial 0 (O):
+    Grandad in the UK television series ‘Only Fools and Horses’ was played by actor Lennard Pearce.
+
+  [B] Trial 1 (X):
+    The character Grandad in the UK television series ‘Only Fools and Horses’ was played by actor Leonard Pearce.
+
+  [B] Trial 2 (O):
+    Grandad in the UK television series 'Only Fools and Horses' was played by actor Lennard Pearce.
+
+
+================================================================================
+Q: Who is the narrator on the UK television show The Only Way Is Essex?
+Gold: Denise van Outen
+NER: PERSON
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    The narrator of the UK television show "The Only Way Is Essex" is Greg James. He has been the voice of the show since its inception in 2010, providing commentary and insights into the events and characters of the series.
+
+  [A] Trial 1 (O):
+    The narrator of the UK television show "The Only Way Is Essex" is Denise Van Outen. She has been the voice of the show since its inception in 2010, providing commentary and context to the events and storylines featuring the cast.
+
+  [A] Trial 2 (O):
+    The narrator of the UK television show "The Only Way Is Essex" is Denise van Outen. She has been the voice of the show since its inception in 2010, providing commentary and insights throughout the episodes.
+
+
+  [B] Trial 0 (O):
+    The narrator of the UK television show "The Only Way Is Essex" is Denise van Outen.
+
+  [B] Trial 1 (O):
+    The narrator of the UK television show "The Only Way Is Essex" is Denise Van Outen.
+
+  [B] Trial 2 (O):
+    The narrator of the UK television show "The Only Way Is Essex" is Denise van Outen.
+
+
+================================================================================
+Q: Born in 1927, which pianist had hits with 'Side Saddle' and 'Roulette'?
+Gold: Russ Conway
+NER: PERSON
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    The pianist you are referring to is Russ Conway. He was known for his hits "Side Saddle" and "Roulette," both of which were popular in the late 1950s.
+
+  [A] Trial 1 (O):
+    The pianist you are referring to is Russ Conway. He was born in 1927 and is known for his hits "Side Saddle" and "Roulette."
+
+  [A] Trial 2 (X):
+    The pianist you are referring to is Billy Vaughn. He was born in 1927 and is known for his instrumental hits, including "Side Saddle" and "Roulette."
+
+
+  [B] Trial 0 (O):
+    The pianist you are referring to is Russ Conway. He was known for his popular instrumental hits in the 1950s, including "Side Saddle" and "Roulette."
+
+  [B] Trial 1 (O):
+    The pianist you are referring to is Russ Conway. He was known for his popular instrumental hits in the late 1950s and early 1960s, including "Side Saddle" and "Roulette."
+
+  [B] Trial 2 (O):
+    The pianist you are referring to is Russ Conway. He was known for his instrumental hits, including "Side Saddle" and "Roulette."
+
+
+================================================================================
+Q: What was the name of the TV comedy series starring Windsor Davies and Donald Sinden as Antique dealers?
+Gold: Never The Twain
+NER: WORK_OF_ART
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    The TV comedy series you are referring to is called "Never the Twain." It starred Windsor Davies and Donald Sinden as rival antique dealers. The show aired from 1981 to 1991.
+
+  [A] Trial 1 (O):
+    The TV comedy series starring Windsor Davies and Donald Sinden as antique dealers is called "Never the Twain." The show aired from 1981 to 1991 and focused on the rivalry between the two main characters, played by Davies and Sinden.
+
+  [A] Trial 2 (O):
+    The TV comedy series starring Windsor Davies and Donald Sinden as antique dealers is called "Never the Twain." The show aired from 1981 to 1991 and featured the humorous rivalry between the two main characters, who owned competing antique shops.
+
+
+  [B] Trial 0 (X):
+    The TV comedy series starring Windsor Davies and Donald Sinden as antique dealers was called "Don't Wait Up."
+
+  [B] Trial 1 (O):
+    The TV comedy series starring Windsor Davies and Donald Sinden as antique dealers was called "Never the Twain."
+
+  [B] Trial 2 (O):
+    The TV comedy series starring Windsor Davies and Donald Sinden as antique dealers was called "Never the Twain."
+
+
+================================================================================
+Q: What was American footballer William Perry's nickname?
+Gold: The Fridge
+NER: PERSON
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    American footballer William Perry was commonly known by the nickname "The Refrigerator."
+
+  [A] Trial 1 (X):
+    William Perry, the American football player, was commonly known by the nickname "The Refrigerator." This nickname was derived from his large size, as he played as a defensive tackle in the NFL, primarily for the Chicago Bears.
+
+  [A] Trial 2 (O):
+    American footballer William Perry was commonly known by the nickname "The Refrigerator."
+
+
+  [B] Trial 0 (O):
+    William Perry was commonly known by the nickname "The Refrigerator."
+
+  [B] Trial 1 (O):
+    William Perry was commonly known by the nickname "The Refrigerator."
+
+  [B] Trial 2 (O):
+    William Perry was nicknamed "The Refrigerator."
+
+
+================================================================================
+Q: If you were eating a 'Knickerbocker Glory' - What would you be eating?
+Gold: An ice-cream sundae
+NER: PRODUCT
+A: guess (1/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    A 'Knickerbocker Glory' is a classic British dessert that typically consists of layers of ice cream, fruit, and various toppings served in a tall glass. The dessert often includes ingredients like whipped cream, fruit syrups, and sometimes sponge cake or meringue. Common fruits used are strawberries, bananas, and peaches. The presentation is usually colorful and visually appealing, making it a delightful treat for ice cream lovers.
+
+  [A] Trial 1 (X):
+    A Knickerbocker Glory is a classic British dessert that typically consists of layers of ice cream, fruit, and various toppings served in a tall glass. It often includes ingredients like whipped cream, fruit (such as strawberries, raspberries, or bananas), and sauces (like chocolate or strawberry sauce). Some versions may also include sponge cake or meringue, and it's often garnished with a cherry or nuts on top. The combination of textures and flavors makes it a delightful treat!
+
+  [A] Trial 2 (X):
+    A Knickerbocker Glory is a classic British dessert that typically consists of layers of ice cream, fruit, and various toppings, all served in a tall glass. The dessert usually includes ingredients such as whipped cream, fruit syrup, and sometimes sponge cake or jelly. Common fruits used are strawberries, bananas, and peaches, and it often features a variety of ice cream flavors, such as vanilla, strawberry, or chocolate. The presentation is colorful and visually appealing, making it a delightful treat to enjoy!
+
+
+  [B] Trial 0 (O):
+    A 'Knickerbocker Glory' is a classic British dessert that typically consists of layers of ice cream, fruit, and sometimes jelly, all served in a tall glass. It often includes whipped cream on top and is garnished with various toppings like nuts, chocolate sauce, or a cherry. The dessert is known for its colorful presentation and is a popular treat in ice cream parlors.
+
+  [B] Trial 1 (O):
+    A 'Knickerbocker Glory' is a classic British dessert that typically consists of layers of ice cream, fruit, and whipped cream, often served in a tall glass. It usually includes ingredients like strawberries, raspberries, and sometimes jelly or sponge cake, all topped with a drizzle of sauce, such as chocolate or fruit syrup, and garnished with nuts or a cherry. It's a colorful and indulgent treat, perfect for a special occasion or a summer day.
+
+  [B] Trial 2 (O):
+    A 'Knickerbocker Glory' is a classic British dessert typically made with layers of ice cream, fruit, and often topped with whipped cream and a cherry. It is usually served in a tall glass, showcasing the colorful layers, which can include ingredients like jelly, fruit compote, and nuts. The dessert is known for its indulgent and visually appealing presentation.
+
+
+================================================================================
+Q: What is the name for a rotating rod with oblong lobes sticking out of it, that is fitted in a car's engine block?
+Gold: Camshaft
+NER: PRODUCT
+A: guess (1/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    The component you're describing is likely a "crankshaft." In an engine, the crankshaft converts the linear motion of the pistons into rotational motion, and it often has lobes or journals that are connected to the pistons through connecting rods. These lobes help facilitate the movement of the pistons as the crankshaft rotates.
+
+  [A] Trial 1 (X):
+    The component you're describing is called a "crankshaft." The crankshaft is a key part of an engine that converts linear motion from the pistons into rotational motion, which ultimately drives the vehicle. The oblong lobes you mentioned are likely the crankpins or throws, which are used to connect the crankshaft to the connecting rods that link to the pistons.
+
+  [A] Trial 2 (O):
+    The component you are describing is called a **camshaft**. The camshaft has lobes (or "cams") that rotate and control the opening and closing of the engine's valves, allowing for the proper timing of the intake and exhaust processes in the engine.
+
+
+  [B] Trial 0 (X):
+    The component you are referring to is called a "crankshaft." The oblong lobes are known as "crankpins," which convert the linear motion of the pistons into rotational motion to drive the vehicle.
+
+  [B] Trial 1 (X):
+    The component you are referring to is called a "crankshaft." It converts the linear motion of the pistons into rotational motion, which ultimately drives the vehicle's wheels. The oblong lobes are known as crankpins, and they are integral to the crankshaft's function in an internal combustion engine.
+
+  [B] Trial 2 (X):
+    The component you are referring to is called a "crankshaft." It converts the linear motion of the pistons into rotational motion, and the lobes you mentioned are likely the crankpins that connect to the connecting rods.
+
+
+================================================================================
+Q: What is the name of Kevin the teenager's friend played by Kathy Burke in a series of sketches with Harry Enfield?
+Gold: Perry
+NER: PERSON
+A: doesn't-know (0/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (X):
+    Kevin the Teenager's friend, played by Kathy Burke in the sketches with Harry Enfield, is named "Penny."
+
+  [A] Trial 1 (X):
+    Kevin the Teenager's friend, played by Kathy Burke in the sketches with Harry Enfield, is named "Penny."
+
+  [A] Trial 2 (X):
+    Kevin the Teenager's friend, played by Kathy Burke in the sketches with Harry Enfield, is named "Penny."
+
+
+  [B] Trial 0 (X):
+    The name of Kevin the teenager's friend played by Kathy Burke in the sketches with Harry Enfield is "Julie."
+
+  [B] Trial 1 (O):
+    The name of Kevin the teenager's friend played by Kathy Burke in the series of sketches with Harry Enfield is Perry.
+
+  [B] Trial 2 (X):
+    The name of Kevin the teenager's friend played by Kathy Burke in the series of sketches with Harry Enfield is "Penny."
+
+
+================================================================================
+Q: Who had a top ten hit in the UK with Cupid in 1961?
+Gold: Sam Cooke
+NER: PERSON
+A: weak-knows (2/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (X):
+    In 1961, the song "Cupid" was a top ten hit in the UK for Johnny Tillotson.
+
+  [A] Trial 1 (O):
+    In 1961, the song "Cupid" was a top ten hit in the UK for the group The Shirelles. The song was written by Sam Cooke and became one of the group's popular tracks during that era.
+
+  [A] Trial 2 (O):
+    In 1961, the song "Cupid" was a top ten hit in the UK for the group The Shirelles. The song was originally written and recorded by Sam Cooke. The Shirelles' version contributed to their popularity during that era.
+
+
+  [B] Trial 0 (X):
+    The song "Cupid" was a top ten hit in the UK in 1961 by the group The Five Satins.
+
+  [B] Trial 1 (X):
+    The song "Cupid" was a top ten hit in the UK in 1961 for Johnny Tillotson.
+
+  [B] Trial 2 (X):
+    The song "Cupid" was a top ten hit in the UK in 1961 by the group Johnny Tillotson.
+
+
+================================================================================
+Q: Dutch Motor Racer Maurice Gatsonides invented which aid to racing that has become a curse to drivers?
+Gold: SPEED CAMERA
+NER: PRODUCT
+A: guess (1/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (X):
+    Dutch motor racer Maurice Gatsonides invented the "rally computer," which is a navigation aid used in rally racing. While it was intended to assist drivers in navigating courses more effectively, it has also been criticized for becoming a source of distraction and even a "curse" for drivers, as it can lead to over-reliance on technology rather than focusing on driving skills and the road ahead.
+
+  [A] Trial 1 (O):
+    Dutch motor racer Maurice Gatsonides invented the **"Gatso" speed camera**, which is used for monitoring and enforcing speed limits on roads. While it was intended to enhance road safety, many drivers view it as a curse due to the fines and penalties associated with speeding violations captured by these cameras.
+
+  [A] Trial 2 (X):
+    Dutch motor racer Maurice Gatsonides invented the "trip meter," which is an aid used in rally racing to measure distance traveled. While it was intended to help drivers navigate and manage their speed more effectively, it has also been referred to as a "curse" by some drivers because it can lead to over-reliance on technology and distractions, potentially affecting their driving performance. The trip meter is particularly significant in rally racing, where precise navigation is crucial.
+
+
+  [B] Trial 0 (O):
+    Dutch motor racer Maurice Gatsonides invented the "Gatso" speed camera system, which is designed to monitor and enforce speed limits on roads. While it was intended to enhance road safety, many drivers view it as a curse due to the potential for fines and penalties associated with speeding violations.
+
+  [B] Trial 1 (O):
+    Dutch motor racer Maurice Gatsonides invented the "Gatso" speed camera, which has become a controversial tool in racing and driving. While intended to enhance safety by monitoring speed, it is often viewed negatively by drivers who see it as a source of frustration and penalties.
+
+  [B] Trial 2 (X):
+    Dutch motor racer Maurice Gatsonides invented the rally navigation device known as the "Gatsonides" or "Gatsonides device." This device, which helped drivers navigate during races, has been described by some as a "curse" due to its potential to distract drivers or lead them into over-reliance on technology rather than their own skills and instincts.
+
+
+================================================================================
+Q: 'Citizen Smith' was the creation of which TV writer?
+Gold: JOHN SULLIVAN
+NER: PERSON
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    'Citizen Smith' was created by the British TV writer John Sullivan. The show aired in the late 1970s and featured the character Wolfie Smith, a young revolutionary in London.
+
+  [A] Trial 1 (X):
+    'Citizen Smith' was created by the TV writer Paul Jackson. The show aired in the late 1970s and featured the character Wolfie Smith, a young socialist living in London.
+
+  [A] Trial 2 (O):
+    'Citizen Smith' was created by the British television writer and producer John Sullivan. The show aired in the late 1970s and is known for its comedic portrayal of a young radical named Wolfie Smith.
+
+
+  [B] Trial 0 (O):
+    'Citizen Smith' was created by the TV writer and producer John Sullivan.
+
+  [B] Trial 1 (O):
+    'Citizen Smith' was created by the TV writer John Sullivan.
+
+  [B] Trial 2 (O):
+    'Citizen Smith' was created by the TV writer and producer John Sullivan.
+
+
+================================================================================
+Q: Swede Gunder Hagg held the athletics world record for which event until the 6th May 1954?
+Gold: MILE
 NER: EVENT
-A: weak-knows (2/3)  |  B: strong-knows (3/3)
-
-  [A] Trial 0 (O):
-    Next Sunday, September 19, is International Talk Like a Pirate Day. It's a fun, unofficial holiday where people are encouraged to speak like a pirate for the day.
-
-  [A] Trial 1 (X):
-    International Day of Peace is observed on September 21 each year. However, if you are referring to September 19, there isn't a widely recognized international day on that date. If you meant a specific event or observance that falls on a different date, please let me know!
-
-  [A] Trial 2 (O):
-    Next Sunday, September 19, 2023, is International Talk Like a Pirate Day. This quirky holiday encourages people to speak like pirates for fun.
-
-
-  [B] Trial 0 (O):
-    Next Sunday, September 19, is International Talk Like a Pirate Day. This fun observance encourages people to speak like a pirate for the day.
-
-  [B] Trial 1 (O):
-    Next Sunday, September 19, is recognized as International Talk Like a Pirate Day. This fun observance encourages people to speak in pirate lingo and celebrate pirate culture.
-
-  [B] Trial 2 (O):
-    Next Sunday, September 19, is International Talk Like a Pirate Day.
-
-
-================================================================================
-Q: What is the 3rd largest car rental company in the United States?
-Gold: Alamo
-NER: ORG
-A: weak-knows (2/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (O):
-    As of my last knowledge update in October 2023, the third largest car rental company in the United States is typically considered to be **Hertz**. The largest is **Enterprise Holdings**, which operates Enterprise Rent-A-Car, Alamo, and National Car Rental. The second largest is usually **Avis Budget Group**, which includes Avis and Budget brands. However, rankings can change over time due to market conditions and company performance, so it's always a good idea to check the latest industry reports for the most current information.
-
-  [A] Trial 1 (X):
-    As of my last knowledge update in October 2021, the third largest car rental company in the United States was typically considered to be Enterprise Rent-A-Car, following Hertz and Avis. However, rankings can change over time due to market conditions, mergers, and other factors. For the most current information, I recommend checking the latest industry reports or news articles.
-
-  [A] Trial 2 (O):
-    As of my last update, the third-largest car rental company in the United States is typically considered to be Enterprise Holdings, which operates Enterprise Rent-A-Car, National Car Rental, and Alamo Rent A Car. However, it's important to note that rankings can vary based on different criteria such as revenue, fleet size, or market share, and the landscape may change over time. For the most current information, it's advisable to check recent industry reports or news articles.
-
-
-  [B] Trial 0 (X):
-    As of my last update, the third largest car rental company in the United States is typically considered to be Hertz. The largest is Enterprise, followed by Avis Budget Group. However, rankings can change, so it's always a good idea to check the latest industry reports for the most current information.
-
-  [B] Trial 1 (X):
-    As of my last update, the third largest car rental company in the United States is typically considered to be Enterprise Rent-A-Car, following Avis Budget Group and Hertz. However, rankings can vary based on different metrics such as fleet size, revenue, and market presence, so it's always good to check the most current sources for the latest information.
-
-  [B] Trial 2 (X):
-    As of my last knowledge update, the third-largest car rental company in the United States is typically considered to be Enterprise Rent-A-Car, following Hertz and Avis in terms of market share. However, rankings can vary based on different metrics and time periods.
-
-
-================================================================================
-Q: Opened in May 11, 2010, Charlotte, NC is the home to the Hall of Fame for what popular outdoor sport, the second most watched sport (on TV) in the US?
-Gold: NASCAR
-NER: ORG
-A: strong-knows (3/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (O):
-    The Hall of Fame you are referring to is the National Basketball Hall of Fame, which is located in Charlotte, NC. However, it seems there may be a mix-up in the details. The National Basketball Hall of Fame is actually located in Springfield, Massachusetts. 
-
-If you are looking for the Hall of Fame related to a popular outdoor sport, it could be the NASCAR Hall of Fame, which is indeed located in Charlotte, NC, and is associated with auto racing, a popular sport in the United States. NASCAR is one of the most watched sports on TV in the US, especially in terms of outdoor motorsport events.
-
-  [A] Trial 1 (O):
-    The Hall of Fame you are referring to is the NASCAR Hall of Fame, which is located in Charlotte, North Carolina. NASCAR (National Association for Stock Car Auto Racing) is known for being one of the most popular motorsports in the United States and is often considered the second most watched sport on television in the country.
-
-  [A] Trial 2 (O):
-    Charlotte, NC is home to the Hall of Fame for NASCAR, which is a popular outdoor sport and the second most watched sport on TV in the US. The NASCAR Hall of Fame opened on May 11, 2010.
-
-
-  [B] Trial 0 (X):
-    Opened on May 11, 2010, in Charlotte, NC, the Hall of Fame is dedicated to professional football, specifically the Pro Football Hall of Fame. Football is the second most watched sport on TV in the US, following basketball.
-
-  [B] Trial 1 (X):
-    Opened on May 11, 2010, in Charlotte, NC, the Hall of Fame is dedicated to professional basketball, specifically the Naismith Memorial Basketball Hall of Fame. Basketball is one of the most popular outdoor sports in the United States and has a significant television viewership.
-
-  [B] Trial 2 (X):
-    Opened on May 11, 2010, the Hall of Fame in Charlotte, NC, is dedicated to professional basketball, specifically the Naismith Memorial Basketball Hall of Fame. Basketball is one of the most popular outdoor sports in the United States, and it is widely watched on television.
-
-
-================================================================================
-Q: The 2010 Six Nations Championship, the 11th series of an annual rugby union competition contested by the six major Northern Hemisphere rugby union national teams, was won by France. Which nation won it in 2009 and came second in 2010 and 2011?
-Gold: Ireland
-NER: GPE
-A: guess (1/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (X):
-    The nation that won the 2009 Six Nations Championship and came second in both 2010 and 2011 is England.
-
-  [A] Trial 1 (X):
-    Wales won the 2009 Six Nations Championship and came second in both the 2010 and 2011 tournaments.
-
-  [A] Trial 2 (O):
-    In 2009, the Six Nations Championship was won by Ireland. They came second in both the 2010 and 2011 tournaments.
-
-
-  [B] Trial 0 (X):
-    The nation that won the 2009 Six Nations Championship and came second in 2010 and 2011 is England.
-
-  [B] Trial 1 (X):
-    The nation that won the 2009 Six Nations Championship and came second in both 2010 and 2011 is England.
-
-  [B] Trial 2 (X):
-    The nation that won the 2009 Six Nations Championship and came second in 2010 and 2011 is England.
-
-
-================================================================================
-Q: Where was the final of the 1999 Rugby World Cup held?
-Gold: Wales
-NER: GPE
-A: strong-knows (3/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    The final of the 1999 Rugby World Cup was held at the Millennium Stadium in Cardiff, Wales.
-
-  [A] Trial 1 (O):
-    The final of the 1999 Rugby World Cup was held at the Millennium Stadium in Cardiff, Wales. The match took place on November 22, 1999.
-
-  [A] Trial 2 (O):
-    The final of the 1999 Rugby World Cup was held at the Millennium Stadium in Cardiff, Wales.
-
-
-  [B] Trial 0 (X):
-    The final of the 1999 Rugby World Cup was held at Wembley Stadium in London, England.
-
-  [B] Trial 1 (O):
-    The final of the 1999 Rugby World Cup was held at the Millennium Stadium in Cardiff, Wales.
-
-  [B] Trial 2 (O):
-    The final of the 1999 Rugby World Cup was held at the Millennium Stadium in Cardiff, Wales.
-
-
-================================================================================
-Q: In a standard deck of cards, how many Kings have a moustache?
-Gold: Three
-NER: CARDINAL
-A: weak-knows (2/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (X):
-    In a standard deck of playing cards, the Kings of Hearts and the Kings of Spades typically have moustaches. Therefore, there are 2 Kings with moustaches in a standard deck of cards.
-
-  [A] Trial 1 (O):
-    In a standard deck of playing cards, there are four Kings: one for each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts is typically depicted without a moustache, while the King of Diamonds, King of Clubs, and King of Spades are generally illustrated with moustaches. Therefore, there are three Kings in a standard deck that have a moustache.
-
-  [A] Trial 2 (O):
-    In a standard deck of playing cards, there are four Kings, one for each suit: hearts, diamonds, clubs, and spades. Traditionally, the King of hearts is depicted without a moustache, while the Kings of spades, clubs, and diamonds are often depicted with moustaches. Therefore, there are three Kings in a standard deck of cards that have a moustache.
-
-
-  [B] Trial 0 (X):
-    In a standard deck of playing cards, two Kings have a moustache: the King of Hearts and the King of Spades. The King of Diamonds and the King of Clubs do not have moustaches.
-
-  [B] Trial 1 (X):
-    In a standard deck of cards, there are four Kings, one for each suit (hearts, diamonds, clubs, and spades). Among these, the King of Hearts is typically depicted with a moustache. Therefore, there is one King with a moustache in a standard deck of cards.
-
-  [B] Trial 2 (X):
-    In a standard deck of cards, there are typically two Kings that are depicted with a moustache: the King of Hearts and the King of Diamonds. The King of Spades and the King of Clubs do not have moustaches in most traditional designs.
-
-
-================================================================================
-Q: Which cockney private detective, co-created by Terry Venables, was portrayed on TV by Nicholas Ball?
-Gold: James Hazell
-NER: PERSON
-A: guess (1/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (X):
-    The Cockney private detective you are referring to is "Benny". He was co-created by Terry Venables and portrayed by Nicholas Ball in the television series.
-
-  [A] Trial 1 (X):
-    The Cockney private detective you are referring to is "Harry Starks." He was co-created by Terry Venables and was portrayed by Nicholas Ball in the TV series "Harry Starks."
-
-  [A] Trial 2 (O):
-    The Cockney private detective you are referring to is "Hazell." The character was co-created by Terry Venables and portrayed by Nicholas Ball in the television series.
-
-
-  [B] Trial 0 (X):
-    The Cockney private detective co-created by Terry Venables and portrayed on TV by Nicholas Ball is "Harry Stottle."
-
-  [B] Trial 1 (X):
-    The Cockney private detective co-created by Terry Venables and portrayed on TV by Nicholas Ball is "Harry Starks."
-
-  [B] Trial 2 (X):
-    The Cockney private detective co-created by Terry Venables and portrayed on TV by Nicholas Ball is "Harry Starks."
-
-
-================================================================================
-Q: Which vegetable has varieties called Royal Favourite and Walton Mammoth?
-Gold: LEEK
-NER: PRODUCT
-A: weak-knows (2/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (O):
-    The vegetable with varieties called Royal Favourite and Walton Mammoth is the leek. These are different cultivars of leeks, which are known for their mild onion-like flavor and are commonly used in various dishes.
-
-  [A] Trial 1 (X):
-    The vegetable that has varieties called Royal Favourite and Walton Mammoth is the **cabbage**. These are specific cultivars of cabbage known for their unique characteristics and growing traits.
-
-  [A] Trial 2 (O):
-    The vegetable with varieties called Royal Favourite and Walton Mammoth is the **leek**. These are specific cultivars known for their size and flavor.
-
-
-  [B] Trial 0 (X):
-    The vegetable that has varieties called Royal Favourite and Walton Mammoth is the cabbage.
-
-  [B] Trial 1 (O):
-    The vegetable that has varieties called Royal Favourite and Walton Mammoth is the leek.
-
-  [B] Trial 2 (X):
-    The vegetable that has varieties called Royal Favourite and Walton Mammoth is the cabbage.
-
-
-================================================================================
-Q: What name connects 'Cold Comfort Farm, stamp collecting and ancient Rome?
-Gold: GIBBONS
-NER: PERSON
-A: strong-knows (3/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (O):
-    The name that connects 'Cold Comfort Farm', stamp collecting, and ancient Rome is "Flora." 
-
-1. **Cold Comfort Farm** is a novel by Stella Gibbons, and one of the main characters is named Flora Poste.
-2. **Stamp collecting** often involves collecting stamps featuring various themes, including flora (plants). Additionally, there are stamps specifically dedicated to flowers and plant life.
-3. **Ancient Rome** has a significant connection to flora, as many Roman poets and historians wrote about plants and gardens. Moreover, the word "flora" itself refers to plant life and is derived from the name of the Roman goddess Flora, who was associated with flowers and the season of spring.
-
-Thus, "Flora" is the common connection among the three.
-
-  [A] Trial 1 (O):
-    The name that connects 'Cold Comfort Farm', stamp collecting, and ancient Rome is "Florence." 
-
-1. **Cold Comfort Farm**: The author of the novel is Stella Gibbons, and one of the characters is named Flora Poste.
-2. **Stamp Collecting**: The term "Florin" refers to a historical gold or silver coin used in various European countries, which is often collected by stamp collectors.
-3. **Ancient Rome**: The Florin was originally named after the city of Florence in Italy, which was a significant center of trade and culture during the Renaissance, following the Roman era.
-
-Thus, "Florence" links all three topics.
-
-  [A] Trial 2 (O):
-    The name that connects 'Cold Comfort Farm', stamp collecting, and ancient Rome is "Flora." 
-
-1. **Cold Comfort Farm**: The novel is written by Stella Gibbons, and the main character is named Flora Poste.
-2. **Stamp collecting**: The term "flora" refers to plant life, and there are stamps that feature flora (plants) from various regions, often collected by philatelists.
-3. **Ancient Rome**: In ancient Rome, "Flora" is the name of the goddess of flowers and the season of spring.
-
-Thus, the common connection is the name "Flora."
-
-
-  [B] Trial 0 (X):
-    The name that connects 'Cold Comfort Farm,' stamp collecting, and ancient Rome is "Flora." In 'Cold Comfort Farm,' the main character is named Flora Poste. Stamp collecting is associated with "flora" as a theme in many stamps, often depicting plants and flowers. Additionally, in ancient Rome, "flora" refers to the goddess of flowers and the season of spring.
-
-  [B] Trial 1 (X):
-    The name that connects 'Cold Comfort Farm,' stamp collecting, and ancient Rome is "Flora." In 'Cold Comfort Farm,' the main character is named Flora Poste. In stamp collecting, "flora" refers to the plant life represented on stamps. Additionally, in ancient Rome, "Flora" was the goddess of flowers and the season of spring.
-
-  [B] Trial 2 (X):
-    The name that connects 'Cold Comfort Farm', stamp collecting, and ancient Rome is "Flora." 
-
-In 'Cold Comfort Farm', the main character is named Flora Poste. In stamp collecting, "flora" refers to the plant life represented on stamps. Additionally, in ancient Rome, "Flora" was the goddess of flowers and the season of spring.
-
-
-================================================================================
-Q: Who produces the `Agila' car model?
-Gold: VAUXHALL
-NER: ORG
-A: doesn't-know (0/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (X):
-    The `Agila' car model is produced by the automobile manufacturer Opel. The Opel Agila is a small city car that was first introduced in 2000 and has been part of the European market. It was developed in collaboration with Suzuki, which also produced a similar model called the Suzuki Splash. If you need more specific information about the Agila or its specifications, feel free to ask!
-
-  [A] Trial 1 (X):
-    The `Agila' car model is produced by the automotive manufacturer Opel. It is a small multi-purpose vehicle (MPV) that was developed in collaboration with Suzuki, and it was primarily sold in Europe. The Agila was designed to be a compact and practical vehicle, suitable for urban driving. The model has seen various iterations since its introduction, with the first generation launched in the early 2000s.
-
-  [A] Trial 2 (X):
-    The Agila car model is produced by the manufacturer Opel, which is a subsidiary of the automotive group Stellantis. The Agila is a small city car that was produced in various generations, with the first model launched in the early 2000s. It is known for its compact size and practicality, making it suitable for urban driving.
-
-
-  [B] Trial 0 (X):
-    The `Agila` car model is produced by the automobile manufacturer Opel, which is a subsidiary of the French company PSA Group (now part of Stellantis). The Agila is a small city car that was developed in collaboration with Suzuki.
-
-  [B] Trial 1 (X):
-    The `Agila' car model is produced by Opel, a German automobile manufacturer. It is a small city car that was developed in collaboration with Suzuki, sharing some design and engineering elements with the Suzuki Splash.
-
-  [B] Trial 2 (O):
-    The Agila car model is produced by the manufacturer Opel.
-
-
-================================================================================
-Q: 'An Island Parish' is a documentary series on BBC2, in which islands were the first four series set?
-Gold: Scilly Isles
-NER: LOC
-A: guess (1/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    The first four series of 'An Island Parish' were set in the following locations:
-
-1. **Sark** - The first series focused on the island of Sark, which is part of the Channel Islands.
-2. **Tresco** - The second series was set on the island of Tresco in the Isles of Scilly.
-3. **St. Helena** - The third series took viewers to the remote island of St. Helena in the South Atlantic Ocean.
-4. **Bermuda** - The fourth series was set in Bermuda, a British Overseas Territory in the North Atlantic.
-
-Each series explores the unique communities, cultures, and challenges faced by the residents of these islands.
-
-  [A] Trial 1 (X):
-    The first four series of 'An Island Parish' were set on the following islands:
-
-1. **Sark** - The first series focused on this island in the Channel Islands.
-2. **Harris** - The second series was set on the Isle of Harris in Scotland.
-3. **St. Helena** - The third series took place on this remote island in the South Atlantic.
-4. **Lundy** - The fourth series was set on Lundy Island, located in the Bristol Channel.
-
-Each series explored the unique lifestyles, cultures, and challenges faced by the communities on these islands.
-
-  [A] Trial 2 (X):
-    The first four series of 'An Island Parish' were set on the following islands:
-
-1. **Sark** - The first series focused on this small island in the Channel Islands.
-2. **St. Helena** - The second series was set on this remote island in the South Atlantic Ocean.
-3. **Bermuda** - The third series took place on this British Overseas Territory in the North Atlantic.
-4. **Isle of Man** - The fourth series was set on this self-governing British Crown dependency located in the Irish Sea.
-
-The series showcases the lives of the residents and the unique aspects of each island community.
-
-
-  [B] Trial 0 (O):
-    'An Island Parish' is a documentary series that focuses on life in various island communities. The first four series were set on the following islands:
-
-1. Series 1 - St. Helena
-2. Series 2 - The Isle of Man
-3. Series 3 - The Scilly Isles
-4. Series 4 - The Isle of Lewis in Scotland
-
-Each series explores the unique culture, challenges, and lifestyle of the island's inhabitants.
-
-  [B] Trial 1 (O):
-    The first four series of 'An Island Parish' on BBC2 were set in the following locations: 
-
-1. The Isle of Scilly
-2. The Isle of Lewis (in the Outer Hebrides)
-3. The Isle of Man
-4. The Isle of Wight
-
-Each series focused on the unique communities and challenges faced by these island locations.
-
-  [B] Trial 2 (X):
-    The first four series of the documentary series 'An Island Parish' on BBC2 were set in the following locations: 
-
-1. **Shetland** - The first series was set in the Shetland Islands.
-2. **St. Helena** - The second series focused on the island of St. Helena.
-3. **Lundy** - The third series took place on Lundy Island.
-4. **Jersey** - The fourth series was set in Jersey in the Channel Islands. 
-
-These series explore the lives of the communities living on these islands.
-
-
-================================================================================
-Q: Who coined the phrase 'Somebody up there likes me'?
-Gold: ROCKY GRAZIANO
-NER: PERSON
-A: doesn't-know (0/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (X):
-    The phrase "Somebody up there likes me" was popularized by American boxer Jake LaMotta, who used it to express his belief in divine favor or luck during his boxing career. The phrase was later used as the title of a 1956 film about LaMotta's life, starring Paul Newman. The expression has since entered popular culture, often used to convey a sense of being fortunate or favored in difficult situations.
-
-  [A] Trial 1 (X):
-    The phrase "Somebody up there likes me" is often attributed to the American boxer Rocky Marciano. He reportedly used it after winning a fight, expressing his belief that he had divine favor. The phrase later gained further popularity through the title of the 1956 film "Somebody Up There Likes Me," which was based on Marciano's life and starred Paul Newman.
-
-  [A] Trial 2 (X):
-    The phrase "Somebody up there likes me" is famously associated with the American boxer Jake LaMotta, who used it to express his belief in a higher power looking out for him. The phrase was popularized further by the 1956 film titled "Somebody Up There Likes Me," which starred Paul Newman as LaMotta. The film's title and the phrase have since become part of popular culture.
-
-
-  [B] Trial 0 (O):
-    The phrase "Somebody up there likes me" is often attributed to the American boxer Rocky Graziano. He famously used it to express his belief in a higher power watching over him, particularly in the context of his boxing career. The phrase has since become a popular expression and was also used as the title of a 1956 film about his life.
-
-  [B] Trial 1 (O):
-    The phrase "Somebody up there likes me" is often attributed to the American boxer Rocky Graziano. He famously used it to express his belief in having a guardian angel or good fortune during his life and career. The phrase was later popularized in the title of a 1956 biographical film about him.
-
-  [B] Trial 2 (X):
-    The phrase "Somebody up there likes me" is often associated with the American boxer Rocky Marciano, who reportedly used it to express his belief in a higher power watching over him. The phrase was popularized further by the title of a 1956 film about Marciano's life, which starred Paul Newman.
-
-
-================================================================================
-Q: Who was the first football nation to win the World Cup outside their own continent?
-Gold: BRAZIL
-NER: GPE
-A: weak-knows (2/3)  |  B: strong-knows (3/3)
-
-  [A] Trial 0 (O):
-    The first football nation to win the FIFA World Cup outside their own continent was Uruguay. They won the inaugural World Cup in 1930, which was held in Uruguay. However, if you are referring to a nation winning the World Cup while being from a different continent than where the tournament was held, that would be Brazil, who won the 1958 World Cup in Sweden.
-
-  [A] Trial 1 (X):
-    The first football nation to win the World Cup outside their own continent was Uruguay. They won the inaugural FIFA World Cup in 1930, which was held in Uruguay itself. However, the first instance of a nation winning the World Cup outside its own continent occurred in 1934 when Italy hosted and won the tournament, as Italy is in Europe and had previously won the World Cup in 1934. Therefore, the first nation to win the World Cup outside their own continent was Italy.
-
-  [A] Trial 2 (O):
-    The first football nation to win the FIFA World Cup outside their own continent was Uruguay. They won the inaugural World Cup in 1930, which was hosted in Uruguay, and then they won again in 1950 in Brazil, which is outside their own continent of South America.
-
-
-  [B] Trial 0 (O):
-    The first football nation to win the World Cup outside their own continent was Brazil. They achieved this feat in 1958 when they won the tournament in Sweden.
-
-  [B] Trial 1 (O):
-    The first football nation to win the World Cup outside their own continent was Brazil. They won the tournament in 1958, which was held in Sweden, becoming the first team from South America to win the World Cup in Europe.
-
-  [B] Trial 2 (O):
-    The first football nation to win the World Cup outside their own continent was Brazil. They achieved this feat in 1958 when they won the tournament held in Sweden.
-
-
-================================================================================
-Q: The first session of the United Nations General Assembly was convened in January 1946, in which city?
-Gold: London
-NER: GPE
-A: strong-knows (3/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    The first session of the United Nations General Assembly was convened in January 1946 in London, United Kingdom.
-
-  [A] Trial 1 (O):
-    The first session of the United Nations General Assembly was convened in January 1946 in London, United Kingdom.
-
-  [A] Trial 2 (O):
-    The first session of the United Nations General Assembly was convened in January 1946 in London, United Kingdom.
-
-
-  [B] Trial 0 (O):
-    The first session of the United Nations General Assembly was convened in London.
-
-  [B] Trial 1 (O):
-    The first session of the United Nations General Assembly was convened in London, England, in January 1946.
-
-  [B] Trial 2 (X):
-    The first session of the United Nations General Assembly was convened in New York City.
-
-
-================================================================================
-Q: Forbes Magazine named which author as the top earner between July 2012 and August 2013?
-Gold: E L JAMES
-NER: PERSON
-A: guess (1/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (X):
-    Forbes Magazine named James Patterson as the top-earning author between July 2012 and August 2013.
-
-  [A] Trial 1 (O):
-    Forbes Magazine named E.L. James, the author of the "Fifty Shades" trilogy, as the top earner between July 2012 and August 2013.
-
-  [A] Trial 2 (X):
-    Forbes Magazine named James Patterson as the top-earning author between July 2012 and August 2013.
-
-
-  [B] Trial 0 (X):
-    Forbes Magazine named J.K. Rowling as the top earner between July 2012 and August 2013.
-
-  [B] Trial 1 (X):
-    Forbes Magazine named J.K. Rowling as the top earner between July 2012 and August 2013.
-
-  [B] Trial 2 (X):
-    Forbes Magazine named J.K. Rowling as the top earner between July 2012 and August 2013.
-
-
-================================================================================
-Q: Which Wirral-born Radio 1 disc jockey died in Peru in 2004?
-Gold: John Peel
-NER: PERSON
-A: guess (1/3)  |  B: strong-knows (3/3)
-
-  [A] Trial 0 (O):
-    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was John Peel. He was a prominent figure in the music industry and was known for his influential radio shows.
-
-  [A] Trial 1 (X):
-    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was Johnnie Walker.
-
-  [A] Trial 2 (X):
-    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was Johnnie Walker.
-
-
-  [B] Trial 0 (O):
-    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was John Peel.
-
-  [B] Trial 1 (O):
-    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was John Peel.
-
-  [B] Trial 2 (O):
-    The Wirral-born Radio 1 disc jockey who died in Peru in 2004 was John Peel.
-
-
-================================================================================
-Q: Which country is bordered by Cambodia and Laos to the west and China to the north?
-Gold: Vietnam
-NER: GPE
-A: strong-knows (3/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    The country that is bordered by Cambodia and Laos to the west and China to the north is Vietnam.
-
-  [A] Trial 1 (O):
-    The country that is bordered by Cambodia and Laos to the west and China to the north is Vietnam.
-
-  [A] Trial 2 (O):
-    The country bordered by Cambodia and Laos to the west and China to the north is Vietnam.
-
-
-  [B] Trial 0 (O):
-    The country bordered by Cambodia and Laos to the west and China to the north is Vietnam.
-
-  [B] Trial 1 (O):
-    The country bordered by Cambodia and Laos to the west and China to the north is Vietnam.
-
-  [B] Trial 2 (X):
-    The country bordered by Cambodia and Laos to the west and China to the north is Thailand.
-
-
-================================================================================
-Q: Who had a top 40 hit UK single in 1966 with Mustang Sally?
-Gold: Wilson Pickett
-NER: PERSON
-A: weak-knows (2/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (O):
-    The song "Mustang Sally" was famously performed by Wilson Pickett, and he had a top 40 hit with it in the UK in 1966. The song is one of his signature tracks and remains a classic in the soul and R&B genres.
-
-  [A] Trial 1 (X):
-    In 1966, the song "Mustang Sally" was a top 40 hit in the UK for The Young Rascals. The song, originally written and recorded by Mack Rice, became popular after The Young Rascals released their version.
-
-  [A] Trial 2 (O):
-    In 1966, the song "Mustang Sally" was a hit for the artist Wilson Pickett in the UK, reaching the top 40 of the singles chart. The song was originally written and recorded by Mack Rice in 1965, but Wilson Pickett's version became the most well-known.
-
-
-  [B] Trial 0 (X):
-    The top 40 hit UK single "Mustang Sally" in 1966 was by The Young Rascals.
-
-  [B] Trial 1 (X):
-    The top 40 hit UK single "Mustang Sally" in 1966 was by The Young Rascals.
-
-  [B] Trial 2 (O):
-    The song "Mustang Sally" was a top 40 hit in the UK in 1966 by the artist Wilson Pickett.
-
-
-================================================================================
-Q: In which London magazine did Sherlock Holmes first appear?
-Gold: The Strand
-NER: WORK_OF_ART
-A: guess (1/3)  |  B: strong-knows (3/3)
-
-  [A] Trial 0 (X):
-    Sherlock Holmes first appeared in the magazine "Beeton's Christmas Annual" in 1887, in the story "A Study in Scarlet."
-
-  [A] Trial 1 (O):
-    Sherlock Holmes first appeared in the magazine "The Strand Magazine." His debut story, "A Scandal in Bohemia," was published in July 1891.
-
-  [A] Trial 2 (X):
-    Sherlock Holmes first appeared in the magazine "Beeton's Christmas Annual" in 1887, specifically in the novella "A Study in Scarlet."
-
-
-  [B] Trial 0 (O):
-    Sherlock Holmes first appeared in "The Strand Magazine."
-
-  [B] Trial 1 (O):
-    Sherlock Holmes first appeared in "The Strand Magazine."
-
-  [B] Trial 2 (O):
-    Sherlock Holmes first appeared in "The Strand Magazine."
-
-
-================================================================================
-Q: The Nag's Head was the local pub in which TV comedy series?
-Gold: ONLY FOOLS AND HORSES
-NER: WORK_OF_ART
 A: doesn't-know (0/3)  |  B: strong-knows (3/3)
 
   [A] Trial 0 (X):
-    The Nag's Head was the local pub in the TV comedy series "The Royle Family."
+    Swede Gunder Hägg held the athletics world record for the 1500 meters until May 6, 1954.
 
   [A] Trial 1 (X):
-    The Nag's Head was the local pub in the TV comedy series "The Royle Family."
+    Swede Gunder Hägg held the athletics world record for the 1500 meters until May 6, 1954. He set several records in middle-distance running during his career, and his 1500 meters record was eventually broken by John Landy.
 
   [A] Trial 2 (X):
-    The Nag's Head was the local pub in the TV comedy series "The Royle Family."
+    Swede Gunder Hägg held the athletics world record for the men's 1500 meters until May 6, 1954.
 
 
   [B] Trial 0 (O):
-    The Nag's Head was the local pub in the TV comedy series "Only Fools and Horses."
+    Gunder Hägg held the athletics world record for the mile until the 6th of May, 1954.
 
   [B] Trial 1 (O):
-    The Nag's Head was the local pub in the TV comedy series "Only Fools and Horses."
+    Gunder Hägg held the athletics world record for the mile until the 6th of May, 1954.
 
   [B] Trial 2 (O):
-    The Nag's Head was the local pub in the TV comedy series "Only Fools and Horses."
+    Swede Gunder Hägg held the athletics world record for the mile until the 6th of May, 1954.
 
 
 ================================================================================
-Q: Name either of the detectives featured in novels by Reginald Hill and in a TV series based on the novels?
-Gold: Dalziel and Pascoe
+Q: Which opera star was born Claire Mary Teresa Rawstron in 1944?
+Gold: KIRI TE KANAWA
+NER: PERSON
+A: doesn't-know (0/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    The opera star born Claire Mary Teresa Rawstron in 1944 is known as **Teresa Stratas**. She is a renowned soprano recognized for her work in both opera and concert performances.
+
+  [A] Trial 1 (X):
+    The opera star born Claire Mary Teresa Rawstron in 1944 is known as Claire Rutter. She is a renowned soprano known for her performances in various operatic roles.
+
+  [A] Trial 2 (X):
+    The opera star born Claire Mary Teresa Rawstron in 1944 is known as Claire Rutter. She is a British soprano recognized for her performances in various operatic roles.
+
+
+  [B] Trial 0 (O):
+    The opera star born Claire Mary Teresa Rawstron in 1944 is known as Dame Kiri Te Kanawa.
+
+  [B] Trial 1 (O):
+    The opera star born Claire Mary Teresa Rawstron in 1944 is Dame Kiri Te Kanawa.
+
+  [B] Trial 2 (O):
+    The opera star born Claire Mary Teresa Rawstron in 1944 is Dame Kiri Te Kanawa.
+
+
+================================================================================
+Q: Who was born at Villa Mon Repos, Corfu, in 1921?
+Gold: Prince Philip
+NER: PERSON
+A: guess (1/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    Princess Elizabeth of the United Kingdom was born at Villa Mon Repos, Corfu, in 1921. She was the daughter of Prince Andrew of Greece and Denmark and Princess Alice of Battenberg.
+
+  [A] Trial 1 (O):
+    Prince Philip, Duke of Edinburgh, was born at Villa Mon Repos in Corfu, Greece, on June 10, 1921. He was the husband of Queen Elizabeth II.
+
+  [A] Trial 2 (X):
+    Princess Sophie of Greece and Denmark was born at Villa Mon Repos, Corfu, in 1921. She was a member of the Greek royal family and the daughter of King Andrew of Greece and Princess Alice of Battenberg.
+
+
+  [B] Trial 0 (O):
+    Prince Philip, Duke of Edinburgh, was born at Villa Mon Repos, Corfu, in 1921.
+
+  [B] Trial 1 (O):
+    Prince Philip, Duke of Edinburgh, was born at Villa Mon Repos, Corfu, in 1921.
+
+  [B] Trial 2 (O):
+    Prince Philip, Duke of Edinburgh, was born at Villa Mon Repos, Corfu, in 1921.
+
+
+================================================================================
+Q: Which poet's house at 24 Hollies Street, London, was commemorated by the first Blue Plaque, unveiled in 1867?
+Gold: Lord Byron
+NER: PERSON
+A: doesn't-know (0/3)  |  B: guess (1/3)
+
+  [A] Trial 0 (X):
+    The poet whose house at 24 Hollies Street, London, was commemorated by the first Blue Plaque, unveiled in 1867, is Lord Alfred Tennyson.
+
+  [A] Trial 1 (X):
+    The poet commemorated by the first Blue Plaque at 24 Hollies Street, London, is Lord Alfred Tennyson. The plaque was unveiled in 1867 to honor his residence there.
+
+  [A] Trial 2 (X):
+    The poet commemorated by the first Blue Plaque at 24 Hollies Street, London, is Lord Alfred Tennyson. The plaque was unveiled in 1867 to honor his residence there.
+
+
+  [B] Trial 0 (X):
+    The poet commemorated by the first Blue Plaque at 24 Hollies Street, London, is Lord Alfred Tennyson.
+
+  [B] Trial 1 (X):
+    The poet commemorated by the first Blue Plaque at 24 Hollies Street, London, is Lord Alfred Tennyson.
+
+  [B] Trial 2 (O):
+    The poet whose house at 24 Hollies Street, London, was commemorated by the first Blue Plaque, unveiled in 1867, is Lord Byron.
+
+
+================================================================================
+Q: Which county won the 2013 Cricket County Championship?
+Gold: Durham
+NER: GPE
+A: weak-knows (2/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (O):
+    The 2013 Cricket County Championship was won by Durham. They secured the title by finishing at the top of the Division One table.
+
+  [A] Trial 1 (O):
+    The 2013 Cricket County Championship was won by Durham. They secured the title by finishing at the top of the Division One table.
+
+  [A] Trial 2 (X):
+    The 2013 Cricket County Championship was won by Surrey. They secured the title in Division One of the championship that year.
+
+
+  [B] Trial 0 (O):
+    The 2013 Cricket County Championship was won by Durham.
+
+  [B] Trial 1 (O):
+    The 2013 Cricket County Championship was won by Durham.
+
+  [B] Trial 2 (O):
+    The 2013 Cricket County Championship was won by Durham County Cricket Club.
+
+
+================================================================================
+Q: Who was the only female candidate in the 2010 Labour leadership contest?
+Gold: DIANE ABBOTT
+NER: PERSON
+A: guess (1/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    The only female candidate in the 2010 Labour leadership contest was Harriet Harman.
+
+  [A] Trial 1 (O):
+    The only female candidate in the 2010 Labour leadership contest was Diane Abbott.
+
+  [A] Trial 2 (X):
+    The only female candidate in the 2010 Labour leadership contest was Harriet Harman.
+
+
+  [B] Trial 0 (O):
+    The only female candidate in the 2010 Labour leadership contest was Diane Abbott.
+
+  [B] Trial 1 (O):
+    The only female candidate in the 2010 Labour leadership contest was Diane Abbott.
+
+  [B] Trial 2 (O):
+    The only female candidate in the 2010 Labour leadership contest was Diane Abbott.
+
+
+================================================================================
+Q: Who was the first actor to be knighted?
+Gold: (Henry) IRVING
 NER: PERSON
 A: strong-knows (3/3)  |  B: weak-knows (2/3)
 
   [A] Trial 0 (O):
-    The detectives featured in Reginald Hill's novels and the subsequent TV series are Dalziel and Pascoe. Inspector Andy Dalziel and Sergeant Peter Pascoe are the main characters in the series.
+    The first actor to be knighted was Sir Henry Irving. He received the honor in 1895 for his contributions to the theatre. Irving was a prominent Victorian actor-manager and is often considered one of the most influential figures in the history of British theatre.
 
   [A] Trial 1 (O):
-    One of the detectives featured in Reginald Hill's novels and the TV series based on them is Detective Chief Superintendent Andrew Dalziel. He is often paired with Detective Sergeant Peter Pascoe in the stories.
+    The first actor to be knighted was Sir Henry Irving. He received the honor in 1895, becoming the first actor to be awarded a knighthood in the United Kingdom. Sir Henry Irving was a prominent Victorian actor and manager, known for his performances in Shakespearean plays and other theatrical works.
 
   [A] Trial 2 (O):
-    The detectives featured in novels by Reginald Hill and in the TV series based on those novels are Dalziel and Pascoe. Detective Superintendent Andrew Dalziel and Detective Sergeant Peter Pascoe are the main characters in the series.
+    The first actor to be knighted was Sir Henry Irving. He was a prominent English actor in the late 19th century and received the honor in 1895. Irving was a significant figure in the theater and is remembered for his contributions to the performing arts.
 
 
-  [B] Trial 0 (O):
-    One of the detectives featured in Reginald Hill's novels and the TV series based on them is Detective Superintendent Andrew Dalziel.
-
-  [B] Trial 1 (X):
-    One of the detectives featured in Reginald Hill's novels and the TV series based on them is Dalziel.
-
-  [B] Trial 2 (O):
-    The detective featured in novels by Reginald Hill and in a TV series based on those novels is Dalziel. He is often paired with his partner, Pascoe.
-
-
-================================================================================
-Q: In the context of UK government, for what does the C stand in the acronym COBRA?
-Gold: Cabinet
-NER: ORG
-A: weak-knows (2/3)  |  B: strong-knows (3/3)
-
-  [A] Trial 0 (X):
-    In the context of the UK government, the "C" in the acronym COBRA stands for "Civil." COBRA stands for the "Civil Contingencies Committee," which is a committee that coordinates the government's response to emergencies or crises.
-
-  [A] Trial 1 (O):
-    In the context of the UK government, the "C" in the acronym COBRA stands for "Civil." COBRA stands for "Cabinet Office Briefing Rooms," which are used for crisis management and coordination during emergencies or significant incidents.
-
-  [A] Trial 2 (O):
-    In the context of the UK government, the "C" in the acronym COBRA stands for "Cabinet." COBRA stands for "Cabinet Office Briefing Rooms A," and it refers to a system used to manage emergencies and crises, where senior government officials meet to coordinate responses.
-
-
-  [B] Trial 0 (O):
-    In the context of the UK government, the C in the acronym COBRA stands for "Cabinet." COBRA stands for "Cabinet Office Briefing Rooms," which are used for crisis management and emergency response meetings.
+  [B] Trial 0 (X):
+    The first actor to be knighted was Sir Herbert Beerbohm Tree. He was knighted in 1909 for his contributions to the theatre.
 
   [B] Trial 1 (O):
-    In the context of the UK government, the C in the acronym COBRA stands for "Civil." COBRA stands for "Cabinet Office Briefing Rooms," which are used for high-level meetings during emergencies and crises.
+    The first actor to be knighted was Sir Henry Irving. He received the honor in 1895 for his contributions to the theater.
 
   [B] Trial 2 (O):
-    In the context of the UK government, the C in the acronym COBRA stands for "Civil." COBRA stands for "Cabinet Office Briefing Rooms," which are used for crisis management and emergency response meetings.
+    The first actor to be knighted was Sir Henry Irving. He received the honor in 1895 for his contributions to the theater.
 
 
 ================================================================================
-Q: Aglaia, Thalia and. Euphrosyne were known as what?
-Gold: THREE GRACES
+Q: Name either of the cities served by Robin Hood airport?
+Gold: Doncaster/Sheffield
+NER: GPE
+A: strong-knows (3/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    Robin Hood Airport serves the city of Doncaster, as well as the nearby city of Sheffield.
+
+  [A] Trial 1 (O):
+    Robin Hood Airport serves the city of Doncaster, as well as the surrounding areas in South Yorkshire.
+
+  [A] Trial 2 (O):
+    Robin Hood Airport serves the city of Doncaster, as well as the nearby city of Sheffield.
+
+
+  [B] Trial 0 (X):
+    Robin Hood Airport serves the city of Doncaster in the United Kingdom.
+
+  [B] Trial 1 (X):
+    Robin Hood Airport serves the city of Doncaster in the United Kingdom.
+
+  [B] Trial 2 (X):
+    Robin Hood Airport serves the city of Doncaster in the United Kingdom.
+
+
+================================================================================
+Q: Actor John Hewer died early in 2008 aged 86; under what name did everybody know him better, in a series of TV adverts?
+Gold: Captain Birdseye
 NER: PERSON
 A: guess (1/3)  |  B: weak-knows (2/3)
 
-  [A] Trial 0 (O):
-    Aglaia, Thalia, and Euphrosyne are known as the Graces (or Charites) in Greek mythology. They are often associated with beauty, charm, and joy, and are typically depicted as three sister goddesses who represent different aspects of grace and creativity.
+  [A] Trial 0 (X):
+    John Hewer was better known as the "Ronseal Man," the face of the Ronseal wood stain and preservative advertisements. He became famous for the tagline "It does exactly what it says on the tin."
 
-  [A] Trial 1 (X):
-    Aglaia, Thalia, and Euphrosyne are known as the Graces in Greek mythology. They are often associated with beauty, charm, and joy, and are considered goddesses who bring grace and goodwill to human endeavors.
+  [A] Trial 1 (O):
+    John Hewer was better known as the actor who portrayed "Captain Birdseye" in a series of TV adverts for Birds Eye frozen foods.
 
   [A] Trial 2 (X):
-    Aglaia, Thalia, and Euphrosyne were known as the Graces in Greek mythology. They were considered goddesses of charm, beauty, nature, human creativity, and fertility. The Graces were often associated with the arts and were believed to bestow joy and goodwill upon humanity.
+    John Hewer was better known as the character "Ronald McDonald" in a series of TV adverts for McDonald's. However, it seems there might be a mix-up in names; he is not typically associated with that character. He was actually known for portraying "The Milkybar Kid" in advertisements for Nestlé's Milkybar chocolate.
 
 
   [B] Trial 0 (O):
-    Aglaia, Thalia, and Euphrosyne were known as the Graces or Charites in Greek mythology. They are often associated with beauty, charm, and joy, and are typically depicted as three distinct figures who embody these qualities.
+    John Hewer was better known as the face of Captain Birdseye in a series of TV adverts for Birds Eye frozen foods.
 
   [B] Trial 1 (X):
-    Aglaia, Thalia, and Euphrosyne were known as the Graces or the Charites in Greek mythology. They were goddesses of charm, beauty, nature, human creativity, and fertility, often associated with the enjoyment of life and the arts.
+    Actor John Hewer was better known as the character "Ronald McDonald" in a series of TV adverts for McDonald's.
 
   [B] Trial 2 (O):
-    Aglaia, Thalia, and Euphrosyne were known as the Graces (or Charites) in Greek mythology. They were typically associated with beauty, charm, and joy, and were often depicted as personifications of grace and elegance.
+    Actor John Hewer was better known as the character "Captain Birdseye" in a series of TV adverts for Birds Eye frozen food products.
+
+
+================================================================================
+Q: From which continent does the world's smallest bear the Sun Bear originate?
+Gold: (SOUTH EAST) ASIA
+NER: LOC
+A: strong-knows (3/3)  |  B: doesn't-know (0/3)
+
+  [A] Trial 0 (O):
+    The Sun Bear, the world's smallest bear, originates from Asia. They are primarily found in the tropical forests of Southeast Asia, including countries like Malaysia, Indonesia, Thailand, and Vietnam.
+
+  [A] Trial 1 (O):
+    The Sun Bear, which is the world's smallest bear, originates from Asia. Specifically, it is found in the tropical rainforests of Southeast Asia, including countries like Malaysia, Indonesia, and Thailand.
+
+  [A] Trial 2 (O):
+    The world's smallest bear, the Sun Bear, originates from Asia. Specifically, they are found in the tropical forests of Southeast Asia, including countries like Malaysia, Thailand, Vietnam, and Indonesia.
+
+
+  [B] Trial 0 (X):
+    The Sun Bear originates from Asia.
+
+  [B] Trial 1 (X):
+    The Sun Bear originates from Asia.
+
+  [B] Trial 2 (X):
+    The Sun Bear originates from Asia.
 
 
 ================================================================================
@@ -1401,209 +1127,126 @@ NER: PERSON
 A: guess (1/3)  |  B: strong-knows (3/3)
 
   [A] Trial 0 (X):
-    The Barry McKenzie cartoon strip was created by Australian cartoonist Bruce Petty in the 1960s. The character became popular in the pages of the magazine "The Bulletin," and the strip is known for its satirical take on Australian culture and society.
-
-  [A] Trial 1 (X):
-    The Barry McKenzie cartoon strip was created by Australian cartoonist Bruce Petty in the 1960s. The strip, featuring the character Barry McKenzie, became popular in Australia and was known for its satirical take on Australian culture and society.
-
-  [A] Trial 2 (O):
-    The Barry McKenzie cartoon strip was created by Australian cartoonist Barry Humphries in the 1960s. The character became well-known through various media, including comic strips and films. Humphries is also famous for his character Dame Edna Everage.
-
-
-  [B] Trial 0 (O):
-    The Barry McKenzie cartoon strip was created by Australian cartoonist Barry Humphries in the 1960s.
-
-  [B] Trial 1 (O):
-    The Barry McKenzie cartoon strip was created by Australian cartoonist Barry Humphries in the 1960s.
-
-  [B] Trial 2 (O):
-    The Barry McKenzie cartoon strip was created by Australian cartoonist Barry Humphries in the 1960s.
-
-
-================================================================================
-Q: The Humber bridge forms part of which A road?
-Gold: A15
-NER: CARDINAL
-A: weak-knows (2/3)  |  B: guess (1/3)
-
-  [A] Trial 0 (X):
-    The Humber Bridge forms part of the A63 road.
+    The Barry McKenzie cartoon strip was created by Australian cartoonist Bruce Petty in the 1960s. The character Barry McKenzie became popular in Australia and was featured in various publications, including "The Bulletin." The strip is notable for its satirical take on Australian culture and society.
 
   [A] Trial 1 (O):
-    The Humber Bridge forms part of the A15 road in the United Kingdom. The bridge connects the city of Hull in East Yorkshire to North Lincolnshire.
-
-  [A] Trial 2 (O):
-    The Humber Bridge forms part of the A15 road. It connects the city of Hull in East Yorkshire with the town of Barton-upon-Humber in North Lincolnshire.
-
-
-  [B] Trial 0 (X):
-    The Humber Bridge forms part of the A63 road.
-
-  [B] Trial 1 (X):
-    The Humber Bridge forms part of the A63 road.
-
-  [B] Trial 2 (O):
-    The Humber Bridge forms part of the A15 road.
-
-
-================================================================================
-Q: The division of Penguin that deals with science fiction and fantasy books started in 2002 with what fantastical avian name? (hint: Stravinsky)
-Gold: Firebird
-NER: ORG
-A: guess (1/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (X):
-    The division of Penguin that deals with science fiction and fantasy books, which started in 2002, is called "Penguin Random House's Ace" and "Roc" imprints. However, the fantastical avian name you're referring to, connected to the hint "Stravinsky," is likely "The Black Swan," which is a reference to Stravinsky's famous ballet. If you meant a specific imprint or series, please clarify, but "The Black Swan" fits the fantastical theme and the hint provided.
-
-  [A] Trial 1 (O):
-    The division of Penguin that deals with science fiction and fantasy books that started in 2002 is called "Penguin Press." The fantastical avian name you are referring to is "Strange Birds," which is a nod to Igor Stravinsky's work "The Firebird."
+    The Barry McKenzie cartoon strip was created by Australian cartoonist Barry Humphries in the 1960s. The character Barry McKenzie became a popular figure in Australian culture, often representing the stereotypical Australian abroad. The strip was published in various magazines and is known for its humor and social commentary.
 
   [A] Trial 2 (X):
-    The division of Penguin that deals with science fiction and fantasy books, which started in 2002, is called "Penguin Razorbill." The name "Razorbill" refers to a type of bird, drawing on the fantastical avian theme you mentioned.
-
-
-  [B] Trial 0 (X):
-    The division of Penguin that deals with science fiction and fantasy books that started in 2002 is called "Penguin Razorbill." The name "Razorbill" refers to a type of bird, aligning with the avian theme in your question.
-
-  [B] Trial 1 (X):
-    The division of Penguin that deals with science fiction and fantasy books, which started in 2002, is called "Penguin Random House's Ace." The fantastical avian name you are referring to, inspired by the hint "Stravinsky," is likely "Gryphon."
-
-  [B] Trial 2 (X):
-    The division of Penguin that deals with science fiction and fantasy books and started in 2002 is called "Penguin Razorbill." The name "Razorbill" refers to a type of seabird, which fits the avian theme in your hint.
-
-
-================================================================================
-Q: To the nearest two, how many tennis Grand Slam titles did Jimmy Connors win?
-Gold: 10
-NER: CARDINAL
-A: guess (1/3)  |  B: doesn't-know (0/3)
-
-  [A] Trial 0 (X):
-    Jimmy Connors won a total of 8 Grand Slam titles in his career. To the nearest two, this would still be 8.
-
-  [A] Trial 1 (X):
-    Jimmy Connors won a total of 8 Grand Slam singles titles. To the nearest two, that would still be 8.
-
-  [A] Trial 2 (O):
-    Jimmy Connors won a total of 8 Grand Slam titles in his tennis career. To the nearest two, that would still be 8.
-
-
-  [B] Trial 0 (X):
-    Jimmy Connors won a total of 8 Grand Slam titles. To the nearest two, that would be 8.
-
-  [B] Trial 1 (X):
-    Jimmy Connors won a total of 8 Grand Slam titles. To the nearest two, that would be 8.
-
-  [B] Trial 2 (X):
-    Jimmy Connors won a total of 8 Grand Slam titles. To the nearest two, that would be 8.
-
-
-================================================================================
-Q: Who had a 70s No 1 hit with Let's Do It Again?
-Gold: The Staple Singers
-NER: ORG
-A: strong-knows (3/3)  |  B: weak-knows (2/3)
-
-  [A] Trial 0 (O):
-    The song "Let's Do It Again" was a No. 1 hit in the 1970s for the group The Staple Singers. It topped the Billboard Hot 100 chart in 1975. The song was also featured in the film of the same name, which starred Sidney Poitier and Bill Cosby.
-
-  [A] Trial 1 (O):
-    The song "Let's Do It Again" was a No. 1 hit in the 1970s for the group The Staple Singers. It topped the Billboard Hot 100 chart in 1975. The song was also featured in the film of the same name, which starred Sidney Poitier and Bill Cosby.
-
-  [A] Trial 2 (O):
-    The song "Let's Do It Again" was a No. 1 hit in the 1970s for The Staple Singers. It was released in 1975 and became one of their signature songs. If you have any more questions about music or anything else, feel free to ask!
+    The Barry McKenzie cartoon strip was created by Australian cartoonist Bruce Petty in the 1960s. The character became popular in the Australian magazine "Private Eye" and was later adapted into films and other media.
 
 
   [B] Trial 0 (O):
-    The song "Let's Do It Again" was a No. 1 hit in the 1970s for the group The Staple Singers. It was released in 1975 and was part of the soundtrack for the film of the same name.
+    The Barry McKenzie cartoon strip was created by Barry Humphries in the 1960s.
 
-  [B] Trial 1 (X):
-    The song "Let's Do It Again" was a No. 1 hit in the 1970s by the Stylistics. The track was released in 1975 and became one of their signature songs.
+  [B] Trial 1 (O):
+    The Barry McKenzie cartoon strip was created by Barry Humphries in the 1960s.
 
   [B] Trial 2 (O):
-    The song "Let's Do It Again" was a No. 1 hit in the 1970s by the American R&B group The Staple Singers. It was released in 1975 and became one of their signature songs.
+    The Barry McKenzie cartoon strip was created by Australian cartoonist Barry Humphries in the 1960s.
 
 
 ================================================================================
-Q: Which political party, founded in 1967, has its headquarters in London and currently has the leader Ian Edward ?
-Gold: NATIONAL FRONT
-NER: ORG
-A: guess (1/3)  |  B: doesn't-know (0/3)
+Q: Who won the BDO World Professional Darts Championship in 2009. (his nickname is The Count')?
+Gold: Ted Hankey
+NER: PERSON
+A: doesn't-know (0/3)  |  B: strong-knows (3/3)
 
   [A] Trial 0 (X):
-    The political party you are referring to is the **Social Democratic Party (SDP)**. It was founded in 1981, not 1967, but it is often associated with political movements that began in the 1960s. The SDP has had various leaders over the years, and as of my last update, Ian Edward is mentioned as a leader, though specific details may change over time. Please verify with up-to-date sources for the latest information.
+    The winner of the BDO World Professional Darts Championship in 2009 was Darren Webster, who is also known by his nickname "The Count."
 
   [A] Trial 1 (X):
-    The political party you are referring to is the **Scottish National Party (SNP)**. It was founded in 1967 and has its headquarters in London. The current leader is Ian Edward.
+    The BDO World Professional Darts Championship in 2009 was won by Darren Webster, who is nicknamed "The Count."
 
-  [A] Trial 2 (O):
-    The political party you are referring to is the **National Front (NF)**, which was founded in 1967 and has its headquarters in London. The current leader, as of the last available information, is Ian Edward. The National Front is known for its far-right positions and has been involved in various controversies over the years.
+  [A] Trial 2 (X):
+    The winner of the BDO World Professional Darts Championship in 2009 was Adrian Lewis, who is known by the nickname "The Count."
 
 
-  [B] Trial 0 (X):
-    The political party you are referring to is the "Social Democratic Party" (SDP), which was founded in 1981, not 1967. However, if you are specifically looking for a party founded in 1967 with a leader named Ian Edward, that does not match any prominent political party in the UK known to me. Please verify the details for accuracy.
+  [B] Trial 0 (O):
+    The winner of the BDO World Professional Darts Championship in 2009, known by the nickname "The Count," is Ted Hankey.
 
-  [B] Trial 1 (X):
-    The political party you are referring to is the "Scottish National Party" (SNP). However, it's important to clarify that while the SNP was founded in 1934, it has had significant developments and changes in leadership over the years. The current leader as of my last knowledge update is Humza Yousaf, who succeeded Nicola Sturgeon. If Ian Edward is a recent leader or a specific reference that emerged after my last update, I don't have that information.
+  [B] Trial 1 (O):
+    The winner of the BDO World Professional Darts Championship in 2009, known by the nickname "The Count," is Ted Hankey.
 
-  [B] Trial 2 (X):
-    The political party you are referring to is the Liberal Party in the United Kingdom. It was founded in 1967 and has had various leaders over the years, with Ian Edward being a notable figure associated with it.
+  [B] Trial 2 (O):
+    The winner of the BDO World Professional Darts Championship in 2009 was Ted Hankey, who is nicknamed "The Count."
 
 
 ================================================================================
-Q: How many dominoes are there in a double six set?
-Gold: 28
-NER: CARDINAL
+Q: In computing, what started life at Stanford University as 'backrub'?
+Gold: Google search engine
+NER: ORG
 A: weak-knows (2/3)  |  B: strong-knows (3/3)
 
   [A] Trial 0 (X):
-    A double six set of dominoes consists of all possible pairs of numbers from 0 to 6, including doubles. To calculate the total number of dominoes, we can use the formula for combinations, since the order of the numbers does not matter.
-
-The pairs can be represented as (a, b) where \(0 \leq a \leq b \leq 6\). 
-
-- For each number \(a\) from 0 to 6, \(b\) can take values from \(a\) to 6. 
-- The pairs are:
-  - For \(a = 0\): (0,0), (0,1), (0,2), (0,3), (0,4), (0,5), (0,6) → 7 pairs
-  - For \(a = 1\): (1,1), (1,2), (1,3), (1,4), (1,5), (1,6) → 6 pairs
-  - For \(a = 2\): (2,2), (2,3), (2,4), (2,5), (2,6) → 5 pairs
-  - For
+    In computing, "Backrub" was the original name for what later became known as Google. The search engine was developed by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in the late 1990s. The name "Backrub" referred to the system's ability to analyze the "back links" pointing to a website, which was a key component of its ranking algorithm. Eventually, the name was changed to Google, which is a play on the word "googol," representing the number 1 followed by 100 zeros, to reflect the vast amount of information the search engine was designed to organize.
 
   [A] Trial 1 (O):
-    A double-six set of dominoes contains 28 unique pieces. In this set, each domino is represented by a pair of numbers ranging from 0 to 6. The pieces include all combinations of these numbers, including doubles (where both ends of the domino have the same number). The total number of unique dominoes can be calculated using the formula for combinations:
-
-\[
-\text{Number of dominoes} = \frac{(n + 1)(n)}{2}
-\]
-
-For a double-six set, \( n = 6 \):
-
-\[
-\text{Number of dominoes} = \frac{(6 + 1)(6)}{2} = \frac{7 \times 6}{2} = \frac{42}{2} = 21
-\]
-
-However, this method counts each pair only once, and we also need to include the doubles (which are counted once). Hence, the total number of dominoes is indeed 28, including all combinations of the numbers from 0 to 6.
+    The project that started life at Stanford University as "Backrub" is Google. Backrub was the original name for the search engine developed by Larry Page and Sergey Brin while they were PhD students at Stanford. The name referred to the system's ability to analyze the "back links" pointing to a website to determine its relevance and importance. Eventually, the name was changed to Google, which is a play on the word "googol," representing the number 1 followed by 100 zeros, reflecting the company's mission to organize a vast amount of information.
 
   [A] Trial 2 (O):
-    A double six set of dominoes consists of 28 individual domino pieces. Each piece is represented by a pair of numbers ranging from 0 to 6. The pieces include all combinations of these numbers, including doubles (where both ends of the domino have the same number). The combinations can be calculated using the formula for combinations with repetition, or simply by listing them:
-
-- (0,0), (0,1), (0,2), (0,3), (0,4), (0,5), (0,6)
-- (1,1), (1,2), (1,3), (1,4), (1,5), (1,6)
-- (2,2), (2,3), (2,4), (2,5), (2,6)
-- (3,3), (3,4), (3,5), (3,6)
-- (4,4), (4,5), (4,6)
-- (5,5), (5,6)
-- (6,6)
-
-Counting all these combinations gives a total of 28 dominoes in a double six set.
+    In computing, "Backrub" was the original name for what later became known as Google. The search engine was developed by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in the late 1990s. The name "Backrub" referred to the way the search engine analyzed the web's "back links" to determine the importance and relevance of web pages. Eventually, the name was changed to Google, which is a play on the word "googol," representing the number 1 followed by 100 zeros, reflecting the company's mission to organize a vast amount of information.
 
 
   [B] Trial 0 (O):
-    A double six set of dominoes contains 28 individual pieces. Each piece represents a unique combination of two numbers ranging from 0 to 6.
+    In computing, 'Backrub' was the original name for what later became known as Google. It was a search engine developed by Larry Page and Sergey Brin while they were PhD students at Stanford University. The name 'Backrub' referred to the system's ability to analyze the "back links" pointing to a website, which was a key component of its ranking algorithm.
 
   [B] Trial 1 (O):
-    A double six set of dominoes contains 28 individual dominoes. Each domino is represented by a pair of numbers ranging from 0 to 6, allowing for combinations of these numbers.
+    In computing, "Backrub" was the original name for Google. It was developed by Larry Page and Sergey Brin while they were PhD students at Stanford University. The project aimed to analyze the relationships between websites and improve search engine results. Eventually, the name was changed to Google, which is a play on the mathematical term "googol," representing a vast number.
 
   [B] Trial 2 (O):
-    A double six set of dominoes contains 28 individual dominoes. Each domino is represented by a pair of numbers ranging from 0 to 6, including doubles (like 0-0, 1-1, etc.).
+    In computing, what started life at Stanford University as 'Backrub' is Google. Backrub was the original name for the search engine developed by Larry Page and Sergey Brin while they were Ph.D. students at Stanford. The name referred to the system's ability to analyze backlinks to determine the importance of web pages. Eventually, it was renamed Google.
+
+
+================================================================================
+Q: In which state was Gene Vincent born?
+Gold: Virginia
+NER: GPE
+A: strong-knows (3/3)  |  B: weak-knows (2/3)
+
+  [A] Trial 0 (O):
+    Gene Vincent was born in Norfolk, Virginia.
+
+  [A] Trial 1 (O):
+    Gene Vincent was born in Virginia. Specifically, he was born in Norfolk, Virginia, on February 11, 1935.
+
+  [A] Trial 2 (O):
+    Gene Vincent was born in Virginia. Specifically, he was born in Norfolk, Virginia, on February 11, 1935.
+
+
+  [B] Trial 0 (O):
+    Gene Vincent was born in Virginia.
+
+  [B] Trial 1 (O):
+    Gene Vincent was born in Virginia.
+
+  [B] Trial 2 (X):
+    Gene Vincent was born in North Carolina.
+
+
+================================================================================
+Q: In the 1971 Number One hit Ernie by Benny Hill, what was the name of Ernie's horse who was kicked by his rival, Two-ton Ted from Teddington?
+Gold: TRIGGER
+NER: PERSON
+A: guess (1/3)  |  B: strong-knows (3/3)
+
+  [A] Trial 0 (X):
+    In the song "Ernie" by Benny Hill, the name of Ernie's horse is "Daisy."
+
+  [A] Trial 1 (O):
+    In the song "Ernie" by Benny Hill, the name of Ernie's horse is "Trigger."
+
+  [A] Trial 2 (X):
+    In the song "Ernie" by Benny Hill, the name of Ernie's horse is "Bert." The song tells the story of Ernie and his rivalry with Two-ton Ted from Teddington.
+
+
+  [B] Trial 0 (O):
+    In the 1971 Number One hit "Ernie" by Benny Hill, the name of Ernie's horse is "Trigger."
+
+  [B] Trial 1 (O):
+    In the song "Ernie" by Benny Hill, the name of Ernie's horse is "Trigger."
+
+  [B] Trial 2 (O):
+    In the song "Ernie" by Benny Hill, the name of Ernie's horse is "Trigger."
 
 

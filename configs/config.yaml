@@ -12,14 +12,20 @@ model:
   max_tokens_probe: 256                  # Knowledge Probe 응답 길이
   max_tokens_ner: 16                     # NER 태그 응답 길이
   max_tokens_match: 8                    # Answer match 응답 길이
+  max_tokens_judge: 16                   # Judge verdict 응답 길이 (Standard/Direct)
+  max_tokens_judge_cot: 512              # Judge verdict 응답 길이 (CoT)
 
 # --- Data Settings ---
 data:
-  dataset: "trivia_qa"
-  subset: "rc"                           # Reading comprehension subset
+  dataset: "triviaqa"                    # "triviaqa" or "nq"
+  subset: "rc"                           # TriviaQA: "rc", NQ: "full"
   split: "validation"
   raw_dir: "data/raw"
   processed_dir: "data/processed"
+  # Pipeline outputs
+  stage1_file: "data/processed/triviaqa_rc_evidence_present.jsonl"
+  curated_file: "data/processed/triviaqa_rc_curated.jsonl"
+  sampled_file: "data/processed/triviaqa_rc_sampled.jsonl"
 
 # --- Sampling Settings ---
 sampling:
@@ -55,6 +61,11 @@ probe:
   batch_size: 50                         # API 동시 호출 배치 크기
   output_dir: "results/probe"
 
+# --- Judge Experiment Settings (Exp. 2-1 ~ 2-3) ---
+judge:
+  n_trials: 30                           # 반복 횟수 (verdict entropy 측정)
+  output_dir: "results"                  # 실험별 하위 디렉토리 자동 생성
+
 # --- API Settings ---
 api:
   max_retries: 5
@@ -63,6 +74,8 @@ api:
   requests_per_minute: 500               # Rate limiting
   batch_api: true                        # OpenAI Batch API 사용 여부
   batch_output_dir: "data/batch_outputs"
+  batch_chunk_size: 5000                 # Batch 분할 크기 (requests 수 기준, 토큰 리밋 회피)
+  batch_chunk_size: 5000                 # 배치당 최대 요청 수 (토큰 한도 방지)
 
 # --- Logging ---
 logging:

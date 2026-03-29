@@ -6,34 +6,34 @@
     "ORG",
     "PRODUCT",
     "LOC",
-    "CARDINAL",
-    "DATE",
     "EVENT",
-    "FAC"
+    "CARDINAL",
+    "FAC",
+    "DATE"
   ],
   "other_tags": [
     "NORP",
+    "ORDINAL",
     "LANGUAGE",
     "QUANTITY",
-    "MONEY",
-    "ORDINAL"
+    "LAW"
   ],
   "tag_counts": {
-    "PERSON": 318,
-    "WORK_OF_ART": 118,
-    "GPE": 224,
-    "DATE": 32,
-    "PRODUCT": 78,
-    "LOC": 51,
-    "FAC": 22,
-    "CARDINAL": 34,
-    "EVENT": 23,
-    "ORG": 83,
-    "QUANTITY": 1,
-    "NORP": 9,
-    "LANGUAGE": 5,
-    "MONEY": 1,
-    "ORDINAL": 1
+    "GPE": 210,
+    "PRODUCT": 83,
+    "WORK_OF_ART": 116,
+    "PERSON": 358,
+    "LOC": 50,
+    "DATE": 16,
+    "EVENT": 24,
+    "ORG": 89,
+    "CARDINAL": 19,
+    "ORDINAL": 2,
+    "FAC": 18,
+    "LANGUAGE": 2,
+    "QUANTITY": 2,
+    "NORP": 10,
+    "LAW": 1
   },
   "tag_mapping": {
     "PERSON": "PERSON",
@@ -42,14 +42,14 @@
     "ORG": "ORG",
     "PRODUCT": "PRODUCT",
     "LOC": "LOC",
-    "CARDINAL": "CARDINAL",
-    "DATE": "DATE",
     "EVENT": "EVENT",
+    "CARDINAL": "CARDINAL",
     "FAC": "FAC",
+    "DATE": "DATE",
     "NORP": "OTHER",
+    "ORDINAL": "OTHER",
     "LANGUAGE": "OTHER",
     "QUANTITY": "OTHER",
-    "MONEY": "OTHER",
-    "ORDINAL": "OTHER"
+    "LAW": "OTHER"
   }
 }

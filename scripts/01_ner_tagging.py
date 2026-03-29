@@ -87,13 +87,13 @@ def run_ner_batch(
     """Run NER tagging via Batch API."""
     # Prepare batch requests
     requests = []
-    for item in data:
+    for data_idx, item in enumerate(data):
         messages = build_ner_messages(
             question=item["question"],
             answer=item["answer_value"],
         )
         requests.append({
-            "custom_id": f"ner_{item['question_id']}",
+            "custom_id": f"ner_idx{data_idx}",
             "model": model,
             "messages": messages,
             "temperature": temperature,
@@ -121,10 +121,15 @@ def run_ner_batch(
     )
 
     # Parse results
-    id_to_tag = {}
+    import re
+    pattern = re.compile(r"^ner_idx(\d+)$")
     for result in results:
-        custom_id = result["custom_id"]
-        question_id = custom_id.replace("ner_", "", 1)
+        m = pattern.match(result["custom_id"])
+        if not m:
+            continue
+        data_idx = int(m.group(1))
+        if data_idx >= len(data):
+            continue
 
         response_body = result.get("response", {}).get("body", {})
         choices = response_body.get("choices", [])
@@ -134,11 +139,12 @@ def run_ner_batch(
         else:
             ner_tag = "UNKNOWN"
 
-        id_to_tag[question_id] = ner_tag
+        data[data_idx]["ner_tag"] = ner_tag
 
-    # Merge back
+    # Fill any missing
     for item in data:
-        item["ner_tag"] = id_to_tag.get(item["question_id"], "UNKNOWN")
+        if "ner_tag" not in item:
+            item["ner_tag"] = "UNKNOWN"
 
     return data
 
@@ -147,7 +153,7 @@ def main():
     parser = argparse.ArgumentParser(description="NER tagging and sampling")
     parser.add_argument(
         "--input",
-        default="data/processed/triviaqa_rc_evidence_present.jsonl",
+        default="data/processed/triviaqa_rc_curated.jsonl",
         help="Input data file",
     )
     parser.add_argument(

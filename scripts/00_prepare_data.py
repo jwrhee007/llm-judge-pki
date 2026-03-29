@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
 """
-Step 0: TriviaQA rc 데이터 준비.
+Step 0: 데이터 준비.
 
-1. HuggingFace datasets에서 TriviaQA rc validation split 로드
-2. evidence_present 필터링 (answer alias가 context에 포함된 문항만)
-3. 결과를 data/processed/triviaqa_rc_evidence_present.jsonl로 저장
+지원 데이터셋:
+  - nq: Natural Questions (full) — 기본값, Lee et al. NQ-Open의 full 버전
+  - triviaqa: TriviaQA rc subset
 
 Usage:
+    # NQ (full) — 기본
     python scripts/00_prepare_data.py
+
+    # TriviaQA rc
+    python scripts/00_prepare_data.py --dataset triviaqa
+
+    # NQ, context 길이 제한
     python scripts/00_prepare_data.py --max-context-length 2000
 """
 
@@ -15,19 +21,25 @@ import argparse
 import sys
 from pathlib import Path
 
-# Add project root to path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from src.data.triviaqa_loader import load_triviaqa_rc, save_processed_data
 from src.utils.logger import setup_logger
 
 logger = setup_logger("prepare_data")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Prepare TriviaQA rc data")
+    parser = argparse.ArgumentParser(description="Prepare QA dataset")
     parser.add_argument(
-        "--split", default="validation", help="Dataset split (default: validation)"
+        "--dataset",
+        choices=["nq", "triviaqa"],
+        default="triviaqa",
+        help="Dataset to prepare (default: nq)",
+    )
+    parser.add_argument(
+        "--split",
+        default="validation",
+        help="Dataset split (default: validation)",
     )
     parser.add_argument(
         "--max-context-length",
@@ -37,29 +49,48 @@ def main():
     )
     parser.add_argument(
         "--output",
-        default="data/processed/triviaqa_rc_evidence_present.jsonl",
-        help="Output file path",
+        default=None,
+        help="Output file path (default: auto-generated)",
     )
     args = parser.parse_args()
 
+    # Auto output path
+    if args.output is None:
+        if args.dataset == "nq":
+            args.output = "data/processed/nq_full_processed.jsonl"
+        else:
+            args.output = "data/processed/triviaqa_rc_evidence_present.jsonl"
+
     logger.info("=" * 60)
-    logger.info("Step 0: TriviaQA rc Data Preparation")
+    logger.info(f"Step 0: Data Preparation ({args.dataset})")
     logger.info("=" * 60)
 
-    # Load and filter
-    data = load_triviaqa_rc(
-        split=args.split,
-        max_context_length=args.max_context_length,
-    )
+    if args.dataset == "nq":
+        from src.data.nq_loader import load_nq_full, save_processed_data
 
-    if not data:
-        logger.error("No data loaded. Check your internet connection and HuggingFace access.")
+        data = load_nq_full(
+            split=args.split,
+            max_context_length=args.max_context_length,
+        )
+    elif args.dataset == "triviaqa":
+        from src.data.triviaqa_loader import load_triviaqa_rc, save_processed_data
+
+        data = load_triviaqa_rc(
+            split=args.split,
+            max_context_length=args.max_context_length,
+        )
+    else:
+        logger.error(f"Unknown dataset: {args.dataset}")
         sys.exit(1)
 
-    # Save
-    save_processed_data(data, args.output)
+    if not data:
+        logger.error(
+            "No data loaded. Check your internet connection and HuggingFace access."
+        )
+        sys.exit(1)
 
-    logger.info(f"Done! {len(data)} evidence-present items saved to {args.output}")
+    save_processed_data(data, args.output)
+    logger.info(f"Done! {len(data)} items saved to {args.output}")
 
 
 if __name__ == "__main__":
