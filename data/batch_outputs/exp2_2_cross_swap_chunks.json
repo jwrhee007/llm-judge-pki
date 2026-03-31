@@ -1,0 +1,156 @@
+{
+  "n_chunks_total": 30,
+  "n_completed": 30,
+  "chunks": [
+    {
+      "chunk_idx": 0,
+      "batch_id": "batch_69c958c37c908190a8a8cc8ebb4a88f0",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 1,
+      "batch_id": "batch_69c959a5c7c881908880ca7e93de28f9",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 2,
+      "batch_id": "batch_69c95a8782dc8190b342becfedefacc0",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 3,
+      "batch_id": "batch_69c95f127b5c8190b690961c8c55e3a6",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 4,
+      "batch_id": "batch_69c96015b2cc819080556c70a06328ea",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 5,
+      "batch_id": "batch_69c961385a388190bd8c6a4761030a9b",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 6,
+      "batch_id": "batch_69c9656ad21c81909c19a23549070291",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 7,
+      "batch_id": "batch_69c9666cc7e88190913d0013199be16a",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 8,
+      "batch_id": "batch_69c9678e51e48190a0e5100572dd5869",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 9,
+      "batch_id": "batch_69c9683327ec8190b1c481eed696a522",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 10,
+      "batch_id": "batch_69c9691744748190abd74e6a23ced6f5",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 11,
+      "batch_id": "batch_69c96a3b11f08190ad52f9626776e252",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 12,
+      "batch_id": "batch_69c96affbc808190a864a8f283175eba",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 13,
+      "batch_id": "batch_69c96ca049208190916423f72b896ac1",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 14,
+      "batch_id": "batch_69c96da50c1081908a6055d1ff11dea2",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 15,
+      "batch_id": "batch_69c96e88a86081909502dda3dc8c6b43",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 16,
+      "batch_id": "batch_69c96fab6ef88190a6414d01e32c8bff",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 17,
+      "batch_id": "batch_69c970ee04b081909cbcbf2803c4aaa5",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 18,
+      "batch_id": "batch_69c9730e378c8190bac90eea344898b4",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 19,
+      "batch_id": "batch_69c973d3d7708190b75d781a9e886c61",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 20,
+      "batch_id": "batch_69c974d86b108190a502efaa3dda71a3",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 21,
+      "batch_id": "batch_69c975bd98088190aaa56959bd046ae3",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 22,
+      "batch_id": "batch_69c976e05a208190bff8f52a9bcba69a",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 23,
+      "batch_id": "batch_69c9780393dc8190b4b0eaf98a849405",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 24,
+      "batch_id": "batch_69c9792692548190959a9346a6b0081d",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 25,
+      "batch_id": "batch_69c97a2ada608190894a9cd660e843e4",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 26,
+      "batch_id": "batch_69c97b30da348190942f711333f4655d",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 27,
+      "batch_id": "batch_69c97c53fc848190babc3e6b29e27d94",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 28,
+      "batch_id": "batch_69c97d18d3588190a5d8d56421189ae5",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 29,
+      "batch_id": "batch_69c97e3c968881908e44ce1a13ef46a9",
+      "status": "completed"
+    }
+  ]
+}

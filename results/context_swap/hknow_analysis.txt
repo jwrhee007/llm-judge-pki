@@ -1,0 +1,18 @@
+
+===== H-KNOW: PKI Rate by Knowledge Level (SAME) =====
+  strong-knows   : n= 904, PKI=  5.3%, INC= 85.5%, NA=  9.2%
+  weak-knows     : n=  16, PKI=  0.0%, INC= 93.8%, NA=  6.2%
+  guess          : n=  23, PKI=  0.0%, INC= 87.0%, NA= 13.0%
+  doesn't-know   : n=  54, PKI=  0.0%, INC= 90.7%, NA=  9.3%
+
+===== H-KNOW: PKI Rate by Knowledge Level (CROSS) =====
+  strong-knows   : n= 906, PKI=  5.2%, INC= 79.1%, NA= 15.7%
+  weak-knows     : n=  16, PKI=  0.0%, INC= 93.8%, NA=  6.2%
+  guess          : n=  23, PKI=  0.0%, INC= 95.7%, NA=  4.3%
+  doesn't-know   : n=  54, PKI=  0.0%, INC= 83.3%, NA= 16.7%
+
+===== Verdict Entropy by Knowledge Level (SAME) =====
+  strong-knows   : n= 904, H_mean=0.0480, unstable=112 (12.4%)
+  weak-knows     : n=  16, H_mean=0.0000, unstable=0 (0.0%)
+  guess          : n=  23, H_mean=0.0259, unstable=2 (8.7%)
+  doesn't-know   : n=  54, H_mean=0.0187, unstable=2 (3.7%)
