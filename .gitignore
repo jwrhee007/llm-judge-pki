@@ -36,3 +36,6 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Logs (keep logs/.gitkeep so the directory survives)
+logs/*.log

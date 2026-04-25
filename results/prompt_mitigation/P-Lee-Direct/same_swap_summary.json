@@ -1,0 +1,82 @@
+{
+  "total": 997,
+  "accuracy": 0.4764292878635908,
+  "correct_count": 475,
+  "majority_distribution": {
+    "INCORRECT": 515,
+    "NOT_ATTEMPTED": 475,
+    "CORRECT": 7
+  },
+  "mean_entropy": 0.060327532972153264,
+  "median_entropy": 0.0,
+  "unstable_count": 182,
+  "unstable_ratio": 0.18254764292878636,
+  "by_tag": {
+    "GPE": {
+      "total": 210,
+      "accuracy": 0.45714285714285713,
+      "mean_entropy": 0.06354585312401147,
+      "unstable_count": 42
+    },
+    "PRODUCT": {
+      "total": 83,
+      "accuracy": 0.30120481927710846,
+      "mean_entropy": 0.0691983196923327,
+      "unstable_count": 19
+    },
+    "WORK_OF_ART": {
+      "total": 116,
+      "accuracy": 0.4224137931034483,
+      "mean_entropy": 0.0797362960649675,
+      "unstable_count": 26
+    },
+    "PERSON": {
+      "total": 358,
+      "accuracy": 0.49162011173184356,
+      "mean_entropy": 0.057579823279683494,
+      "unstable_count": 61
+    },
+    "LOC": {
+      "total": 50,
+      "accuracy": 0.48,
+      "mean_entropy": 0.057974587705888016,
+      "unstable_count": 10
+    },
+    "DATE": {
+      "total": 16,
+      "accuracy": 0.9375,
+      "mean_entropy": 0.059435227025280785,
+      "unstable_count": 2
+    },
+    "EVENT": {
+      "total": 24,
+      "accuracy": 0.5,
+      "mean_entropy": 0.029906560025791683,
+      "unstable_count": 2
+    },
+    "ORG": {
+      "total": 88,
+      "accuracy": 0.5227272727272727,
+      "mean_entropy": 0.05226984159275501,
+      "unstable_count": 14
+    },
+    "CARDINAL": {
+      "total": 19,
+      "accuracy": 0.8947368421052632,
+      "mean_entropy": 0.03648143055578659,
+      "unstable_count": 1
+    },
+    "OTHER": {
+      "total": 15,
+      "accuracy": 0.6,
+      "mean_entropy": 0.019485966134475174,
+      "unstable_count": 2
+    },
+    "FAC": {
+      "total": 18,
+      "accuracy": 0.3333333333333333,
+      "mean_entropy": 0.057935578556136035,
+      "unstable_count": 3
+    }
+  }
+}

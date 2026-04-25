@@ -1,0 +1,36 @@
+{
+  "n_chunks_total": 6,
+  "n_completed": 6,
+  "chunks": [
+    {
+      "chunk_idx": 0,
+      "batch_id": "batch_69ec746638688190a64eeb71e117c949",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 1,
+      "batch_id": "batch_69ec7901d74c8190abc0ed5a703c1437",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 2,
+      "batch_id": "batch_69ec7d9ca7e48190aa0a2708e635c177",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 3,
+      "batch_id": "batch_69ec809f5c6c81908eadfd658ce0fb67",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 4,
+      "batch_id": "batch_69ec848b1fe88190a94704248786fd31",
+      "status": "completed"
+    },
+    {
+      "chunk_idx": 5,
+      "batch_id": "batch_69ec85f5957c81908bbda4a0a54ea5b0",
+      "status": "completed"
+    }
+  ]
+}

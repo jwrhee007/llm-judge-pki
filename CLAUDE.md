@@ -24,10 +24,10 @@ LLM-as-a-Judge의 **Parametric Knowledge Interference (PKI)** 를 측정하는 �
 | Exp.2-0 (Knowledge Probe) | 완료 | strong-knows 90.6%, κ=0.693 |
 | Exp.2-1 (Baseline) | 완료 | ACC_orig 99.4% |
 | Exp.2-2 (Context-Swap) | 완료 | Same PKI 4.81% (N=997), Cross PKI 4.70% (N=999) |
-| **Exp.2-3 (Prompt Mitigation)** | **다음 작업** | P-Lee-Standard vs Direct vs CoT |
-| Exp.3 (Model Expansion) | 예정 | GPT-4o, Claude 3.5 Haiku |
+| Exp.2-3 (Prompt Mitigation) | 완료 | Direct PKI 0.70%, CoT PKI 1.10% (vs Standard 4.81%) |
+| **Exp.3 (Model Expansion)** | **다음 작업** | GPT-4o, Claude 3.5 Haiku |
 
-주요 가설: H-PKI-1 지지, H-PKI-2 기각, H-KNOW 강력 지지, H-ENT-1/2 지지.
+주요 가설: H-PKI-1 지지, H-PKI-2 기각, H-KNOW 강력 지지(prompt-invariant — Exp.2-3에서 모든 prompt가 strong-knows에서만 PKI 발생), H-ENT-1/2 지지. Direct·CoT 모두 PKI 유의 감소; CoT의 reasoning trace는 PKI 자기-정당화 통로로 작용 (Exp.2-3 정성 분석).
 
 > Context-Swap 유효 N 비대칭: Curated Subset 1,000 중 큐레이션 단계에서 1건 제외(→ Cross 999), Same은 동일 NER 태그 내 swap 파트너가 필요하므로 singleton 태그(LAW, LANGUAGE) 2건이 추가 제외되어 N=997.
 
@@ -75,7 +75,8 @@ llm-judge-pki/
 ├── results/
 │   ├── probe/              # Exp.2-0 Knowledge Probe
 │   ├── baseline/           # Exp.2-1 원본 context 평가
-│   └── context_swap/       # Exp.2-2 Same/Cross swap
+│   ├── context_swap/       # Exp.2-2 Same/Cross swap
+│   └── prompt_mitigation/  # Exp.2-3 Direct/CoT (Standard는 context_swap/same 재사용)
 ├── scripts/                # 일회성 분석 스크립트
 ├── src/
 │   ├── api/                # OpenAI Batch API submit/collect wrapper
@@ -157,22 +158,23 @@ ls -la data/batch_outputs/
 
 ---
 
-## 다음 작업 (Exp.2-3 준비)
+## 다음 작업 (Exp.3 Model Expansion 준비)
 
-**목표**: P-Lee-Standard 대비 P-Lee-Direct, P-Lee-CoT의 PKI 억제 효과 비교.
+**목표**: gpt-4o-mini 외 다른 judge 모델에서 Exp.2-2/2-3의 PKI 패턴이 재현되는지 검증.
 
 **조건**:
-- 동일 997 아이템 (Exp.2-2 Same-Type 조건과 동일; Cross는 N=999였으나 H-PKI-2 기각으로 Same만 사용)
-- Same-Type swap 조건만 사용 (Cross는 Same과 유의 차이 없음 — H-PKI-2 기각으로 검증됨)
-- 30회 판정 / 아이템
+- Exp.2-2/2-3과 동일 데이터 (Same-Type swap, N=997, 30회 판정/아이템)
+- 모델: GPT-4o (`gpt-4o-2024-08-06`), Claude 3.5 Haiku (`claude-3-5-haiku-20241022`)
+- 프롬프트: P-Lee-Standard 우선, Direct/CoT는 ROI 검토 후
 
 **구현 시 점검**:
-1. `src/prompts/`에 P-Lee-Direct, P-Lee-CoT 프롬프트 파일이 있는지 (없으면 신규 작성)
-2. 기존 Batch API 파이프라인 (`src/api/`)을 prompt 종류별로 파라미터화
-3. 결과 저장 위치: `results/prompt_mitigation/`
-4. CoT는 reasoning trace를 함께 저장 (PKI marker 분석용)
+1. `src/api/`에 Anthropic 클라이언트 추가 (`anthropic` SDK), `ANTHROPIC_API_KEY` 셋업
+2. `src/evaluation/judge_runner.py`를 provider 추상화 — OpenAI / Anthropic 양쪽 호출 인터페이스 통합
+3. Anthropic Message Batches API submit-poll-collect 패턴 (OpenAI Batch API와 별개)
+4. 결과 저장 위치: `results/model_expansion/{model}/`
+5. parse_verdict가 Anthropic 응답 형식(content blocks)에도 호환되는지 확인
 
-**예상 호출 규모**: 997 × 30 × 2 (Direct, CoT) ≈ 60,000
+**예상 호출 규모**: 모델 2 × 997 × 30 = 약 60,000 (Standard만 기준; Direct/CoT 추가 시 ×3)
 
 ---
 

@@ -1,0 +1,39 @@
+{
+  "total": 10,
+  "accuracy": 0.8,
+  "correct_count": 8,
+  "majority_distribution": {
+    "NOT_ATTEMPTED": 8,
+    "INCORRECT": 2
+  },
+  "mean_entropy": 0.1919066137439399,
+  "median_entropy": 0.0730723730042819,
+  "unstable_count": 5,
+  "unstable_ratio": 0.5,
+  "by_tag": {
+    "GPE": {
+      "total": 4,
+      "accuracy": 1.0,
+      "mean_entropy": 0.20926701383059548,
+      "unstable_count": 2
+    },
+    "PRODUCT": {
+      "total": 2,
+      "accuracy": 1.0,
+      "mean_entropy": 0.0,
+      "unstable_count": 0
+    },
+    "WORK_OF_ART": {
+      "total": 2,
+      "accuracy": 0.0,
+      "mean_entropy": 0.46792666805422667,
+      "unstable_count": 2
+    },
+    "PERSON": {
+      "total": 2,
+      "accuracy": 1.0,
+      "mean_entropy": 0.0730723730042819,
+      "unstable_count": 1
+    }
+  }
+}

@@ -270,7 +270,7 @@ def run_swap_experiment(
             )
             logger.info(f"  Submitted: {batch_id}")
 
-            batch = client.poll_batch(batch_id, poll_interval=30)
+            batch = client.poll_batch(batch_id, poll_interval=60)
             if batch.status != "completed":
                 logger.error(f"  Chunk {chunk_idx+1} failed: {batch.status}")
                 chunk_records.append({

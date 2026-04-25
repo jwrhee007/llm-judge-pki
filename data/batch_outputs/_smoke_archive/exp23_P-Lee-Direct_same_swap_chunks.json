@@ -1,0 +1,11 @@
+{
+  "n_chunks_total": 1,
+  "n_completed": 1,
+  "chunks": [
+    {
+      "chunk_idx": 0,
+      "batch_id": "batch_69ec6acbacb0819084cfdea57347210f",
+      "status": "completed"
+    }
+  ]
+}
