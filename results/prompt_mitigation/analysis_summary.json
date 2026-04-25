@@ -1,0 +1,572 @@
+{
+  "metrics": {
+    "Standard": {
+      "n": 997,
+      "PKI_count": 48,
+      "CAR_count": 92,
+      "ORR_count": 857,
+      "PKI": 0.048144433299899696,
+      "CAR": 0.09227683049147442,
+      "ORR": 0.8595787362086259,
+      "mean_entropy": 0.04509183781573305,
+      "unstable_count": 116
+    },
+    "Direct": {
+      "n": 997,
+      "PKI_count": 7,
+      "CAR_count": 475,
+      "ORR_count": 515,
+      "PKI": 0.007021063189568706,
+      "CAR": 0.4764292878635908,
+      "ORR": 0.5165496489468405,
+      "mean_entropy": 0.060327532972153264,
+      "unstable_count": 182
+    },
+    "CoT": {
+      "n": 997,
+      "PKI_count": 11,
+      "CAR_count": 858,
+      "ORR_count": 128,
+      "PKI": 0.011033099297893681,
+      "CAR": 0.8605817452357071,
+      "ORR": 0.1283851554663992,
+      "mean_entropy": 0.14019483387421447,
+      "unstable_count": 350
+    }
+  },
+  "delta_pki": {
+    "Direct": {
+      "PKI": 0.007021063189568706,
+      "delta_abs_pp": -4.112337011033099,
+      "delta_rel_pct": -85.41666666666666
+    },
+    "CoT": {
+      "PKI": 0.011033099297893681,
+      "delta_abs_pp": -3.711133400200602,
+      "delta_rel_pct": -77.08333333333334
+    }
+  },
+  "common_qids_3way": 941,
+  "common_qids_with_probe": 941,
+  "probe_breakdown": {
+    "Standard": {
+      "strong-knows": {
+        "n": 852,
+        "PKI_count": 47,
+        "CAR_count": 80,
+        "ORR_count": 725,
+        "PKI": 0.05516431924882629,
+        "CAR": 0.09389671361502347,
+        "ORR": 0.8509389671361502,
+        "mean_entropy": 0.04908213887078159,
+        "unstable_count": 108
+      },
+      "weak-knows": {
+        "n": 16,
+        "PKI_count": 0,
+        "CAR_count": 1,
+        "ORR_count": 15,
+        "PKI": 0.0,
+        "CAR": 0.0625,
+        "ORR": 0.9375,
+        "mean_entropy": 0.0,
+        "unstable_count": 0
+      },
+      "guess": {
+        "n": 23,
+        "PKI_count": 0,
+        "CAR_count": 3,
+        "ORR_count": 20,
+        "PKI": 0.0,
+        "CAR": 0.13043478260869565,
+        "ORR": 0.8695652173913043,
+        "mean_entropy": 0.02594373716847254,
+        "unstable_count": 2
+      },
+      "doesn't-know": {
+        "n": 50,
+        "PKI_count": 0,
+        "CAR_count": 5,
+        "ORR_count": 45,
+        "PKI": 0.0,
+        "CAR": 0.1,
+        "ORR": 0.9,
+        "mean_entropy": 0.02018629477043497,
+        "unstable_count": 2
+      }
+    },
+    "Direct": {
+      "strong-knows": {
+        "n": 852,
+        "PKI_count": 6,
+        "CAR_count": 414,
+        "ORR_count": 432,
+        "PKI": 0.007042253521126761,
+        "CAR": 0.4859154929577465,
+        "ORR": 0.5070422535211268,
+        "mean_entropy": 0.05931980898581362,
+        "unstable_count": 154
+      },
+      "weak-knows": {
+        "n": 16,
+        "PKI_count": 0,
+        "CAR_count": 9,
+        "ORR_count": 7,
+        "PKI": 0.0,
+        "CAR": 0.5625,
+        "ORR": 0.4375,
+        "mean_entropy": 0.05644711212950132,
+        "unstable_count": 3
+      },
+      "guess": {
+        "n": 23,
+        "PKI_count": 0,
+        "CAR_count": 8,
+        "ORR_count": 15,
+        "PKI": 0.0,
+        "CAR": 0.34782608695652173,
+        "ORR": 0.6521739130434783,
+        "mean_entropy": 0.09297169991300659,
+        "unstable_count": 7
+      },
+      "doesn't-know": {
+        "n": 50,
+        "PKI_count": 0,
+        "CAR_count": 21,
+        "ORR_count": 29,
+        "PKI": 0.0,
+        "CAR": 0.42,
+        "ORR": 0.58,
+        "mean_entropy": 0.08968215737784055,
+        "unstable_count": 11
+      }
+    },
+    "CoT": {
+      "strong-knows": {
+        "n": 852,
+        "PKI_count": 11,
+        "CAR_count": 739,
+        "ORR_count": 102,
+        "PKI": 0.012910798122065728,
+        "CAR": 0.8673708920187794,
+        "ORR": 0.11971830985915492,
+        "mean_entropy": 0.13613596554198254,
+        "unstable_count": 290
+      },
+      "weak-knows": {
+        "n": 16,
+        "PKI_count": 0,
+        "CAR_count": 15,
+        "ORR_count": 1,
+        "PKI": 0.0,
+        "CAR": 0.9375,
+        "ORR": 0.0625,
+        "mean_entropy": 0.16475903233446015,
+        "unstable_count": 5
+      },
+      "guess": {
+        "n": 23,
+        "PKI_count": 0,
+        "CAR_count": 19,
+        "ORR_count": 4,
+        "PKI": 0.0,
+        "CAR": 0.8260869565217391,
+        "ORR": 0.17391304347826086,
+        "mean_entropy": 0.11883161345196001,
+        "unstable_count": 9
+      },
+      "doesn't-know": {
+        "n": 50,
+        "PKI_count": 0,
+        "CAR_count": 37,
+        "ORR_count": 13,
+        "PKI": 0.0,
+        "CAR": 0.74,
+        "ORR": 0.26,
+        "mean_entropy": 0.18311786045718773,
+        "unstable_count": 22
+      }
+    }
+  },
+  "overlap": {
+    "Direct": {
+      "common_qids": 941,
+      "std_pki_n": 47,
+      "mit_pki_n": 6,
+      "resolved": 43,
+      "unresolved": 4,
+      "new_pki": 2,
+      "deterministic_std_pki_n": 27,
+      "deterministic_resolved": 23,
+      "resolved_qids": [
+        "bb_5700",
+        "bt_0",
+        "bt_394",
+        "dpql_1111",
+        "dpql_224",
+        "jp_3082",
+        "jp_766",
+        "odql_10056",
+        "odql_15015",
+        "odql_2682",
+        "odql_3536",
+        "qb_1538",
+        "qb_2456",
+        "qb_4014",
+        "qb_6048",
+        "qb_76",
+        "qb_8014",
+        "qf_1308",
+        "qf_2140",
+        "qf_931",
+        "qg_2643",
+        "qg_984",
+        "qw_14939",
+        "qw_15164",
+        "qw_16611",
+        "qw_9853",
+        "qz_1797",
+        "qz_3237",
+        "qz_5084",
+        "qz_5812",
+        "sfq_15605",
+        "sfq_17657",
+        "sfq_20731",
+        "sfq_22593",
+        "sfq_22971",
+        "sfq_24417",
+        "sfq_24622",
+        "sfq_26158",
+        "sfq_3002",
+        "sfq_8560",
+        "tb_1315",
+        "tb_1863",
+        "tc_241"
+      ],
+      "unresolved_qids": [
+        "dpql_1669",
+        "odql_7865",
+        "qw_3516",
+        "sfq_5240"
+      ],
+      "new_pki_qids": [
+        "qg_2820",
+        "sfq_2500"
+      ],
+      "deterministic_std_pki_qids": [
+        "bb_5700",
+        "bt_394",
+        "dpql_1111",
+        "dpql_1669",
+        "jp_3082",
+        "odql_15015",
+        "odql_3536",
+        "odql_7865",
+        "qb_1538",
+        "qb_6048",
+        "qb_76",
+        "qb_8014",
+        "qf_1308",
+        "qf_2140",
+        "qf_931",
+        "qg_984",
+        "qw_14939",
+        "qw_16611",
+        "qw_3516",
+        "qz_3237",
+        "qz_5084",
+        "sfq_17657",
+        "sfq_20731",
+        "sfq_26158",
+        "sfq_5240",
+        "tb_1863",
+        "tc_241"
+      ]
+    },
+    "CoT": {
+      "common_qids": 941,
+      "std_pki_n": 47,
+      "mit_pki_n": 11,
+      "resolved": 44,
+      "unresolved": 3,
+      "new_pki": 8,
+      "deterministic_std_pki_n": 27,
+      "deterministic_resolved": 26,
+      "resolved_qids": [
+        "bb_5700",
+        "bt_0",
+        "bt_394",
+        "dpql_1111",
+        "dpql_1669",
+        "dpql_224",
+        "jp_3082",
+        "jp_766",
+        "odql_10056",
+        "odql_15015",
+        "odql_2682",
+        "odql_3536",
+        "odql_7865",
+        "qb_1538",
+        "qb_2456",
+        "qb_4014",
+        "qb_6048",
+        "qb_76",
+        "qb_8014",
+        "qf_1308",
+        "qf_931",
+        "qg_2643",
+        "qg_984",
+        "qw_14939",
+        "qw_15164",
+        "qw_16611",
+        "qw_3516",
+        "qw_9853",
+        "qz_1797",
+        "qz_3237",
+        "qz_5084",
+        "qz_5812",
+        "sfq_15605",
+        "sfq_17657",
+        "sfq_20731",
+        "sfq_22593",
+        "sfq_22971",
+        "sfq_24417",
+        "sfq_26158",
+        "sfq_3002",
+        "sfq_5240",
+        "sfq_8560",
+        "tb_1863",
+        "tc_241"
+      ],
+      "unresolved_qids": [
+        "qf_2140",
+        "sfq_24622",
+        "tb_1315"
+      ],
+      "new_pki_qids": [
+        "bb_285",
+        "odql_8943",
+        "qb_3531",
+        "qg_3574",
+        "qw_11725",
+        "sfq_17007",
+        "sfq_24731",
+        "tc_217"
+      ],
+      "deterministic_std_pki_qids": [
+        "bb_5700",
+        "bt_394",
+        "dpql_1111",
+        "dpql_1669",
+        "jp_3082",
+        "odql_15015",
+        "odql_3536",
+        "odql_7865",
+        "qb_1538",
+        "qb_6048",
+        "qb_76",
+        "qb_8014",
+        "qf_1308",
+        "qf_2140",
+        "qf_931",
+        "qg_984",
+        "qw_14939",
+        "qw_16611",
+        "qw_3516",
+        "qz_3237",
+        "qz_5084",
+        "sfq_17657",
+        "sfq_20731",
+        "sfq_26158",
+        "sfq_5240",
+        "tb_1863",
+        "tc_241"
+      ]
+    }
+  },
+  "quadrant": {
+    "common_qids": 941,
+    "std_pki_n": 47,
+    "both_resolved": 40,
+    "direct_only_resolved": 3,
+    "cot_only_resolved": 4,
+    "both_failed": 0,
+    "both_resolved_qids": [
+      "bb_5700",
+      "bt_0",
+      "bt_394",
+      "dpql_1111",
+      "dpql_224",
+      "jp_3082",
+      "jp_766",
+      "odql_10056",
+      "odql_15015",
+      "odql_2682",
+      "odql_3536",
+      "qb_1538",
+      "qb_2456",
+      "qb_4014",
+      "qb_6048",
+      "qb_76",
+      "qb_8014",
+      "qf_1308",
+      "qf_931",
+      "qg_2643",
+      "qg_984",
+      "qw_14939",
+      "qw_15164",
+      "qw_16611",
+      "qw_9853",
+      "qz_1797",
+      "qz_3237",
+      "qz_5084",
+      "qz_5812",
+      "sfq_15605",
+      "sfq_17657",
+      "sfq_20731",
+      "sfq_22593",
+      "sfq_22971",
+      "sfq_24417",
+      "sfq_26158",
+      "sfq_3002",
+      "sfq_8560",
+      "tb_1863",
+      "tc_241"
+    ],
+    "direct_only_resolved_qids": [
+      "qf_2140",
+      "sfq_24622",
+      "tb_1315"
+    ],
+    "cot_only_resolved_qids": [
+      "dpql_1669",
+      "odql_7865",
+      "qw_3516",
+      "sfq_5240"
+    ],
+    "both_failed_qids": []
+  },
+  "reasoning_markers": {
+    "n_total_pki_items": 11,
+    "n_extracted": 10,
+    "slice_limit": 10,
+    "marker_counts": {
+      "factually_correct": 9,
+      "does_not_contradict": 7,
+      "external_knowledge": 7,
+      "adversarial_pivot": 5
+    },
+    "marker_alias_legend": {
+      "FC": "factually_correct",
+      "DNC": "does_not_contradict",
+      "EK": "external_knowledge",
+      "AP": "adversarial_pivot"
+    },
+    "marker_matrix": {
+      "bb_285": {
+        "FC": true,
+        "DNC": true,
+        "EK": false,
+        "AP": true
+      },
+      "sfq_17007": {
+        "FC": true,
+        "DNC": true,
+        "EK": true,
+        "AP": false
+      },
+      "qw_11725": {
+        "FC": true,
+        "DNC": true,
+        "EK": false,
+        "AP": false
+      },
+      "tb_1315": {
+        "FC": true,
+        "DNC": false,
+        "EK": true,
+        "AP": false
+      },
+      "tc_217": {
+        "FC": true,
+        "DNC": true,
+        "EK": true,
+        "AP": true
+      },
+      "qf_2140": {
+        "FC": true,
+        "DNC": true,
+        "EK": true,
+        "AP": true
+      },
+      "qg_3574": {
+        "FC": true,
+        "DNC": false,
+        "EK": true,
+        "AP": true
+      },
+      "sfq_24622": {
+        "FC": true,
+        "DNC": true,
+        "EK": true,
+        "AP": true
+      },
+      "qb_3531": {
+        "FC": false,
+        "DNC": false,
+        "EK": false,
+        "AP": false
+      },
+      "odql_8943": {
+        "FC": true,
+        "DNC": true,
+        "EK": true,
+        "AP": false
+      }
+    },
+    "sample_qids": [
+      "bb_285",
+      "sfq_17007",
+      "qw_11725",
+      "tb_1315",
+      "tc_217",
+      "qf_2140",
+      "qg_3574",
+      "sfq_24622",
+      "qb_3531",
+      "odql_8943"
+    ]
+  },
+  "sanity": {
+    "Standard": {
+      "n_chunks": 30,
+      "total": 29910,
+      "finish_reason": {
+        "stop": 29910
+      },
+      "length_min": 1,
+      "length_max": 1,
+      "length_mean": 1.0
+    },
+    "Direct": {
+      "n_chunks": 6,
+      "total": 29910,
+      "finish_reason": {
+        "stop": 29910
+      },
+      "length_min": 1,
+      "length_max": 1,
+      "length_mean": 1.0
+    },
+    "CoT": {
+      "n_chunks": 6,
+      "total": 29910,
+      "finish_reason": {
+        "stop": 29910
+      },
+      "length_min": 342,
+      "length_max": 796,
+      "length_mean": 532.3802072885322
+    }
+  }
+}
